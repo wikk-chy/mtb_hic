@@ -70,13 +70,13 @@ We modeled the chromatin contact landscape of Mycobacterium tuberculosis under t
 We quantified structural differences between conditions using the Kabsch algorithm. For each pairwise comparison, structures were centered, optimally rotated via SVD, and aligned to the WT reference. After alignment, the global RMSD was computed:
 
 $$
-\text{RMSD} = \sqrt{\frac{1}{N} \sum_{i=1}^N \lVert r_i^{\text{ref}} - r_i^{\text{aln}} \rVert^2 }.
+\text{RMSD} = \sqrt{\frac{1}{N} \sum_{i=1}^N \lVert r_i^{\text{ref}} - r_i^{\text{aln}} \rVert^2 }
 $$
 
 We also calculated per-atom displacement vectors,
 
 $$
-d_i = \lVert r_i^{\text{ref}} - r_i^{\text{aln}} \rVert,
+d_i = \lVert r_i^{\text{ref}} - r_i^{\text{aln}} \rVert
 $$
 
 to quantify local positional changes.
