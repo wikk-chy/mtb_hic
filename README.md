@@ -4,13 +4,6 @@
 
 This repository contains code, analysis pipelines, and processed data for the study of three-dimensional (3D) genome organization in *Mycobacterium tuberculosis* (Mtb) under different physiological conditions. We integrated Hi-C, RNA-seq, and ChIP-seq data to investigate how chromatin architecture is established and remodeled in response to environmental stress, with a focus on the role of the nucleoid-associated protein NapM.
 
-**Key findings:**
-- Identification of chromatin interaction domains (CIDs) and their boundaries in Mtb
-- Discovery of cooperative operon hubs mediated by DNA-DNA and protein-protein interactions
-- Quantification of structural plasticity across wild-type (WT), hypoxia, latent, and NapM-KO conditions
-- Prediction of NapM-KO latent 3D structure using counterfactual learning
-- Conservation analysis of key structural proteins across bacterial species
-
 ---
 
 ## Table of Contents
