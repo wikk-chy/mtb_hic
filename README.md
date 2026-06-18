@@ -57,13 +57,33 @@ This repository contains the code and data for investigating three-dimensional (
 │   ├── ABcompartment.ipynb      # A/B compartment analysis
 │   ├── chipandrna.ipynb         # ChIP-seq and RNA-seq integration
 │   ├── homologous.ipynb         # Homology analysis
-│   ├── Rv0047c_statistics.R     # Statistical analysis
-│   └── go_and_kegg.R            # GO/KEGG enrichment
-├── 3d_model_pdbfile/            # 3D structure models (PDB format)
+│   ├── hiccompared_randomcidsloops.ipynb  # CID/loop statistical comparison
+│   ├── four_zone_volcano.ipynb  # Volcano plot visualization
+│   ├── regression_demo.ipynb    # Regression analysis
+│   ├── Rv0047c_statistics.R     # Statistical analysis for NapM targets
+│   ├── go_and_kegg.R            # GO/KEGG enrichment analysis
+│   ├── avg.R                    # Average calculation utilities
+│   ├── random_pairs.R           # Random pair generation
+│   ├── venn.R                   # Venn diagram visualization
+│   └── bulk RNA.Rmd             # Bulk RNA-seq analysis
+├── 3d_model_pdbfile/            # 3D structure models (PDB format, 5 conditions)
 ├── DI_Score_results/            # Directionality Index scores (5 conditions)
 ├── hic_file/                    # Hi-C contact matrices (.hic format)
-├── Interaction_network/         # Network nodes and edges (CSV)
-└── operon_metadata/             # Operon annotations
+├── cool_file/                   # Hi-C matrices in cooler format (.cool, .mcool)
+├── Interaction_network/         # Multi-layer network data
+│   ├── full_nodes.csv           # DNA and protein nodes
+│   └── full_edges.csv           # Interaction edges (DNA-DNA, DNA-Protein, Protein-Protein)
+├── operon_metadata/             # Operon annotations and bin coverage
+├── chip_seq_data/               # NapM (Rv0047c) ChIP-seq data
+│   └── Rv0047c.bedgraph         # ChIP-seq signal track
+├── cid_boundary/                # CID boundary coordinates (BED format, 5 conditions)
+├── loops/                       # Chromatin loop calls (BEDPE format)
+│   ├── wt-loops.bedpe
+│   └── napm_ko-loops.bedpe
+└── DEG/                         # Differential gene expression results
+    ├── KOvsWT_supo_DEG_limma.csv
+    ├── hypoxiaWTvsWT_supo_DEG_limma.csv
+    └── LatentvsWT_supo_DEG_limma.csv
 ```
 
 ---
@@ -237,7 +257,7 @@ For questions, please open an issue on GitHub: https://github.com/wikk-chy/mtb_h
 
 MIT License
 
-Copyright (c) 2025 wikk-chy
+Copyright (c) 2026 wikk-chy
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
