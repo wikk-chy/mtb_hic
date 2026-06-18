@@ -28,8 +28,6 @@ Scripts and codes can be run on OS X and other Unix-based systems, and necessita
 * `jucier ` / [jucier](https://github.com/aidenlab/juicer)
 ## Raw data extraction and alignment
 #### Data extraction
-#### Alignment
-We use the H37Rv reference genome ( NCBI:txid83332, total length 4411532).
 ## Building contacts map
 To build the contact map , we use
 ### Scalogram
