@@ -100,7 +100,7 @@ $$
 \text{DI}_i = \frac{(B - A)}{|B - A|} \cdot \left(\frac{(A - E)^2}{E} + \frac{(B - E)^2}{E}\right)
 $$
 
-Where $A$ and $B$ are upstream and downstream interaction counts, and $E = (A + B)/2$.
+Where A and B are upstream and downstream interaction counts, and E = (A + B)/2.
 
 **Data:** Pre-computed DI scores available in [`DI_Score_results/`](DI_Score_results/)
 
@@ -108,28 +108,23 @@ Where $A$ and $B$ are upstream and downstream interaction counts, and $E = (A + 
 
 ### 3D Genome Models
 
-3D chromosome structures were modeled using restraint-based approaches with Hi-C contact frequencies as distance constraints.
+3D chromosome structures were modeled using [LorDG](https://github.com/TaoYang-dev/LorDG) (Low-rank Distance Geometry) with Hi-C contact frequencies as distance constraints.
 
 **Output:** PDB files in [`3d_model_pdbfile/`](3d_model_pdbfile/)  
-**Visualization:** Use PyMOL or Chimera
+**Visualization:** Use PyMOL, Chimera, or other molecular visualization tools
 
 ---
 
 ### Operon Interaction Network
 
 Construct multi-layer interaction networks integrating:
-- **DNA-DNA:** Hi-C long-range contacts
+- **DNA-DNA:** Hi-C loops
 - **DNA-Protein:** ChIP-seq binding
 - **Protein-Protein:** Known interactions
 
 **Scripts:**
 - [`network_formation.ipynb`](script/network_formation.ipynb) - Network construction and visualization
 - [`operon-select_entropymoran's.ipynb`](script/operon-select_entropymoran's.ipynb) - Hub identification
-
-**Hub selection criteria:**
-- High expression (≥90th percentile)
-- High Hi-C interaction (≥95th percentile)
-- Long-range contact (>1% genome distance)
 
 ---
 
@@ -164,7 +159,6 @@ Predict the NapM-KO latent Hi-C contact matrix using SVD-based counterfactual le
 **Method:**
 - Feature encoding: genotype (WT/KO) and environment (normal/hypoxia/latent)
 - SVD-based imputation with ridge regularization
-- Model selection via leave-one-condition-out cross-validation
 
 ---
 
@@ -236,3 +230,29 @@ If you use this code or data, please cite:
 ## Contact
 
 For questions, please open an issue on GitHub: https://github.com/wikk-chy/mtb_hic/issues
+
+---
+
+## License
+
+MIT License
+
+Copyright (c) 2025 wikk-chy
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
