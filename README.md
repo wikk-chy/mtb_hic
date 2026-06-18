@@ -243,7 +243,7 @@ Key analysis scripts for main figures:
 
 If you use this code or data, please cite:
 
-> Establishment and remodeling of the *Mycobacterium tuberculosis* 3D genome architecture. (Manuscript in preparation)
+> Establishment and remodeling of the *Mycobacterium tuberculosis* 3D genome Orchestrate Context-Dependent Transcriptional Program. (Manuscript in preparation)
 
 ---
 
