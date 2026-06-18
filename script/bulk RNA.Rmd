@@ -1,0 +1,1489 @@
+---
+title: "bulkRNAseq 数据整理"
+author: Chenyu
+output:
+  pdf_document:
+    toc: yes
+  html_notebook:
+    toc: yes
+    number_sections: yes
+    code_folding: hide
+  html_document:
+    toc: yes
+    df_print: paged
+---
+
+# 加载包及数据整理
+```{r, results='hide', warning=FALSE, message=FALSE}
+library(data.table)  # 用于高效处理大数据集
+library(dplyr)       # 用于数据操作和转换
+library(ggplot2)     # 画图图
+library(pheatmap)    # 绘制热图
+library(limma)       # 差异分析
+library(tinyarray)   # 用于绘制各种图表，用它绘制韦恩图
+library(data.table)
+library(dplyr)
+library(tidyverse)
+library(clusterProfiler)
+library(org.Hs.eg.db)
+library(GseaVis) #GSEA结果可视化
+library(ggrepel)
+
+library(org.Mtuberculosis.eg.db)
+```
+
+# 结核
+## KO WT
+### 获取基因表达数据
+```{r}
+exp1 <- read.table('napm_ko_hypoxia-out_counts.txt', skip = 1, row.names = 1)
+colnames(exp1) <- exp1[1,]
+exp1 <- exp1[-1,]
+exp11 <- exp1[,c(6, 7)]
+colnames(exp11) <- c('Ko1', 'Ko2')
+
+exp2 <- read.table('AKR_RNA_seq_merged.txt', row.names = 1)
+colnames(exp2) <- exp2[1,]
+exp2 <- exp2[-1,]
+exp22 <- exp2[,c(1, 2)]
+
+exp <- inner_join(exp11 %>% rownames_to_column("Geneid"), 
+                  exp22 %>% rownames_to_column("Geneid"), 
+                  by = "Geneid") %>%
+       column_to_rownames("Geneid")
+
+exp[, 1:4] <- lapply(exp[, 1:4], function(x) as.numeric(as.character(x)))
+
+# 行是基因，列是样本
+exp[1:4, 1:4]
+```
+
+```{r}
+exp_coad_int <- exp
+```
+
+### DEG
+```{r}
+cli <- data.frame(id = colnames(exp))
+
+cli$staging <- c(rep('KO', 2), rep('WT', 2))
+```
+
+```{r}
+# 分组
+i <- 'KO'
+j <- 'HY'
+
+group <- c(rep(i, 2), rep(j, 2))
+group <- factor(group, levels = c(j, i))
+
+# 需要注意的是制作分组信息的因子向量是因子水平的前后顺序
+# 在R中的统计模型中，当你创建一个因子（factor）变量来表示不同组别或条件时，
+# R会根据因子水平的顺序对这些组别进行编码。在很多情况下，
+# R会默认将因子向量的第一个水平作为参考（对照）组，然后将其他水平与这个参考组进行比较。
+
+table(group)
+# 可以看到正常组织占比很少，所以有时候我们会把 TCGA 和 GTEx 进行联合分析
+# https://mp.weixin.qq.com/s/VUDl2PUtMVz4kO0CBPSTIg
+# 现在，我们的表达矩阵和分组信息就都整理完毕了！
+```
+
+#### 用 limma 进行差异分析
+```{r}
+library(edgeR)
+library(limma)
+
+# limma 包建议使用对数转换后的数据，其实我们从 Xena 下载的直接就是log2(count+1)后的数据，
+# 但是这里为了展示 limma 包内部的标准化方法的使用，我们这里还是使用原始计数矩阵作为输入数据。
+exprSet <- exp_coad_int
+
+# 创建设计矩阵，指定组别信息
+design <- model.matrix(~0 + factor(group))
+colnames(design) = levels(factor(group))
+rownames(design) = colnames(exprSet)
+
+# 创建 DGEList 对象
+dge <- DGEList(counts = exprSet, group = group)
+
+# 这里我们使用上面提到的 filterByExpr() 进行自动过滤，去除低表达基因
+keep <- filterByExpr(dge)
+dge <- dge[keep, , keep.lib.sizes = FALSE]
+
+# 归一化，得到的归一化系数被用作文库大小的缩放系数
+dge <- calcNormFactors(dge)
+
+# 使用 voom 方法进行标准化
+v <- voom(dge, design, plot = TRUE, normalize = "quantile")
+# 使用线性模型进行拟合
+fit <- lmFit(v, design)
+
+# 如果是芯片数据、TPM数据或已标准化的数据，不需要再进行标准化，可直接从这里开始进行差异分析
+# fit <- lmFit(as.matrix(exp_coad_int), design)
+
+# 和上面两个包一样，需要说明是谁比谁
+con <- paste(rev(levels(group)), collapse = "-")
+con
+# [1] "tumor-normal"
+
+# 创建对比矩阵
+cont.matrix <- makeContrasts(contrasts = c(con), levels = design)
+fit2 <- contrasts.fit(fit, cont.matrix)
+fit2 <- eBayes(fit2)
+
+# 获取差异表达基因结果
+tempOutput <- topTable(fit2, coef = con, n = Inf)
+DEG_limma_voom <- na.omit(tempOutput)
+# 将差异表达基因结果保存到 Rdata 文件中
+save(DEG_limma_voom, file = './20241027结核3D基因组/process_data/KOvsWT_gene_DEG_limma_voom.Rdata')
+
+#head(DEG_limma_voom)
+```
+
+```{r}
+load("./data/DEG_limma_voom.Rdata")
+```
+
+```{r}
+# 加change列,标记上下调基因，可根据需求设定阈值
+logFC = 0.25
+P.Value = 0.05
+k1 <- (DEG_limma_voom$P.Value < P.Value) & (DEG_limma_voom$logFC < -logFC)
+k2 <- (DEG_limma_voom$P.Value < P.Value) & (DEG_limma_voom$logFC > logFC)
+DEG_limma_voom <- mutate(DEG_limma_voom, change = ifelse(k1, "down", ifelse(k2, "up", "stable")))
+table(DEG_limma_voom$change)
+# down stable     up 
+
+
+# 火山图
+p <- ggplot(data = DEG_limma_voom, 
+            aes(x = logFC, 
+                y = -log10(P.Value))) +
+  geom_point(alpha = 0.4, size = 3.5, 
+             aes(color = change)) +
+  ylab("-log10(Pvalue)")+
+  scale_color_manual(values = c("blue4", "grey", "red3"))+
+  geom_vline(xintercept = c(-logFC, logFC), lty = 4, col = "black", lwd = 0.8) +
+  geom_hline(yintercept = -log10(P.Value), lty = 4, col = "black", lwd = 0.8) +
+  theme_bw()
+
+ggsave(filename = "./20241027结核3D基因组/result/DEG_volcano_plot_limma.pdf", plot = p, device = "pdf", width = 6, height = 5)
+
+p
+```
+
+```{r}
+DEGs <- DEG_limma_voom
+DEGs <- DEGs[, c('logFC', 'P.Value')]
+
+colnames(DEGs) <- c('avg_log2FC', 'p_val')
+
+# ggplot2绘制火山图
+DEGs$regulate <- 'Stable'
+DEGs$regulate[DEGs$avg_log2FC > 1 & DEGs$p_val < 0.05] <- 'Up'
+DEGs$regulate[DEGs$avg_log2FC < -1 & DEGs$p_val < 0.05] <- 'Down'
+
+DEGs$label <- ''
+# label.gene <- rownames(DEGs)[which(DEGs$avg_log2FC>1 & DEGs$p_val<0.01)]
+label.gene1 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_max(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+
+label.gene2 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_min(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+
+combined_vector <- c(label.gene1, label.gene2)
+label.gene <- combined_vector[!combined_vector %in% c("EBG00000313349")]
+
+DEGs$label[match(label.gene, rownames(DEGs))] <- label.gene
+
+write.csv(DEGs, '20241027结核3D基因组/result/KOvsWT_supo_DEG_limma.csv')
+
+# 避免标签重叠版
+p1 <- ggplot(DEGs, aes(avg_log2FC, -log10(p_val), color = regulate)) +
+    ylab("-log10(Pvalue)") +
+    xlab("log2FoldChange") + 
+    geom_point(size = 1, shape = 19) + 
+    scale_color_manual(values = c('#6a9bcb', "#999999", '#cb5148')) + 
+    geom_vline(xintercept = c(-1, 1), linetype = "dashed") +
+    geom_hline(yintercept = -log10(0.05), linetype = "dashed") + 
+    theme(title = element_text(size = 15), text = element_text(size = 15)) + 
+    theme_classic() + 
+    geom_text_repel(aes(label = label), size = 3, vjust = 1, hjust = -0.1, 
+                    max.overlaps = Inf, box.padding = 0.35, point.padding = 0.3) + 
+    scale_x_continuous(limits = c(-8, 10)) +
+    scale_y_continuous(limits = c(0, 15)) +
+    guides(color = guide_legend(override.aes = list(size = 2, shape = 19, fill = "white", title.position = "top"))) +
+    ggtitle('KO VS WT')
+
+# geom_text_repel()：用于避免标签重叠。
+# max.overlaps = Inf：确保所有标签都显示。
+# box.padding 和 point.padding：调整文本框和数据点之间的距离，确保视觉效果更好。
+
+ggsave('20241027结核3D基因组/result/KOvsWT_DEG_volcano_plot_limma.pdf', p1, width = 6, height = 5)
+p1
+```
+
+### DEO
+```{r}
+supo <- read.csv('20241027结核3D基因组/data/superoperon_pairs.csv')
+supona <- unique(supo$operon1, supo$operon2)
+
+ope <- read.csv('20241027结核3D基因组/data/operon_list_updated.csv', row.names = 1)
+
+ope2 <- ope[ope$operon_id %in% supona, ]
+
+supo2 <- ope2[, c('operon_id', 'gene_names')]
+```
+
+```{r}
+result_list <- list()
+
+for (i in 1:nrow(supo2)) {
+  # Get the gene names for the current operon_id
+  gene_names <- unlist(strsplit(supo2$gene_names[i], ","))  # Split by comma if multiple genes
+  # Sum the corresponding expression values
+  summed_expression <- colSums(exp[gene_names, , drop = FALSE])  # Sum across specified rows
+  # Assign the summed values to the operon_id in the result list
+  result_list[[supo2$operon_id[i]]] <- summed_expression
+}
+
+supoexp <- do.call(rbind, result_list)
+
+head(supoexp)
+```
+
+```{r}
+exp_coad_int <- as.data.frame(supoexp)
+```
+
+```{r}
+cli <- data.frame(id = colnames(exp))
+
+cli$staging <- c(rep('KO', 2), rep('WT', 2))
+```
+
+```{r}
+# 分组
+i <- 'KO'
+j <- 'WT'
+
+group <- c(rep(i, 2), rep(j, 2))
+group <- factor(group, levels = c(j, i))
+
+# 需要注意的是制作分组信息的因子向量是因子水平的前后顺序
+# 在R中的统计模型中，当你创建一个因子（factor）变量来表示不同组别或条件时，
+# R会根据因子水平的顺序对这些组别进行编码。在很多情况下，
+# R会默认将因子向量的第一个水平作为参考（对照）组，然后将其他水平与这个参考组进行比较。
+
+table(group)
+# 可以看到正常组织占比很少，所以有时候我们会把 TCGA 和 GTEx 进行联合分析
+# https://mp.weixin.qq.com/s/VUDl2PUtMVz4kO0CBPSTIg
+# 现在，我们的表达矩阵和分组信息就都整理完毕了！
+```
+
+#### 用 limma 进行差异分析
+```{r}
+library(edgeR)
+library(limma)
+
+# limma 包建议使用对数转换后的数据，其实我们从 Xena 下载的直接就是log2(count+1)后的数据，
+# 但是这里为了展示 limma 包内部的标准化方法的使用，我们这里还是使用原始计数矩阵作为输入数据。
+exprSet <- exp_coad_int
+
+# 创建设计矩阵，指定组别信息
+design <- model.matrix(~0 + factor(group))
+colnames(design) = levels(factor(group))
+rownames(design) = colnames(exprSet)
+
+# 创建 DGEList 对象
+dge <- DGEList(counts = exprSet, group = group)
+
+# 这里我们使用上面提到的 filterByExpr() 进行自动过滤，去除低表达基因
+keep <- filterByExpr(dge)
+dge <- dge[keep, , keep.lib.sizes = FALSE]
+
+# 归一化，得到的归一化系数被用作文库大小的缩放系数
+dge <- calcNormFactors(dge)
+
+# 使用 voom 方法进行标准化
+v <- voom(dge, design, plot = TRUE, normalize = "quantile")
+# 使用线性模型进行拟合
+fit <- lmFit(v, design)
+
+# 如果是芯片数据、TPM数据或已标准化的数据，不需要再进行标准化，可直接从这里开始进行差异分析
+# fit <- lmFit(as.matrix(exp_coad_int), design)
+
+# 和上面两个包一样，需要说明是谁比谁
+con <- paste(rev(levels(group)), collapse = "-")
+con
+# [1] "tumor-normal"
+
+# 创建对比矩阵
+cont.matrix <- makeContrasts(contrasts = c(con), levels = design)
+fit2 <- contrasts.fit(fit, cont.matrix)
+fit2 <- eBayes(fit2)
+
+# 获取差异表达基因结果
+tempOutput <- topTable(fit2, coef = con, n = Inf)
+DEG_limma_voom <- na.omit(tempOutput)
+# 将差异表达基因结果保存到 Rdata 文件中
+save(DEG_limma_voom, file = './20241027结核3D基因组/process_data/supo_DEG_limma_voom.Rdata')
+
+#head(DEG_limma_voom)
+```
+
+```{r}
+load("./data/DEG_limma_voom.Rdata")
+```
+
+```{r}
+DEGs <- DEG_limma_voom
+DEGs <- DEGs[, c('logFC', 'P.Value')]
+
+colnames(DEGs) <- c('avg_log2FC', 'p_val')
+
+# ggplot2绘制火山图
+DEGs$regulate <- 'Stable'
+DEGs$regulate[DEGs$avg_log2FC > 0.5 & DEGs$p_val < 0.05] <- 'Up'
+DEGs$regulate[DEGs$avg_log2FC < -0.5 & DEGs$p_val < 0.05] <- 'Down'
+
+DEGs$label <- ''
+# label.gene <- rownames(DEGs)[which(DEGs$avg_log2FC>1 & DEGs$p_val<0.01)]
+label.gene1 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_max(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+
+label.gene2 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_min(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+
+label.gene <- c(label.gene1, label.gene2)
+
+DEGs$label[match(label.gene, rownames(DEGs))] <- label.gene
+
+write.csv(DEGs, '20241027结核3D基因组/result/KOvsWT_supo_DEO_limma.csv')
+
+# 避免标签重叠版
+p1 <- ggplot(DEGs, aes(avg_log2FC, -log10(p_val), color = regulate)) +
+    ylab("-log10(Pvalue)") +
+    xlab("log2FoldChange") + 
+    geom_point(size = 3, shape = 19) + 
+    scale_color_manual(values = c('#6a9bcb', "#999999", '#cb5148')) + 
+    geom_vline(xintercept = c(-0.5, 0.5), linetype = "dashed") +
+    geom_hline(yintercept = -log10(0.05), linetype = "dashed") + 
+    theme(title = element_text(size = 15), text = element_text(size = 15)) + 
+    theme_classic() + 
+    geom_text_repel(aes(label = label), size = 3, vjust = 1, hjust = -0.1, 
+                    max.overlaps = Inf, box.padding = 0.35, point.padding = 0.3) + 
+    scale_x_continuous(limits = c(-3, 3)) +
+    scale_y_continuous(limits = c(0, 10)) +
+    guides(color = guide_legend(override.aes = list(size = 2, shape = 19, fill = "white", title.position = "top"))) +
+    ggtitle('KO VS WT supo')
+
+# geom_text_repel()：用于避免标签重叠。
+# max.overlaps = Inf：确保所有标签都显示。
+# box.padding 和 point.padding：调整文本框和数据点之间的距离，确保视觉效果更好。
+
+ggsave('20241027结核3D基因组/result/KOvsWT_supo_volcano_plot_limma.pdf', p1, width = 6, height = 5)
+p1
+```
+
+#### DEO下游基因
+```{r}
+#Up
+tem1 <- subset(DEGs, regulate %in% c('Up'))
+
+tem11 <- ope2[ope2$operon_id %in% rownames(tem1), c('operon_id', 'gene_names')]
+
+DEOgene <- separate_rows(tem11, gene_names, sep = ",")
+
+write.csv(DEOgene, '20241027结核3D基因组/result/KOvsWT_DEOgene_up.csv')
+```
+
+```{r}
+#down
+tem1 <- subset(DEGs, regulate %in% c('Down'))
+
+tem11 <- ope2[ope2$operon_id %in% rownames(tem1), c('operon_id', 'gene_names')]
+
+DEOgene <- separate_rows(tem11, gene_names, sep = ",")
+
+write.csv(DEOgene, '20241027结核3D基因组/result/KOvsWT_DEOgene_down.csv')
+```
+
+## KO缺氧 WT缺氧
+### 获取基因表达数据
+```{r}
+exp1 <- read.table('20241027结核3D基因组/data/napm_ko_hypoxia-rnaseq_counts.txt', skip = 1, row.names = 1)
+colnames(exp1) <- exp1[1,]
+exp1 <- exp1[-1,]
+exp11 <- exp1[,c(6, 7)]
+colnames(exp11) <- c('HKo1', 'HKo2')
+
+exp2 <- read.table('20241027结核3D基因组/data/AKR_RNA_seq_merged.txt', row.names = 1)
+colnames(exp2) <- exp2[1,]
+exp2 <- exp2[-1,]
+exp22 <- exp2[,c(1, 2)]
+
+exp <- inner_join(exp11 %>% rownames_to_column("Geneid"), 
+                  exp22 %>% rownames_to_column("Geneid"), 
+                  by = "Geneid") %>%
+       column_to_rownames("Geneid")
+
+exp[, 1:4] <- lapply(exp[, 1:4], function(x) as.numeric(as.character(x)))
+
+# 行是基因，列是样本
+exp[1:4, 1:4]
+```
+
+```{r}
+exp_coad_int <- exp
+```
+
+### DEG
+```{r}
+cli <- data.frame(id = colnames(exp))
+
+cli$staging <- c(rep('KO', 2), rep('WT', 2))
+```
+
+```{r}
+# 分组
+i <- 'KO'
+j <- 'WT'
+
+group <- c(rep(i, 2), rep(j, 2))
+group <- factor(group, levels = c(j, i))
+
+# 需要注意的是制作分组信息的因子向量是因子水平的前后顺序
+# 在R中的统计模型中，当你创建一个因子（factor）变量来表示不同组别或条件时，
+# R会根据因子水平的顺序对这些组别进行编码。在很多情况下，
+# R会默认将因子向量的第一个水平作为参考（对照）组，然后将其他水平与这个参考组进行比较。
+
+table(group)
+# 可以看到正常组织占比很少，所以有时候我们会把 TCGA 和 GTEx 进行联合分析
+# https://mp.weixin.qq.com/s/VUDl2PUtMVz4kO0CBPSTIg
+# 现在，我们的表达矩阵和分组信息就都整理完毕了！
+```
+
+#### 用 limma 进行差异分析
+```{r}
+library(edgeR)
+library(limma)
+
+# limma 包建议使用对数转换后的数据，其实我们从 Xena 下载的直接就是log2(count+1)后的数据，
+# 但是这里为了展示 limma 包内部的标准化方法的使用，我们这里还是使用原始计数矩阵作为输入数据。
+exprSet <- exp_coad_int
+
+# 创建设计矩阵，指定组别信息
+design <- model.matrix(~0 + factor(group))
+colnames(design) = levels(factor(group))
+rownames(design) = colnames(exprSet)
+
+# 创建 DGEList 对象
+dge <- DGEList(counts = exprSet, group = group)
+
+# 这里我们使用上面提到的 filterByExpr() 进行自动过滤，去除低表达基因
+keep <- filterByExpr(dge)
+dge <- dge[keep, , keep.lib.sizes = FALSE]
+
+# 归一化，得到的归一化系数被用作文库大小的缩放系数
+dge <- calcNormFactors(dge)
+
+# 使用 voom 方法进行标准化
+v <- voom(dge, design, plot = TRUE, normalize = "quantile")
+# 使用线性模型进行拟合
+fit <- lmFit(v, design)
+
+# 如果是芯片数据、TPM数据或已标准化的数据，不需要再进行标准化，可直接从这里开始进行差异分析
+# fit <- lmFit(as.matrix(exp_coad_int), design)
+
+# 和上面两个包一样，需要说明是谁比谁
+con <- paste(rev(levels(group)), collapse = "-")
+con
+# [1] "tumor-normal"
+
+# 创建对比矩阵
+cont.matrix <- makeContrasts(contrasts = c(con), levels = design)
+fit2 <- contrasts.fit(fit, cont.matrix)
+fit2 <- eBayes(fit2)
+
+# 获取差异表达基因结果
+tempOutput <- topTable(fit2, coef = con, n = Inf)
+DEG_limma_voom <- na.omit(tempOutput)
+# 将差异表达基因结果保存到 Rdata 文件中
+save(DEG_limma_voom, file = './20241027结核3D基因组/process_data/hypoxia_KOvsWT_gene_DEG_limma_voom.Rdata')
+
+#head(DEG_limma_voom)
+```
+
+```{r}
+load("./data/DEG_limma_voom.Rdata")
+```
+
+```{r}
+DEGs <- DEG_limma_voom
+DEGs <- DEGs[, c('logFC', 'P.Value')]
+
+colnames(DEGs) <- c('avg_log2FC', 'p_val')
+
+# ggplot2绘制火山图
+DEGs$regulate <- 'Stable'
+DEGs$regulate[DEGs$avg_log2FC > 1 & DEGs$p_val < 0.05] <- 'Up'
+DEGs$regulate[DEGs$avg_log2FC < -1 & DEGs$p_val < 0.05] <- 'Down'
+
+DEGs$label <- ''
+# label.gene <- rownames(DEGs)[which(DEGs$avg_log2FC>1 & DEGs$p_val<0.01)]
+label.gene1 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_max(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+
+label.gene2 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_min(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+
+combined_vector <- c(label.gene1, label.gene2)
+label.gene <- combined_vector[!combined_vector %in% c("EBG00000313349", "EBG00000313376", 
+                                                     "EBG00000313325", "EBG00000313387")]
+
+DEGs$label[match(label.gene, rownames(DEGs))] <- label.gene
+
+write.csv(DEGs, '20241027结核3D基因组/result/hypoxia_KOvsWT_supo_DEG_limma.csv')
+
+# 避免标签重叠版
+p1 <- ggplot(DEGs, aes(avg_log2FC, -log10(p_val), color = regulate)) +
+    ylab("-log10(Pvalue)") +
+    xlab("log2FoldChange") + 
+    geom_point(size = 1, shape = 19) + 
+    scale_color_manual(values = c('#6a9bcb', "#999999", '#cb5148')) + 
+    geom_vline(xintercept = c(-1, 1), linetype = "dashed") +
+    geom_hline(yintercept = -log10(0.05), linetype = "dashed") + 
+    theme(title = element_text(size = 15), text = element_text(size = 15)) + 
+    theme_classic() + 
+    geom_text_repel(aes(label = label), size = 3, vjust = 1, hjust = -0.1, 
+                    max.overlaps = Inf, box.padding = 0.35, point.padding = 0.3) + 
+    scale_x_continuous(limits = c(-5, 10)) +
+    scale_y_continuous(limits = c(0, 10)) +
+    guides(color = guide_legend(override.aes = list(size = 2, shape = 19, fill = "white", title.position = "top"))) +
+    ggtitle('NapM_ko-hypoxia VS WT-hypoxia')
+
+# geom_text_repel()：用于避免标签重叠。
+# max.overlaps = Inf：确保所有标签都显示。
+# box.padding 和 point.padding：调整文本框和数据点之间的距离，确保视觉效果更好。
+
+ggsave('20241027结核3D基因组/result/hypoxia_KOvsWT_DEG_volcano_plot_limma.pdf', p1, width = 6, height = 5)
+
+p1
+```
+
+### DEO
+```{r}
+supo <- read.csv('20241027结核3D基因组/data/superoperon_pairs.csv')
+supona <- unique(supo$operon1, supo$operon2)
+
+ope <- read.csv('20241027结核3D基因组/data/operon_list_updated.csv', row.names = 1)
+
+ope2 <- ope[ope$operon_id %in% supona, ]
+
+supo2 <- ope2[, c('operon_id', 'gene_names')]
+```
+
+```{r}
+result_list <- list()
+
+for (i in 1:nrow(supo2)) {
+  # Get the gene names for the current operon_id
+  gene_names <- unlist(strsplit(supo2$gene_names[i], ","))  # Split by comma if multiple genes
+  # Sum the corresponding expression values
+  summed_expression <- colSums(exp[gene_names, , drop = FALSE])  # Sum across specified rows
+  # Assign the summed values to the operon_id in the result list
+  result_list[[supo2$operon_id[i]]] <- summed_expression
+}
+
+supoexp <- do.call(rbind, result_list)
+
+head(supoexp)
+```
+
+```{r}
+exp_coad_int <- as.data.frame(supoexp)
+```
+
+```{r}
+cli <- data.frame(id = colnames(exp))
+
+cli$staging <- c(rep('KO', 2), rep('WT', 2))
+```
+
+```{r}
+# 分组
+i <- 'KO'
+j <- 'WT'
+
+group <- c(rep(i, 2), rep(j, 2))
+group <- factor(group, levels = c(j, i))
+
+# 需要注意的是制作分组信息的因子向量是因子水平的前后顺序
+# 在R中的统计模型中，当你创建一个因子（factor）变量来表示不同组别或条件时，
+# R会根据因子水平的顺序对这些组别进行编码。在很多情况下，
+# R会默认将因子向量的第一个水平作为参考（对照）组，然后将其他水平与这个参考组进行比较。
+
+table(group)
+# 可以看到正常组织占比很少，所以有时候我们会把 TCGA 和 GTEx 进行联合分析
+# https://mp.weixin.qq.com/s/VUDl2PUtMVz4kO0CBPSTIg
+# 现在，我们的表达矩阵和分组信息就都整理完毕了！
+```
+
+#### 用 limma 进行差异分析
+```{r}
+library(edgeR)
+library(limma)
+
+# limma 包建议使用对数转换后的数据，其实我们从 Xena 下载的直接就是log2(count+1)后的数据，
+# 但是这里为了展示 limma 包内部的标准化方法的使用，我们这里还是使用原始计数矩阵作为输入数据。
+exprSet <- exp_coad_int
+
+# 创建设计矩阵，指定组别信息
+design <- model.matrix(~0 + factor(group))
+colnames(design) = levels(factor(group))
+rownames(design) = colnames(exprSet)
+
+# 创建 DGEList 对象
+dge <- DGEList(counts = exprSet, group = group)
+
+# 这里我们使用上面提到的 filterByExpr() 进行自动过滤，去除低表达基因
+keep <- filterByExpr(dge)
+dge <- dge[keep, , keep.lib.sizes = FALSE]
+
+# 归一化，得到的归一化系数被用作文库大小的缩放系数
+dge <- calcNormFactors(dge)
+
+# 使用 voom 方法进行标准化
+v <- voom(dge, design, plot = TRUE, normalize = "quantile")
+# 使用线性模型进行拟合
+fit <- lmFit(v, design)
+
+# 如果是芯片数据、TPM数据或已标准化的数据，不需要再进行标准化，可直接从这里开始进行差异分析
+# fit <- lmFit(as.matrix(exp_coad_int), design)
+
+# 和上面两个包一样，需要说明是谁比谁
+con <- paste(rev(levels(group)), collapse = "-")
+con
+# [1] "tumor-normal"
+
+# 创建对比矩阵
+cont.matrix <- makeContrasts(contrasts = c(con), levels = design)
+fit2 <- contrasts.fit(fit, cont.matrix)
+fit2 <- eBayes(fit2)
+
+# 获取差异表达基因结果
+tempOutput <- topTable(fit2, coef = con, n = Inf)
+DEG_limma_voom <- na.omit(tempOutput)
+# 将差异表达基因结果保存到 Rdata 文件中
+save(DEG_limma_voom, file = './20241027结核3D基因组/process_data/hypoxia_supo_DEG_limma_voom.Rdata')
+
+#head(DEG_limma_voom)
+```
+
+```{r}
+load("./data/DEG_limma_voom.Rdata")
+```
+
+```{r}
+DEGs <- DEG_limma_voom
+DEGs <- DEGs[, c('logFC', 'P.Value')]
+
+colnames(DEGs) <- c('avg_log2FC', 'p_val')
+
+# ggplot2绘制火山图
+DEGs$regulate <- 'Stable'
+DEGs$regulate[DEGs$avg_log2FC > 0.5 & DEGs$p_val < 0.05] <- 'Up'
+DEGs$regulate[DEGs$avg_log2FC < -0.5 & DEGs$p_val < 0.05] <- 'Down'
+
+DEGs$label <- ''
+# label.gene <- rownames(DEGs)[which(DEGs$avg_log2FC>1 & DEGs$p_val<0.01)]
+label.gene1 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_max(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+
+label.gene2 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_min(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+
+label.gene <- c(label.gene1, label.gene2)
+
+DEGs$label[match(label.gene, rownames(DEGs))] <- label.gene
+
+write.csv(DEGs, '20241027结核3D基因组/result/hypoxia_KOvsWT_supo_DEO_limma.csv')
+
+# 避免标签重叠版
+p1 <- ggplot(DEGs, aes(avg_log2FC, -log10(p_val), color = regulate)) +
+    ylab("-log10(Pvalue)") +
+    xlab("log2FoldChange") + 
+    geom_point(size = 3, shape = 19) + 
+    scale_color_manual(values = c('#6a9bcb', "#999999", '#cb5148')) + 
+    geom_vline(xintercept = c(-0.5, 0.5), linetype = "dashed") +
+    geom_hline(yintercept = -log10(0.05), linetype = "dashed") + 
+    theme(title = element_text(size = 15), text = element_text(size = 15)) + 
+    theme_classic() + 
+    geom_text_repel(aes(label = label), size = 3, vjust = 1, hjust = -0.1, 
+                    max.overlaps = Inf, box.padding = 0.35, point.padding = 0.3) + 
+    scale_x_continuous(limits = c(-3, 3)) +
+    scale_y_continuous(limits = c(0, 10)) +
+    guides(color = guide_legend(override.aes = list(size = 2, shape = 19, fill = "white", title.position = "top"))) +
+    ggtitle('NapM_ko-hypoxia VS WT-hypoxia')
+
+# geom_text_repel()：用于避免标签重叠。
+# max.overlaps = Inf：确保所有标签都显示。
+# box.padding 和 point.padding：调整文本框和数据点之间的距离，确保视觉效果更好。
+
+ggsave('20241027结核3D基因组/result/hypoxia_KOvsWT_supo_volcano_plot_limma.pdf', p1, width = 6, height = 5)
+p1
+```
+
+#### DEO下游基因
+```{r}
+#Up
+tem1 <- subset(DEGs, regulate %in% c('Up'))
+
+tem11 <- ope2[ope2$operon_id %in% rownames(tem1), c('operon_id', 'gene_names')]
+
+DEOgene <- separate_rows(tem11, gene_names, sep = ",")
+
+write.csv(DEOgene, '20241027结核3D基因组/result/hypoxia_KOvsWT_DEOgene_up.csv')
+```
+
+```{r}
+#down
+tem1 <- subset(DEGs, regulate %in% c('Down'))
+
+tem11 <- ope2[ope2$operon_id %in% rownames(tem1), c('operon_id', 'gene_names')]
+
+DEOgene <- separate_rows(tem11, gene_names, sep = ",")
+
+write.csv(DEOgene, '20241027结核3D基因组/result/hypoxia_KOvsWT_DEOgene_down.csv')
+```
+
+
+## Latent WT
+### 获取基因表达数据
+```{r}
+exp1 <- read.table('20241027结核3D基因组/data/napm_ko_hypoxia-rnaseq_counts.txt', skip = 1, row.names = 1)
+colnames(exp1) <- exp1[1,]
+exp1 <- exp1[-1,]
+exp11 <- exp1[,c(6, 7)]
+colnames(exp11) <- c('HKo1', 'HKo2')
+
+exp2 <- read.table('20241027结核3D基因组/data/AKR_RNA_seq_merged.txt', row.names = 1)
+colnames(exp2) <- exp2[1,]
+exp2 <- exp2[-1,]
+exp22 <- exp2[,c(3:6)]
+
+exp <- exp22
+
+exp[, 1:4] <- lapply(exp[, 1:4], function(x) as.numeric(as.character(x)))
+
+# 行是基因，列是样本
+exp[1:4, 1:4]
+```
+
+```{r}
+exp_coad_int <- exp
+```
+
+### DEG
+```{r}
+cli <- data.frame(id = colnames(exp))
+
+cli$staging <- c(rep('KO', 2), rep('WT', 2))
+```
+
+```{r}
+# 分组
+i <- 'KO'
+j <- 'WT'
+
+group <- c(rep(i, 2), rep(j, 2))
+group <- factor(group, levels = c(j, i))
+
+# 需要注意的是制作分组信息的因子向量是因子水平的前后顺序
+# 在R中的统计模型中，当你创建一个因子（factor）变量来表示不同组别或条件时，
+# R会根据因子水平的顺序对这些组别进行编码。在很多情况下，
+# R会默认将因子向量的第一个水平作为参考（对照）组，然后将其他水平与这个参考组进行比较。
+
+table(group)
+# 可以看到正常组织占比很少，所以有时候我们会把 TCGA 和 GTEx 进行联合分析
+# https://mp.weixin.qq.com/s/VUDl2PUtMVz4kO0CBPSTIg
+# 现在，我们的表达矩阵和分组信息就都整理完毕了！
+```
+
+#### 用 limma 进行差异分析
+```{r}
+library(edgeR)
+library(limma)
+
+# limma 包建议使用对数转换后的数据，其实我们从 Xena 下载的直接就是log2(count+1)后的数据，
+# 但是这里为了展示 limma 包内部的标准化方法的使用，我们这里还是使用原始计数矩阵作为输入数据。
+exprSet <- exp_coad_int
+
+# 创建设计矩阵，指定组别信息
+design <- model.matrix(~0 + factor(group))
+colnames(design) = levels(factor(group))
+rownames(design) = colnames(exprSet)
+
+# 创建 DGEList 对象
+dge <- DGEList(counts = exprSet, group = group)
+
+# 这里我们使用上面提到的 filterByExpr() 进行自动过滤，去除低表达基因
+keep <- filterByExpr(dge)
+dge <- dge[keep, , keep.lib.sizes = FALSE]
+
+# 归一化，得到的归一化系数被用作文库大小的缩放系数
+dge <- calcNormFactors(dge)
+
+# 使用 voom 方法进行标准化
+v <- voom(dge, design, plot = TRUE, normalize = "quantile")
+# 使用线性模型进行拟合
+fit <- lmFit(v, design)
+
+# 如果是芯片数据、TPM数据或已标准化的数据，不需要再进行标准化，可直接从这里开始进行差异分析
+# fit <- lmFit(as.matrix(exp_coad_int), design)
+
+# 和上面两个包一样，需要说明是谁比谁
+con <- paste(rev(levels(group)), collapse = "-")
+con
+# [1] "tumor-normal"
+
+# 创建对比矩阵
+cont.matrix <- makeContrasts(contrasts = c(con), levels = design)
+fit2 <- contrasts.fit(fit, cont.matrix)
+fit2 <- eBayes(fit2)
+
+# 获取差异表达基因结果
+tempOutput <- topTable(fit2, coef = con, n = Inf)
+DEG_limma_voom <- na.omit(tempOutput)
+# 将差异表达基因结果保存到 Rdata 文件中
+save(DEG_limma_voom, file = './20241027结核3D基因组/process_data/LatentvsWT_gene_DEG_limma_voom.Rdata')
+
+#head(DEG_limma_voom)
+```
+
+```{r}
+load("./data/DEG_limma_voom.Rdata")
+```
+
+```{r}
+DEGs <- DEG_limma_voom
+DEGs <- DEGs[, c('logFC', 'P.Value')]
+
+colnames(DEGs) <- c('avg_log2FC', 'p_val')
+
+# ggplot2绘制火山图
+DEGs$regulate <- 'Stable'
+DEGs$regulate[DEGs$avg_log2FC > 1 & DEGs$p_val < 0.05] <- 'Up'
+DEGs$regulate[DEGs$avg_log2FC < -1 & DEGs$p_val < 0.05] <- 'Down'
+
+DEGs$label <- ''
+# label.gene <- rownames(DEGs)[which(DEGs$avg_log2FC>1 & DEGs$p_val<0.01)]
+label.gene1 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_max(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+
+label.gene2 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_min(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+
+combined_vector <- c(label.gene1, label.gene2)
+label.gene <- combined_vector[!combined_vector %in% c("EBG00000313335", "EBG00000313387")]
+
+DEGs$label[match(label.gene, rownames(DEGs))] <- label.gene
+
+write.csv(DEGs, '20241027结核3D基因组/result/LatentvsWT_supo_DEG_limma.csv')
+
+# 避免标签重叠版
+p1 <- ggplot(DEGs, aes(avg_log2FC, -log10(p_val), color = regulate)) +
+    ylab("-log10(Pvalue)") +
+    xlab("log2FoldChange") + 
+    geom_point(size = 1, shape = 19) + 
+    scale_color_manual(values = c('#6a9bcb', "#999999", '#cb5148')) + 
+    geom_vline(xintercept = c(-1, 1), linetype = "dashed") +
+    geom_hline(yintercept = -log10(0.05), linetype = "dashed") + 
+    theme(title = element_text(size = 15), text = element_text(size = 15)) + 
+    theme_classic() + 
+    geom_text_repel(aes(label = label), size = 3, vjust = 1, hjust = -0.1, 
+                    max.overlaps = Inf, box.padding = 0.35, point.padding = 0.3) + 
+    scale_x_continuous(limits = c(-7, 7)) +
+    scale_y_continuous(limits = c(0, 15)) +
+    guides(color = guide_legend(override.aes = list(size = 2, shape = 19, fill = "white", title.position = "top"))) +
+    ggtitle('Latent VS WT')
+
+# geom_text_repel()：用于避免标签重叠。
+# max.overlaps = Inf：确保所有标签都显示。
+# box.padding 和 point.padding：调整文本框和数据点之间的距离，确保视觉效果更好。
+
+ggsave('20241027结核3D基因组/result/LatentvsWT_DEG_volcano_plot_limma.pdf', p1, width = 6, height = 5)
+
+p1
+```
+
+### DEO
+```{r}
+supo <- read.csv('20241027结核3D基因组/data/superoperon_pairs.csv')
+supona <- unique(supo$operon1, supo$operon2)
+
+ope <- read.csv('20241027结核3D基因组/data/operon_list_updated.csv', row.names = 1)
+
+ope2 <- ope[ope$operon_id %in% supona, ]
+
+supo2 <- ope2[, c('operon_id', 'gene_names')]
+```
+
+```{r}
+result_list <- list()
+
+for (i in 1:nrow(supo2)) {
+  # Get the gene names for the current operon_id
+  gene_names <- unlist(strsplit(supo2$gene_names[i], ","))  # Split by comma if multiple genes
+  # Sum the corresponding expression values
+  summed_expression <- colSums(exp[gene_names, , drop = FALSE])  # Sum across specified rows
+  # Assign the summed values to the operon_id in the result list
+  result_list[[supo2$operon_id[i]]] <- summed_expression
+}
+
+supoexp <- do.call(rbind, result_list)
+
+head(supoexp)
+```
+
+```{r}
+exp_coad_int <- as.data.frame(supoexp)
+```
+
+```{r}
+cli <- data.frame(id = colnames(exp))
+
+cli$staging <- c(rep('KO', 2), rep('WT', 2))
+```
+
+```{r}
+# 分组
+i <- 'KO'
+j <- 'WT'
+
+group <- c(rep(i, 2), rep(j, 2))
+group <- factor(group, levels = c(j, i))
+
+# 需要注意的是制作分组信息的因子向量是因子水平的前后顺序
+# 在R中的统计模型中，当你创建一个因子（factor）变量来表示不同组别或条件时，
+# R会根据因子水平的顺序对这些组别进行编码。在很多情况下，
+# R会默认将因子向量的第一个水平作为参考（对照）组，然后将其他水平与这个参考组进行比较。
+
+table(group)
+# 可以看到正常组织占比很少，所以有时候我们会把 TCGA 和 GTEx 进行联合分析
+# https://mp.weixin.qq.com/s/VUDl2PUtMVz4kO0CBPSTIg
+# 现在，我们的表达矩阵和分组信息就都整理完毕了！
+```
+
+#### 用 limma 进行差异分析
+```{r}
+library(edgeR)
+library(limma)
+
+# limma 包建议使用对数转换后的数据，其实我们从 Xena 下载的直接就是log2(count+1)后的数据，
+# 但是这里为了展示 limma 包内部的标准化方法的使用，我们这里还是使用原始计数矩阵作为输入数据。
+exprSet <- exp_coad_int
+
+# 创建设计矩阵，指定组别信息
+design <- model.matrix(~0 + factor(group))
+colnames(design) = levels(factor(group))
+rownames(design) = colnames(exprSet)
+
+# 创建 DGEList 对象
+dge <- DGEList(counts = exprSet, group = group)
+
+# 这里我们使用上面提到的 filterByExpr() 进行自动过滤，去除低表达基因
+keep <- filterByExpr(dge)
+dge <- dge[keep, , keep.lib.sizes = FALSE]
+
+# 归一化，得到的归一化系数被用作文库大小的缩放系数
+dge <- calcNormFactors(dge)
+
+# 使用 voom 方法进行标准化
+v <- voom(dge, design, plot = TRUE, normalize = "quantile")
+# 使用线性模型进行拟合
+fit <- lmFit(v, design)
+
+# 如果是芯片数据、TPM数据或已标准化的数据，不需要再进行标准化，可直接从这里开始进行差异分析
+# fit <- lmFit(as.matrix(exp_coad_int), design)
+
+# 和上面两个包一样，需要说明是谁比谁
+con <- paste(rev(levels(group)), collapse = "-")
+con
+# [1] "tumor-normal"
+
+# 创建对比矩阵
+cont.matrix <- makeContrasts(contrasts = c(con), levels = design)
+fit2 <- contrasts.fit(fit, cont.matrix)
+fit2 <- eBayes(fit2)
+
+# 获取差异表达基因结果
+tempOutput <- topTable(fit2, coef = con, n = Inf)
+DEG_limma_voom <- na.omit(tempOutput)
+# 将差异表达基因结果保存到 Rdata 文件中
+save(DEG_limma_voom, file = './20241027结核3D基因组/process_data/Latent_supo_DEG_limma_voom.Rdata')
+
+#head(DEG_limma_voom)
+```
+
+```{r}
+load("./data/DEG_limma_voom.Rdata")
+```
+
+```{r}
+DEGs <- DEG_limma_voom
+DEGs <- DEGs[, c('logFC', 'P.Value')]
+
+colnames(DEGs) <- c('avg_log2FC', 'p_val')
+
+# ggplot2绘制火山图
+DEGs$regulate <- 'Stable'
+DEGs$regulate[DEGs$avg_log2FC > 0.5 & DEGs$p_val < 0.05] <- 'Up'
+DEGs$regulate[DEGs$avg_log2FC < -0.5 & DEGs$p_val < 0.05] <- 'Down'
+
+DEGs$label <- ''
+# label.gene <- rownames(DEGs)[which(DEGs$avg_log2FC>1 & DEGs$p_val<0.01)]
+label.gene1 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_max(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+
+label.gene2 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_min(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+
+label.gene <- c(label.gene1, label.gene2)
+
+DEGs$label[match(label.gene, rownames(DEGs))] <- label.gene
+
+write.csv(DEGs, '20241027结核3D基因组/result/LatentvsWT_supo_DEO_limma.csv')
+
+# 避免标签重叠版
+p1 <- ggplot(DEGs, aes(avg_log2FC, -log10(p_val), color = regulate)) +
+    ylab("-log10(Pvalue)") +
+    xlab("log2FoldChange") + 
+    geom_point(size = 3, shape = 19) + 
+    scale_color_manual(values = c('#6a9bcb', "#999999", '#cb5148')) + 
+    geom_vline(xintercept = c(-0.5, 0.5), linetype = "dashed") +
+    geom_hline(yintercept = -log10(0.05), linetype = "dashed") + 
+    theme(title = element_text(size = 15), text = element_text(size = 15)) + 
+    theme_classic() + 
+    geom_text_repel(aes(label = label), size = 3, vjust = 1, hjust = -0.1, 
+                    max.overlaps = Inf, box.padding = 0.35, point.padding = 0.3) + 
+    scale_x_continuous(limits = c(-3, 3)) +
+    scale_y_continuous(limits = c(0, 10)) +
+    guides(color = guide_legend(override.aes = list(size = 2, shape = 19, fill = "white", title.position = "top"))) +
+    ggtitle('Latent VS WT')
+
+# geom_text_repel()：用于避免标签重叠。
+# max.overlaps = Inf：确保所有标签都显示。
+# box.padding 和 point.padding：调整文本框和数据点之间的距离，确保视觉效果更好。
+
+ggsave('20241027结核3D基因组/result/LatentvsWT_supo_volcano_plot_limma.pdf', p1, width = 6, height = 5)
+p1
+```
+
+#### DEO下游基因
+```{r}
+#Up
+tem1 <- subset(DEGs, regulate %in% c('Up'))
+
+tem11 <- ope2[ope2$operon_id %in% rownames(tem1), c('operon_id', 'gene_names')]
+
+DEOgene <- separate_rows(tem11, gene_names, sep = ",")
+
+write.csv(DEOgene, '20241027结核3D基因组/result/LatentvsWT_DEOgene_up.csv')
+```
+
+```{r}
+#down
+tem1 <- subset(DEGs, regulate %in% c('Down'))
+
+tem11 <- ope2[ope2$operon_id %in% rownames(tem1), c('operon_id', 'gene_names')]
+
+DEOgene <- separate_rows(tem11, gene_names, sep = ",")
+
+write.csv(DEOgene, '20241027结核3D基因组/result/LatentvsWT_DEOgene_down.csv')
+```
+
+## WT缺氧 WT缺氧
+### 获取基因表达数据
+```{r}
+exp1 <- read.table('20241027结核3D基因组/data/napm_ko_hypoxia-rnaseq_counts.txt', skip = 1, row.names = 1)
+colnames(exp1) <- exp1[1,]
+exp1 <- exp1[-1,]
+exp11 <- exp1[,c(6, 7)]
+colnames(exp11) <- c('HKo1', 'HKo2')
+
+exp2 <- read.table('20241027结核3D基因组/data/AKR_RNA_seq_merged.txt', row.names = 1)
+colnames(exp2) <- exp2[1,]
+exp2 <- exp2[-1,]
+exp22 <- exp2[,c(1:2,5:6)]
+
+exp <- exp22
+
+exp[, 1:4] <- lapply(exp[, 1:4], function(x) as.numeric(as.character(x)))
+
+# 行是基因，列是样本
+exp[1:4, 1:4]
+```
+
+```{r}
+exp_coad_int <- exp
+```
+
+### DEG
+```{r}
+cli <- data.frame(id = colnames(exp))
+
+cli$staging <- c(rep('KO', 2), rep('WT', 2))
+```
+
+```{r}
+# 分组
+i <- 'KO'
+j <- 'WT'
+
+group <- c(rep(i, 2), rep(j, 2))
+group <- factor(group, levels = c(j, i))
+
+# 需要注意的是制作分组信息的因子向量是因子水平的前后顺序
+# 在R中的统计模型中，当你创建一个因子（factor）变量来表示不同组别或条件时，
+# R会根据因子水平的顺序对这些组别进行编码。在很多情况下，
+# R会默认将因子向量的第一个水平作为参考（对照）组，然后将其他水平与这个参考组进行比较。
+
+table(group)
+# 可以看到正常组织占比很少，所以有时候我们会把 TCGA 和 GTEx 进行联合分析
+# https://mp.weixin.qq.com/s/VUDl2PUtMVz4kO0CBPSTIg
+# 现在，我们的表达矩阵和分组信息就都整理完毕了！
+```
+
+#### 用 limma 进行差异分析
+```{r}
+library(edgeR)
+library(limma)
+
+# limma 包建议使用对数转换后的数据，其实我们从 Xena 下载的直接就是log2(count+1)后的数据，
+# 但是这里为了展示 limma 包内部的标准化方法的使用，我们这里还是使用原始计数矩阵作为输入数据。
+exprSet <- exp_coad_int
+
+# 创建设计矩阵，指定组别信息
+design <- model.matrix(~0 + factor(group))
+colnames(design) = levels(factor(group))
+rownames(design) = colnames(exprSet)
+
+# 创建 DGEList 对象
+dge <- DGEList(counts = exprSet, group = group)
+
+# 这里我们使用上面提到的 filterByExpr() 进行自动过滤，去除低表达基因
+keep <- filterByExpr(dge)
+dge <- dge[keep, , keep.lib.sizes = FALSE]
+
+# 归一化，得到的归一化系数被用作文库大小的缩放系数
+dge <- calcNormFactors(dge)
+
+# 使用 voom 方法进行标准化
+v <- voom(dge, design, plot = TRUE, normalize = "quantile")
+# 使用线性模型进行拟合
+fit <- lmFit(v, design)
+
+# 如果是芯片数据、TPM数据或已标准化的数据，不需要再进行标准化，可直接从这里开始进行差异分析
+# fit <- lmFit(as.matrix(exp_coad_int), design)
+
+# 和上面两个包一样，需要说明是谁比谁
+con <- paste(rev(levels(group)), collapse = "-")
+con
+# [1] "tumor-normal"
+
+# 创建对比矩阵
+cont.matrix <- makeContrasts(contrasts = c(con), levels = design)
+fit2 <- contrasts.fit(fit, cont.matrix)
+fit2 <- eBayes(fit2)
+
+# 获取差异表达基因结果
+tempOutput <- topTable(fit2, coef = con, n = Inf)
+DEG_limma_voom <- na.omit(tempOutput)
+# 将差异表达基因结果保存到 Rdata 文件中
+save(DEG_limma_voom, file = './20241027结核3D基因组/process_data/hypoxiaWTvsWT_gene_DEG_limma_voom.Rdata')
+
+#head(DEG_limma_voom)
+```
+
+```{r}
+load("./data/DEG_limma_voom.Rdata")
+```
+
+```{r}
+DEGs <- DEG_limma_voom
+DEGs <- DEGs[, c('logFC', 'P.Value')]
+
+colnames(DEGs) <- c('avg_log2FC', 'p_val')
+
+# ggplot2绘制火山图
+DEGs$regulate <- 'Stable'
+DEGs$regulate[DEGs$avg_log2FC > 1 & DEGs$p_val < 0.05] <- 'Up'
+DEGs$regulate[DEGs$avg_log2FC < -1 & DEGs$p_val < 0.05] <- 'Down'
+
+DEGs$label <- ''
+# label.gene <- rownames(DEGs)[which(DEGs$avg_log2FC>1 & DEGs$p_val<0.01)]
+label.gene1 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_max(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+
+label.gene2 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_min(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+# [!combined_vector %in% c("EBG00000313335", "EBG00000313387")]
+combined_vector <- c(label.gene1, label.gene2)
+label.gene <- combined_vector
+
+DEGs$label[match(label.gene, rownames(DEGs))] <- label.gene
+
+write.csv(DEGs, '20241027结核3D基因组/result/hypoxiaWTvsWT_supo_DEG_limma.csv')
+
+# 避免标签重叠版
+p1 <- ggplot(DEGs, aes(avg_log2FC, -log10(p_val), color = regulate)) +
+    ylab("-log10(Pvalue)") +
+    xlab("log2FoldChange") + 
+    geom_point(size = 1, shape = 19) + 
+    scale_color_manual(values = c('#6a9bcb', "#999999", '#cb5148')) + 
+    geom_vline(xintercept = c(-1, 1), linetype = "dashed") +
+    geom_hline(yintercept = -log10(0.05), linetype = "dashed") + 
+    theme(title = element_text(size = 15), text = element_text(size = 15)) + 
+    theme_classic() + 
+    geom_text_repel(aes(label = label), size = 3, vjust = 1, hjust = -0.1, 
+                    max.overlaps = Inf, box.padding = 0.35, point.padding = 0.3) + 
+    scale_x_continuous(limits = c(-7, 7)) +
+    scale_y_continuous(limits = c(0, 15)) +
+    guides(color = guide_legend(override.aes = list(size = 2, shape = 19, fill = "white", title.position = "top"))) +
+    ggtitle('hypoxia WT VS WT')
+
+# geom_text_repel()：用于避免标签重叠。
+# max.overlaps = Inf：确保所有标签都显示。
+# box.padding 和 point.padding：调整文本框和数据点之间的距离，确保视觉效果更好。
+
+ggsave('20241027结核3D基因组/result/hypoxiaWTvsWT_DEG_volcano_plot_limma.pdf', p1, width = 6, height = 5)
+
+p1
+```
+
+### DEO
+```{r}
+supo <- read.csv('20241027结核3D基因组/data/superoperon_pairs.csv')
+supona <- unique(supo$operon1, supo$operon2)
+
+ope <- read.csv('20241027结核3D基因组/data/operon_list_updated.csv', row.names = 1)
+
+ope2 <- ope[ope$operon_id %in% supona, ]
+
+supo2 <- ope2[, c('operon_id', 'gene_names')]
+```
+
+```{r}
+result_list <- list()
+
+for (i in 1:nrow(supo2)) {
+  # Get the gene names for the current operon_id
+  gene_names <- unlist(strsplit(supo2$gene_names[i], ","))  # Split by comma if multiple genes
+  # Sum the corresponding expression values
+  summed_expression <- colSums(exp[gene_names, , drop = FALSE])  # Sum across specified rows
+  # Assign the summed values to the operon_id in the result list
+  result_list[[supo2$operon_id[i]]] <- summed_expression
+}
+
+supoexp <- do.call(rbind, result_list)
+
+head(supoexp)
+```
+
+```{r}
+exp_coad_int <- as.data.frame(supoexp)
+```
+
+```{r}
+cli <- data.frame(id = colnames(exp))
+
+cli$staging <- c(rep('KO', 2), rep('WT', 2))
+```
+
+```{r}
+# 分组
+i <- 'KO'
+j <- 'WT'
+
+group <- c(rep(i, 2), rep(j, 2))
+group <- factor(group, levels = c(j, i))
+
+# 需要注意的是制作分组信息的因子向量是因子水平的前后顺序
+# 在R中的统计模型中，当你创建一个因子（factor）变量来表示不同组别或条件时，
+# R会根据因子水平的顺序对这些组别进行编码。在很多情况下，
+# R会默认将因子向量的第一个水平作为参考（对照）组，然后将其他水平与这个参考组进行比较。
+
+table(group)
+# 可以看到正常组织占比很少，所以有时候我们会把 TCGA 和 GTEx 进行联合分析
+# https://mp.weixin.qq.com/s/VUDl2PUtMVz4kO0CBPSTIg
+# 现在，我们的表达矩阵和分组信息就都整理完毕了！
+```
+
+#### 用 limma 进行差异分析
+```{r}
+library(edgeR)
+library(limma)
+
+# limma 包建议使用对数转换后的数据，其实我们从 Xena 下载的直接就是log2(count+1)后的数据，
+# 但是这里为了展示 limma 包内部的标准化方法的使用，我们这里还是使用原始计数矩阵作为输入数据。
+exprSet <- exp_coad_int
+
+# 创建设计矩阵，指定组别信息
+design <- model.matrix(~0 + factor(group))
+colnames(design) = levels(factor(group))
+rownames(design) = colnames(exprSet)
+
+# 创建 DGEList 对象
+dge <- DGEList(counts = exprSet, group = group)
+
+# 这里我们使用上面提到的 filterByExpr() 进行自动过滤，去除低表达基因
+keep <- filterByExpr(dge)
+dge <- dge[keep, , keep.lib.sizes = FALSE]
+
+# 归一化，得到的归一化系数被用作文库大小的缩放系数
+dge <- calcNormFactors(dge)
+
+# 使用 voom 方法进行标准化
+v <- voom(dge, design, plot = TRUE, normalize = "quantile")
+# 使用线性模型进行拟合
+fit <- lmFit(v, design)
+
+# 如果是芯片数据、TPM数据或已标准化的数据，不需要再进行标准化，可直接从这里开始进行差异分析
+# fit <- lmFit(as.matrix(exp_coad_int), design)
+
+# 和上面两个包一样，需要说明是谁比谁
+con <- paste(rev(levels(group)), collapse = "-")
+con
+# [1] "tumor-normal"
+
+# 创建对比矩阵
+cont.matrix <- makeContrasts(contrasts = c(con), levels = design)
+fit2 <- contrasts.fit(fit, cont.matrix)
+fit2 <- eBayes(fit2)
+
+# 获取差异表达基因结果
+tempOutput <- topTable(fit2, coef = con, n = Inf)
+DEG_limma_voom <- na.omit(tempOutput)
+# 将差异表达基因结果保存到 Rdata 文件中
+save(DEG_limma_voom, file = './20241027结核3D基因组/process_data/hypoxiaWT_supo_DEG_limma_voom.Rdata')
+
+#head(DEG_limma_voom)
+```
+
+```{r}
+load("./data/DEG_limma_voom.Rdata")
+```
+
+```{r}
+DEGs <- DEG_limma_voom
+DEGs <- DEGs[, c('logFC', 'P.Value')]
+
+colnames(DEGs) <- c('avg_log2FC', 'p_val')
+
+# ggplot2绘制火山图
+DEGs$regulate <- 'Stable'
+DEGs$regulate[DEGs$avg_log2FC > 0.5 & DEGs$p_val < 0.05] <- 'Up'
+DEGs$regulate[DEGs$avg_log2FC < -0.5 & DEGs$p_val < 0.05] <- 'Down'
+
+DEGs$label <- ''
+# label.gene <- rownames(DEGs)[which(DEGs$avg_log2FC>1 & DEGs$p_val<0.01)]
+label.gene1 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_max(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+
+label.gene2 <- DEGs %>%
+  filter(p_val < 0.05) %>%
+  slice_min(order_by = avg_log2FC, n = 5) %>%
+  rownames()
+
+label.gene <- c(label.gene1, label.gene2)
+
+DEGs$label[match(label.gene, rownames(DEGs))] <- label.gene
+
+write.csv(DEGs, '20241027结核3D基因组/result/hypoxiaWTvsWT_supo_DEO_limma.csv')
+
+# 避免标签重叠版
+p1 <- ggplot(DEGs, aes(avg_log2FC, -log10(p_val), color = regulate)) +
+    ylab("-log10(Pvalue)") +
+    xlab("log2FoldChange") + 
+    geom_point(size = 3, shape = 19) + 
+    scale_color_manual(values = c('#6a9bcb', "#999999", '#cb5148')) + 
+    geom_vline(xintercept = c(-0.5, 0.5), linetype = "dashed") +
+    geom_hline(yintercept = -log10(0.05), linetype = "dashed") + 
+    theme(title = element_text(size = 15), text = element_text(size = 15)) + 
+    theme_classic() + 
+    geom_text_repel(aes(label = label), size = 3, vjust = 1, hjust = -0.1, 
+                    max.overlaps = Inf, box.padding = 0.35, point.padding = 0.3) + 
+    scale_x_continuous(limits = c(-3, 3)) +
+    scale_y_continuous(limits = c(0, 10)) +
+    guides(color = guide_legend(override.aes = list(size = 2, shape = 19, fill = "white", title.position = "top"))) +
+    ggtitle('hypoxia WT VS WT')
+
+# geom_text_repel()：用于避免标签重叠。
+# max.overlaps = Inf：确保所有标签都显示。
+# box.padding 和 point.padding：调整文本框和数据点之间的距离，确保视觉效果更好。
+
+ggsave('20241027结核3D基因组/result/hypoxiaWTvsWT_supo_volcano_plot_limma.pdf', p1, width = 6, height = 5)
+p1
+```
+
+#### DEO下游基因
+```{r}
+#Up
+tem1 <- subset(DEGs, regulate %in% c('Up'))
+
+tem11 <- ope2[ope2$operon_id %in% rownames(tem1), c('operon_id', 'gene_names')]
+
+DEOgene <- separate_rows(tem11, gene_names, sep = ",")
+
+write.csv(DEOgene, '20241027结核3D基因组/result/hypoxiaWTvsWT_DEOgene_up.csv')
+```
+
+```{r}
+#down
+tem1 <- subset(DEGs, regulate %in% c('Down'))
+
+tem11 <- ope2[ope2$operon_id %in% rownames(tem1), c('operon_id', 'gene_names')]
+
+DEOgene <- separate_rows(tem11, gene_names, sep = ",")
+
+write.csv(DEOgene, '20241027结核3D基因组/result/hypoxiaWTvsWT_DEOgene_down.csv')
+```
+
+
+
+
+
+
+
+
