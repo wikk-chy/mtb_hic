@@ -1,0 +1,11 @@
+{
+  "metric_M2": "Spearman correlation of anchor genes across 10 RNA-seq samples",
+  "loops_median_M2": 0.6121212121212121,
+  "R1_random_anchor_median": 0.6686960980480711,
+  "R2_distance_matched_median": 0.6727272727272726,
+  "R3_dist_expr_matched_median": 0.6909090909090909,
+  "positive_control_neighbours_median": 0.7212121212121211,
+  "loops_vs_R1_MW_p": 0.6944237033719406,
+  "loops_vs_R2_MW_p": 0.667222895829548,
+  "loops_vs_R3_MW_p": 0.7197634513309343
+}

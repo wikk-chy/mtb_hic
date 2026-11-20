@@ -1,0 +1,5 @@
+contrast,log2FC,p_val,regulate
+KO vs WT,-11.154,5.0852575594203e-08,Down
+hypoxia vs WT,0.93,0.0001100861103804,Stable
+latent vs WT,0.155,0.0069204800812208,Stable
+KO-hypoxia vs WT,-12.755,1.88974573557042e-08,Down

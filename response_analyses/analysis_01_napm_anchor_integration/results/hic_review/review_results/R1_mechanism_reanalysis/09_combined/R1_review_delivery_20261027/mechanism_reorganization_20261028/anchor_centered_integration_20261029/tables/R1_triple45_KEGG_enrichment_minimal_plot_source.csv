@@ -1,0 +1,2 @@
+gene_set,database,term,name,overlap,term_size,query_size,background_size,fold_enrichment,p_value,genes,q_BH_all_tested_terms,n_terms_tested
+triple45_vs_RNA_tested,KEGG,mtu02020,Two-component system,3,61,13,1122,4.244640605296343,0.0296024634403528,"Rv0001,Rv0902c,Rv2332",1.0,123

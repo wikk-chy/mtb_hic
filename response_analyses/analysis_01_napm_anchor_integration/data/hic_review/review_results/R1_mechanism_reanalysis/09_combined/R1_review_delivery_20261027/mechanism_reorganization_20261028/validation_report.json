@@ -1,0 +1,441 @@
+{
+  "status": "PASS",
+  "n_checks": 87,
+  "checks": [
+    {
+      "check": "Figure 1 pdf exists",
+      "passed": true,
+      "detail": "/Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/mechanism_reorganization_20261028/figures/R1_Response_Figure1.pdf"
+    },
+    {
+      "check": "Figure 1 png exists",
+      "passed": true,
+      "detail": "/Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/mechanism_reorganization_20261028/figures/R1_Response_Figure1.png"
+    },
+    {
+      "check": "Figure 1 is one-page PDF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Figure 1 PNG resolution",
+      "passed": true,
+      "detail": "(3307, 2409)"
+    },
+    {
+      "check": "Figure 2 pdf exists",
+      "passed": true,
+      "detail": "/Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/mechanism_reorganization_20261028/figures/R1_Response_Figure2.pdf"
+    },
+    {
+      "check": "Figure 2 png exists",
+      "passed": true,
+      "detail": "/Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/mechanism_reorganization_20261028/figures/R1_Response_Figure2.png"
+    },
+    {
+      "check": "Figure 2 is one-page PDF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Figure 2 PNG resolution",
+      "passed": true,
+      "detail": "(3307, 3023)"
+    },
+    {
+      "check": "Figure 3 pdf exists",
+      "passed": true,
+      "detail": "/Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/mechanism_reorganization_20261028/figures/R1_Response_Figure3.pdf"
+    },
+    {
+      "check": "Figure 3 png exists",
+      "passed": true,
+      "detail": "/Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/mechanism_reorganization_20261028/figures/R1_Response_Figure3.png"
+    },
+    {
+      "check": "Figure 3 is one-page PDF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Figure 3 PNG resolution",
+      "passed": true,
+      "detail": "(3307, 3937)"
+    },
+    {
+      "check": "Figure 4 pdf exists",
+      "passed": true,
+      "detail": "/Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/mechanism_reorganization_20261028/figures/R1_Response_Figure4.pdf"
+    },
+    {
+      "check": "Figure 4 png exists",
+      "passed": true,
+      "detail": "/Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/mechanism_reorganization_20261028/figures/R1_Response_Figure4.png"
+    },
+    {
+      "check": "Figure 4 is one-page PDF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Figure 4 PNG resolution",
+      "passed": true,
+      "detail": "(3307, 3716)"
+    },
+    {
+      "check": "Deliverable R1_response_draft.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Deliverable figure_legends.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Deliverable references.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Deliverable tables/key_loci_evidence.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Deliverable source_data/source_manifest.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Deliverable integrated_figures.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Panel source files all exist",
+      "passed": true,
+      "detail": "34"
+    },
+    {
+      "check": "Source manifest has no duplicate output names",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source manifest includes all figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anchor observed 17/41",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anchor null mean and fold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anchor empirical P",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "16/18 robustness intervals cross zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Loop-dose beta/CI/P",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "15 independent samples",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Difference-in-differences and exact P",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Heatmap exactly 15 samples/no latent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Nine fingerprint metrics and responses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Spatial rho and CI",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "18 disjoint references positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Gene-set size Baseline_structure_RNA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Gene-set size Baseline_structure_RNA_unbound",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Gene-set size Hypoxia_structure_RNA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Gene-set size Interaction_structure_hypoxia_RNA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Gene-set size Baseline_double_anchor_RNA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No sensitivity FDR <0.10 GO_BP q_conditional_within_gene_set",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No sensitivity FDR <0.10 GO_BP q_spatial_within_gene_set",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No sensitivity FDR <0.10 GO_BP q_conditional_all_gene_sets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No sensitivity FDR <0.10 GO_BP q_spatial_all_gene_sets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No sensitivity FDR <0.10 KEGG q_conditional_within_gene_set",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No sensitivity FDR <0.10 KEGG q_spatial_within_gene_set",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No sensitivity FDR <0.10 KEGG q_conditional_all_gene_sets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No sensitivity FDR <0.10 KEGG q_spatial_all_gene_sets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "dnaA occupancy/effect",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mbt direct/unbound distinction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Copper genes locally unbound",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "oriC peak centres",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mbtD peak centres",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "L00/L01 both occupied",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response cites Response Fig. 1A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response cites Response Fig. 1B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response cites Response Fig. 1C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response cites panel 1A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response cites panel 1B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response cites panel 1C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response cites panel 2A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response cites panel 2B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response cites panel 2C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response cites panel 2D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response cites panel 3A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response cites panel 3B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response cites panel 3C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response cites panel 3D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response cites panel 3E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response cites panel 4A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response cites panel 4B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response cites panel 4C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response reference token [1]",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response reference token [2]",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response reference token [3]",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response reference token 10.1038/s42003-019-0314-9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response reference token 10.1128/JB.00359-16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Response reference token 10.1016/j.tube.2011.12.006",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reference file DOI 10.1038/s42003-019-0314-9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reference file DOI 10.1128/JB.00359-16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reference file DOI 10.1016/j.tube.2011.12.006",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Manuscript edit status explicit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No false completed-manuscript claim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No SVD inference in response",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Enrichment described as exploratory",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original reviewer wording present",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

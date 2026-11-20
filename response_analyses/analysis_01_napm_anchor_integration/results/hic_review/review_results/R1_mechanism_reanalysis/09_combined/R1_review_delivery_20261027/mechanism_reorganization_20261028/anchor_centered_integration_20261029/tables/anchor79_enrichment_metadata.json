@@ -1,0 +1,33 @@
+{
+  "query": "79 unique DEGs whose TSS lies within +/-10 kb of any changed-loop anchor",
+  "query_up_down": {
+    "up": 48,
+    "down": 31
+  },
+  "databases": [
+    "GO_BP",
+    "GO_CC",
+    "GO_MF",
+    "KEGG"
+  ],
+  "annotation": "Direct GAF GO and KEGG gene-term mappings; terms with >=3 genes in each annotated background",
+  "test": "One-sided hypergeometric enrichment; BH across all tested terms including zero-overlap terms, separately per gene set and database",
+  "backgrounds": {
+    "anchor79_vs_RNA_tested": {
+      "n_before_annotation_filter": 4060,
+      "role": "primary_standard",
+      "label": "All 4,060 RNA-tested genes"
+    },
+    "anchor79_vs_eligible_anchor_RNA_tested": {
+      "n_before_annotation_filter": 1118,
+      "role": "sensitivity_anchor_matched",
+      "label": "1,118 RNA-tested genes near all 39-loop anchors"
+    },
+    "anchor79_vs_eligible_anchor_DEGs": {
+      "n_before_annotation_filter": 226,
+      "role": "sensitivity_DEG_conditioned",
+      "label": "226 DEGs near all 39-loop anchors"
+    }
+  },
+  "interpretation": "Standard RNA-tested enrichment is primary for the requested all-79 analysis. Anchor-matched and DEG-conditioned analyses assess sensitivity to background choice. No result by itself establishes direct NapM regulation or contact-to-RNA causality."
+}

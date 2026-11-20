@@ -1,0 +1,7 @@
+ level       metric  n_pairs  observed     ci_lo    ci_hi
+  gene |RNA log2FC|      825  0.022952 -0.035561 0.081396
+  gene       P(DEG)      825 -0.013333 -0.050909 0.024242
+operon |RNA log2FC|      148 -0.009848 -0.134089 0.116636
+operon DEG fraction      148 -0.044804 -0.130068 0.042471
+No feature-level spatial P values are reported; intervals are descriptive.
+ECDF source agrees with the reconstructed gene pairs.

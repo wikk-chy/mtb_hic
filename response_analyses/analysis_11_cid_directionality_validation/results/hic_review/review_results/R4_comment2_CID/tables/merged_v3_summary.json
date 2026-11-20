@@ -1,0 +1,21 @@
+{
+  "candidates": 18,
+  "confirmed": 13,
+  "candidate_only_kb": [
+    200,
+    815,
+    935,
+    2555,
+    2740
+  ],
+  "depletion_coolpup": 0.9682638823026142,
+  "permutation_p": 0.001998001998001998,
+  "per_replicate_depletion": {
+    "wt_1": 0.9528627586595486,
+    "wt_2": 0.9539534811339497,
+    "wt_3": 0.948598296848803,
+    "wt_4": 0.9519847791748915
+  },
+  "whole_cid_inside_over_flank": 1.0835636614891968,
+  "random_inside_over_flank": 0.9957641214993278
+}

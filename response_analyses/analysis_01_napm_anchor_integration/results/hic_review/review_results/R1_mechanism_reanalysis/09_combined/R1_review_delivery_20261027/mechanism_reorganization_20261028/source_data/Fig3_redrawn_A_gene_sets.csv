@@ -1,0 +1,4 @@
+gene_set,description,n_genes,n_bins,n_universe,n_direct,n_rna_up,n_unbound
+Baseline_structure_RNA,KO vs WT,269,144,4060,45,153,224
+Hypoxia_structure_RNA,Hypoxia vs WT,1143,494,4056,241,529,902
+Interaction_structure_hypoxia_RNA,Structural genotype-by-hypoxia interaction plus hypoxia RNA,550,231,4056,111,274,439

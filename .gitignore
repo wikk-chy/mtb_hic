@@ -1,2 +1,16 @@
+# OS & editor junk
 .DS_Store
-Establishment_and_remodeling_of_the_Mycobacterium_tuberculosis.pdf
+Thumbs.db
+*.swp
+*~
+
+# Python / R / Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Rproj.user/
+
+# Isolated replay runtime outputs
+.runtime/

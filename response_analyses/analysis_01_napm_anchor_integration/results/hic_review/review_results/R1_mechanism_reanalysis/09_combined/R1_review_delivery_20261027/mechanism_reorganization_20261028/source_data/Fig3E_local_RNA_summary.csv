@@ -1,0 +1,3 @@
+metric,value,n,p,note
+same_bin_RNA_vs_delta_insulation_Spearman_rho,-0.0242388773903679,873,0.4744516579091857,"ordinary asymptotic P; descriptive, not spatially corrected"
+RNA_partial_R2_in_multiple_regression,0.0021220681818179,848,0.1812166220769698,ordinary nested-model F test; not a causal or spatial test

@@ -1,0 +1,17 @@
+Recovery bars:
+                   group  n_loops  n_recovered  n_not_recovered  recovery_rate  wilson95_ci_lo  wilson95_ci_hi
+ Both anchors NapM-bound       17            6               11       0.352941        0.173097        0.586996
+0 or 1 anchor NapM-bound       24           14               10       0.583333        0.388347        0.755324
+Two-sided Fisher P = 0.208160926873
+
+Venn counts:
+                         category  n_genes
+Genes in 11 changing-loop regions     1135
+         All strict KO-vs-WT DEGs      820
+                Region genes only      923
+                        DEGs only      608
+    Intersection used for GO/KEGG      212
+         Intersection upregulated      142
+       Intersection downregulated       70
+
+Wrote recovery and Venn figures to /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/mechanism_reorganization_20261028/changed_loop_pathway_enrichment

@@ -1,0 +1,13 @@
+metric,value
+eligible_NapM_bound_RNA_tested_bins,428
+structure_detected_bins,148
+RNA_DEG_bins,342
+observed_overlap,117
+expected_overlap_under_independence,118.26168224299066
+observed_to_expected,0.9893314366998577
+odds_ratio,0.9225806451612903
+fisher_one_sided_enrichment_P,0.6746642550113509
+fisher_two_sided_P,0.8000190556681073
+circular_shifts_tested,427
+circular_shift_mean_overlap,118.26463700234191
+circular_shift_one_sided_enrichment_P,0.6635514018691588

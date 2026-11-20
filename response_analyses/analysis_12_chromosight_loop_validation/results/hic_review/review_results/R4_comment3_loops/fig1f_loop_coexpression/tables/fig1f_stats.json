@@ -1,0 +1,11 @@
+{
+  "n_loops": 41,
+  "loops_median": 0.29904875020039356,
+  "loops_mean": 0.3801290664795569,
+  "random_anchor_median": 0.3133019530942412,
+  "dist_matched_median": 0.32239088206684785,
+  "welch_p_vs_random_anchor": 0.7838026360701391,
+  "mannwhitney_p_vs_random_anchor": 0.6919657992591017,
+  "welch_p_vs_dist_matched": 0.9917630977178004,
+  "mannwhitney_p_vs_dist_matched": 0.5395423024089271
+}

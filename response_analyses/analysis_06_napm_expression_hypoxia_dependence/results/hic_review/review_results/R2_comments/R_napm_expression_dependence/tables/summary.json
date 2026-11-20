@@ -1,0 +1,28 @@
+{
+  "napM_expression_CPM": {
+    "WT": 421.1602999516939,
+    "Hypoxia": 584.1171512950365,
+    "Latent": 422.92903183491217
+  },
+  "napM_expression_fold_vs_WT": {
+    "hypoxia": 1.3869235807886768,
+    "latent": 1.0041996643164637
+  },
+  "napM_limma_hypoxia_log2FC": 0.92986673938883,
+  "napM_limma_hypoxia_p": 0.0001100861103804,
+  "napM_limma_latent_log2FC": 0.154626303387897,
+  "napM_limma_latent_p": 0.0069204800812208,
+  "structural_distances": {
+    "WT vs WT-hypoxia": 0.12429803688817631,
+    "WT vs WT-latent": 0.18690314831629184,
+    "WT vs KO": 0.1279171412457656,
+    "KO vs KO-hypoxia": 0.1462834608631377
+  },
+  "hypoxia_response": {
+    "WT": 0.06797262918813503,
+    "KO": -0.17930491508238944,
+    "p": 9.380682685996329e-266,
+    "response_correlation": -0.11775470141736032
+  },
+  "latent_response_WT": -0.0027295410104193375
+}

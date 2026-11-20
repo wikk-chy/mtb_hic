@@ -1,0 +1,7 @@
+set,metric,n_bins,median,ci_lo,ci_hi,replicates
+NapM_bound,WT hypoxia response,104,0.02175937763934291,-0.00925927318677583,0.045320087821501445,"WT=4, KO=4, hypoxia=4, KO-hypoxia=3"
+NapM_bound,KO hypoxia response,104,-0.007044436583960402,-0.10867356855756313,0.058537683780362976,"WT=4, KO=4, hypoxia=4, KO-hypoxia=3"
+NapM_bound,interaction,104,-0.06400392188806622,-0.13405241617956354,0.015525049193821363,"WT=4, KO=4, hypoxia=4, KO-hypoxia=3"
+matched_background,WT hypoxia response,104,0.007416428944568135,-0.02858156063122754,0.03667918143790111,"WT=4, KO=4, hypoxia=4, KO-hypoxia=3"
+matched_background,KO hypoxia response,104,-0.022244349038985655,-0.09522115828008358,0.01948064416303863,"WT=4, KO=4, hypoxia=4, KO-hypoxia=3"
+matched_background,interaction,104,-0.014833306453808717,-0.12446090578528607,0.08170317408022272,"WT=4, KO=4, hypoxia=4, KO-hypoxia=3"

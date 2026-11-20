@@ -1,0 +1,17 @@
+wrote /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/supplementary_analysis/tables/corrected_figure_sources/Fig2_final_A_design.csv
+wrote /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/supplementary_analysis/tables/corrected_figure_sources/Fig2_final_B_tracks.csv
+wrote /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/supplementary_analysis/tables/corrected_figure_sources/Fig2_final_C_quadrant_counts.csv
+wrote /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/supplementary_analysis/tables/corrected_figure_sources/Fig2_final_C_quadrant_perbin.csv
+wrote /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/supplementary_analysis/tables/corrected_figure_sources/Fig2_final_D_replicate_consistency.csv
+wrote /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/supplementary_analysis/tables/corrected_figure_sources/Fig2_final_D_independent_sample_factorial.csv
+wrote /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/supplementary_analysis/tables/corrected_figure_sources/Fig2_final_E_pca_scores.csv
+wrote /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/supplementary_analysis/tables/corrected_figure_sources/Fig2_final_E_pca_variance.csv
+wrote /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/supplementary_analysis/tables/corrected_figure_sources/Fig2_final_E_contribution.csv
+wrote /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/supplementary_analysis/tables/corrected_figure_sources/Fig2_final_E_response_stats.csv
+wrote /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/supplementary_analysis/tables/corrected_figure_sources/Fig2_final_F_paired_interaction.csv
+wrote /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/supplementary_analysis/tables/corrected_figure_sources/Fig2_final_F_null_paired_diff.csv
+wrote /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/supplementary_analysis/figures/Fig2_corrected.pdf/.png
+C: sign-reversed 462 / 881 (52.4%)
+D: medians {'within_WT': 0.94, 'between_WT_KO': -0.017, 'within_KO': 0.977} | independent-sample DID -0.108 [-0.114, -0.102] exact p=4.1e-04
+E: top3 contributors ['entropy', 'short_frac', 'long_frac'] | euclid p 0.0007999200079992 | cosine p 0.365
+F: paired diff 0.0113 p 0.6509

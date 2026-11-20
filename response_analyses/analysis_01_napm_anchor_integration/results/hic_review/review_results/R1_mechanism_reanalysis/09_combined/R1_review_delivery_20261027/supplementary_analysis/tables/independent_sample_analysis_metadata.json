@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "n_bootstrap": 10000,
+  "n_exact_assignments": 2450,
+  "independent_samples": 15,
+  "cell_sizes": {
+    "WT": 4,
+    "KO": 4,
+    "HYP": 4,
+    "KO-HYP": 3
+  },
+  "primary_permutation": "oxygen labels within genotype",
+  "input": "/Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/03_structure_metrics/bin_level_v2.csv"
+}

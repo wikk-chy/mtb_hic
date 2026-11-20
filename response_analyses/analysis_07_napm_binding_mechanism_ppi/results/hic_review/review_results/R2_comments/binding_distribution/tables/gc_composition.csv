@@ -1,0 +1,10 @@
+metric,value
+genome_gc,0.6561
+peak_gc_bp_weighted,0.623
+peak_gc_interval_mean,0.6242
+null_gc_lenmatched_mean,0.6562
+null_gc_lenmatched_q025,0.653
+null_gc_lenmatched_q975,0.6594
+p_gc_two_sided,0.0
+peak_bp_total,233846.0
+n_merged_intervals,626.0

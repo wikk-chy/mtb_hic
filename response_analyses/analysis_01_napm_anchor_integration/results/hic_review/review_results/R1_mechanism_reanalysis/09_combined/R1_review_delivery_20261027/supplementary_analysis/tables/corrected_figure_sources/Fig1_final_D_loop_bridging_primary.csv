@@ -1,0 +1,4 @@
+definition,metric,observed,null_mean,null_sd,null_ci95_lo,null_ci95_hi,fold_enrichment,z_score,p_empirical
+interval,both,17,10.897,2.96,5.0,17.0,1.56,2.062,0.0328
+interval,any,34,31.326,2.806,26.0,37.0,1.085,0.953,0.22838
+interval,exactly_one,17,20.429,3.198,14.0,27.0,0.832,-1.072,0.88561

@@ -1,0 +1,6 @@
+{
+  "cutoff": 3.8,
+  "frac_short_sim": 0.38087584349520104,
+  "frac_short_WT": 0.3769,
+  "calibrated_on": "baseline_str0_str20_scale0.7_seed42"
+}

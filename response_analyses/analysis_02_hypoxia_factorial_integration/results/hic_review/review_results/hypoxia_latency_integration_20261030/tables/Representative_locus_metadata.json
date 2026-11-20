@@ -1,0 +1,16 @@
+{
+  "selection_order": "Genome-wide statistics were completed before representative-locus visualization.",
+  "hypoxia_loci": {
+    "NapM_candidate_bin": 119,
+    "transcription_associated_bin": 862
+  },
+  "latency_loci": {
+    "LATR01": "oriC/dnaA",
+    "LATR39": "PE13-PPE18",
+    "LATR18": "nrdZ-pncB2"
+  },
+  "coordinate_system": "All browser tracks use kb relative to the focal center bin; circular coordinates are unwrapped.",
+  "contact_map": "Per-replicate circular-distance O/E; plotted maps are replicate means; raw per-replicate values supplied.",
+  "ChIP_signal_note": "Legacy bedgraph is display signal only. Occupancy and peak statistics use 634 curated Minch2015 Rv0047c peaks.",
+  "independence_note": "Each locus is one local regulatory/structural unit; multiple genes and bins within it are not independent mechanisms."
+}

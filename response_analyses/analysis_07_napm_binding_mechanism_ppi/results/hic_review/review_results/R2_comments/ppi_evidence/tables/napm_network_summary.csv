@@ -1,0 +1,15 @@
+metric,value
+full_network_nodes,3870
+full_network_edges,25335
+napm_degree_full,441
+napm_degree_rank_full,6
+napm_degree_full_of,3870
+napm_betweenness_rank_full,5
+ppi_subgraph_nodes,2899
+ppi_subgraph_edges,8041
+napm_degree_ppi,14
+napm_degree_rank_ppi,167
+napm_degree_ppi_of,2899
+napm_betweenness_rank_ppi,160
+napm_ppi_neighbours_n,14
+napm_self_loop_edges,0

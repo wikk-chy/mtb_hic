@@ -1,0 +1,9 @@
+"sample","WT","KO","WT_hypoxia","KO_hypoxia"
+"WT-rep1",1,0,0,0
+"WT-rep2",1,0,0,0
+"NapM-KO-rep1",0,1,0,0
+"NapM-KO-rep2",0,1,0,0
+"Hypoxia-rep1",0,0,1,0
+"Hypoxia-rep2",0,0,1,0
+"NapM_Ko-Hypoxia-rep1",0,0,0,1
+"NapM_Ko-Hypoxia-rep2",0,0,0,1

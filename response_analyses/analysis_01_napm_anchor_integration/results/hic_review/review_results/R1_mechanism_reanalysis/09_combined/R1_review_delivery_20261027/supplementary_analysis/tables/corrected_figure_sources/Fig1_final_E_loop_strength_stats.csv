@@ -1,0 +1,2 @@
+n_bound,n_other,mean_diff,boot_ci_lo,boot_ci_hi,permutation_p,excluded_loops,exclusion_reason,sensitivity_3x3
+16,23,0.0589739086974784,-0.2029204933578728,0.3345179821930129,0.6853314668533147,"L35,L36",ICE-uncovered anchor bins near 3.93 Mb,"bound -0.265 vs other -0.244, diff -0.022 [-0.186,+0.144], p=0.81 (n=39)"

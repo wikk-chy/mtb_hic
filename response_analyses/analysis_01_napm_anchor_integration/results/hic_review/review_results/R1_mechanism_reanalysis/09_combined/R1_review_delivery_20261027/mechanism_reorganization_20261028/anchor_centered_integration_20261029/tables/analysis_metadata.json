@@ -1,0 +1,29 @@
+{
+  "primary_window": "TSS within +/-10 kb of anchor center, circular distance",
+  "sensitivity_windows": [
+    5000,
+    25000
+  ],
+  "changed_loops": [
+    "L00",
+    "L12",
+    "L14",
+    "L15",
+    "L16",
+    "L17",
+    "L19",
+    "L23",
+    "L28",
+    "L29",
+    "L32"
+  ],
+  "anchor_instances": 22,
+  "unique_changed_anchor_centers": 21,
+  "DEG": "detected_increase/decrease: FDR<0.05 and |log2FC|>=1",
+  "NapM": "promoter_bound or gene_body_bound; baseline occupancy, not differential binding",
+  "insulation": "Existing bin_ins_change_class detected_increase/decrease",
+  "three_way_universe": "4060 RNA-tested genes",
+  "enrichment": "BH over all terms with >=3 background genes, including zero-overlap terms",
+  "representative_rule": "Anchor DEG ranked by direct NapM occupancy, detected insulation change, occupied-anchor status, then absolute RNA effect; dnaA considered separately as literature control",
+  "limitation": "Overlap and enrichment do not establish direct regulation, contact-to-RNA causality, chromosomal plasticity, or dormancy establishment."
+}

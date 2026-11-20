@@ -1,0 +1,8 @@
+category,n_genes
+Genes in 11 changing-loop regions,1135
+All strict KO-vs-WT DEGs,820
+Region genes only,923
+DEGs only,608
+Intersection used for GO/KEGG,212
+Intersection upregulated,142
+Intersection downregulated,70

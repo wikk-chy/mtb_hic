@@ -1,0 +1,25 @@
+L12 loop summary:
+loop_id     start       end  span_kb  WT_mean_OE  KO_mean_OE  d_log2OE      WT1      WT2      WT3      WT4      KO1      KO2      KO3      KO4  recovered_in_independent_KO_call
+    L12 1692500.0 2617500.0    925.0    5.392822    2.315583 -1.219665 6.046526 5.263311 5.339447 4.922004 2.282108 2.350858 2.263581 2.365785                              True
+
+Region genes: 876 strict DEGs: 170
+NapM peaks: 132
+
+Highlighted clusters:
+cluster gene_id gene_name   start     end strand  log2FC_KOvsWT  padj_KOvsWT binding_class
+    his  Rv1599      hisD 1799583 1800899      +       2.270997 5.905064e-09       unbound
+    his  Rv1600     hisC1 1800896 1802038      +       2.453445 5.767554e-09       unbound
+    his  Rv1601      hisB 1802035 1802667      +       1.931525 2.369260e-08       unbound
+    his  Rv1602      hisH 1802664 1803284      +       1.569791 1.707372e-07       unbound
+    his  Rv1603      hisA 1803294 1804031      +       1.928281 1.943531e-08       unbound
+    his  Rv1604      impA 1804039 1804851      +       1.922363 3.433087e-08       unbound
+    his  Rv1605      hisF 1804853 1805656      +       1.817708 2.283190e-08       unbound
+    his  Rv1606      hisI 1805653 1806000      +       2.331981 1.830705e-07       unbound
+    arg  Rv1652      argC 1865576 1866634      +       1.781651 2.934666e-07       unbound
+    arg  Rv1653      argJ 1866631 1867845      +       1.575353 1.439683e-07       unbound
+    arg  Rv1654      argB 1867842 1868726      +       2.248115 2.571002e-08       unbound
+    arg  Rv1655      argD 1868723 1869925      +       2.157361 4.870433e-08       unbound
+    arg  Rv1656      argF 1869922 1870845      +       1.534246 5.127648e-07       unbound
+    arg  Rv1657      argR 1870842 1871354      +       1.845744 9.788243e-07       unbound
+
+Wrote L12 multitrack figure to /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/mechanism_reorganization_20261028/L12_multitrack

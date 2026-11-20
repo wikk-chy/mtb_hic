@@ -1,0 +1,31 @@
+{
+  "n_peaks": 634,
+  "n_bound_bins(center rule)": 433,
+  "n_unique_target_gene_col": 582,
+  "score_min/med/max": [
+    0.700584,
+    0.9319065,
+    0.998298
+  ],
+  "vpm_min/med/max": [
+    "96",
+    408.5,
+    "24957"
+  ],
+  "vpm_median": 408.5,
+  "pvalue_med": 0.0,
+  "peak_width_med_bp": 363.0,
+  "gap_bp_min/med/max": [
+    29.0,
+    4047.0,
+    49950.0
+  ],
+  "location_counts": {
+    "gene_body": 513,
+    "promoter_up300": 111,
+    "intergenic": 10
+  },
+  "n_bound_bins": 433,
+  "n_bound_bins_score09": 324,
+  "n_bound_bins_vpm_ge_med": 256
+}

@@ -1,0 +1,16 @@
+{
+  "loops": {
+    "wt": 41,
+    "hypoxia": 223,
+    "latent": 71,
+    "napm_ko": 100,
+    "napmhypoxia": 245
+  },
+  "boundaries": {
+    "wt": 18,
+    "hypoxia": 20,
+    "latent": 6,
+    "napm_ko": 19,
+    "napmhypoxia": 20
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "source": "hic_review/review_results/R1_mechanism_reanalysis/03_structure_metrics/bin_level_v2.csv",
+  "resolution_bp": 5000,
+  "n_bins": 883,
+  "n_regions": 20,
+  "n_circular_shifts": 10000,
+  "seed": 42,
+  "genome_size_bp": 4411532,
+  "arm_definition": "Two 441-bin arms oriented from ori toward ter; central bin 441 omitted",
+  "metrics": [
+    "hypoxia_insulation",
+    "latent_insulation",
+    "hypoxia_long_range_fraction",
+    "latent_long_range_fraction"
+  ],
+  "interpretation_boundary": "Endpoint population Hi-C metrics describe spatial contact/insulation changes, not temporal synchrony or direct physical compaction measurements."
+}

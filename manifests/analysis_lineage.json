@@ -1,0 +1,167 @@
+[
+  {
+    "analysis_id": "Analysis 01",
+    "module_path": "response_analyses/analysis_01_napm_anchor_integration",
+    "panels": "A-I",
+    "title": "NapM occupancy does not predict uniform local changes but is enriched at chromatin-loop anchors",
+    "code_files": 63,
+    "data_files": 89,
+    "result_files": 237,
+    "note_files": 25,
+    "methods": "methods/Analysis_Methods.md"
+  },
+  {
+    "analysis_id": "Analysis 02",
+    "module_path": "response_analyses/analysis_02_hypoxia_factorial_integration",
+    "panels": "A-G",
+    "title": "NapM deletion produces distinct and partially overlapping RNA and insulation responses to hypoxia",
+    "code_files": 23,
+    "data_files": 6,
+    "result_files": 68,
+    "note_files": 0,
+    "methods": "methods/Analysis_Methods.md"
+  },
+  {
+    "analysis_id": "Analysis 03",
+    "module_path": "response_analyses/analysis_03_network_centrality_hubs",
+    "panels": "A-B",
+    "title": "NapM (Rv0047c) is one of several highly connected nodes in the integrated network",
+    "code_files": 2,
+    "data_files": 0,
+    "result_files": 4,
+    "note_files": 0,
+    "methods": "methods/Analysis_Methods.md"
+  },
+  {
+    "analysis_id": "Analysis 04",
+    "module_path": "response_analyses/analysis_04_napm_ko_go_kegg_enrichment",
+    "panels": "A-D",
+    "title": "GO and KEGG enrichment of differentially expressed genes in napM-KO versus WT cells",
+    "code_files": 4,
+    "data_files": 4,
+    "result_files": 8,
+    "note_files": 0,
+    "methods": "methods/Analysis_Methods.md"
+  },
+  {
+    "analysis_id": "Analysis 05",
+    "module_path": "response_analyses/analysis_05_stress_spatial_polymer_evaluation",
+    "panels": "A-G",
+    "title": "Spatially non-uniform stress remodelling and polymer-model evaluation",
+    "code_files": 1,
+    "data_files": 0,
+    "result_files": 0,
+    "note_files": 0,
+    "methods": "methods/Analysis_Methods.md"
+  },
+  {
+    "analysis_id": "Analysis 06",
+    "module_path": "response_analyses/analysis_06_napm_expression_hypoxia_dependence",
+    "panels": "A-F",
+    "title": "NapM expression, co-regulated architectural proteins and genotype-dependent chromosome remodelling under stress",
+    "code_files": 20,
+    "data_files": 3,
+    "result_files": 113,
+    "note_files": 17,
+    "methods": "methods/Analysis_Methods.md"
+  },
+  {
+    "analysis_id": "Analysis 07",
+    "module_path": "response_analyses/analysis_07_napm_binding_mechanism_ppi",
+    "panels": "A-I",
+    "title": "Genomic occupancy, transcriptional decoupling, structural associations and protein-interaction context of NapM",
+    "code_files": 15,
+    "data_files": 5,
+    "result_files": 19,
+    "note_files": 0,
+    "methods": "methods/Analysis_Methods.md"
+  },
+  {
+    "analysis_id": "Analysis 08",
+    "module_path": "response_analyses/analysis_08_pilot_ter_fish_clumping",
+    "panels": "Overview/Insets",
+    "title": "Pilot ter-probe FISH across four M. tuberculosis biological replicates illustrates pronounced cell clumping",
+    "code_files": 1,
+    "data_files": 0,
+    "result_files": 0,
+    "note_files": 0,
+    "methods": "methods/Analysis_Methods.md"
+  },
+  {
+    "analysis_id": "Analysis 09",
+    "module_path": "response_analyses/analysis_09_latency_like_stress_crossvalidation",
+    "panels": "A-D",
+    "title": "Mixed DNA-damage/ROS signatures and shared stress responses in acid/antibiotic-induced latency-like stress versus antibiotic-free hypoxia",
+    "code_files": 6,
+    "data_files": 1,
+    "result_files": 8,
+    "note_files": 0,
+    "methods": "methods/Analysis_Methods.md"
+  },
+  {
+    "analysis_id": "Analysis 10",
+    "module_path": "response_analyses/analysis_10_circular_eigenvector_saddle",
+    "panels": "A-E",
+    "title": "Controls and interpretation of chromosome-scale segregation in M. tuberculosis",
+    "code_files": 15,
+    "data_files": 30,
+    "result_files": 16,
+    "note_files": 1,
+    "methods": "methods/Analysis_Methods.md"
+  },
+  {
+    "analysis_id": "Analysis 11",
+    "module_path": "response_analyses/analysis_11_cid_directionality_validation",
+    "panels": "A-G",
+    "title": "Identification and validation of chromosomal interaction domains (CIDs) using all 18 DI-defined boundaries",
+    "code_files": 5,
+    "data_files": 0,
+    "result_files": 6,
+    "note_files": 1,
+    "methods": "methods/Analysis_Methods.md"
+  },
+  {
+    "analysis_id": "Analysis 12",
+    "module_path": "response_analyses/analysis_12_chromosight_loop_validation",
+    "panels": "A-L",
+    "title": "Validation of Chromosight-called loops in M. tuberculosis Hi-C",
+    "code_files": 15,
+    "data_files": 4,
+    "result_files": 53,
+    "note_files": 0,
+    "methods": "methods/Analysis_Methods.md"
+  },
+  {
+    "analysis_id": "Analysis 13",
+    "module_path": "response_analyses/analysis_13_wt_ko_compaction_metrics",
+    "panels": "A-H",
+    "title": "Quantitative comparison of wild-type and napM-KO chromosome organization",
+    "code_files": 7,
+    "data_files": 0,
+    "result_files": 17,
+    "note_files": 0,
+    "methods": "methods/Analysis_Methods.md"
+  },
+  {
+    "analysis_id": "Analysis 14",
+    "module_path": "response_analyses/analysis_14_stress_oriter_experiments",
+    "panels": "A-E",
+    "title": "Joint Hi-C signatures are consistent with ring-like chromosome refolding and ori-ter apposition under stress",
+    "code_files": 3,
+    "data_files": 0,
+    "result_files": 3,
+    "note_files": 0,
+    "methods": "methods/Analysis_Methods.md"
+  },
+  {
+    "analysis_id": "Analysis 15",
+    "module_path": "response_analyses/analysis_15_openmm_polymer_models",
+    "panels": "A-H",
+    "title": "Polymer modelling distinguishes candidate mechanisms of stress-induced chromosome reorganization",
+    "code_files": 14,
+    "data_files": 1,
+    "result_files": 72,
+    "note_files": 28,
+    "methods": "methods/Analysis_Methods.md"
+  }
+]

@@ -1,0 +1,2 @@
+gene_set,role,background_label,database,term,name,overlap,term_size,query_size,background_size,fold_enrichment,p_value,genes,q_BH_all_tested_terms,n_terms_tested
+anchor79_vs_eligible_anchor_RNA_tested,sensitivity_anchor_matched,"1,118 RNA-tested genes near all 39-loop anchors",GO_MF,GO:0015562,efflux transmembrane transporter activity,3,3,44,724,16.454545454545453,0.00021025985539888057,"Rv2686c,Rv2687c,Rv2688c",0.02943637975584328,140

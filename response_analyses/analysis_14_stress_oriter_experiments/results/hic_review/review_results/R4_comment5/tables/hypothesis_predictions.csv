@@ -1,0 +1,4 @@
+hypothesis,ori_ter_OE,sec_diag_OE,frac_short_lt100kb,frac_long_gt1Mb,compaction_slope,ori_ter_3D_dist
+S1_global_condensation,up,up,down,up,flatter,down
+S2_oriter_tethering,up,flat,flat,flat,flat,down
+S3_ring_toroid,up,down_or_flat,down,up,flatter,down

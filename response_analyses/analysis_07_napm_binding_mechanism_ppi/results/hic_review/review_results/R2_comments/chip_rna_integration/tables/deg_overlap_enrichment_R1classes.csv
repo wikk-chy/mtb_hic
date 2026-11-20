@@ -1,0 +1,5 @@
+tier,direction,n_in_tier,n_deg_class,frac,fisher_OR,fisher_p
+direct_promoter_or_body,up,825,72,0.0873,0.716,0.013278805544548071
+direct_promoter_or_body,down,825,82,0.0994,1.189,0.1915388122631292
+any_binding_associated,up,929,76,0.0818,0.651,0.0008921685404546086
+any_binding_associated,down,929,91,0.098,1.17,0.23553027977926483

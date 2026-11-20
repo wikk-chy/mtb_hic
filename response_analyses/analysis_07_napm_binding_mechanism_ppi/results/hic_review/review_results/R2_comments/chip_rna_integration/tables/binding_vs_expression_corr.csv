@@ -1,0 +1,4 @@
+x,y,n,spearman_rho,p
+gene_peak_score_max,|log2FC_KOvsWT|,825,-0.0145,0.6779945865119844
+gene_peak_vpm_max,|log2FC_KOvsWT|,825,-0.0343,0.3250652631255949
+gene_peak_score_max(0 for unbound),|log2FC_KOvsWT| (all genes),4060,0.0057,0.7156488044876386

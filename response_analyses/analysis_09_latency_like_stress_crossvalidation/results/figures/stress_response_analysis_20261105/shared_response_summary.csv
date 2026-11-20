@@ -1,0 +1,15 @@
+metric,value
+genes_tested_in_both,4065.0
+Spearman_rho_log2FC,0.6033788905252941
+Spearman_P,0.0
+Pearson_r_log2FC,0.6024406774327873
+Pearson_P,0.0
+direction_concordant_genes,2914.0
+direction_concordant_percent,71.68511685116852
+hypoxia_DEGs_original_call,1507.0
+latent_DEGs_original_call,1922.0
+shared_DEGs,896.0
+Jaccard_DEGs,0.35373075404658505
+shared_DEG_hypergeometric_P,5.71118380334793e-34
+shared_DEGs_same_direction,863.0
+shared_DEGs_same_direction_percent,96.31696428571429

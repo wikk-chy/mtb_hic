@@ -1,0 +1,5 @@
+"contrast","baseline_KO_WT","WT_hypoxia","KO_hypoxia","hypoxia_interaction"
+"WT",-1,-1,0,1
+"KO",1,0,-1,-1
+"WT_hypoxia",0,1,0,-1
+"KO_hypoxia",0,0,1,1

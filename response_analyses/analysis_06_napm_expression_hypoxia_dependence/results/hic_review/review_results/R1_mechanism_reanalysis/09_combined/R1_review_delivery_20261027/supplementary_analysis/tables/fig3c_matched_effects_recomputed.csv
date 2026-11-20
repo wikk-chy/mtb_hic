@@ -1,0 +1,5 @@
+level,metric,n_pairs,observed,delta,ci_lo,ci_hi,p,test,interval_method,spatial_p_status
+gene,|RNA log2FC|,825,0.022951607436655825,0.022951607436655825,-0.035560588869716386,0.08139584529077666,,not reported,ordinary matched-pair percentile bootstrap 95% interval; 10000 resamples; seed 42,not reported; legacy feature-level spatial null was not retained
+gene,P(DEG),825,-0.013333333333333334,-0.013333333333333334,-0.05090909090909091,0.024242424242424242,,not reported,ordinary matched-pair percentile bootstrap 95% interval; 10000 resamples; seed 42,not reported; legacy feature-level spatial null was not retained
+operon,|RNA log2FC|,148,-0.009847638115355396,-0.009847638115355396,-0.13408937985810732,0.11663648401790819,,not reported,ordinary matched-pair percentile bootstrap 95% interval; 10000 resamples; seed 42,not reported; legacy feature-level spatial null was not retained
+operon,DEG fraction,148,-0.04480373230373231,-0.04480373230373231,-0.13006756756756757,0.04247104247104247,,not reported,ordinary matched-pair percentile bootstrap 95% interval; 10000 resamples; seed 42,not reported; legacy feature-level spatial null was not retained

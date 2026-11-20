@@ -1,0 +1,8 @@
+statistic,observed
+cosine_similarity,-0.0696280991609931
+angle_deg,93.99262675039806
+euclidean_dist,5.950629545272408
+pearson_r,-0.0852008602189802
+perm_p_cosine,0.3650634936506349
+perm_p_angle,0.3650634936506349
+perm_p_euclidean,0.0007999200079992

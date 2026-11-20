@@ -1,0 +1,3 @@
+binding_definition,table_bound_detected,table_bound_not_detected,table_unbound_detected,table_unbound_not_detected,odds_ratio,ci_lo,ci_hi,fisher_p,circular_shift_p_one_sided,null_mean_overlap,n_bound_bins
+centre_433,124,309,145,305,0.8441022207342931,0.6333616724654941,1.124963176686987,0.2726856883952407,0.8918108189181082,131.9192,433
+interval_454,131,323,138,291,0.855229505990039,0.641984237027853,1.139307580669201,0.30599077031809285,0.8791120887911209,138.3152,454

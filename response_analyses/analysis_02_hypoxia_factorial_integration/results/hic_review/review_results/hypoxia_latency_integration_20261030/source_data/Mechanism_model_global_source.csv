@@ -1,0 +1,5 @@
+metric,value,definition
+RNA interaction DEGs,730.0,FDR < 0.05 and |log2FC| >= 1
+RNA-insulation interaction Spearman rho,0.0283803747821432,circular-shift P = 0.419458
+RNA incremental R2 for insulation interaction,0.0002531383640154,exploratory regression; no mediation model
+NapM-bound structural interaction shift P,0.7079292070792921,422 baseline-matched pairs; signed effects

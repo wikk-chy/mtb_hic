@@ -1,0 +1,15 @@
+neighbour,rv_equivalent,gene_name,description,functional_category,degree_full,in_top100_hubs_full,akr_regulate_KOvsWT,log2FC_KOvsWT
+Rv0791c,Rv0791c,Rv0791c,conserved protein (function unknown; weak similarity to F420-dependent dehydrogenases),conserved hypothetical,2,False,Stable,0.419
+Rv2267c,Rv2267c,Rv2267c,conserved hypothetical protein,conserved hypothetical,10,False,Stable,0.298
+Rv2474c,Rv2474c,Rv2474c,hypothetical protein,unknown,12,False,Stable,0.044
+Rv2595,Rv2595,vapB40,possible antitoxin VapB40 (toxin-antitoxin system with Rv2596),TA system,5,False,Stable,-0.863
+Rv3222c,Rv3222c,Rv3222c,hypothetical protein,unknown,3,False,Stable,0.504
+Rv3234c,Rv3234c,tgs3,putative triacylglycerol synthase (diacylglycerol acyltransferase),lipid metabolism,6,False,Stable,-0.748
+Rv3387,Rv3387,Rv3387,possible transposase (IS1560),insertion seqs/phages,15,False,Stable,0.474
+Rv3467,Rv3467,Rv3467,conserved hypothetical protein (REP13E12 repeat),insertion seqs/phages,5,False,Down,-1.403
+Rv3530c,Rv3530c,Rv3530c,possible oxidoreductase (short-chain dehydrogenase/reductase family),intermediary metabolism,5,False,Up,1.151
+Rv3753c,Rv3753c,Rv3753c,"conserved protein, core mycobacterial gene (function unknown)",conserved hypothetical,4,False,Stable,-0.477
+Rv3837c,Rv3837c,Rv3837c,probable phosphoglycerate mutase (glycolysis),intermediary metabolism,16,False,Stable,0.446
+esxI,Rv1037c,esxI / Rv1037c,ESAT-6-like secreted protein EsxI (ESX secretion),cell wall/cell processes,10,False,Stable,0.388
+mmaA2,Rv0644c,mmaA2 / Rv0644c,methoxy mycolic acid synthase 2,lipid metabolism,5,False,Stable,-0.491
+ogt,Rv1316c,ogt / Rv1316c,O6-methylguanine-DNA methyltransferase (DNA repair),DNA repair,58,False,Stable,-0.92

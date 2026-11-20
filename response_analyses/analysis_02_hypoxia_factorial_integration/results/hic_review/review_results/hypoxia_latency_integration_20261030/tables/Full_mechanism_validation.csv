@@ -1,0 +1,30 @@
+check,passed,detail
+exactly 730 interaction DEGs,True,
+cluster sizes match figure and response,True,"{'C3': 254, 'C1': 197, 'C2': 188, 'C4': 91}"
+three highlighted regulators are all in C3,True,
+C3 centers match response,True,
+all 17 stringent candidates shown,True,
+ESX-2 ranks first by absolute interaction,True,
+oriC has independent LATR01 evidence,True,
+four intended loci selected,True,
+all response-map values match condition-mean O/E ratios,True,max_error=1.11e-15
+response maps contain four loci and two genotypes,True,
+three highlighted genes have eight normalized samples,True,
+Hi-C response maps use bilinear display interpolation,True,
+figure has no schematic flowchart boxes,True,
+no rescue/complementation proposal,True,
+response safeguard: not necessarily the highest-ranking genes by effect size,True,
+response safeguard: not because it had the largest hypoxia effect,True,
+response safeguard: not proof of two independent pathways,True,
+response safeguard: Failure to detect local DEGs does not exclude transcriptional involvement,True,
+response safeguard: interpolation is used only for display,True,
+response contains 730 RNA-interaction DEGs,True,
+response contains 212 positive and 518 negative,True,
+response contains +2.257 and +0.701,True,
+response contains Seventeen bins,True,
+response contains −1.041,True,
+response contains +0.301,True,
+response contains −0.005,True,
+complete figure is one PDF page,True,pages=1
+high-resolution PNG has expected dimensions,True,"(5400, 6600)"
+figure deliverables are nonempty,True,

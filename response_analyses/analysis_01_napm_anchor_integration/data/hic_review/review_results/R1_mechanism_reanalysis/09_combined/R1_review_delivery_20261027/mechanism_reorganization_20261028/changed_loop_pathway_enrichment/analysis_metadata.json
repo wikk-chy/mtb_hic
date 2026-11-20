@@ -1,0 +1,27 @@
+{
+  "n_eligible_loops": 39,
+  "n_changing_loops": 11,
+  "changing_loop_ids": [
+    "L00",
+    "L12",
+    "L14",
+    "L15",
+    "L16",
+    "L17",
+    "L19",
+    "L23",
+    "L28",
+    "L29",
+    "L32"
+  ],
+  "change_threshold": 0.5,
+  "region_assignment": "Gene TSS between loop anchor centers; one gene counted once even if loops overlap",
+  "DEG_definition": "Existing detected_increase/detected_decrease: RNA BH FDR < 0.05 and |log2FC| >= 1",
+  "primary_gene_set": "changed_region_DEGs_genome_background",
+  "primary_background": "All RNA-tested genes, restricted to genes annotated in each database",
+  "multiple_testing": "BH within each gene set and database over every term with >=3 background genes, including zero-overlap terms",
+  "display_rule": "Exploratory figure: top 10 nominal terms with >=2 genes; response figure: only BH FDR <0.05 terms with RNA-direction counts",
+  "directional_follow_up": "Separate upregulated and downregulated DEG enrichment tables use all RNA-tested genes as background",
+  "recall_primary_tolerance_bins": 1,
+  "recall_caveat": "Binary caller non-recovery is not equivalent to physical loop disappearance; loops can share anchors"
+}

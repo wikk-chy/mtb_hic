@@ -1,0 +1,10 @@
+{
+  "RNA_interaction": "(KO-hypoxia - KO) - (WT-hypoxia - WT); TMM + limma-voom + eBayes; FDR < 0.05 and |log2FC| >= 1.",
+  "RNA_clustering": "Descriptive k-means (k=4) on unstandardized WT and KO hypoxia log2FC for the 730 interaction DEGs; clusters are response shapes, not pathways.",
+  "structural_classification": "Existing operational bin-level evidence classes: detected insulation interaction, NapM occupancy, local RNA testing and effect thresholds; not unsupervised mechanism discovery.",
+  "structural_candidate_pool": "17 NapM-bound bins with detected structural interaction, tested local genes, no WT/KO/interaction local DEG, and maximum mean absolute RNA effect < 0.5 across the three contrasts.",
+  "ESX2_selection": "Rank 1 by absolute insulation interaction among all 17 stringent candidates.",
+  "oriC_selection": "Significant positive structural interaction in the same stringent pool and overlap with independently defined LATR01.",
+  "map_display": "Response maps are log2(replicate-mean hypoxia O/E / replicate-mean normoxia O/E). Any display interpolation is visual only at 5-kb resolution.",
+  "causal_boundary": "Neither RNA clusters nor bin evidence classes establish direct effects, indirect effects, mediation or independent pathways."
+}

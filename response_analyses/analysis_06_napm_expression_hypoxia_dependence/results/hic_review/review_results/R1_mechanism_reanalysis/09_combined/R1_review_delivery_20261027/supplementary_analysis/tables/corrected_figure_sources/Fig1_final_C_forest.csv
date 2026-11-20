@@ -1,0 +1,11 @@
+panel_row,quantity,observed,null_mean,effect,ci_lo,ci_hi,p,test,null_model
+a,"a  |Δins| paired
+−0.009 [−0.029, +0.010], p = 0.53",-0.0092258982393397,-3.2454545062830094e-05,-0.0092258982393397,-0.0290801416609162,0.0103017198303588,0.5277472252774722,Fig1Da_paired_absdins,circular-shift of matched pair offsets
+b1,"b1  Δ local contact (signed)
+−0.020 [−0.040, −0.000], p = 0.32*",-0.0196047549829968,0.0001177024085803,-0.0196047549829968,-0.0395110924973024,-0.000229033332204,0.3225677432256774,Fig1Db_paired_dlocalcont_signed,circular-shift of matched pair offsets
+b2,"b2  |Δ local contact|
+−0.004 [−0.019, +0.011], p = 0.73",-0.0037153720426922,-3.5669349559457355e-05,-0.0037153720426922,-0.0192043299520175,0.0114445746819951,0.7347265273472653,Fig1Db_paired_abslocalcontmag,circular-shift of matched pair offsets
+d,"d  bound × structure OR
+0.84 [0.63, 1.12], Fisher p = 0.27",124.0,131.9192,0.8441022207342931,0.6333616724654941,1.124963176686987,0.8918108189181082,Fig1Dd_bound_x_structure_detected,circular-shift of bound mask (10000)
+e,"e  CID boundary dist. (median)
+13 vs null 12.4, p = 0.42",13.0,12.0,1.0,,,0.4184581541845815,"one-sided farther, median statistic","circular-shift of bound mask (10,000)"

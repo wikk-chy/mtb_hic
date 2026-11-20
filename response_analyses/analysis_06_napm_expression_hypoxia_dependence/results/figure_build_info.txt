@@ -1,0 +1,4 @@
+Font: Arial
+Figure width: 8.27 in (A4, 210 mm)
+Figure height: 11.6 in
+Detected interaction bins: 315/883 (35.7%)

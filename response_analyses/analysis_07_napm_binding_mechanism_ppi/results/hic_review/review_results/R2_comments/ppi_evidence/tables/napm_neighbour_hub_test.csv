@@ -1,0 +1,6 @@
+metric,value
+neighbours_in_top100_degree,0.0
+neighbours_n,14.0
+expected_frac_if_random,0.0258
+fisher_p_hub_enrichment,1.0
+neighbours_that_are_known_NAP_SMC_Par_topo,0.0

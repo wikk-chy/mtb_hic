@@ -1,0 +1,8 @@
+metric,value
+obs_mean_nn_bp,3465.3
+null_mean_nn_mean_bp,3475.3
+null_mean_nn_q025_bp,3251.9
+null_mean_nn_q975_bp,3692.4
+p_two_sided_clustered,0.9238
+n_sim,10000.0
+seed,42.0

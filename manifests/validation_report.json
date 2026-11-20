@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "manifest_files": 1164,
+  "manifest_bytes": 542035254,
+  "analysis_modules": 15,
+  "errors": [],
+  "checks": [
+    "file existence",
+    "file size",
+    "SHA-256",
+    "unique paths",
+    "no figure/manuscript binaries",
+    "analysis_11 CID exclusions",
+    "100 MiB per-file limit",
+    "complete manifest coverage"
+  ]
+}

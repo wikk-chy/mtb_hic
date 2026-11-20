@@ -1,0 +1,1 @@
+loop_id,chrom1,start1,end1,center1,chrom2,start2,end2,center2,score,qvalue,bin1,bin2,distance_kb,distance_circular_kb,anchor1_bound,anchor2_bound,both_bound,either_bound,anchor1_genes,anchor2_genes,anchor1_dist_to_wtCID_bins,anchor2_dist_to_wtCID_bins

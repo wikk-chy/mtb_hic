@@ -1,0 +1,2 @@
+n_genes_tested,n_interaction_fdr05,n_interaction_nominal_p01,median_abs_interaction,note
+3814,0,179,0.8104170997424951,no variance moderation (df=4); low power by construction

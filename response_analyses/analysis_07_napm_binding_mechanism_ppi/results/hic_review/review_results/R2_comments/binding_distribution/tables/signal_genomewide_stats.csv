@@ -1,0 +1,16 @@
+metric,value
+signal_mean,1042.1
+signal_sd,6437.7
+signal_median,253.0
+signal_max,563706.0
+n_intervals,408987.0
+frac_bp_above_q50,0.4739
+signal_at_q50,253.0
+frac_bp_above_q75,0.2337
+signal_at_q75,524.4
+frac_bp_above_q90,0.093
+signal_at_q90,1267.9
+frac_bp_above_q95,0.0465
+signal_at_q95,2705.4
+frac_bp_above_q99,0.0093
+signal_at_q99,15403.0

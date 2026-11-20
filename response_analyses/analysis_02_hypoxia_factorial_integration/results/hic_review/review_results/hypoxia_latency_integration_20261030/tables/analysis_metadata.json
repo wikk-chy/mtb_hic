@@ -1,0 +1,53 @@
+{
+  "genome": {
+    "name": "H37Rv ASM19595v2",
+    "length_bp": 4411532,
+    "bins": 883,
+    "bin_size_bp": 5000
+  },
+  "HiC_replicates": {
+    "WT": 4,
+    "KO": 4,
+    "WT_hypoxia": 4,
+    "KO_hypoxia": 3,
+    "WT_latent": 4,
+    "KO_latent": 0
+  },
+  "RNA_replicates": {
+    "WT": 2,
+    "KO": 2,
+    "WT_hypoxia": 2,
+    "KO_hypoxia": 2,
+    "WT_latent": 2,
+    "KO_latent": 0
+  },
+  "ChIP": {
+    "n_peaks": 634,
+    "condition": "baseline WT only",
+    "condition_specific_occupancy_tested": false
+  },
+  "HiC_class_rule": "Robust all-replicate-pair median and 5th-95th percentile interval; detected if interval excludes +/-0.25 log2 insulation.",
+  "RNA_hypoxia_model": "Recalculated 8-sample factorial model: edgeR TMM + limma-voom + eBayes (limma 3.62.2); residual df=4; BH across 3814 validated genes; DEG=FDR<0.05 and |log2FC|>=1.",
+  "RNA_baseline_latent": "Existing two-group limma result tables; BH across genes; DEG=FDR<0.05 and |log2FC|>=1.",
+  "spatial_tests": {
+    "matched_bin_pairs": 422,
+    "circular_shift_iterations": 10000,
+    "moving_block_bootstrap_iterations": 2000,
+    "block_bins": 20,
+    "seed": 20261030
+  },
+  "counts": {
+    "latency_candidate_bins": 149,
+    "latency_candidate_regions": 127,
+    "latency_dual_DEG_genes": 437,
+    "latency_NapM_dual_DEG_genes": 86
+  },
+  "limitations": [
+    "Baseline ChIP-seq cannot establish condition-specific NapM occupancy.",
+    "Structure-RNA coupling and regression are associations, not mediation or causality.",
+    "Adjacent bins and genes sharing a TSS bin are not independent structural evidence.",
+    "RNA factorial model has only two replicates per group; empirical-Bayes moderation does not eliminate limited-replicate uncertainty.",
+    "No KO-latent data exist; candidate patterns cannot establish altered latency establishment or phenotype.",
+    "Same-direction KO baseline and WT-latent changes denote partial molecular similarity, not a latency defect."
+  ]
+}

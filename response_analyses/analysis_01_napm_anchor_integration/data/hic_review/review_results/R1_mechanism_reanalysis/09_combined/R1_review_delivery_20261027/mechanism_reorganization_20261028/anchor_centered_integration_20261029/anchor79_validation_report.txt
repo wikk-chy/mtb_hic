@@ -1,0 +1,20 @@
+ALL-79 ANCHOR-DEG ENRICHMENT VALIDATION
+========================================
+
+[PASS] Query identity
+  79 unique changed-anchor DEGs; 48 up; 31 down
+[PASS] Test and BH structure
+  3 backgrounds x 4 databases; all 12 BH vectors independently recomputed
+[PASS] Primary standard-background result
+  No GO-BP/CC/MF or KEGG term passes FDR<0.05
+[PASS] Key hypergeometric tests
+  Efflux in three backgrounds plus standard-background ABC transporters and carbon metabolism
+[PASS] Sole FDR hit and locus dependence
+  efflux transmembrane transporter activity; q=0.0294363797558; all three drivers at L29_left; no NapM occupancy or insulation change
+[PASS] Urease signal redundancy
+  GO-MF urease activity, GO-CC urease complex and BP nitrogen-starvation response all use only Rv1848/Rv1850
+[PASS] Figure integrity
+  Valid PDF and PNG signatures; PNG 4793x2949
+
+ALL 7 CHECK GROUPS PASSED.
+Primary interpretation: no standard-background FDR-significant GO/KEGG term. The sole anchor-matched GO-MF hit is background-sensitive and driven by one three-gene locus.

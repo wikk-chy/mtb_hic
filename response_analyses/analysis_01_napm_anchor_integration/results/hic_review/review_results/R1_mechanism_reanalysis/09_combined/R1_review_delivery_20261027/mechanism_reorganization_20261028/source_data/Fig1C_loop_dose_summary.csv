@@ -1,0 +1,7 @@
+metric,analysis_set,n_loops,effect,ci_lo,ci_hi,p_span_stratified_permutation,n_bootstrap,n_permutation,bootstrap,permutation
+group0_mean,all_39_loops,39,-0.1838326525285057,-0.5941967951207824,0.1671171188372199,,10000,0,span-stratified loop resampling plus biological-replicate resampling,not applied
+group1_mean,all_39_loops,39,-0.3485627393638461,-0.5759374615751507,-0.1219844476367556,,10000,0,span-stratified loop resampling plus biological-replicate resampling,not applied
+group2_mean,all_39_loops,39,-0.2322914091584231,-0.4270863494245379,-0.0266895436866487,,10000,0,span-stratified loop resampling plus biological-replicate resampling,not applied
+contrast_2_minus_01,all_39_loops,39,0.0589739086974784,-0.2115182129726099,0.3397669759249588,,10000,0,span-stratified loop resampling plus biological-replicate resampling,not applied
+contrast_2_minus_0,all_39_loops,39,-0.0484587566299173,-0.4553643309969309,0.4080219496755041,,10000,0,span-stratified loop resampling plus biological-replicate resampling,not applied
+adjusted_slope_per_anchor,all_39_loops,39,-0.0566232269456558,-0.1587444708184299,0.0285972084300629,0.2388761123887611,10000,10000,span-stratified loop resampling plus biological-replicate resampling,span-stratified label permutation; two-sided

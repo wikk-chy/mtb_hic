@@ -1,0 +1,971 @@
+gene_set,database,term,name,overlap,term_size,query_size,background_size,fold_enrichment,p_value,genes,q_BH_all_tested_terms,role
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006995,cellular response to nitrogen starvation,2,3,43,603,9.348837209302326,0.014246570806533057,"Rv1848,Rv1850",0.6268491154874546,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0044409,symbiont entry into host,2,3,43,603,9.348837209302326,0.014246570806533057,"Rv1970,Rv1971",0.6268491154874546,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0120010,intermembrane phospholipid transfer,2,3,43,603,9.348837209302326,0.014246570806533057,"Rv1970,Rv1971",0.6268491154874546,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0043419,urea catabolic process,2,4,43,603,7.011627906976744,0.02720341719025505,"Rv1848,Rv1850",0.8977127672784166,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0001666,response to hypoxia,3,13,43,603,3.23613595706619,0.05844421641796592,"Rv2623,Rv2626c,Rv2629",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006364,rRNA processing,1,3,43,603,4.674418604651163,0.19934437628827575,Rv3919c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006413,translational initiation,1,3,43,603,4.674418604651163,0.19934437628827575,Rv1641,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006950,response to stress,1,3,43,603,4.674418604651163,0.19934437628827575,Rv2624c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0009408,response to heat,1,3,43,603,4.674418604651163,0.19934437628827575,Rv2745c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0019464,glycine decarboxylation via glycine cleavage system,1,3,43,603,4.674418604651163,0.19934437628827575,Rv1832,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0019627,urea metabolic process,1,3,43,603,4.674418604651163,0.19934437628827575,Rv1848,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0090529,cell septum assembly,1,3,43,603,4.674418604651163,0.19934437628827575,Rv2151c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0009252,peptidoglycan biosynthetic process,2,12,43,603,2.3372093023255816,0.2083614406904441,"Rv2153c,Rv2158c",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0051701,biological process involved in interaction with host,2,13,43,603,2.15742397137746,0.2356191178308947,"Rv1972,Rv2745c",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0008033,tRNA processing,1,4,43,603,3.505813953488372,0.25672469598761594,Rv3923c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006289,nucleotide-excision repair,1,5,43,603,2.8046511627906976,0.31008168776145983,Rv1638,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006974,DNA damage response,1,5,43,603,2.8046511627906976,0.31008168776145983,Rv1638,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0042783,symbiont-mediated evasion of host immune response,1,5,43,603,2.8046511627906976,0.31008168776145983,Rv2269c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0043093,FtsZ-dependent cytokinesis,1,5,43,603,2.8046511627906976,0.31008168776145983,Rv2151c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0052170,symbiont-mediated suppression of host innate immune response,1,5,43,603,2.8046511627906976,0.31008168776145983,Rv2745c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006418,tRNA aminoacylation for protein translation,1,6,43,603,2.3372093023255816,0.3596911985077095,Rv1689,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0009432,SOS response,1,6,43,603,2.3372093023255816,0.3596911985077095,Rv1638,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0019344,L-cysteine biosynthetic process,1,6,43,603,2.3372093023255816,0.3596911985077095,Rv2334,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0052572,response to host immune response,1,6,43,603,2.3372093023255816,0.3596911985077095,Rv1886c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006979,response to oxidative stress,1,7,43,603,2.0033222591362128,0.40581059292005195,Rv2745c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0008360,regulation of cell shape,1,7,43,603,2.0033222591362128,0.40581059292005195,Rv2158c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0051301,cell division,1,7,43,603,2.0033222591362128,0.40581059292005195,Rv2158c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0005975,carbohydrate metabolic process,1,8,43,603,1.752906976744186,0.44867996289394085,Rv2153c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006189,'de novo' IMP biosynthetic process,1,8,43,603,1.752906976744186,0.44867996289394085,Rv3276c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0045893,positive regulation of DNA-templated transcription,1,8,43,603,1.752906976744186,0.44867996289394085,Rv2745c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0055085,transmembrane transport,4,49,43,603,1.1447555766492643,0.4700468741291551,"Rv2329c,Rv2686c,Rv2687c,Rv2688c",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0045892,negative regulation of DNA-templated transcription,1,9,43,603,1.558139534883721,0.4885232596932024,Rv2160A,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0052167,symbiont-mediated perturbation of host innate immune response,1,9,43,603,1.558139534883721,0.4885232596932024,Rv1818c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006355,regulation of DNA-templated transcription,3,42,43,603,1.0016611295681062,0.591757066455911,"Rv2160A,Rv2621c,Rv2745c",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006281,DNA repair,1,12,43,603,1.1686046511627908,0.5919158975953556,Rv1638,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0046677,response to antibiotic,1,13,43,603,1.07871198568873,0.6216072959090608,Rv1886c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006508,proteolysis,1,18,43,603,0.7790697674418605,0.7411562965880866,Rv2625c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0000103,sulfate assimilation,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0000160,phosphorelay signal transduction system,0,7,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0000271,polysaccharide biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0000725,recombinational repair,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0001676,long-chain fatty acid metabolic process,0,5,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006098,pentose-phosphate shunt,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006164,purine nucleotide biosynthetic process,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006171,cAMP biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006260,DNA replication,0,7,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006261,DNA-templated DNA replication,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006302,double-strand break repair,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006310,DNA recombination,0,5,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006313,DNA transposition,0,5,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006351,DNA-templated transcription,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006352,DNA-templated transcription initiation,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006396,RNA processing,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006412,translation,0,16,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006457,protein folding,0,5,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006526,L-arginine biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006550,L-isoleucine catabolic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006574,L-valine catabolic process,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006605,protein targeting,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006629,lipid metabolic process,0,5,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006631,fatty acid metabolic process,0,5,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006633,fatty acid biosynthetic process,0,27,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006635,fatty acid beta-oxidation,0,6,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006707,cholesterol catabolic process,0,8,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006779,porphyrin-containing compound biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006783,heme biosynthetic process,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006812,monoatomic cation transport,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006865,amino acid transport,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0006886,intracellular protein transport,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0007165,signal transduction,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0008610,lipid biosynthetic process,0,22,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0008654,phospholipid biosynthetic process,0,5,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0009085,L-lysine biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0009099,L-valine biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0009190,cyclic nucleotide biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0009236,cobalamin biosynthetic process,0,6,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0009247,glycolipid biosynthetic process,0,8,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0009253,peptidoglycan catabolic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0009267,cellular response to starvation,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0009396,folic acid-containing compound biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0009423,chorismate biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0010039,response to iron ion,0,5,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0010106,cellular response to iron ion starvation,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0010125,mycothiol biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0010498,proteasomal protein catabolic process,0,5,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0010628,positive regulation of gene expression,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0015031,protein transport,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0015074,DNA integration,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0015689,molybdate ion transport,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0015937,coenzyme A biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0015940,pantothenate biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0016042,lipid catabolic process,0,5,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0016226,iron-sulfur cluster assembly,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0016998,cell wall macromolecule catabolic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0019290,siderophore biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0019354,siroheme biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0019432,triglyceride biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0019645,anaerobic electron transport chain,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0019646,aerobic electron transport chain,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0019941,modification-dependent protein catabolic process,0,5,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0030163,protein catabolic process,0,6,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0030497,fatty acid elongation,0,6,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0030682,symbiont-mediated perturbation of host defenses,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0033014,tetrapyrrole biosynthetic process,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0035556,intracellular signal transduction,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0043041,amino acid activation for nonribosomal peptide biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0043952,protein transport by the Sec complex,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0044209,AMP salvage,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0044550,secondary metabolite biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0045017,glycerolipid biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0045454,cell redox homeostasis,0,15,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0045926,negative regulation of growth,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0046474,glycerophospholipid biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0046488,phosphatidylinositol metabolic process,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0046654,tetrahydrofolate biosynthetic process,0,6,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0051409,response to nitrosative stress,0,7,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0055129,L-proline biosynthetic process,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0065002,intracellular protein transmembrane transport,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0071554,cell wall organization or biogenesis,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0071555,cell wall organization,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0071731,response to nitric oxide,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0071766,Actinobacterium-type cell wall biogenesis,0,10,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0071768,mycolic acid biosynthetic process,0,6,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0071769,mycolate cell wall layer assembly,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0071770,DIM/DIP cell wall layer assembly,0,7,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0071805,potassium ion transmembrane transport,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0071897,DNA biosynthetic process,0,6,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0097040,phthiocerol biosynthetic process,0,5,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0097041,phenolic phthiocerol biosynthetic process,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:0098869,cellular oxidant detoxification,0,4,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:1902600,proton transmembrane transport,0,8,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,GO_BP,GO:2000142,regulation of DNA-templated transcription initiation,0,3,43,603,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu02010,ABC transporters,6,18,25,331,4.413333333333333,0.0010111327888300836,"Rv1970,Rv1971,Rv2325c,Rv2686c,Rv2687c,Rv2688c",0.09302421657236769,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu01200,Carbon metabolism,7,30,25,331,3.0893333333333337,0.0037468696438963485,"Rv0069c,Rv0070c,Rv1493,Rv1832,Rv2332,Rv2334,Rv3280",0.17235600361923203,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00630,Glyoxylate and dicarboxylate metabolism,4,16,25,331,3.31,0.02488368446865249,"Rv0070c,Rv1493,Rv1832,Rv3280",0.7630996570386764,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00260,"Glycine, serine and threonine metabolism",3,11,25,331,3.610909090909091,0.04200692172956525,"Rv0069c,Rv0070c,Rv1832",0.9661591997800008,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00670,One carbon pool by folate,2,9,25,331,2.9422222222222225,0.1421781052209357,"Rv0070c,Rv1832",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00220,Arginine biosynthesis,2,10,25,331,2.6479999999999997,0.16968447810436593,"Rv1848,Rv1850",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00550,Peptidoglycan biosynthesis,2,10,25,331,2.6479999999999997,0.16968447810436593,"Rv2153c,Rv2158c",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00240,Pyrimidine metabolism,1,3,25,331,4.413333333333333,0.21049112229931158,Rv2697c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00680,Methane metabolism,1,3,25,331,4.413333333333333,0.21049112229931158,Rv0070c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00910,Nitrogen metabolism,1,3,25,331,4.413333333333333,0.21049112229931158,Rv2329c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu01320,Sulfur cycle,1,3,25,331,4.413333333333333,0.21049112229931158,Rv2334,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu04981,Folate transport and metabolism,1,3,25,331,4.413333333333333,0.21049112229931158,Rv0070c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00230,Purine metabolism,3,23,25,331,1.7269565217391303,0.24615278088613307,"Rv1848,Rv1850,Rv3276c",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu01502,Vancomycin resistance,1,4,25,331,3.31,0.2706671038313762,Rv2153c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00640,Propanoate metabolism,2,15,25,331,1.7653333333333334,0.31524578314447727,"Rv1493,Rv3280",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu02020,Two-component system,2,15,25,331,1.7653333333333334,0.31524578314447727,"Rv0001,Rv2332",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00300,Lysine biosynthesis,1,5,25,331,2.6479999999999997,0.32642649956292236,Rv2158c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu03420,Nucleotide excision repair,1,5,25,331,2.6479999999999997,0.32642649956292236,Rv1638,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu01120,Microbial metabolism in diverse environments,6,63,25,331,1.2609523809523808,0.33295100236695074,"Rv0070c,Rv1493,Rv1848,Rv1850,Rv2334,Rv3280",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00270,Cysteine and methionine metabolism,2,16,25,331,1.655,0.3444849038611744,"Rv0069c,Rv2334",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00074,Mycolic acid biosynthesis,2,17,25,331,1.5576470588235294,0.37339605137194887,"Rv1886c,Rv3280",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00572,Arabinogalactan biosynthesis - Mycobacterium,1,6,25,331,2.2066666666666666,0.378080909105643,Rv1886c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00720,Other carbon fixation pathways,1,6,25,331,2.2066666666666666,0.378080909105643,Rv1493,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu03070,Bacterial secretion system,1,6,25,331,2.2066666666666666,0.378080909105643,Rv3921c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu02024,Quorum sensing,1,7,25,331,1.8914285714285715,0.4259208391744399,Rv3921c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu03060,Protein export,1,7,25,331,1.8914285714285715,0.4259208391744399,Rv3921c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu01230,Biosynthesis of amino acids,3,33,25,331,1.2036363636363636,0.46502820612973245,"Rv0069c,Rv0070c,Rv2334",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00920,Sulfur metabolism,1,8,25,331,1.655,0.4702170707196219,Rv2334,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00561,Glycerolipid metabolism,1,9,25,331,1.4711111111111113,0.5112219414069576,Rv1886c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00785,Lipoic acid metabolism,1,9,25,331,1.4711111111111113,0.5112219414069576,Rv1832,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00280,"Valine, leucine and isoleucine degradation",2,23,25,331,1.151304347826087,0.5346794575410379,"Rv1493,Rv3280",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00970,Aminoacyl-tRNA biosynthesis,1,10,25,331,1.3239999999999998,0.549170548440579,Rv1689,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu01232,Nucleotide metabolism,1,10,25,331,1.3239999999999998,0.549170548440579,Rv2697c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00620,Pyruvate metabolism,1,17,25,331,0.7788235294117647,0.7458529439130981,Rv2332,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu01110,Biosynthesis of secondary metabolites,7,120,25,331,0.7723333333333334,0.8673979835550477,"Rv0069c,Rv0070c,Rv1832,Rv1886c,Rv2334,Rv3276c,Rv3280",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu01100,Metabolic pathways,13,211,25,331,0.8157345971563981,0.9295915988786152,"Rv0069c,Rv0070c,Rv1493,Rv1832,Rv1848,Rv1850,Rv1886c,Rv2153c,Rv2158c,Rv2334,Rv2697c,Rv3276c,Rv3280",1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu01240,Biosynthesis of cofactors,1,38,25,331,0.34842105263157896,0.9581120537350479,Rv0070c,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00010,Glycolysis / Gluconeogenesis,0,9,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00020,Citrate cycle (TCA cycle),0,4,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00030,Pentose phosphate pathway,0,6,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00040,Pentose and glucuronate interconversions,0,3,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00051,Fructose and mannose metabolism,0,6,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00061,Fatty acid biosynthesis,0,5,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00071,Fatty acid degradation,0,11,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00073,"Cutin, suberine and wax biosynthesis",0,3,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00190,Oxidative phosphorylation,0,11,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00250,"Alanine, aspartate and glutamate metabolism",0,7,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00261,Monobactam biosynthesis,0,3,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00290,"Valine, leucine and isoleucine biosynthesis",0,3,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00310,Lysine degradation,0,9,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00330,Arginine and proline metabolism,0,6,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00340,Histidine metabolism,0,5,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00350,Tyrosine metabolism,0,3,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00360,Phenylalanine metabolism,0,6,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00362,Benzoate degradation,0,8,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00380,Tryptophan metabolism,0,8,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",0,6,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00410,beta-Alanine metabolism,0,8,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00450,Selenocompound metabolism,0,4,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00480,Glutathione metabolism,0,5,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00500,Starch and sucrose metabolism,0,4,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00520,Amino sugar and nucleotide sugar metabolism,0,3,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00541,Biosynthesis of various nucleotide sugars,0,5,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00562,Inositol phosphate metabolism,0,3,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00564,Glycerophospholipid metabolism,0,4,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00571,Lipoarabinomannan (LAM) biosynthesis,0,6,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00625,Chloroalkane and chloroalkene degradation,0,5,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00627,Aminobenzoate degradation,0,3,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00650,Butanoate metabolism,0,11,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00710,Carbon fixation by Calvin cycle,0,3,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00730,Thiamine metabolism,0,4,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00770,Pantothenate and CoA biosynthesis,0,9,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00790,Folate biosynthesis,0,6,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00860,Porphyrin metabolism,0,14,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00900,Terpenoid backbone biosynthesis,0,6,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00907,"Pinene, camphor and geraniol degradation",0,4,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00930,Caprolactam degradation,0,3,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu00984,Steroid degradation,0,4,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu01053,Biosynthesis of siderophore group nonribosomal peptides,0,7,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu01210,2-Oxocarboxylic acid metabolism,0,15,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu01212,Fatty acid metabolism,0,12,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu01220,Degradation of aromatic compounds,0,3,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu01250,Biosynthesis of nucleotide sugars,0,6,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu01503,Cationic antimicrobial peptide (CAMP) resistance,0,3,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu03010,Ribosome,0,15,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu03030,DNA replication,0,7,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu03050,Proteasome,0,3,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu03410,Base excision repair,0,3,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu03430,Mismatch repair,0,5,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu03440,Homologous recombination,0,9,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu04122,Sulfur relay system,0,3,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_DEGs_vs_eligible_anchor_RNA_tested,KEGG,mtu05152,Tuberculosis,0,4,25,331,0.0,1.0,,1.0,sensitivity_conventional_anchor_background
+changed_anchor_all_vs_eligible_anchor_DEGs,GO_BP,GO:0001666,response to hypoxia,3,5,43,131,1.827906976744186,0.19846605804485834,"Rv2623,Rv2626c,Rv2629",1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,GO_BP,GO:0006355,regulation of DNA-templated transcription,3,6,43,131,1.5232558139534884,0.30681218337872185,"Rv2160A,Rv2621c,Rv2745c",1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,GO_BP,GO:0055085,transmembrane transport,4,11,43,131,1.1078224101479914,0.516085845216055,"Rv2329c,Rv2686c,Rv2687c,Rv2688c",1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,GO_BP,GO:0045893,positive regulation of DNA-templated transcription,1,3,43,131,1.0155038759689923,0.7002935995302407,Rv2745c,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,GO_BP,GO:0006189,'de novo' IMP biosynthetic process,1,4,43,131,0.7616279069767442,0.8009762184380504,Rv3276c,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,GO_BP,GO:0006164,purine nucleotide biosynthetic process,0,3,43,131,0.0,1.0,,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,GO_BP,GO:0006412,translation,0,5,43,131,0.0,1.0,,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,GO_BP,GO:0006633,fatty acid biosynthetic process,0,12,43,131,0.0,1.0,,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,GO_BP,GO:0008610,lipid biosynthetic process,0,7,43,131,0.0,1.0,,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,GO_BP,GO:0010106,cellular response to iron ion starvation,0,3,43,131,0.0,1.0,,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,GO_BP,GO:0016042,lipid catabolic process,0,3,43,131,0.0,1.0,,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,GO_BP,GO:0030497,fatty acid elongation,0,3,43,131,0.0,1.0,,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,GO_BP,GO:0046654,tetrahydrofolate biosynthetic process,0,4,43,131,0.0,1.0,,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu02010,ABC transporters,6,8,25,90,2.6999999999999997,0.005169223757799264,"Rv1970,Rv1971,Rv2325c,Rv2686c,Rv2687c,Rv2688c",0.11785002566366538,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu01200,Carbon metabolism,7,11,25,90,2.290909090909091,0.009065386589512722,"Rv0069c,Rv0070c,Rv1493,Rv1832,Rv2332,Rv2334,Rv3280",0.11785002566366538,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu00260,"Glycine, serine and threonine metabolism",3,3,25,90,3.6,0.01957780047667688,"Rv0069c,Rv0070c,Rv1832",0.16967427079786632,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu01120,Microbial metabolism in diverse environments,6,11,25,90,1.9636363636363636,0.044225509393188076,"Rv0070c,Rv1493,Rv1848,Rv1850,Rv2334,Rv3280",0.2500764558005969,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu00630,Glyoxylate and dicarboxylate metabolism,4,6,25,90,2.4,0.04809162611549941,"Rv0070c,Rv1493,Rv1832,Rv3280",0.2500764558005969,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu00270,Cysteine and methionine metabolism,2,3,25,90,2.4,0.18556350017024173,"Rv0069c,Rv2334",0.8041085007377142,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu00230,Purine metabolism,3,7,25,90,1.5428571428571427,0.2987731753107055,"Rv1848,Rv1850,Rv3276c",0.9999207495333029,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu00220,Arginine biosynthesis,2,4,25,90,1.8,0.30766792293332396,"Rv1848,Rv1850",0.9999207495333029,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu01230,Biosynthesis of amino acids,3,8,25,90,1.3499999999999999,0.3906793286605724,"Rv0069c,Rv0070c,Rv2334",1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu00572,Arabinogalactan biosynthesis - Mycobacterium,1,3,25,90,1.2,0.6281920326864148,Rv1886c,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu00620,Pyruvate metabolism,1,3,25,90,1.2,0.6281920326864148,Rv2332,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu02020,Two-component system,2,7,25,90,1.0285714285714285,0.6304345113123988,"Rv0001,Rv2332",1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu00640,Propanoate metabolism,2,8,25,90,0.9,0.7103529055296742,"Rv1493,Rv3280",1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu00785,Lipoic acid metabolism,1,4,25,90,0.9,0.7350334026041117,Rv1832,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu00280,"Valine, leucine and isoleucine degradation",2,9,25,90,0.7999999999999999,0.7760697732484095,"Rv1493,Rv3280",1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu00074,Mycolic acid biosynthesis,2,11,25,90,0.6545454545454545,0.8709180765415379,"Rv1886c,Rv3280",1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu01100,Metabolic pathways,13,54,25,90,0.8666666666666667,0.8847095595959739,"Rv0069c,Rv0070c,Rv1493,Rv1832,Rv1848,Rv1850,Rv1886c,Rv2153c,Rv2158c,Rv2334,Rv2697c,Rv3276c,Rv3280",1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu01110,Biosynthesis of secondary metabolites,7,34,25,90,0.7411764705882354,0.9253507494442251,"Rv0069c,Rv0070c,Rv1832,Rv1886c,Rv2334,Rv3276c,Rv3280",1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu01240,Biosynthesis of cofactors,1,8,25,90,0.45,0.9348855369020198,Rv0070c,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu00061,Fatty acid biosynthesis,0,4,25,90,0.0,1.0,,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu00770,Pantothenate and CoA biosynthesis,0,3,25,90,0.0,1.0,,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu00790,Folate biosynthesis,0,4,25,90,0.0,1.0,,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu01053,Biosynthesis of siderophore group nonribosomal peptides,0,6,25,90,0.0,1.0,,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu01210,2-Oxocarboxylic acid metabolism,0,5,25,90,0.0,1.0,,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu01212,Fatty acid metabolism,0,5,25,90,0.0,1.0,,1.0,primary_conditional
+changed_anchor_all_vs_eligible_anchor_DEGs,KEGG,mtu03010,Ribosome,0,5,25,90,0.0,1.0,,1.0,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,GO_BP,GO:0055085,transmembrane transport,1,3,18,50,0.9259259259259259,0.746938775510204,Rv2329c,1.0,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,GO_BP,GO:0006412,translation,0,5,18,50,0.0,1.0,,1.0,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,GO_BP,GO:0006633,fatty acid biosynthetic process,0,3,18,50,0.0,1.0,,1.0,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,GO_BP,GO:0008610,lipid biosynthetic process,0,4,18,50,0.0,1.0,,1.0,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,GO_BP,GO:0010106,cellular response to iron ion starvation,0,3,18,50,0.0,1.0,,1.0,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,KEGG,mtu01200,Carbon metabolism,5,7,14,39,1.989795918367347,0.0441525116447717,"Rv0069c,Rv0070c,Rv2332,Rv2334,Rv3280",0.3637166578343049,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,KEGG,mtu01100,Metabolic pathways,9,18,14,39,1.3928571428571428,0.08602651594865164,"Rv0069c,Rv0070c,Rv1848,Rv1850,Rv1886c,Rv2334,Rv2697c,Rv3276c,Rv3280",0.3637166578343049,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,KEGG,mtu01120,Microbial metabolism in diverse environments,5,8,14,39,1.7410714285714286,0.09092916445857623,"Rv0070c,Rv1848,Rv1850,Rv2334,Rv3280",0.3637166578343049,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,KEGG,mtu00230,Purine metabolism,3,4,14,39,2.0892857142857144,0.12280701754385964,"Rv1848,Rv1850,Rv3276c",0.3684210526315789,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,KEGG,mtu01230,Biosynthesis of amino acids,3,5,14,39,1.6714285714285715,0.23660502607871026,"Rv0069c,Rv0070c,Rv2334",0.5678520625889046,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,KEGG,mtu00630,Glyoxylate and dicarboxylate metabolism,2,3,14,39,1.857142857142857,0.2887624466571835,"Rv0070c,Rv3280",0.577524893314367,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,KEGG,mtu00074,Mycolic acid biosynthesis,2,4,14,39,1.3928571428571428,0.4547178757705074,"Rv1886c,Rv3280",0.6982533144935815,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,KEGG,mtu01110,Biosynthesis of secondary metabolites,6,15,14,39,1.114285714285714,0.4655022096623877,"Rv0069c,Rv0070c,Rv1886c,Rv2334,Rv3276c,Rv3280",0.6982533144935815,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,KEGG,mtu00572,Arabinogalactan biosynthesis - Mycobacterium,1,3,14,39,0.9285714285714285,0.7483313272786957,Rv1886c,0.8979975927344348,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,KEGG,mtu01240,Biosynthesis of cofactors,1,3,14,39,0.9285714285714285,0.7483313272786957,Rv0070c,0.8979975927344348,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,KEGG,mtu01053,Biosynthesis of siderophore group nonribosomal peptides,0,6,14,39,0.0,1.0,,1.0,primary_conditional
+changed_anchor_down_vs_eligible_anchor_DEGs,KEGG,mtu03010,Ribosome,0,5,14,39,0.0,1.0,,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,GO_BP,GO:0001666,response to hypoxia,3,5,25,81,1.944,0.16796494644595913,"Rv2623,Rv2626c,Rv2629",0.587877312560857,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,GO_BP,GO:0006355,regulation of DNA-templated transcription,3,5,25,81,1.944,0.16796494644595913,"Rv2160A,Rv2621c,Rv2745c",0.587877312560857,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,GO_BP,GO:0055085,transmembrane transport,3,8,25,81,1.215,0.47273889479086023,"Rv2686c,Rv2687c,Rv2688c",1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,GO_BP,GO:0045893,positive regulation of DNA-templated transcription,1,3,25,81,1.08,0.6751054852320675,Rv2745c,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,GO_BP,GO:0006633,fatty acid biosynthetic process,0,9,25,81,0.0,1.0,,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,GO_BP,GO:0008610,lipid biosynthetic process,0,3,25,81,0.0,1.0,,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,GO_BP,GO:0046654,tetrahydrofolate biosynthetic process,0,4,25,81,0.0,1.0,,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu02010,ABC transporters,6,8,11,51,3.477272727272727,0.0005869137664316421,"Rv1970,Rv1971,Rv2325c,Rv2686c,Rv2687c,Rv2688c",0.010564447795769557,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu00630,Glyoxylate and dicarboxylate metabolism,2,3,11,51,3.090909090909091,0.11356542617046818,"Rv1493,Rv1832",1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu01200,Carbon metabolism,2,4,11,51,2.3181818181818183,0.19939975990396153,"Rv1493,Rv1832",1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu01120,Microbial metabolism in diverse environments,1,3,11,51,1.5454545454545454,0.5255702280912364,Rv1493,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu00785,Lipoic acid metabolism,1,4,11,51,1.1590909090909092,0.6342937174869949,Rv1832,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu00640,Propanoate metabolism,1,6,11,51,0.7727272727272727,0.7868686790164725,Rv1493,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu00280,"Valine, leucine and isoleucine degradation",1,8,11,51,0.5795454545454546,0.8792255847760011,Rv1493,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu01110,Biosynthesis of secondary metabolites,1,19,11,51,0.24401913875598086,0.9972908824166155,Rv1832,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu01100,Metabolic pathways,4,36,11,51,0.5151515151515151,0.9989667722364649,"Rv1493,Rv1832,Rv2153c,Rv2158c",1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu00061,Fatty acid biosynthesis,0,4,11,51,0.0,1.0,,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu00074,Mycolic acid biosynthesis,0,7,11,51,0.0,1.0,,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu00230,Purine metabolism,0,3,11,51,0.0,1.0,,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu00790,Folate biosynthesis,0,4,11,51,0.0,1.0,,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu01210,2-Oxocarboxylic acid metabolism,0,5,11,51,0.0,1.0,,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu01212,Fatty acid metabolism,0,5,11,51,0.0,1.0,,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu01230,Biosynthesis of amino acids,0,3,11,51,0.0,1.0,,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu01240,Biosynthesis of cofactors,0,5,11,51,0.0,1.0,,1.0,primary_conditional
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu02020,Two-component system,0,5,11,51,0.0,1.0,,1.0,primary_conditional
+triple_vs_RNA_tested,GO_BP,GO:0052170,symbiont-mediated suppression of host innate immune response,2,19,24,2186,9.587719298245613,0.0176315721522164,"Rv0410c,Rv3343c",1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071770,DIM/DIP cell wall layer assembly,2,23,24,2186,7.920289855072464,0.0253994121148811,"Rv2952,Rv3800c",1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006633,fatty acid biosynthetic process,3,65,24,2186,4.203846153846154,0.03252359735651771,"Rv2381c,Rv2950c,Rv3800c",1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006538,L-glutamate catabolic process,1,3,24,2186,30.36111111111111,0.03259133123822295,Rv0410c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0010126,mycothiol metabolic process,1,3,24,2186,30.36111111111111,0.03259133123822295,Rv1082,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0052027,symbiont-mediated perturbation of host signal transduction pathway,1,3,24,2186,30.36111111111111,0.03259133123822295,Rv0410c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0030682,symbiont-mediated perturbation of host defenses,1,4,24,2186,22.770833333333332,0.04322706557183844,Rv0410c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0034355,NAD+ biosynthetic process via the salvage pathway,1,4,24,2186,22.770833333333332,0.04322706557183844,Rv0573c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042780,tRNA 3'-end processing,1,4,24,2186,22.770833333333332,0.04322706557183844,Rv3923c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0080120,CAAX-box protein maturation,1,4,24,2186,22.770833333333332,0.04322706557183844,Rv0658c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015937,coenzyme A biosynthetic process,1,5,24,2186,18.216666666666665,0.053750690881772395,Rv1391,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0010125,mycothiol biosynthetic process,1,6,24,2186,15.180555555555555,0.06416333802475153,Rv1082,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0097040,phthiocerol biosynthetic process,1,6,24,2186,15.180555555555555,0.06416333802475153,Rv2950c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006270,DNA replication initiation,1,7,24,2186,13.011904761904761,0.07446612696392858,Rv0001,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009435,NAD+ biosynthetic process,1,8,24,2186,11.385416666666666,0.08466016686886925,Rv0573c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006508,proteolysis,2,48,24,2186,3.795138888888889,0.09597643185803945,"Rv1043c,Rv3627c",1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0008033,tRNA processing,1,10,24,2186,9.108333333333333,0.10472638288019187,Rv3923c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006164,purine nucleotide biosynthetic process,1,11,24,2186,8.28030303030303,0.11460072424548391,Rv0808,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0075136,response to host,1,12,24,2186,7.590277777777778,0.12437064728829236,Rv0573c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0008610,lipid biosynthetic process,2,57,24,2186,3.195906432748538,0.12802359439244496,"Rv2950c,Rv3800c",1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006189,'de novo' IMP biosynthetic process,1,13,24,2186,7.006410256410256,0.1340372086797739,Rv0808,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0052572,response to host immune response,2,63,24,2186,2.891534391534391,0.1506524886776181,"Rv1196,Rv3343c",1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0035556,intracellular signal transduction,1,16,24,2186,5.692708333333333,0.16242713704520118,Rv0410c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0051409,response to nitrosative stress,1,18,24,2186,5.060185185185185,0.18085586477923266,Rv3916c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042783,symbiont-mediated evasion of host immune response,1,20,24,2186,4.554166666666666,0.19889565162010509,Rv0410c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0007165,signal transduction,1,21,24,2186,4.337301587301587,0.2077721540952287,Rv0902c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009247,glycolipid biosynthetic process,1,25,24,2186,3.6433333333333326,0.24234470415946024,Rv2962c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071766,Actinobacterium-type cell wall biogenesis,1,26,24,2186,3.503205128205128,0.2507592007351998,Rv2950c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0052167,symbiont-mediated perturbation of host innate immune response,1,27,24,2186,3.3734567901234565,0.2590840985048086,Rv1082,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0000160,phosphorelay signal transduction system,1,33,24,2186,2.76010101010101,0.30720242103618883,Rv0902c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0001666,response to hypoxia,1,51,24,2186,1.7859477124183007,0.4342482414993641,Rv0573c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006412,translation,1,64,24,2186,1.4231770833333333,0.511775672242636,Rv0704,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006355,regulation of DNA-templated transcription,2,217,24,2186,0.8394777265745007,0.7051437410258028,"Rv0273c,Rv1176c",1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0000027,ribosomal large subunit assembly,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0000028,ribosomal small subunit assembly,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0000103,sulfate assimilation,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0000105,L-histidine biosynthetic process,0,11,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0000162,L-tryptophan biosynthetic process,0,9,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0000271,polysaccharide biosynthetic process,0,12,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0000455,enzyme-directed rRNA pseudouridine synthesis,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0000724,double-strand break repair via homologous recombination,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0000725,recombinational repair,0,10,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0001522,pseudouridine synthesis,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0001676,long-chain fatty acid metabolic process,0,13,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0002949,tRNA threonylcarbamoyladenosine modification,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0003333,amino acid transmembrane transport,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0005975,carbohydrate metabolic process,0,49,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0005978,glycogen biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0005991,trehalose metabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0005992,trehalose biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006006,glucose metabolic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006012,galactose metabolic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006021,inositol biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006048,UDP-N-acetylglucosamine biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006071,glycerol metabolic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006072,glycerol-3-phosphate metabolic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006085,acetyl-CoA biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006094,gluconeogenesis,0,9,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006096,glycolytic process,0,11,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006097,glyoxylate cycle,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006098,pentose-phosphate shunt,0,9,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006099,tricarboxylic acid cycle,0,23,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006102,isocitrate metabolic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006103,2-oxoglutarate metabolic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006107,oxaloacetate metabolic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006171,cAMP biosynthetic process,0,8,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006177,GMP biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006183,GTP biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006207,'de novo' pyrimidine nucleobase biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006221,pyrimidine nucleotide biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006235,dTTP biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006259,DNA metabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006260,DNA replication,0,22,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006261,DNA-templated DNA replication,0,10,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006265,DNA topological change,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006269,"DNA replication, synthesis of primer",0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006281,DNA repair,0,50,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006284,base-excision repair,0,13,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006285,"base-excision repair, AP site formation",0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006289,nucleotide-excision repair,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006302,double-strand break repair,0,8,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006303,double-strand break repair via nonhomologous end joining,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006307,DNA alkylation repair,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006310,DNA recombination,0,32,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006313,DNA transposition,0,33,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006351,DNA-templated transcription,0,32,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006352,DNA-templated transcription initiation,0,15,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006353,DNA-templated transcription termination,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006354,DNA-templated transcription elongation,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006364,rRNA processing,0,13,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006396,RNA processing,0,15,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006400,tRNA modification,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006401,RNA catabolic process,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006402,mRNA catabolic process,0,12,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006413,translational initiation,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006414,translational elongation,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006415,translational termination,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006417,regulation of translation,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006418,tRNA aminoacylation for protein translation,0,15,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006457,protein folding,0,14,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006515,protein quality control for misfolded or incompletely synthesized proteins,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006520,amino acid metabolic process,0,11,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006526,L-arginine biosynthetic process,0,12,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006541,L-glutamine metabolic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006544,glycine metabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006545,glycine biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006550,L-isoleucine catabolic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006564,L-serine biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006566,L-threonine metabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006574,L-valine catabolic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006605,protein targeting,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006629,lipid metabolic process,0,20,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006631,fatty acid metabolic process,0,17,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006635,fatty acid beta-oxidation,0,23,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006637,acyl-CoA metabolic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006654,phosphatidic acid biosynthetic process,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006694,steroid biosynthetic process,0,8,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006707,cholesterol catabolic process,0,38,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006729,tetrahydrobiopterin biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006777,Mo-molybdopterin cofactor biosynthetic process,0,14,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006779,porphyrin-containing compound biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006783,heme biosynthetic process,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006805,xenobiotic metabolic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006812,monoatomic cation transport,0,11,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006813,potassium ion transport,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006817,phosphate ion transport,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006865,amino acid transport,0,9,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006869,lipid transport,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006879,intracellular iron ion homeostasis,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006886,intracellular protein transport,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006950,response to stress,0,16,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006974,DNA damage response,0,21,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006979,response to oxidative stress,0,20,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0006995,cellular response to nitrogen starvation,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0007059,chromosome segregation,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0008202,steroid metabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0008203,cholesterol metabolic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0008299,isoprenoid biosynthetic process,0,9,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0008360,regulation of cell shape,0,13,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0008615,pyridoxine biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0008643,carbohydrate transport,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0008652,amino acid biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0008654,phospholipid biosynthetic process,0,11,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009051,"pentose-phosphate shunt, oxidative branch",0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009060,aerobic respiration,0,9,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009061,anaerobic respiration,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009062,fatty acid catabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009073,aromatic amino acid biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009082,branched-chain amino acid biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009085,L-lysine biosynthetic process,0,9,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009088,L-threonine biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009098,L-leucine biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009099,L-valine biosynthetic process,0,8,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009102,biotin biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009103,lipopolysaccharide biosynthetic process,0,10,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009116,nucleoside metabolic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009152,purine ribonucleotide biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009190,cyclic nucleotide biosynthetic process,0,16,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009228,thiamine biosynthetic process,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009229,thiamine diphosphate biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009231,riboflavin biosynthetic process,0,9,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009234,menaquinone biosynthetic process,0,8,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009236,cobalamin biosynthetic process,0,17,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009245,lipid A biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009250,glucan biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009252,peptidoglycan biosynthetic process,0,32,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009253,peptidoglycan catabolic process,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009263,deoxyribonucleotide biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009267,cellular response to starvation,0,8,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009306,protein secretion,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009307,DNA restriction-modification system,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009372,quorum sensing,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009396,folic acid-containing compound biosynthetic process,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009408,response to heat,0,16,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009409,response to cold,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009410,response to xenobiotic stimulus,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009415,response to water,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009423,chorismate biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009432,SOS response,0,12,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009451,RNA modification,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0009697,salicylic acid biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0010039,response to iron ion,0,8,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0010043,response to zinc ion,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0010106,cellular response to iron ion starvation,0,14,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0010447,response to acidic pH,0,12,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0010468,regulation of gene expression,0,11,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0010498,proteasomal protein catabolic process,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0010628,positive regulation of gene expression,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0010629,negative regulation of gene expression,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0010756,positive regulation of plasminogen activation,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015031,protein transport,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015074,DNA integration,0,27,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015689,molybdate ion transport,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015693,magnesium ion transport,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015700,arsenite transport,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015706,nitrate transmembrane transport,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015707,nitrite transport,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015771,trehalose transport,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015833,peptide transport,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015836,lipid-linked peptidoglycan transport,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015914,phospholipid transport,0,8,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015920,lipopolysaccharide transport,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015940,pantothenate biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015977,carbon fixation,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015986,proton motive force-driven ATP synthesis,0,8,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0015990,electron transport coupled proton transport,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0016036,cellular response to phosphate starvation,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0016042,lipid catabolic process,0,15,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0016075,rRNA catabolic process,0,11,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0016114,terpenoid biosynthetic process,0,9,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0016125,sterol metabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0016226,iron-sulfur cluster assembly,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0016311,dephosphorylation,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0016485,protein processing,0,9,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0016539,intein-mediated protein splicing,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0016998,cell wall macromolecule catabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0017000,antibiotic biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0017038,protein import,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0017148,negative regulation of translation,0,8,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0018104,peptidoglycan-protein cross-linking,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0019288,"isopentenyl diphosphate biosynthetic process, methylerythritol phosphate pathway",0,10,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0019290,siderophore biosynthetic process,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0019305,dTDP-rhamnose biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0019344,L-cysteine biosynthetic process,0,12,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0019346,transsulfuration,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0019354,siroheme biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0019430,removal of superoxide radicals,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0019432,triglyceride biosynthetic process,0,16,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0019464,glycine decarboxylation via glycine cleavage system,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0019540,catechol-containing siderophore biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0019543,propionate catabolic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0019627,urea metabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0019645,anaerobic electron transport chain,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0019646,aerobic electron transport chain,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0019941,modification-dependent protein catabolic process,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0022611,dormancy process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0022900,electron transport chain,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0022904,respiratory electron transport chain,0,9,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0030001,metal ion transport,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0030163,protein catabolic process,0,8,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0030488,tRNA methylation,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0030497,fatty acid elongation,0,11,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0030639,polyketide biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0030649,aminoglycoside antibiotic catabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0030655,beta-lactam antibiotic catabolic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0031167,rRNA methylation,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0031460,glycine betaine transport,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0032324,molybdopterin cofactor biosynthetic process,0,8,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0032784,regulation of DNA-templated transcription elongation,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0032790,ribosome disassembly,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0033014,tetrapyrrole biosynthetic process,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0033214,siderophore-iron import into cell,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0033384,geranyl diphosphate biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0033386,geranylgeranyl diphosphate biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0033539,fatty acid beta-oxidation using acyl-CoA dehydrogenase,0,25,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0033668,symbiont-mediated suppression of host apoptosis,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0034599,cellular response to oxidative stress,0,12,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0034605,cellular response to heat,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0035434,copper ion transmembrane transport,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0035435,phosphate ion transmembrane transport,0,13,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0035635,entry of bacterium into host cell,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0035999,tetrahydrofolate interconversion,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0040009,regulation of growth rate,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042026,protein refolding,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042126,nitrate metabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042127,regulation of cell population proliferation,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042128,nitrate assimilation,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042158,lipoprotein biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042254,ribosome biogenesis,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042274,ribosomal small subunit biogenesis,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042276,error-prone translesion synthesis,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042398,modified amino acid biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042542,response to hydrogen peroxide,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042558,pteridine-containing compound metabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042594,response to starvation,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042759,long-chain fatty acid biosynthetic process,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042773,ATP synthesis coupled electron transport,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0042823,pyridoxal 5'-phosphate biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0043039,tRNA aminoacylation,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0043041,amino acid activation for nonribosomal peptide biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0043093,FtsZ-dependent cytokinesis,0,8,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0043215,daunorubicin transport,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0043419,urea catabolic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0043952,protein transport by the Sec complex,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0043953,protein transport by the Tat complex,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0044003,symbiont-mediated perturbation of host process,0,11,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0044038,cell wall macromolecule biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0044205,'de novo' UMP biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0044209,AMP salvage,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0044315,protein secretion by the type VII secretion system,0,11,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0044406,adhesion of symbiont to host,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0044409,symbiont entry into host,0,24,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0044539,long-chain fatty acid import into cell,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0044550,secondary metabolite biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0044650,adhesion of symbiont to host cell,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0044847,iron acquisition from host,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0045017,glycerolipid biosynthetic process,0,14,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0045227,capsule polysaccharide biosynthetic process,0,18,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0045454,cell redox homeostasis,0,32,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0045717,negative regulation of fatty acid biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0045727,positive regulation of translation,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0045892,negative regulation of DNA-templated transcription,0,42,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0045893,positive regulation of DNA-templated transcription,0,30,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0045900,negative regulation of translational elongation,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0045926,negative regulation of growth,0,38,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0045927,positive regulation of growth,0,28,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0046168,glycerol-3-phosphate catabolic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0046306,alkanesulfonate catabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0046417,chorismate metabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0046470,phosphatidylcholine metabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0046474,glycerophospholipid biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0046488,phosphatidylinositol metabolic process,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0046500,S-adenosylmethionine metabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0046503,glycerolipid catabolic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0046506,sulfolipid biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0046653,tetrahydrofolate metabolic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0046654,tetrahydrofolate biosynthetic process,0,8,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0046677,response to antibiotic,0,39,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0046686,response to cadmium ion,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0046688,response to copper ion,0,9,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0046835,carbohydrate phosphorylation,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0050992,dimethylallyl diphosphate biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0051260,protein homooligomerization,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0051301,cell division,0,12,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0051604,protein maturation,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0051701,biological process involved in interaction with host,0,87,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0052008,symbiont-mediated disruption of host cellular anatomical structure,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0052553,symbiont-mediated perturbation of host immune response,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0052645,F420-0 metabolic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0052699,ergothioneine biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0052837,thiazole biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0055070,copper ion homeostasis,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0055085,transmembrane transport,0,130,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0055129,L-proline biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0065002,intracellular protein transmembrane transport,0,8,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0070298,negative regulation of phosphorelay signal transduction system,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0070475,rRNA base methylation,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0070490,protein pupylation,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0070588,calcium ion transmembrane transport,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0070592,cell wall polysaccharide biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0070681,glutaminyl-tRNAGln biosynthesis via transamidation,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0070814,hydrogen sulfide biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071265,L-methionine biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071266,'de novo' L-methionine biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071267,L-methionine salvage,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071451,cellular response to superoxide,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071456,cellular response to hypoxia,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071468,cellular response to acidic pH,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071554,cell wall organization or biogenesis,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071555,cell wall organization,0,11,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071731,response to nitric oxide,0,17,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071732,cellular response to nitric oxide,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071768,mycolic acid biosynthetic process,0,14,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071769,mycolate cell wall layer assembly,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071805,potassium ion transmembrane transport,0,9,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0071897,DNA biosynthetic process,0,12,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0085016,dormancy exit of symbiont in host,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0090529,cell septum assembly,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0097041,phenolic phthiocerol biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0098655,monoatomic cation transmembrane transport,0,11,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0098754,detoxification,0,12,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0098869,cellular oxidant detoxification,0,15,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0106074,aminoacyl-tRNA metabolism involved in translational fidelity,0,7,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:0120010,intermembrane phospholipid transfer,0,25,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:1900753,doxorubicin transport,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:1901135,carbohydrate derivative metabolic process,0,6,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:1901137,carbohydrate derivative biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:1901704,L-glutamine biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:1901705,L-isoleucine biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:1902358,sulfate transmembrane transport,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:1902600,proton transmembrane transport,0,24,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:1903830,magnesium ion transmembrane transport,0,5,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:1990748,cellular detoxification,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:1990961,xenobiotic detoxification by transmembrane export across the plasma membrane,0,4,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:2000142,regulation of DNA-templated transcription initiation,0,13,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,GO_BP,GO:2001121,coenzyme gamma-F420-2 biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu02020,Two-component system,3,61,13,1122,4.244640605296343,0.029602463440352875,"Rv0001,Rv0902c,Rv2332",1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01053,Biosynthesis of siderophore group nonribosomal peptides,1,10,13,1122,8.63076923076923,0.11042709941833007,Rv2381c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu03070,Bacterial secretion system,1,14,13,1122,6.164835164835165,0.1513563079083896,Rv3921c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu03060,Protein export,1,17,13,1122,5.076923076923077,0.18090460865692462,Rv3921c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00550,Peptidoglycan biosynthesis,1,19,13,1122,4.54251012145749,0.2000726977382267,Rv3627c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00760,Nicotinate and nicotinamide metabolism,1,20,13,1122,4.315384615384615,0.2095006713822912,Rv0573c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00770,Pantothenate and CoA biosynthesis,1,23,13,1122,3.7525083612040135,0.23717270205946417,Rv1391,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu02024,Quorum sensing,1,24,13,1122,3.5961538461538467,0.24619613688496647,Rv3921c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00250,"Alanine, aspartate and glutamate metabolism",1,27,13,1122,3.1965811965811968,0.2726786871532666,Rv0808,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu05152,Tuberculosis,1,34,13,1122,2.5384615384615383,0.3311667818239776,Rv0410c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00074,Mycolic acid biosynthesis,1,36,13,1122,2.3974358974358974,0.34706170514069457,Rv3800c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00860,Porphyrin metabolism,1,36,13,1122,2.3974358974358974,0.34706170514069457,Rv0846c,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00620,Pyruvate metabolism,1,43,13,1122,2.007155635062612,0.3999889322265547,Rv2332,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00230,Purine metabolism,1,51,13,1122,1.6923076923076923,0.45561360966829945,Rv0808,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01240,Biosynthesis of cofactors,2,131,13,1122,1.3176746917204933,0.4596146750846623,"Rv0573c,Rv1391",1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu03010,Ribosome,1,57,13,1122,1.51417004048583,0.49416433879998045,Rv0704,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01200,Carbon metabolism,1,96,13,1122,0.8990384615384617,0.6894286078680618,Rv2332,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01110,Biosynthesis of secondary metabolites,2,373,13,1122,0.4627758300680553,0.9617339500590647,"Rv0808,Rv3800c",1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01100,Metabolic pathways,5,699,13,1122,0.6173654671508748,0.9792960417468275,"Rv0573c,Rv0808,Rv1391,Rv3627c,Rv3800c",1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00010,Glycolysis / Gluconeogenesis,0,31,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00020,Citrate cycle (TCA cycle),0,29,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00030,Pentose phosphate pathway,0,19,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00040,Pentose and glucuronate interconversions,0,5,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00051,Fructose and mannose metabolism,0,15,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00052,Galactose metabolism,0,10,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00053,Ascorbate and aldarate metabolism,0,4,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00061,Fatty acid biosynthesis,0,13,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00071,Fatty acid degradation,0,33,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00073,"Cutin, suberine and wax biosynthesis",0,15,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00130,Ubiquinone and other terpenoid-quinone biosynthesis,0,9,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00190,Oxidative phosphorylation,0,49,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00220,Arginine biosynthesis,0,23,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00240,Pyrimidine metabolism,0,27,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00260,"Glycine, serine and threonine metabolism",0,25,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00261,Monobactam biosynthesis,0,7,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00270,Cysteine and methionine metabolism,0,35,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00280,"Valine, leucine and isoleucine degradation",0,43,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00290,"Valine, leucine and isoleucine biosynthesis",0,13,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00300,Lysine biosynthesis,0,13,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00310,Lysine degradation,0,22,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00330,Arginine and proline metabolism,0,18,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00340,Histidine metabolism,0,21,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00350,Tyrosine metabolism,0,10,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00360,Phenylalanine metabolism,0,21,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00361,Chlorocyclohexane and chlorobenzene degradation,0,4,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00362,Benzoate degradation,0,24,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00380,Tryptophan metabolism,0,24,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",0,19,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00401,Novobiocin biosynthesis,0,4,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00410,beta-Alanine metabolism,0,13,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00430,Taurine and hypotaurine metabolism,0,7,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00450,Selenocompound metabolism,0,11,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00460,Cyanoamino acid metabolism,0,6,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00470,D-Amino acid metabolism,0,8,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00480,Glutathione metabolism,0,14,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00500,Starch and sucrose metabolism,0,23,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00520,Amino sugar and nucleotide sugar metabolism,0,23,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00521,Streptomycin biosynthesis,0,10,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00523,Polyketide sugar unit biosynthesis,0,6,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00525,Acarbose and validamycin biosynthesis,0,3,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00541,Biosynthesis of various nucleotide sugars,0,15,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00561,Glycerolipid metabolism,0,30,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00562,Inositol phosphate metabolism,0,10,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00564,Glycerophospholipid metabolism,0,19,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00565,Ether lipid metabolism,0,5,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00571,Lipoarabinomannan (LAM) biosynthesis,0,13,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00572,Arabinogalactan biosynthesis - Mycobacterium,0,15,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00592,alpha-Linolenic acid metabolism,0,3,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00621,Dioxin degradation,0,4,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00622,Xylene degradation,0,4,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00625,Chloroalkane and chloroalkene degradation,0,8,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00627,Aminobenzoate degradation,0,13,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00630,Glyoxylate and dicarboxylate metabolism,0,39,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00640,Propanoate metabolism,0,30,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00643,Styrene degradation,0,5,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00650,Butanoate metabolism,0,37,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00660,C5-Branched dibasic acid metabolism,0,9,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00670,One carbon pool by folate,0,19,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00680,Methane metabolism,0,21,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00710,Carbon fixation by Calvin cycle,0,11,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00720,Other carbon fixation pathways,0,36,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00730,Thiamine metabolism,0,11,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00740,Riboflavin metabolism,0,7,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00750,Vitamin B6 metabolism,0,5,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00780,Biotin metabolism,0,9,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00785,Lipoic acid metabolism,0,12,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00790,Folate biosynthesis,0,27,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00900,Terpenoid backbone biosynthesis,0,23,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00903,Limonene degradation,0,5,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00907,"Pinene, camphor and geraniol degradation",0,9,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00910,Nitrogen metabolism,0,22,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00920,Sulfur metabolism,0,21,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00930,Caprolactam degradation,0,6,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00970,Aminoacyl-tRNA biosynthesis,0,24,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00983,Drug metabolism - other enzymes,0,11,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu00984,Steroid degradation,0,41,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01040,Biosynthesis of unsaturated fatty acids,0,6,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01120,Microbial metabolism in diverse environments,0,233,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01210,2-Oxocarboxylic acid metabolism,0,35,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01212,Fatty acid metabolism,0,35,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01220,Degradation of aromatic compounds,0,10,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01230,Biosynthesis of amino acids,0,111,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01232,Nucleotide metabolism,0,37,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01250,Biosynthesis of nucleotide sugars,0,32,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01310,Nitrogen cycle,0,6,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01320,Sulfur cycle,0,5,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01501,beta-Lactam resistance,0,9,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01502,Vancomycin resistance,0,6,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu01503,Cationic antimicrobial peptide (CAMP) resistance,0,4,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu02010,ABC transporters,0,84,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu03018,RNA degradation,0,12,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu03020,RNA polymerase,0,4,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu03030,DNA replication,0,15,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu03050,Proteasome,0,3,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu03410,Base excision repair,0,15,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu03420,Nucleotide excision repair,0,10,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu03430,Mismatch repair,0,15,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu03440,Homologous recombination,0,22,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu04122,Sulfur relay system,0,22,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu04146,Peroxisome,0,11,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu04156,Integrated stress response (ISR) signaling pathway,0,4,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu04980,Cobalamin transport and metabolism,0,5,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_RNA_tested,KEGG,mtu04981,Folate transport and metabolism,0,7,13,1122,0.0,1.0,,1.0,sensitivity_conventional_triple
+triple_vs_all_DEGs,GO_BP,GO:0052170,symbiont-mediated suppression of host innate immune response,2,5,24,475,7.916666666666666,0.022311579029126446,"Rv0410c,Rv3343c",1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006508,proteolysis,2,8,24,475,4.947916666666666,0.05689430450294999,"Rv1043c,Rv3627c",1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0071770,DIM/DIP cell wall layer assembly,2,9,24,475,4.398148148148148,0.0709164812207761,"Rv2952,Rv3800c",1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006633,fatty acid biosynthetic process,3,23,24,475,2.5815217391304346,0.10299108294473633,"Rv2381c,Rv2950c,Rv3800c",1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006270,DNA replication initiation,1,3,24,475,6.597222222222222,0.14433788327161737,Rv0001,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0008033,tRNA processing,1,3,24,475,6.597222222222222,0.14433788327161737,Rv3923c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0010125,mycothiol biosynthetic process,1,3,24,475,6.597222222222222,0.14433788327161737,Rv1082,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0015937,coenzyme A biosynthetic process,1,3,24,475,6.597222222222222,0.14433788327161737,Rv1391,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0052572,response to host immune response,2,15,24,475,2.638888888888889,0.1720524734063415,"Rv1196,Rv3343c",1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006164,purine nucleotide biosynthetic process,1,4,24,475,4.947916666666666,0.1878461264950944,Rv0808,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0042783,symbiont-mediated evasion of host immune response,1,4,24,475,4.947916666666666,0.1878461264950944,Rv0410c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0052167,symbiont-mediated perturbation of host innate immune response,1,4,24,475,4.947916666666666,0.1878461264950944,Rv1082,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0008610,lipid biosynthetic process,2,17,24,475,2.3284313725490198,0.2097409549721486,"Rv2950c,Rv3800c",1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0009247,glycolipid biosynthetic process,1,5,24,475,3.958333333333333,0.22922976336158649,Rv2962c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0051409,response to nitrosative stress,1,5,24,475,3.958333333333333,0.22922976336158649,Rv3916c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0075136,response to host,1,5,24,475,3.958333333333333,0.22922976336158649,Rv0573c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006189,'de novo' IMP biosynthetic process,1,6,24,475,3.298611111111111,0.26858824353035654,Rv0808,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0035556,intracellular signal transduction,1,7,24,475,2.827380952380952,0.30601656369085,Rv0410c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0071766,Actinobacterium-type cell wall biogenesis,1,7,24,475,2.827380952380952,0.30601656369085,Rv2950c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0000160,phosphorelay signal transduction system,1,11,24,475,1.799242424242424,0.43818276637208164,Rv0902c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0007165,signal transduction,1,11,24,475,1.799242424242424,0.43818276637208164,Rv0902c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006412,translation,1,19,24,475,1.0416666666666665,0.633876921476102,Rv0704,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0001666,response to hypoxia,1,22,24,475,0.899621212121212,0.6888108217245046,Rv0573c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006355,regulation of DNA-templated transcription,2,48,24,475,0.8246527777777778,0.7208388549125117,"Rv0273c,Rv1176c",1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0000105,L-histidine biosynthetic process,0,9,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0000162,L-tryptophan biosynthetic process,0,4,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0005975,carbohydrate metabolic process,0,11,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0005978,glycogen biosynthetic process,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006096,glycolytic process,0,4,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006099,tricarboxylic acid cycle,0,6,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006171,cAMP biosynthetic process,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006260,DNA replication,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006281,DNA repair,0,6,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006313,DNA transposition,0,6,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006351,DNA-templated transcription,0,6,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006364,rRNA processing,0,5,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006396,RNA processing,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006402,mRNA catabolic process,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006413,translational initiation,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006457,protein folding,0,8,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006520,amino acid metabolic process,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006526,L-arginine biosynthetic process,0,7,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006629,lipid metabolic process,0,7,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006631,fatty acid metabolic process,0,5,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006635,fatty acid beta-oxidation,0,6,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006707,cholesterol catabolic process,0,11,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006777,Mo-molybdopterin cofactor biosynthetic process,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006950,response to stress,0,4,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006974,DNA damage response,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006979,response to oxidative stress,0,7,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0006995,cellular response to nitrogen starvation,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0007059,chromosome segregation,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0009190,cyclic nucleotide biosynthetic process,0,6,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0009236,cobalamin biosynthetic process,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0009252,peptidoglycan biosynthetic process,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0009408,response to heat,0,10,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0010039,response to iron ion,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0010106,cellular response to iron ion starvation,0,6,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0010447,response to acidic pH,0,5,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0010468,regulation of gene expression,0,5,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0010756,positive regulation of plasminogen activation,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0015074,DNA integration,0,5,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0015706,nitrate transmembrane transport,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0016042,lipid catabolic process,0,6,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0019290,siderophore biosynthetic process,0,4,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0019432,triglyceride biosynthetic process,0,5,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0019540,catechol-containing siderophore biosynthetic process,0,7,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0019543,propionate catabolic process,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0030163,protein catabolic process,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0030497,fatty acid elongation,0,4,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0033539,fatty acid beta-oxidation using acyl-CoA dehydrogenase,0,8,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0034599,cellular response to oxidative stress,0,4,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0035435,phosphate ion transmembrane transport,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0042026,protein refolding,0,6,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0042254,ribosome biogenesis,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0042542,response to hydrogen peroxide,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0043041,amino acid activation for nonribosomal peptide biosynthetic process,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0043215,daunorubicin transport,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0044406,adhesion of symbiont to host,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0044409,symbiont entry into host,0,11,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0044550,secondary metabolite biosynthetic process,0,4,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0044847,iron acquisition from host,0,5,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0045017,glycerolipid biosynthetic process,0,5,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0045454,cell redox homeostasis,0,5,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0045892,negative regulation of DNA-templated transcription,0,13,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0045893,positive regulation of DNA-templated transcription,0,7,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0045926,negative regulation of growth,0,6,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0045927,positive regulation of growth,0,6,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0046653,tetrahydrofolate metabolic process,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0046654,tetrahydrofolate biosynthetic process,0,4,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0046677,response to antibiotic,0,14,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0046688,response to copper ion,0,7,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0051701,biological process involved in interaction with host,0,22,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0055085,transmembrane transport,0,30,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0071731,response to nitric oxide,0,5,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0071768,mycolic acid biosynthetic process,0,4,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0098655,monoatomic cation transmembrane transport,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0098754,detoxification,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0098869,cellular oxidant detoxification,0,4,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:0120010,intermembrane phospholipid transfer,0,11,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,GO_BP,GO:1900753,doxorubicin transport,0,3,24,475,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu02020,Two-component system,3,22,13,271,2.842657342657343,0.07794796330387077,"Rv0001,Rv0902c,Rv2332",1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00250,"Alanine, aspartate and glutamate metabolism",1,3,13,271,6.94871794871795,0.13760255818171563,Rv0808,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00550,Peptidoglycan biosynthesis,1,3,13,271,6.94871794871795,0.13760255818171563,Rv3627c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu03060,Protein export,1,3,13,271,6.94871794871795,0.13760255818171563,Rv3921c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu03070,Bacterial secretion system,1,3,13,271,6.94871794871795,0.13760255818171563,Rv3921c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu02024,Quorum sensing,1,4,13,271,5.211538461538462,0.17943526991170708,Rv3921c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00770,Pantothenate and CoA biosynthesis,1,5,13,271,4.1692307692307695,0.2193878597661932,Rv1391,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00860,Porphyrin metabolism,1,6,13,271,3.474358974358975,0.2575380771460409,Rv0846c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu01240,Biosynthesis of cofactors,2,22,13,271,1.8951048951048952,0.2849572910366083,"Rv0573c,Rv1391",1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu01053,Biosynthesis of siderophore group nonribosomal peptides,1,8,13,271,2.605769230769231,0.32872782240768117,Rv2381c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00620,Pyruvate metabolism,1,9,13,271,2.3162393162393164,0.3619085764331571,Rv2332,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00230,Purine metabolism,1,11,13,271,1.8951048951048952,0.42377494679740746,Rv0808,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00074,Mycolic acid biosynthesis,1,12,13,271,1.7371794871794874,0.45258619945753675,Rv3800c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu05152,Tuberculosis,1,16,13,271,1.3028846153846154,0.5550405090370424,Rv0410c,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu03010,Ribosome,1,19,13,271,1.0971659919028343,0.6199246477095917,Rv0704,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu01200,Carbon metabolism,1,24,13,271,0.8685897435897437,0.7089902920301139,Rv2332,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu01100,Metabolic pathways,5,147,13,271,0.7090528519099948,0.9273748845557397,"Rv0573c,Rv0808,Rv1391,Rv3627c,Rv3800c",1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu01110,Biosynthesis of secondary metabolites,2,89,13,271,0.4684528954191876,0.9618778989134675,"Rv0808,Rv3800c",1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00010,Glycolysis / Gluconeogenesis,0,4,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00020,Citrate cycle (TCA cycle),0,7,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00030,Pentose phosphate pathway,0,3,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00061,Fatty acid biosynthesis,0,5,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00071,Fatty acid degradation,0,5,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00073,"Cutin, suberine and wax biosynthesis",0,5,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00190,Oxidative phosphorylation,0,7,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00220,Arginine biosynthesis,0,9,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00240,Pyrimidine metabolism,0,4,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00260,"Glycine, serine and threonine metabolism",0,6,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00270,Cysteine and methionine metabolism,0,5,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00280,"Valine, leucine and isoleucine degradation",0,12,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00340,Histidine metabolism,0,9,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00360,Phenylalanine metabolism,0,7,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00362,Benzoate degradation,0,6,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",0,5,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00500,Starch and sucrose metabolism,0,4,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00561,Glycerolipid metabolism,0,8,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00564,Glycerophospholipid metabolism,0,3,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00572,Arabinogalactan biosynthesis - Mycobacterium,0,3,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00621,Dioxin degradation,0,3,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00622,Xylene degradation,0,3,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00630,Glyoxylate and dicarboxylate metabolism,0,11,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00640,Propanoate metabolism,0,11,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00650,Butanoate metabolism,0,8,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00670,One carbon pool by folate,0,5,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00680,Methane metabolism,0,4,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00720,Other carbon fixation pathways,0,8,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00785,Lipoic acid metabolism,0,5,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00790,Folate biosynthesis,0,8,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00900,Terpenoid backbone biosynthesis,0,3,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00910,Nitrogen metabolism,0,6,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00920,Sulfur metabolism,0,3,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00970,Aminoacyl-tRNA biosynthesis,0,3,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00983,Drug metabolism - other enzymes,0,3,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu00984,Steroid degradation,0,14,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu01120,Microbial metabolism in diverse environments,0,48,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu01210,2-Oxocarboxylic acid metabolism,0,12,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu01212,Fatty acid metabolism,0,8,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu01220,Degradation of aromatic compounds,0,3,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu01230,Biosynthesis of amino acids,0,30,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu01232,Nucleotide metabolism,0,3,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu02010,ABC transporters,0,26,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu03018,RNA degradation,0,4,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu03410,Base excision repair,0,3,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu04156,Integrated stress response (ISR) signaling pathway,0,3,13,271,0.0,1.0,,1.0,primary_conditional_triple
+triple_vs_all_DEGs,KEGG,mtu04980,Cobalamin transport and metabolism,0,3,13,271,0.0,1.0,,1.0,primary_conditional_triple

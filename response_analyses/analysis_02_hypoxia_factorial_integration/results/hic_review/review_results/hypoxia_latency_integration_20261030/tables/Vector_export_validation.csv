@@ -1,0 +1,25 @@
+check,passed,detail
+vector PDF is one page,True,pages=1
+PDF contains substantial extractable text,True,characters=3975
+PDF editable text contains: Genotype,True,
+PDF editable text contains: 730 interaction DEGs,True,
+PDF editable text contains: Descriptive response-shape clusters,True,
+PDF editable text contains: DosR/DosS region,True,
+PDF editable text contains: SigE region,True,
+PDF editable text contains: oriC/dnaA region,True,
+PDF editable text contains: ESX-2 region,True,
+PDF editable text contains: Normalized log2CPM,True,
+PDF editable text contains: NapM ChIP,True,
+SVG contains editable text elements,True,text_elements=459
+SVG contains vector path elements,True,path_elements=1326
+SVG uses embedded images only for data panels,True,image_elements=14
+SVG text element contains: 730 interaction DEGs,True,
+SVG text element contains: DosR/DosS region,True,
+SVG text element contains: SigE region,True,
+SVG text element contains: oriC/dnaA region,True,
+SVG text element contains: ESX-2 region,True,
+PDF is saved directly by Matplotlib,True,
+SVG text is preserved rather than converted to paths,True,
+no whole-page raster PDF assembly,True,
+scatter points are not rasterized,True,
+vector deliverables are nonempty,True,PDF=822851; SVG=4810207

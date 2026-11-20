@@ -1,0 +1,4 @@
+contrast,response,exact_oxygen_label_P
+WT hypoxia − WT normoxia,0.04097577530480988,
+KO hypoxia − KO normoxia,-0.0670136905187206,
+KO response − WT response,-0.10798946582353047,0.000408

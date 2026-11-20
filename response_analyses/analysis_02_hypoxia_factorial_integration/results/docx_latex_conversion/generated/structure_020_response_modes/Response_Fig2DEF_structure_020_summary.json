@@ -1,0 +1,21 @@
+{
+  "structure_threshold": 0.2,
+  "n_strong_structure": 379,
+  "n_moderate_structure": 58,
+  "n_structure_total": 437,
+  "n_RNA": 189,
+  "class_counts": {
+    "RNA only": 81,
+    "Structure only": 329,
+    "Joint response": 108,
+    "Other / unresolved": 365
+  },
+  "joint_null_mean": 93.536,
+  "joint_ratio": 1.1546356483065343,
+  "joint_P_two_sided_uncorrected": 0.0192980701929807,
+  "joint_P_higher_uncorrected": 0.009799020097990201,
+  "n_circular_shifts": 10000,
+  "seed": 42,
+  "multiple_testing": "Not applied; uncorrected exploratory empirical P values",
+  "interpretation_note": "Fixed RNA and structure margins make all four class deviations transformations of the joint count. Higher-than-null enrichment tests are shown separately for each class."
+}

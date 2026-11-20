@@ -1,0 +1,5 @@
+locus,center_bin,selection_class,reason
+DosR/DosS,699,RNA interaction / stress regulator,devR and devS have attenuated hypoxia induction in KO; both are shown with all 730 interaction DEGs and sample-level normalized expression.
+SigE,272,RNA interaction / transcription-structure dissociation,"Large negative RNA interaction but no detected local insulation interaction; displayed as a dissociation example, not a DosR/DosS downstream claim."
+oriC/dnaA,0,NapM-associated_candidate_no_detected_local_RNA_response,Significant positive insulation interaction without detected local RNA response; also overlaps the independently defined LATR01 latency-candidate region.
+ESX-2,874,NapM-associated_candidate_no_detected_local_RNA_response,Largest absolute insulation interaction among all 17 stringent NapM-associated candidates with no detected local RNA response.

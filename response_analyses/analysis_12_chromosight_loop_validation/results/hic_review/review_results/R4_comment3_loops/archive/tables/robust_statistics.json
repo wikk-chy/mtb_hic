@@ -1,0 +1,13 @@
+{
+  "WT all loops (n)": 71,
+  "WT mean O/E": 1.1441648643532938,
+  "WT median O/E": 1.0235294315725383,
+  "WT IQR O/E": 0.22048258445970204,
+  "WT winsorized5% O/E": 1.1070002041817832,
+  "WT outlier-excluded mean": 1.0525505791124945,
+  "KO all loops (n)": 71,
+  "KO mean O/E": 1.0621672593405267,
+  "KO median O/E": 1.0217617070184128,
+  "KO winsorized5% O/E": 1.0566385897879815,
+  "Wilcoxon p WT vs KO": 0.0027291543805255418
+}

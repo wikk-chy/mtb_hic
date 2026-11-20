@@ -1,0 +1,14 @@
+test,observed,effect,ci_lo,ci_hi,p,n,null_model,notes
+Fig2b_DEGfrac_bound_vs_matched_genes,0.18666666666666668,0.9180327868852459,0.7193166345585944,1.172180459962007,0.5330739569274813,1650,Fisher exact,"paired gene sets, genes with RNA class; fractions 154/825 vs 165/825"
+Fig2b_DEGfrac_bound_vs_unbound_genes_NAIVE,0.18666666666666668,0.8925318761384335,0.7361955382856957,1.0862721325086675,0.2634711274652146,4081,Fisher exact,"naive, unmatched; fractions 154/825 vs 666/3256"
+Fig2b_abslog2FC_bound_vs_matched_genes,0.03845355322175803,0.03845355322175803,-0.014898407491801047,0.09187695028342227,0.29577739679585136,825,paired Wilcoxon + bootstrap CI,median diff; naive MW p=0.403 (naive)
+Fig2c_group_bound_structchange,0.19823788546255505,,,,,227,descriptive,DEG 45/227
+Fig2c_group_bound_structstable,0.18227424749163879,,,,,598,descriptive,DEG 109/598
+Fig2c_group_unbound_structchange,0.22444889779559118,,,,,998,descriptive,DEG 224/998
+Fig2c_group_unbound_structstable,0.19574844995571303,,,,,2258,descriptive,DEG 442/2258
+Fig2c_OR_boundSC_vs_unboundSC,0.19823788546255505,0.8543465463108321,0.6017935225400487,1.2293051481311745,0.42461097101920664,1225,Fisher exact,structure-changed stratum; fractions 45/227 vs 224/998
+Fig2c_OR_boundSC_vs_boundSS,0.19823788546255505,1.1092348018953524,0.758190667634935,1.6383088419419447,0.6173862265274555,825,Fisher exact,bound stratum; fractions 45/227 vs 109/598
+Fig2c_OR_boundSS_vs_unboundSS,0.18227424749163879,0.9158222987165607,0.7283121642381596,1.1578426332941376,0.48456237587553264,2856,Fisher exact,structure-stable stratum; fractions 109/598 vs 442/2258
+Fig2d_spearman_rna_vs_dins_all,-0.02423887739036792,-0.02423887739036792,,,0.47445165790918575,873,Spearman asymptotic,
+Fig2d_spearman_rna_vs_dins_bound,-0.029634482014399423,-0.029634482014399423,,,0.5404435946990684,429,Spearman asymptotic,
+Fig2d_spearman_rna_vs_dins_matched,-0.0480696830406547,-0.0480696830406547,,,0.3245657639922699,422,Spearman asymptotic,

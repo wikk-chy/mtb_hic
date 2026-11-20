@@ -1,0 +1,13 @@
+gene_set,role,background_label,database,query_annotated,background_annotated,n_terms_tested,nominal_P_0_05,FDR_0_05,minimum_P,minimum_q
+anchor79_vs_RNA_tested,primary_standard,"All 4,060 RNA-tested genes",GO_BP,43,2186,376,3,0,0.0011201283616130754,0.27726918911439846
+anchor79_vs_RNA_tested,primary_standard,"All 4,060 RNA-tested genes",GO_CC,48,2062,58,1,0,0.001568844378827372,0.09099297397198758
+anchor79_vs_RNA_tested,primary_standard,"All 4,060 RNA-tested genes",GO_MF,44,2525,372,4,0,0.0007393350606715161,0.16381659602971177
+anchor79_vs_RNA_tested,primary_standard,"All 4,060 RNA-tested genes",KEGG,25,1122,123,4,0,0.0035918056894727757,0.3820903434449255
+anchor79_vs_eligible_anchor_DEGs,sensitivity_DEG_conditioned,226 DEGs near all 39-loop anchors,GO_BP,43,131,13,0,0,0.19846605804485834,1.0
+anchor79_vs_eligible_anchor_DEGs,sensitivity_DEG_conditioned,226 DEGs near all 39-loop anchors,GO_CC,48,125,8,0,0,0.2541021197179227,1.0
+anchor79_vs_eligible_anchor_DEGs,sensitivity_DEG_conditioned,226 DEGs near all 39-loop anchors,GO_MF,44,145,36,2,0,0.026613616268788682,0.6198864009512288
+anchor79_vs_eligible_anchor_DEGs,sensitivity_DEG_conditioned,226 DEGs near all 39-loop anchors,KEGG,25,90,26,5,0,0.005169223757799264,0.11785002566366538
+anchor79_vs_eligible_anchor_RNA_tested,sensitivity_anchor_matched,"1,118 RNA-tested genes near all 39-loop anchors",GO_BP,43,603,132,4,0,0.014246570806533057,0.6268491154874546
+anchor79_vs_eligible_anchor_RNA_tested,sensitivity_anchor_matched,"1,118 RNA-tested genes near all 39-loop anchors",GO_CC,48,632,24,2,0,0.016145139272985366,0.3874833425516488
+anchor79_vs_eligible_anchor_RNA_tested,sensitivity_anchor_matched,"1,118 RNA-tested genes near all 39-loop anchors",GO_MF,44,724,140,4,1,0.00021025985539888057,0.02943637975584328
+anchor79_vs_eligible_anchor_RNA_tested,sensitivity_anchor_matched,"1,118 RNA-tested genes near all 39-loop anchors",KEGG,25,331,92,4,0,0.0010111327888300836,0.09302421657236769

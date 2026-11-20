@@ -1,0 +1,32 @@
+node_id,node_type,term_name,gene_name,database,nominal_P,degree,x,y
+GO:0052170,GO,symbiont-mediated suppression of host innate immune response,,GO_BP,0.0176315721522164,2,121,83
+Rv0410c,gene,Rv0410c,pknG,,,5,111,64
+Rv3343c,gene,Rv3343c,PPE54,,,1,140,86
+GO:0071770,GO,DIM/DIP cell wall layer assembly,,GO_BP,0.0253994121148811,2,51,84
+Rv2952,gene,Rv2952,,,,1,48,77
+Rv3800c,gene,Rv3800c,pks13,,,4,38,65
+GO:0006633,GO,fatty acid biosynthetic process,,GO_BP,0.0325235973565177,3,50,52
+Rv2381c,gene,Rv2381c,mbtD,,,3,22,68
+Rv2950c,gene,Rv2950c,fadD29,,,1,37,48
+GO:0006538,GO,L-glutamate catabolic process,,GO_BP,0.0325913312382229,1,96,82
+GO:0010126,GO,mycothiol metabolic process,,GO_BP,0.0325913312382229,1,48,23
+Rv1082,gene,Rv1082,mca,,,1,48,11
+GO:0052027,GO,symbiont-mediated perturbation of host signal transduction pathway,,GO_BP,0.0325913312382229,1,143,73
+GO:0030682,GO,symbiont-mediated perturbation of host defenses,,GO_BP,0.0432270655718384,1,143,53
+GO:0034355,GO,NAD+ biosynthetic process via the salvage pathway,,GO_BP,0.0432270655718384,1,73,23
+Rv0573c,gene,Rv0573c,pncB2,,,1,73,11
+GO:0042780,GO,tRNA 3'-end processing,,GO_BP,0.0432270655718384,1,8,31
+Rv3923c,gene,Rv3923c,rnpA,,,2,19,25
+GO:0080120,GO,CAAX-box protein maturation,,GO_BP,0.0432270655718384,1,148,23
+Rv0658c,gene,Rv0658c,,,,1,148,11
+GO:0016740,GO,transferase activity,,GO_MF,0.0238072777060489,3,14,83
+Rv0704,gene,Rv0704,rplB,,,1,10,77
+GO:0031177,GO,phosphopantetheine binding,,GO_MF,0.026298825262986,2,8,57
+GO:0008948,GO,oxaloacetate decarboxylase activity,,GO_MF,0.0317498479554308,1,98,23
+Rv2332,gene,Rv2332,mez,,,1,98,11
+GO:0009927,GO,histidine phosphotransfer kinase activity,,GO_MF,0.0317498479554308,1,80,49
+Rv0902c,gene,Rv0902c,prrB,,,2,84,64
+GO:0004322,GO,ferroxidase activity,,GO_MF,0.0421157298369547,1,123,23
+Rv0846c,gene,Rv0846c,,,,1,123,11
+GO:0042781,GO,3'-tRNA processing endoribonuclease activity,,GO_MF,0.0421157298369547,1,29,32
+GO:0042802,GO,identical protein binding,,GO_MF,0.0423266996074212,2,99,47

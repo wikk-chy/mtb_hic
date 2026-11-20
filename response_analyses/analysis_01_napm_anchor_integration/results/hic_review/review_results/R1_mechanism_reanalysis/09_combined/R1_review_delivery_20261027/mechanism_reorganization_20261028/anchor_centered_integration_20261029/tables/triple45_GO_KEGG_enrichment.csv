@@ -1,0 +1,930 @@
+gene_set,database,term,name,overlap,term_size,query_size,background_size,fold_enrichment,p_value,genes,q_BH_all_tested_terms,n_terms_tested
+triple45_vs_RNA_tested,GO_BP,GO:0052170,symbiont-mediated suppression of host innate immune response,2,19,24,2186,9.587719298245613,0.0176315721522164,"Rv0410c,Rv3343c",1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071770,DIM/DIP cell wall layer assembly,2,23,24,2186,7.920289855072464,0.0253994121148811,"Rv2952,Rv3800c",1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006633,fatty acid biosynthetic process,3,65,24,2186,4.203846153846154,0.03252359735651771,"Rv2381c,Rv2950c,Rv3800c",1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006538,L-glutamate catabolic process,1,3,24,2186,30.36111111111111,0.03259133123822295,Rv0410c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0010126,mycothiol metabolic process,1,3,24,2186,30.36111111111111,0.03259133123822295,Rv1082,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0052027,symbiont-mediated perturbation of host signal transduction pathway,1,3,24,2186,30.36111111111111,0.03259133123822295,Rv0410c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0030682,symbiont-mediated perturbation of host defenses,1,4,24,2186,22.770833333333332,0.04322706557183844,Rv0410c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0034355,NAD+ biosynthetic process via the salvage pathway,1,4,24,2186,22.770833333333332,0.04322706557183844,Rv0573c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042780,tRNA 3'-end processing,1,4,24,2186,22.770833333333332,0.04322706557183844,Rv3923c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0080120,CAAX-box protein maturation,1,4,24,2186,22.770833333333332,0.04322706557183844,Rv0658c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015937,coenzyme A biosynthetic process,1,5,24,2186,18.216666666666665,0.053750690881772395,Rv1391,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0010125,mycothiol biosynthetic process,1,6,24,2186,15.180555555555555,0.06416333802475153,Rv1082,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0097040,phthiocerol biosynthetic process,1,6,24,2186,15.180555555555555,0.06416333802475153,Rv2950c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006270,DNA replication initiation,1,7,24,2186,13.011904761904761,0.07446612696392858,Rv0001,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009435,NAD+ biosynthetic process,1,8,24,2186,11.385416666666666,0.08466016686886925,Rv0573c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006508,proteolysis,2,48,24,2186,3.795138888888889,0.09597643185803945,"Rv1043c,Rv3627c",1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0008033,tRNA processing,1,10,24,2186,9.108333333333333,0.10472638288019187,Rv3923c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006164,purine nucleotide biosynthetic process,1,11,24,2186,8.28030303030303,0.11460072424548391,Rv0808,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0075136,response to host,1,12,24,2186,7.590277777777778,0.12437064728829236,Rv0573c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0008610,lipid biosynthetic process,2,57,24,2186,3.195906432748538,0.12802359439244496,"Rv2950c,Rv3800c",1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006189,'de novo' IMP biosynthetic process,1,13,24,2186,7.006410256410256,0.1340372086797739,Rv0808,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0052572,response to host immune response,2,63,24,2186,2.891534391534391,0.1506524886776181,"Rv1196,Rv3343c",1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0035556,intracellular signal transduction,1,16,24,2186,5.692708333333333,0.16242713704520118,Rv0410c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0051409,response to nitrosative stress,1,18,24,2186,5.060185185185185,0.18085586477923266,Rv3916c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042783,symbiont-mediated evasion of host immune response,1,20,24,2186,4.554166666666666,0.19889565162010509,Rv0410c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0007165,signal transduction,1,21,24,2186,4.337301587301587,0.2077721540952287,Rv0902c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009247,glycolipid biosynthetic process,1,25,24,2186,3.6433333333333326,0.24234470415946024,Rv2962c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071766,Actinobacterium-type cell wall biogenesis,1,26,24,2186,3.503205128205128,0.2507592007351998,Rv2950c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0052167,symbiont-mediated perturbation of host innate immune response,1,27,24,2186,3.3734567901234565,0.2590840985048086,Rv1082,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0000160,phosphorelay signal transduction system,1,33,24,2186,2.76010101010101,0.30720242103618883,Rv0902c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0001666,response to hypoxia,1,51,24,2186,1.7859477124183007,0.4342482414993641,Rv0573c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006412,translation,1,64,24,2186,1.4231770833333333,0.511775672242636,Rv0704,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006355,regulation of DNA-templated transcription,2,217,24,2186,0.8394777265745007,0.7051437410258028,"Rv0273c,Rv1176c",1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0000027,ribosomal large subunit assembly,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0000028,ribosomal small subunit assembly,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0000103,sulfate assimilation,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0000105,L-histidine biosynthetic process,0,11,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0000162,L-tryptophan biosynthetic process,0,9,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0000271,polysaccharide biosynthetic process,0,12,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0000455,enzyme-directed rRNA pseudouridine synthesis,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0000724,double-strand break repair via homologous recombination,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0000725,recombinational repair,0,10,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0001522,pseudouridine synthesis,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0001676,long-chain fatty acid metabolic process,0,13,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0002949,tRNA threonylcarbamoyladenosine modification,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0003333,amino acid transmembrane transport,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0005975,carbohydrate metabolic process,0,49,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0005978,glycogen biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0005991,trehalose metabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0005992,trehalose biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006006,glucose metabolic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006012,galactose metabolic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006021,inositol biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006048,UDP-N-acetylglucosamine biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006071,glycerol metabolic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006072,glycerol-3-phosphate metabolic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006085,acetyl-CoA biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006094,gluconeogenesis,0,9,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006096,glycolytic process,0,11,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006097,glyoxylate cycle,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006098,pentose-phosphate shunt,0,9,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006099,tricarboxylic acid cycle,0,23,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006102,isocitrate metabolic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006103,2-oxoglutarate metabolic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006107,oxaloacetate metabolic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006171,cAMP biosynthetic process,0,8,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006177,GMP biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006183,GTP biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006207,'de novo' pyrimidine nucleobase biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006221,pyrimidine nucleotide biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006235,dTTP biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006259,DNA metabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006260,DNA replication,0,22,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006261,DNA-templated DNA replication,0,10,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006265,DNA topological change,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006269,"DNA replication, synthesis of primer",0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006281,DNA repair,0,50,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006284,base-excision repair,0,13,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006285,"base-excision repair, AP site formation",0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006289,nucleotide-excision repair,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006302,double-strand break repair,0,8,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006303,double-strand break repair via nonhomologous end joining,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006307,DNA alkylation repair,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006310,DNA recombination,0,32,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006313,DNA transposition,0,33,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006351,DNA-templated transcription,0,32,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006352,DNA-templated transcription initiation,0,15,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006353,DNA-templated transcription termination,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006354,DNA-templated transcription elongation,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006364,rRNA processing,0,13,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006396,RNA processing,0,15,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006400,tRNA modification,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006401,RNA catabolic process,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006402,mRNA catabolic process,0,12,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006413,translational initiation,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006414,translational elongation,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006415,translational termination,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006417,regulation of translation,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006418,tRNA aminoacylation for protein translation,0,15,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006457,protein folding,0,14,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006515,protein quality control for misfolded or incompletely synthesized proteins,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006520,amino acid metabolic process,0,11,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006526,L-arginine biosynthetic process,0,12,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006541,L-glutamine metabolic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006544,glycine metabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006545,glycine biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006550,L-isoleucine catabolic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006564,L-serine biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006566,L-threonine metabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006574,L-valine catabolic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006605,protein targeting,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006629,lipid metabolic process,0,20,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006631,fatty acid metabolic process,0,17,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006635,fatty acid beta-oxidation,0,23,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006637,acyl-CoA metabolic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006654,phosphatidic acid biosynthetic process,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006694,steroid biosynthetic process,0,8,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006707,cholesterol catabolic process,0,38,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006729,tetrahydrobiopterin biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006777,Mo-molybdopterin cofactor biosynthetic process,0,14,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006779,porphyrin-containing compound biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006783,heme biosynthetic process,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006805,xenobiotic metabolic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006812,monoatomic cation transport,0,11,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006813,potassium ion transport,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006817,phosphate ion transport,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006865,amino acid transport,0,9,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006869,lipid transport,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006879,intracellular iron ion homeostasis,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006886,intracellular protein transport,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006950,response to stress,0,16,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006974,DNA damage response,0,21,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006979,response to oxidative stress,0,20,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006995,cellular response to nitrogen starvation,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0007059,chromosome segregation,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0008202,steroid metabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0008203,cholesterol metabolic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0008299,isoprenoid biosynthetic process,0,9,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0008360,regulation of cell shape,0,13,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0008615,pyridoxine biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0008643,carbohydrate transport,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0008652,amino acid biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0008654,phospholipid biosynthetic process,0,11,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009051,"pentose-phosphate shunt, oxidative branch",0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009060,aerobic respiration,0,9,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009061,anaerobic respiration,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009062,fatty acid catabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009073,aromatic amino acid biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009082,branched-chain amino acid biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009085,L-lysine biosynthetic process,0,9,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009088,L-threonine biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009098,L-leucine biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009099,L-valine biosynthetic process,0,8,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009102,biotin biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009103,lipopolysaccharide biosynthetic process,0,10,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009116,nucleoside metabolic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009152,purine ribonucleotide biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009190,cyclic nucleotide biosynthetic process,0,16,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009228,thiamine biosynthetic process,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009229,thiamine diphosphate biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009231,riboflavin biosynthetic process,0,9,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009234,menaquinone biosynthetic process,0,8,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009236,cobalamin biosynthetic process,0,17,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009245,lipid A biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009250,glucan biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009252,peptidoglycan biosynthetic process,0,32,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009253,peptidoglycan catabolic process,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009263,deoxyribonucleotide biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009267,cellular response to starvation,0,8,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009306,protein secretion,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009307,DNA restriction-modification system,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009372,quorum sensing,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009396,folic acid-containing compound biosynthetic process,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009408,response to heat,0,16,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009409,response to cold,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009410,response to xenobiotic stimulus,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009415,response to water,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009423,chorismate biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009432,SOS response,0,12,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009451,RNA modification,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0009697,salicylic acid biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0010039,response to iron ion,0,8,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0010043,response to zinc ion,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0010106,cellular response to iron ion starvation,0,14,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0010447,response to acidic pH,0,12,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0010468,regulation of gene expression,0,11,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0010498,proteasomal protein catabolic process,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0010628,positive regulation of gene expression,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0010629,negative regulation of gene expression,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0010756,positive regulation of plasminogen activation,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015031,protein transport,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015074,DNA integration,0,27,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015689,molybdate ion transport,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015693,magnesium ion transport,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015700,arsenite transport,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015706,nitrate transmembrane transport,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015707,nitrite transport,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015771,trehalose transport,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015833,peptide transport,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015836,lipid-linked peptidoglycan transport,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015914,phospholipid transport,0,8,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015920,lipopolysaccharide transport,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015940,pantothenate biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015977,carbon fixation,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015986,proton motive force-driven ATP synthesis,0,8,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0015990,electron transport coupled proton transport,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0016036,cellular response to phosphate starvation,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0016042,lipid catabolic process,0,15,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0016075,rRNA catabolic process,0,11,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0016114,terpenoid biosynthetic process,0,9,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0016125,sterol metabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0016226,iron-sulfur cluster assembly,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0016311,dephosphorylation,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0016485,protein processing,0,9,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0016539,intein-mediated protein splicing,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0016998,cell wall macromolecule catabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0017000,antibiotic biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0017038,protein import,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0017148,negative regulation of translation,0,8,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0018104,peptidoglycan-protein cross-linking,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0019288,"isopentenyl diphosphate biosynthetic process, methylerythritol phosphate pathway",0,10,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0019290,siderophore biosynthetic process,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0019305,dTDP-rhamnose biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0019344,L-cysteine biosynthetic process,0,12,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0019346,transsulfuration,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0019354,siroheme biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0019430,removal of superoxide radicals,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0019432,triglyceride biosynthetic process,0,16,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0019464,glycine decarboxylation via glycine cleavage system,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0019540,catechol-containing siderophore biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0019543,propionate catabolic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0019627,urea metabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0019645,anaerobic electron transport chain,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0019646,aerobic electron transport chain,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0019941,modification-dependent protein catabolic process,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0022611,dormancy process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0022900,electron transport chain,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0022904,respiratory electron transport chain,0,9,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0030001,metal ion transport,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0030163,protein catabolic process,0,8,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0030488,tRNA methylation,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0030497,fatty acid elongation,0,11,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0030639,polyketide biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0030649,aminoglycoside antibiotic catabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0030655,beta-lactam antibiotic catabolic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0031167,rRNA methylation,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0031460,glycine betaine transport,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0032324,molybdopterin cofactor biosynthetic process,0,8,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0032784,regulation of DNA-templated transcription elongation,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0032790,ribosome disassembly,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0033014,tetrapyrrole biosynthetic process,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0033214,siderophore-iron import into cell,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0033384,geranyl diphosphate biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0033386,geranylgeranyl diphosphate biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0033539,fatty acid beta-oxidation using acyl-CoA dehydrogenase,0,25,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0033668,symbiont-mediated suppression of host apoptosis,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0034599,cellular response to oxidative stress,0,12,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0034605,cellular response to heat,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0035434,copper ion transmembrane transport,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0035435,phosphate ion transmembrane transport,0,13,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0035635,entry of bacterium into host cell,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0035999,tetrahydrofolate interconversion,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0040009,regulation of growth rate,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042026,protein refolding,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042126,nitrate metabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042127,regulation of cell population proliferation,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042128,nitrate assimilation,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042158,lipoprotein biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042254,ribosome biogenesis,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042274,ribosomal small subunit biogenesis,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042276,error-prone translesion synthesis,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042398,modified amino acid biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042542,response to hydrogen peroxide,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042558,pteridine-containing compound metabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042594,response to starvation,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042759,long-chain fatty acid biosynthetic process,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042773,ATP synthesis coupled electron transport,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042823,pyridoxal 5'-phosphate biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0043039,tRNA aminoacylation,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0043041,amino acid activation for nonribosomal peptide biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0043093,FtsZ-dependent cytokinesis,0,8,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0043215,daunorubicin transport,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0043419,urea catabolic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0043952,protein transport by the Sec complex,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0043953,protein transport by the Tat complex,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0044003,symbiont-mediated perturbation of host process,0,11,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0044038,cell wall macromolecule biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0044205,'de novo' UMP biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0044209,AMP salvage,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0044315,protein secretion by the type VII secretion system,0,11,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0044406,adhesion of symbiont to host,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0044409,symbiont entry into host,0,24,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0044539,long-chain fatty acid import into cell,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0044550,secondary metabolite biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0044650,adhesion of symbiont to host cell,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0044847,iron acquisition from host,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0045017,glycerolipid biosynthetic process,0,14,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0045227,capsule polysaccharide biosynthetic process,0,18,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0045454,cell redox homeostasis,0,32,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0045717,negative regulation of fatty acid biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0045727,positive regulation of translation,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0045892,negative regulation of DNA-templated transcription,0,42,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0045893,positive regulation of DNA-templated transcription,0,30,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0045900,negative regulation of translational elongation,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0045926,negative regulation of growth,0,38,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0045927,positive regulation of growth,0,28,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0046168,glycerol-3-phosphate catabolic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0046306,alkanesulfonate catabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0046417,chorismate metabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0046470,phosphatidylcholine metabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0046474,glycerophospholipid biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0046488,phosphatidylinositol metabolic process,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0046500,S-adenosylmethionine metabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0046503,glycerolipid catabolic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0046506,sulfolipid biosynthetic process,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0046653,tetrahydrofolate metabolic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0046654,tetrahydrofolate biosynthetic process,0,8,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0046677,response to antibiotic,0,39,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0046686,response to cadmium ion,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0046688,response to copper ion,0,9,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0046835,carbohydrate phosphorylation,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0050992,dimethylallyl diphosphate biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0051260,protein homooligomerization,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0051301,cell division,0,12,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0051604,protein maturation,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0051701,biological process involved in interaction with host,0,87,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0052008,symbiont-mediated disruption of host cellular anatomical structure,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0052553,symbiont-mediated perturbation of host immune response,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0052645,F420-0 metabolic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0052699,ergothioneine biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0052837,thiazole biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0055070,copper ion homeostasis,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0055085,transmembrane transport,0,130,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0055129,L-proline biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0065002,intracellular protein transmembrane transport,0,8,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0070298,negative regulation of phosphorelay signal transduction system,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0070475,rRNA base methylation,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0070490,protein pupylation,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0070588,calcium ion transmembrane transport,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0070592,cell wall polysaccharide biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0070681,glutaminyl-tRNAGln biosynthesis via transamidation,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0070814,hydrogen sulfide biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071265,L-methionine biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071266,'de novo' L-methionine biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071267,L-methionine salvage,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071451,cellular response to superoxide,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071456,cellular response to hypoxia,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071468,cellular response to acidic pH,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071554,cell wall organization or biogenesis,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071555,cell wall organization,0,11,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071731,response to nitric oxide,0,17,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071732,cellular response to nitric oxide,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071768,mycolic acid biosynthetic process,0,14,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071769,mycolate cell wall layer assembly,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071805,potassium ion transmembrane transport,0,9,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071897,DNA biosynthetic process,0,12,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0085016,dormancy exit of symbiont in host,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0090529,cell septum assembly,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0097041,phenolic phthiocerol biosynthetic process,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0098655,monoatomic cation transmembrane transport,0,11,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0098754,detoxification,0,12,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0098869,cellular oxidant detoxification,0,15,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0106074,aminoacyl-tRNA metabolism involved in translational fidelity,0,7,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0120010,intermembrane phospholipid transfer,0,25,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:1900753,doxorubicin transport,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:1901135,carbohydrate derivative metabolic process,0,6,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:1901137,carbohydrate derivative biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:1901704,L-glutamine biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:1901705,L-isoleucine biosynthetic process,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:1902358,sulfate transmembrane transport,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:1902600,proton transmembrane transport,0,24,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:1903830,magnesium ion transmembrane transport,0,5,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:1990748,cellular detoxification,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:1990961,xenobiotic detoxification by transmembrane export across the plasma membrane,0,4,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:2000142,regulation of DNA-templated transcription initiation,0,13,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:2001121,coenzyme gamma-F420-2 biosynthetic process,0,3,24,2186,0.0,1.0,,1.0,376
+triple45_vs_RNA_tested,GO_CC,GO:0015934,large ribosomal subunit,1,8,25,2062,10.31,0.0931271712031389,Rv0704,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0042597,periplasmic space,1,13,25,2062,6.344615384615385,0.14704064164988387,Rv0846c,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0032993,protein-DNA complex,1,22,25,2062,3.749090909090909,0.23642662812896229,Rv0273c,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0022625,cytosolic large ribosomal subunit,1,29,25,2062,2.8441379310344828,0.29965929364539784,Rv0704,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0009986,cell surface,1,47,25,2062,1.7548936170212768,0.4400180654963922,Rv1196,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0005840,ribosome,1,54,25,2062,1.5274074074074075,0.4869458397436507,Rv0704,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0005886,plasma membrane,15,1242,25,2062,0.9961352657004832,0.5955825553828898,"Rv0001,Rv0410c,Rv0412c,Rv0704,Rv0846c,Rv0902c,Rv1082,Rv1184c,Rv2366c,Rv2381c,Rv2951c,Rv2952,Rv2963,Rv3921c,Rv3922c",1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0016020,membrane,4,335,25,2062,0.9848358208955225,0.5978642044979865,"Rv0902c,Rv2366c,Rv2743c,Rv3921c",1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0005829,cytosol,3,368,25,2062,0.672391304347826,0.8505237982487371,"Rv0410c,Rv0573c,Rv1082",1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0005576,extracellular region,3,379,25,2062,0.6528759894459103,0.8653593422865595,"Rv0398c,Rv0412c,Rv3627c",1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0005737,cytoplasm,4,493,25,2062,0.6692089249492901,0.882891094248228,"Rv0001,Rv0410c,Rv1176c,Rv3800c",1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0005694,chromosome,0,5,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0005835,fatty acid synthase complex,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0005948,acetolactate synthase complex,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0005971,ribonucleoside-diphosphate reductase complex,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0009274,peptidoglycan-based cell wall,0,62,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0009279,cell outer membrane,0,8,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0009295,nucleoid,0,7,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0009317,acetyl-CoA carboxylase complex,0,6,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0009325,nitrate reductase complex,0,4,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0009326,formate dehydrogenase complex,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0009338,exodeoxyribonuclease V complex,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0009360,DNA polymerase III complex,0,4,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0009380,excinuclease repair complex,0,4,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0009898,cytoplasmic side of plasma membrane,0,7,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0015935,small ribosomal subunit,0,11,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0020002,host cell plasma membrane,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0022627,cytosolic small ribosomal subunit,0,14,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0030288,outer membrane-bounded periplasmic space,0,11,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0030313,cell envelope,0,12,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0030430,host cell cytoplasm,0,10,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0030964,NADH dehydrogenase complex,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0031004,potassium ion-transporting ATPase complex,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0031522,cell envelope Sec protein transport complex,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0032153,cell division site,0,4,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0032991,protein-containing complex,0,7,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0033202,DNA helicase complex,0,5,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0033281,TAT protein transport complex,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0033650,host cell mitochondrion,0,6,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0034081,polyketide synthase complex,0,9,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0035550,urease complex,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0042025,host cell nucleus,0,5,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0042603,capsule,0,4,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0043190,ATP-binding cassette (ABC) transporter complex,0,40,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0043590,bacterial nucleoid,0,8,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0044161,host cell cytoplasmic vesicle,0,4,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0044164,host cell cytosol,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0044165,host cell endoplasmic reticulum,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0044228,host cell surface,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0045254,pyruvate dehydrogenase complex,0,5,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0045259,proton-transporting ATP synthase complex,0,8,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0045271,respiratory chain complex I,0,5,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0045283,fumarate reductase complex,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0048476,Holliday junction resolvase complex,0,4,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0097691,bacterial extracellular vesicle,0,4,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:0140737,encapsulin nanocompartment,0,5,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:1903103,potassium:proton antiporter complex,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_CC,GO:1990229,iron-sulfur cluster assembly complex,0,3,25,2062,0.0,1.0,,1.0,58
+triple45_vs_RNA_tested,GO_MF,GO:0016740,transferase activity,3,59,27,2525,4.75517890772128,0.023807277706048985,"Rv0704,Rv2381c,Rv3800c",1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0031177,phosphopantetheine binding,2,24,27,2525,7.79320987654321,0.02629882526298605,"Rv2381c,Rv3800c",1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008948,oxaloacetate decarboxylase activity,1,3,27,2525,31.17283950617284,0.03174984795543083,Rv2332,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0009927,histidine phosphotransfer kinase activity,1,3,27,2525,31.17283950617284,0.03174984795543083,Rv0902c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004322,ferroxidase activity,1,4,27,2525,23.379629629629626,0.04211572983695478,Rv0846c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0042781,3'-tRNA processing endoribonuclease activity,1,4,27,2525,23.379629629629626,0.04211572983695478,Rv3923c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0042802,identical protein binding,2,31,27,2525,6.033452807646356,0.04232669960742128,"Rv0410c,Rv0902c",1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003688,DNA replication origin binding,1,6,27,2525,15.58641975308642,0.06252783273233715,Rv0001,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016831,carboxy-lyase activity,1,6,27,2525,15.58641975308642,0.06252783273233715,Rv2332,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004175,endopeptidase activity,1,8,27,2525,11.689814814814813,0.08252074128441789,Rv0658c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008194,UDP-glycosyltransferase activity,1,8,27,2525,11.689814814814813,0.08252074128441789,Rv2962c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016811,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides",1,9,27,2525,10.390946502057613,0.09236259268899506,Rv1082,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0005507,copper ion binding,1,10,27,2525,9.351851851851851,0.10210273974678405,Rv0846c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008171,O-methyltransferase activity,1,10,27,2525,9.351851851851851,0.10210273974678405,Rv2952,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016810,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds",1,10,27,2525,9.351851851851851,0.10210273974678405,Rv1082,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016878,acid-thiol ligase activity,1,11,27,2525,8.5016835016835,0.11174219343538717,Rv2950c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004674,protein serine/threonine kinase activity,1,12,27,2525,7.79320987654321,0.12128195508106915,Rv0410c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0106310,protein serine kinase activity,1,12,27,2525,7.79320987654321,0.12128195508106915,Rv0410c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016614,"oxidoreductase activity, acting on CH-OH group of donors",1,13,27,2525,7.193732193732193,0.13072301644709036,Rv2951c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0000155,phosphorelay sensor kinase activity,1,14,27,2525,6.6798941798941796,0.14006635982126572,Rv0902c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0010181,FMN binding,1,14,27,2525,6.6798941798941796,0.14006635982126572,Rv1391,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016772,"transferase activity, transferring phosphorus-containing groups",1,14,27,2525,6.6798941798941796,0.14006635982126572,Rv0902c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0070566,adenylyltransferase activity,1,15,27,2525,6.234567901234567,0.14931295810275744,Rv2950c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004673,protein histidine kinase activity,1,16,27,2525,5.8449074074074066,0.15846377488810626,Rv0902c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004312,fatty acid synthase activity,1,17,27,2525,5.501089324618736,0.1675197645565085,Rv3800c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0097351,toxin sequestering activity,1,18,27,2525,5.195473251028806,0.1764818723543451,Rv3181c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004315,3-oxoacyl-[acyl-carrier-protein] synthase activity,1,19,27,2525,4.922027290448343,0.18535103447896925,Rv3800c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004672,protein kinase activity,1,19,27,2525,4.922027290448343,0.18535103447896925,Rv0410c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0043565,sequence-specific DNA binding,1,19,27,2525,4.922027290448343,0.18535103447896925,Rv0001,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0000049,tRNA binding,1,21,27,2525,4.453262786596119,0.2028142217504334,Rv3923c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004252,serine-type endopeptidase activity,1,21,27,2525,4.453262786596119,0.2028142217504334,Rv1043c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016874,ligase activity,1,21,27,2525,4.453262786596119,0.2028142217504334,Rv2950c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016758,hexosyltransferase activity,1,22,27,2525,4.25084175084175,0.21141007479066437,Rv2962c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0051287,NAD binding,1,23,27,2525,4.066022544283414,0.21991663810694556,Rv2332,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008757,S-adenosylmethionine-dependent methyltransferase activity,1,24,27,2525,3.896604938271605,0.22833480388276983,Rv2952,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016616,"oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",1,30,27,2525,3.1172839506172836,0.27703634357655565,Rv2332,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0005515,protein binding,4,263,27,2525,1.422334882410928,0.30782088459547224,"Rv0001,Rv0410c,Rv0902c,Rv3902c",1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0051536,iron-sulfur cluster binding,1,38,27,2525,2.4610136452241713,0.3373871082297419,Rv0808,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",1,41,27,2525,2.280939476061427,0.35874303829930787,Rv2951c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0019843,rRNA binding,1,44,27,2525,2.125420875420875,0.37943536788240606,Rv0704,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003723,RNA binding,1,52,27,2525,1.7984330484330482,0.4315198080512122,Rv0704,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003700,DNA-binding transcription factor activity,2,142,27,2525,1.3171622326551904,0.4541548448317208,"Rv0273c,Rv1176c",1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003735,structural constituent of ribosome,1,57,27,2525,1.640675763482781,0.4619066687659044,Rv0704,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0005524,ATP binding,3,260,27,2525,1.079059829059829,0.5369227482891936,"Rv0001,Rv0410c,Rv0902c",1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008168,methyltransferase activity,1,73,27,2525,1.2810755961440892,0.5489911780592684,Rv2952,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016746,acyltransferase activity,1,75,27,2525,1.2469135802469136,0.5588709909774805,Rv3800c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0050660,flavin adenine dinucleotide binding,1,81,27,2525,1.1545496113397347,0.5872758107564395,Rv2366c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003677,DNA binding,3,291,27,2525,0.9641084383352424,0.6173015951692936,"Rv0001,Rv0273c,Rv1176c",1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008270,zinc ion binding,1,90,27,2525,1.0390946502057614,0.6266060009570182,Rv1082,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016887,ATP hydrolysis activity,1,110,27,2525,0.8501683501683501,0.70150596620065,Rv0001,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003824,catalytic activity,1,184,27,2525,0.5082528180354268,0.871766663588196,Rv1391,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0000287,magnesium ion binding,1,187,27,2525,0.5000990295107942,0.8761544899130943,Rv0808,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016491,oxidoreductase activity,1,195,27,2525,0.4795821462488129,0.8871600517552319,Rv0846c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0000030,mannosyltransferase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0000035,acyl binding,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0000036,acyl carrier activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0000150,DNA strand exchange activity,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0000156,phosphorelay response regulator activity,0,12,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0000166,nucleotide binding,0,75,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0000175,3'-5'-RNA exonuclease activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0000976,transcription cis-regulatory region binding,0,75,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0000987,cis-regulatory region sequence-specific DNA binding,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0001217,DNA-binding transcription repressor activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0001968,fibronectin binding,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0002161,aminoacyl-tRNA deacylase activity,0,7,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003676,nucleic acid binding,0,70,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003678,DNA helicase activity,0,11,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003684,damaged DNA binding,0,10,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003690,double-stranded DNA binding,0,7,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003697,single-stranded DNA binding,0,7,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003724,RNA helicase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003729,mRNA binding,0,7,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003743,translation initiation factor activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003746,translation elongation factor activity,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003755,peptidyl-prolyl cis-trans isomerase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003841,1-acylglycerol-3-phosphate O-acyltransferase activity,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003852,2-isopropylmalate synthase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003857,(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003887,DNA-directed DNA polymerase activity,0,14,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003899,DNA-directed RNA polymerase activity,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003905,alkylbase DNA N-glycosylase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003906,DNA-(apurinic or apyrimidinic site) endonuclease activity,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003910,DNA ligase (ATP) activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003918,"DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity",0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003924,GTPase activity,0,19,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003938,IMP dehydrogenase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003954,NADH dehydrogenase activity,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003955,NAD(P)H dehydrogenase (quinone) activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003984,acetolactate synthase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003985,acetyl-CoA C-acetyltransferase activity,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003988,acetyl-CoA C-acyltransferase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003989,acetyl-CoA carboxylase activity,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003993,acid phosphatase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0003995,acyl-CoA dehydrogenase activity,0,24,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004016,adenylate cyclase activity,0,16,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004022,alcohol dehydrogenase (NAD+) activity,0,7,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004029,aldehyde dehydrogenase (NAD+) activity,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004040,amidase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004065,arylsulfatase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004075,biotin carboxylase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004089,carbonate dehydratase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004106,chorismate mutase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004124,cysteine synthase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004129,cytochrome-c oxidase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004144,diacylglycerol O-acyltransferase activity,0,19,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004148,dihydrolipoyl dehydrogenase (NADH) activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004161,dimethylallyltranstransferase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004176,ATP-dependent peptidase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004177,aminopeptidase activity,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004190,aspartic-type endopeptidase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004222,metalloendopeptidase activity,0,10,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004300,enoyl-CoA hydratase activity,0,16,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004301,epoxide hydrolase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004311,geranylgeranyl diphosphate synthase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004337,"(2E,6E)-farnesyl diphosphate synthase activity",0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004356,glutamine synthetase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004357,glutamate-cysteine ligase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004359,glutaminase activity,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004386,helicase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004400,L-histidinol-phosphate:2-oxoglutarate transaminase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004416,hydroxyacylglutathione hydrolase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004451,isocitrate lyase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004466,long-chain fatty acyl-CoA dehydrogenase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004467,long-chain fatty acid-CoA ligase activity,0,13,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004497,monooxygenase activity,0,30,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004499,"N,N-dimethylaniline monooxygenase activity",0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004518,nuclease activity,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004519,endonuclease activity,0,22,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004520,DNA endonuclease activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004521,RNA endonuclease activity,0,29,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004540,RNA nuclease activity,0,50,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004553,"hydrolase activity, hydrolyzing O-glycosyl compounds",0,12,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004591,oxoglutarate dehydrogenase (succinyl-transferring) activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004601,peroxidase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004619,phosphoglycerate mutase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004620,glycerophospholipase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004622,phosphatidylcholine lysophospholipase A1 activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004629,C-type glycerophospholipase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004642,phosphoribosylformylglycinamidine synthase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004658,propionyl-CoA carboxylase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004659,prenyltransferase activity,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004721,phosphoprotein phosphatase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004722,protein serine/threonine phosphatase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004739,pyruvate dehydrogenase (acetyl-transferring) activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004748,"ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor",0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004767,sphingomyelin phosphodiesterase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004792,thiosulfate-cyanide sulfurtransferase activity,0,9,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004803,transposase activity,0,27,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004805,trehalose-phosphatase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004806,triacylglycerol lipase activity,0,13,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004812,aminoacyl-tRNA ligase activity,0,18,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004844,uracil DNA N-glycosylase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0005267,potassium channel activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0005315,phosphate transmembrane transporter activity,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0005324,long-chain fatty acid transmembrane transporter activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0005388,P-type calcium transporter activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0005504,fatty acid binding,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0005506,iron ion binding,0,50,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0005509,calcium ion binding,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0005525,GTP binding,0,27,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008047,enzyme activator activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008080,N-acetyltransferase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008081,phosphoric diester hydrolase activity,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008094,"ATP-dependent activity, acting on DNA",0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008126,acetylesterase activity,0,13,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008137,NADH dehydrogenase (ubiquinone) activity,0,11,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008146,sulfotransferase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008173,RNA methyltransferase activity,0,9,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008177,succinate dehydrogenase (quinone) activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008198,ferrous iron binding,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008199,ferric iron binding,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008233,peptidase activity,0,13,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008235,metalloexopeptidase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008236,serine-type peptidase activity,0,10,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008237,metallopeptidase activity,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008239,dipeptidyl-peptidase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008276,protein methyltransferase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008320,transmembrane protein transporter activity,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008324,monoatomic cation transmembrane transporter activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008379,thioredoxin peroxidase activity,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008395,steroid hydroxylase activity,0,9,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008408,3'-5' exonuclease activity,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008409,5'-3' exonuclease activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008410,CoA-transferase activity,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008483,transaminase activity,0,13,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008556,P-type potassium transmembrane transporter activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008641,ubiquitin-like modifier activating enzyme activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008658,penicillin binding,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008725,DNA-3-methyladenine glycosylase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008726,alkanesulfonate monooxygenase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008745,N-acetylmuramoyl-L-alanine amidase activity,0,9,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008750,proton-translocating NAD(P)+ transhydrogenase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008800,beta-lactamase activity,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008825,cyclopropane-fatty-acyl-phospholipid synthase activity,0,9,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008854,exodeoxyribonuclease V activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008922,long-chain fatty acid [acyl-carrier-protein] ligase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008933,peptidoglycan lytic transglycosylase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008934,inositol monophosphate 1-phosphatase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008940,nitrate reductase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008941,nitric oxide dioxygenase [NAD(P)H] activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008955,peptidoglycan glycosyltransferase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008999,protein-N-terminal-alanine acetyltransferase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0009002,serine-type D-Ala-D-Ala carboxypeptidase activity,0,7,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0009009,site-specific recombinase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0009037,tyrosine-based site-specific recombinase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0009039,urease activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0009055,electron transfer activity,0,21,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0009381,excinuclease ABC activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0009982,pseudouridine synthase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0015035,protein-disulfide reductase activity,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0015036,disulfide oxidoreductase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0015078,proton transmembrane transporter activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0015095,magnesium ion transmembrane transporter activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0015105,arsenite transmembrane transporter activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0015112,nitrate transmembrane transporter activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0015171,amino acid transmembrane transporter activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0015297,antiporter activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0015419,ABC-type sulfate transporter activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0015450,protein-transporting ATPase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0015562,efflux transmembrane transporter activity,0,11,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0015574,trehalose transmembrane transporter activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0015648,lipid-linked peptidoglycan transporter activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016151,nickel cation binding,0,9,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016209,antioxidant activity,0,11,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016298,lipase activity,0,11,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016301,kinase activity,0,17,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016405,CoA-ligase activity,0,15,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016407,acetyltransferase activity,0,10,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016462,pyrophosphatase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016597,amino acid binding,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016620,"oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016624,"oxidoreductase activity, acting on the aldehyde or oxo group of donors, disulfide as acceptor",0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016627,"oxidoreductase activity, acting on the CH-CH group of donors",0,48,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016646,"oxidoreductase activity, acting on the CH-NH group of donors, NAD or NADP as acceptor",0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016651,"oxidoreductase activity, acting on NAD(P)H",0,11,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016655,"oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor",0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016668,"oxidoreductase activity, acting on a sulfur group of donors, NAD(P) as acceptor",0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016682,"oxidoreductase activity, acting on diphenols and related substances as donors, oxygen as acceptor",0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016702,"oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen",0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016706,2-oxoglutarate-dependent dioxygenase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016709,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016717,"oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water",0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016747,"acyltransferase activity, transferring groups other than amino-acyl groups",0,75,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016757,glycosyltransferase activity,0,15,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016763,pentosyltransferase activity,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016765,"transferase activity, transferring alkyl or aryl (other than methyl) groups",0,14,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016773,"phosphotransferase activity, alcohol group as acceptor",0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016779,nucleotidyltransferase activity,0,12,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016780,"phosphotransferase activity, for other substituted phosphate groups",0,7,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016783,sulfurtransferase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016787,hydrolase activity,0,111,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016788,"hydrolase activity, acting on ester bonds",0,23,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016790,thiolester hydrolase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016791,phosphatase activity,0,20,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016799,"hydrolase activity, hydrolyzing N-glycosyl compounds",0,7,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016818,"hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides",0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016829,lyase activity,0,10,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016830,carbon-carbon lyase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016853,isomerase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016866,intramolecular transferase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016868,intramolecular phosphotransferase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016879,"ligase activity, forming carbon-nitrogen bonds",0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016881,acid-amino acid ligase activity,0,9,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016899,"oxidoreductase activity, acting on the CH-OH group of donors, oxygen as acceptor",0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016937,short-chain fatty acyl-CoA dehydrogenase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016987,sigma factor activity,0,13,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0016989,sigma factor antagonist activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0018580,nitronate monooxygenase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0018786,haloalkane dehalogenase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0018812,3-hydroxyacyl-CoA dehydratase activity,0,10,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0019104,DNA N-glycosylase activity,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0019171,(3R)-hydroxyacyl-[acyl-carrier-protein] dehydratase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0019825,oxygen binding,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0019829,ATPase-coupled monoatomic cation transmembrane transporter activity,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0020037,heme binding,0,41,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0022857,transmembrane transporter activity,0,72,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0030145,manganese ion binding,0,43,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0030151,molybdenum ion binding,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0030170,pyridoxal phosphate binding,0,42,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0030246,carbohydrate binding,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0030366,molybdopterin synthase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0030955,potassium ion binding,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0030976,thiamine pyrophosphate binding,0,10,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0031071,cysteine desulfurase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0031072,heat shock protein binding,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0031073,cholesterol 26-hydroxylase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0031419,cobalamin binding,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0031956,medium-chain fatty acid-CoA ligase activity,0,10,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0033765,"steroid dehydrogenase activity, acting on the CH-CH group of donors",0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0034061,DNA polymerase activity,0,7,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0034062,5'-3' RNA polymerase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0034069,aminoglycoside N-acetyltransferase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0034335,DNA negative supercoiling activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0034338,short-chain carboxylesterase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0034480,phosphatidylcholine phospholipase C activity,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0035375,zymogen binding,0,15,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0035539,"8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity",0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0035731,dinitrosyl-iron complex binding,0,7,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0036199,cholest-4-en-3-one 26-monooxygenase activity,0,10,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0036243,succinate-semialdehyde dehydrogenase (NADP+) activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0036424,L-phosphoserine phosphatase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0036440,citrate synthase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0042132,"fructose 1,6-bisphosphate 1-phosphatase activity",0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0042301,phosphate ion binding,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0042578,phosphoric ester hydrolase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0042626,ATPase-coupled transmembrane transporter activity,0,13,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0042803,protein homodimerization activity,0,36,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0043022,ribosome binding,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0043023,ribosomal large subunit binding,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0043138,3'-5' DNA helicase activity,0,9,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0043139,5'-3' DNA helicase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0043175,RNA polymerase core enzyme binding,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0043531,ADP binding,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0043546,molybdopterin cofactor binding,0,7,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0043750,phosphatidylinositol alpha-mannosyltransferase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0043856,anti-sigma factor antagonist activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0044183,protein folding chaperone,0,12,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0046812,host cell surface binding,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0046872,metal ion binding,0,74,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0046873,metal ion transmembrane transporter activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0046912,"acyltransferase activity, acyl groups converted into alkyl on transfer",0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0046933,"proton-transporting ATP synthase activity, rotational mechanism",0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0046983,protein dimerization activity,0,10,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0047134,protein-disulfide reductase [NAD(P)H] activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0047196,long-chain-alcohol O-fatty-acyltransferase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0047372,monoacylglycerol lipase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0047429,nucleoside triphosphate diphosphatase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0047617,fatty acyl-CoA hydrolase activity,0,11,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0048038,quinone binding,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0050136,NADH dehydrogenase (quinone) (non-electrogenic) activity,0,10,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0050348,trehalose O-mycolyltransferase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0050525,cutinase activity,0,7,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0050661,NADP binding,0,24,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0050897,cobalt ion binding,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0051266,sirohydrochlorin ferrochelatase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0051537,"2 iron, 2 sulfur cluster binding",0,16,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0051539,"4 iron, 4 sulfur cluster binding",0,39,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0051920,peroxiredoxin activity,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0052636,arabinosyltransferase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0052689,carboxylic ester hydrolase activity,0,7,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0052755,coenzyme F420H2:quinone oxidoreductase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0052815,medium-chain fatty acyl-CoA hydrolase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0052816,long-chain fatty acyl-CoA hydrolase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0052834,inositol monophosphate phosphatase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0061733,protein-lysine-acetyltransferase activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0061799,cyclic pyranopterin monophosphate synthase activity,0,5,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0070006,metalloaminopeptidase activity,0,8,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0070025,carbon monoxide binding,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0070063,RNA polymerase binding,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0070180,large ribosomal subunit rRNA binding,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0070181,small ribosomal subunit rRNA binding,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0070401,NADP+ binding,0,6,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0070402,NADPH binding,0,11,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0070403,NAD+ binding,0,9,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0070404,NADH binding,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0070967,coenzyme F420 binding,0,12,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0071949,FAD binding,0,34,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0071972,"peptidoglycan L,D-transpeptidase activity",0,7,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0080023,(2E)-enoyl-CoA hydratase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0080146,L-cysteine desulfhydrase activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0097163,sulfur carrier activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0097367,carbohydrate derivative binding,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0106435,carboxylesterase activity,0,26,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0120014,phospholipid transfer activity,0,25,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0140078,class I DNA-(apurinic or apyrimidinic site) endonuclease activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0140098,"catalytic activity, acting on RNA",0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0140359,ABC-type transporter activity,0,18,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0140581,P-type monovalent copper transporter activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0140662,ATP-dependent protein folding chaperone,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0140678,molecular function inhibitor activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0140824,thioredoxin-dependent peroxiredoxin activity,0,3,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:1904680,peptide transmembrane transporter activity,0,4,27,2525,0.0,1.0,,1.0,372
+triple45_vs_RNA_tested,KEGG,mtu02020,Two-component system,3,61,13,1122,4.244640605296343,0.029602463440352875,"Rv0001,Rv0902c,Rv2332",1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01053,Biosynthesis of siderophore group nonribosomal peptides,1,10,13,1122,8.63076923076923,0.11042709941833007,Rv2381c,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu03070,Bacterial secretion system,1,14,13,1122,6.164835164835165,0.1513563079083896,Rv3921c,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu03060,Protein export,1,17,13,1122,5.076923076923077,0.18090460865692462,Rv3921c,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00550,Peptidoglycan biosynthesis,1,19,13,1122,4.54251012145749,0.2000726977382267,Rv3627c,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00760,Nicotinate and nicotinamide metabolism,1,20,13,1122,4.315384615384615,0.2095006713822912,Rv0573c,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00770,Pantothenate and CoA biosynthesis,1,23,13,1122,3.7525083612040135,0.23717270205946417,Rv1391,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu02024,Quorum sensing,1,24,13,1122,3.5961538461538467,0.24619613688496647,Rv3921c,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00250,"Alanine, aspartate and glutamate metabolism",1,27,13,1122,3.1965811965811968,0.2726786871532666,Rv0808,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu05152,Tuberculosis,1,34,13,1122,2.5384615384615383,0.3311667818239776,Rv0410c,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00074,Mycolic acid biosynthesis,1,36,13,1122,2.3974358974358974,0.34706170514069457,Rv3800c,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00860,Porphyrin metabolism,1,36,13,1122,2.3974358974358974,0.34706170514069457,Rv0846c,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00620,Pyruvate metabolism,1,43,13,1122,2.007155635062612,0.3999889322265547,Rv2332,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00230,Purine metabolism,1,51,13,1122,1.6923076923076923,0.45561360966829945,Rv0808,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01240,Biosynthesis of cofactors,2,131,13,1122,1.3176746917204933,0.4596146750846623,"Rv0573c,Rv1391",1.0,123
+triple45_vs_RNA_tested,KEGG,mtu03010,Ribosome,1,57,13,1122,1.51417004048583,0.49416433879998045,Rv0704,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01200,Carbon metabolism,1,96,13,1122,0.8990384615384617,0.6894286078680618,Rv2332,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01110,Biosynthesis of secondary metabolites,2,373,13,1122,0.4627758300680553,0.9617339500590647,"Rv0808,Rv3800c",1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01100,Metabolic pathways,5,699,13,1122,0.6173654671508748,0.9792960417468275,"Rv0573c,Rv0808,Rv1391,Rv3627c,Rv3800c",1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00010,Glycolysis / Gluconeogenesis,0,31,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00020,Citrate cycle (TCA cycle),0,29,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00030,Pentose phosphate pathway,0,19,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00040,Pentose and glucuronate interconversions,0,5,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00051,Fructose and mannose metabolism,0,15,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00052,Galactose metabolism,0,10,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00053,Ascorbate and aldarate metabolism,0,4,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00061,Fatty acid biosynthesis,0,13,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00071,Fatty acid degradation,0,33,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00073,"Cutin, suberine and wax biosynthesis",0,15,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00130,Ubiquinone and other terpenoid-quinone biosynthesis,0,9,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00190,Oxidative phosphorylation,0,49,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00220,Arginine biosynthesis,0,23,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00240,Pyrimidine metabolism,0,27,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00260,"Glycine, serine and threonine metabolism",0,25,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00261,Monobactam biosynthesis,0,7,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00270,Cysteine and methionine metabolism,0,35,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00280,"Valine, leucine and isoleucine degradation",0,43,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00290,"Valine, leucine and isoleucine biosynthesis",0,13,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00300,Lysine biosynthesis,0,13,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00310,Lysine degradation,0,22,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00330,Arginine and proline metabolism,0,18,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00340,Histidine metabolism,0,21,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00350,Tyrosine metabolism,0,10,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00360,Phenylalanine metabolism,0,21,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00361,Chlorocyclohexane and chlorobenzene degradation,0,4,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00362,Benzoate degradation,0,24,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00380,Tryptophan metabolism,0,24,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",0,19,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00401,Novobiocin biosynthesis,0,4,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00410,beta-Alanine metabolism,0,13,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00430,Taurine and hypotaurine metabolism,0,7,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00450,Selenocompound metabolism,0,11,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00460,Cyanoamino acid metabolism,0,6,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00470,D-Amino acid metabolism,0,8,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00480,Glutathione metabolism,0,14,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00500,Starch and sucrose metabolism,0,23,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00520,Amino sugar and nucleotide sugar metabolism,0,23,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00521,Streptomycin biosynthesis,0,10,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00523,Polyketide sugar unit biosynthesis,0,6,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00525,Acarbose and validamycin biosynthesis,0,3,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00541,Biosynthesis of various nucleotide sugars,0,15,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00561,Glycerolipid metabolism,0,30,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00562,Inositol phosphate metabolism,0,10,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00564,Glycerophospholipid metabolism,0,19,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00565,Ether lipid metabolism,0,5,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00571,Lipoarabinomannan (LAM) biosynthesis,0,13,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00572,Arabinogalactan biosynthesis - Mycobacterium,0,15,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00592,alpha-Linolenic acid metabolism,0,3,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00621,Dioxin degradation,0,4,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00622,Xylene degradation,0,4,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00625,Chloroalkane and chloroalkene degradation,0,8,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00627,Aminobenzoate degradation,0,13,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00630,Glyoxylate and dicarboxylate metabolism,0,39,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00640,Propanoate metabolism,0,30,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00643,Styrene degradation,0,5,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00650,Butanoate metabolism,0,37,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00660,C5-Branched dibasic acid metabolism,0,9,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00670,One carbon pool by folate,0,19,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00680,Methane metabolism,0,21,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00710,Carbon fixation by Calvin cycle,0,11,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00720,Other carbon fixation pathways,0,36,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00730,Thiamine metabolism,0,11,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00740,Riboflavin metabolism,0,7,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00750,Vitamin B6 metabolism,0,5,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00780,Biotin metabolism,0,9,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00785,Lipoic acid metabolism,0,12,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00790,Folate biosynthesis,0,27,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00900,Terpenoid backbone biosynthesis,0,23,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00903,Limonene degradation,0,5,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00907,"Pinene, camphor and geraniol degradation",0,9,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00910,Nitrogen metabolism,0,22,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00920,Sulfur metabolism,0,21,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00930,Caprolactam degradation,0,6,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00970,Aminoacyl-tRNA biosynthesis,0,24,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00983,Drug metabolism - other enzymes,0,11,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu00984,Steroid degradation,0,41,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01040,Biosynthesis of unsaturated fatty acids,0,6,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01120,Microbial metabolism in diverse environments,0,233,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01210,2-Oxocarboxylic acid metabolism,0,35,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01212,Fatty acid metabolism,0,35,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01220,Degradation of aromatic compounds,0,10,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01230,Biosynthesis of amino acids,0,111,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01232,Nucleotide metabolism,0,37,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01250,Biosynthesis of nucleotide sugars,0,32,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01310,Nitrogen cycle,0,6,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01320,Sulfur cycle,0,5,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01501,beta-Lactam resistance,0,9,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01502,Vancomycin resistance,0,6,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu01503,Cationic antimicrobial peptide (CAMP) resistance,0,4,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu02010,ABC transporters,0,84,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu03018,RNA degradation,0,12,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu03020,RNA polymerase,0,4,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu03030,DNA replication,0,15,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu03050,Proteasome,0,3,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu03410,Base excision repair,0,15,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu03420,Nucleotide excision repair,0,10,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu03430,Mismatch repair,0,15,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu03440,Homologous recombination,0,22,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu04122,Sulfur relay system,0,22,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu04146,Peroxisome,0,11,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu04156,Integrated stress response (ISR) signaling pathway,0,4,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu04980,Cobalamin transport and metabolism,0,5,13,1122,0.0,1.0,,1.0,123
+triple45_vs_RNA_tested,KEGG,mtu04981,Folate transport and metabolism,0,7,13,1122,0.0,1.0,,1.0,123

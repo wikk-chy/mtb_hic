@@ -1,0 +1,6 @@
+condition,n,role
+WT,4,hypothesis test
+KO,4,hypothesis test
+HYP,4,hypothesis test
+KO-HYP,3,hypothesis test
+latent,4,descriptive only; KO-latent unavailable; author-reported loss of viability; no CFU/survival quantitative data in current package; WT-latent descriptive only

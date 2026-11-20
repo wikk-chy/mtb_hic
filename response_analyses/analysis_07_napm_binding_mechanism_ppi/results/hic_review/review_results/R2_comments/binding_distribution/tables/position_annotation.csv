@@ -1,0 +1,4 @@
+category,observed,observed_frac,null_mean,null_q025,null_q975,fold,p_two_sided
+gene_body,515,0.8123,579.1,565,594,0.889,0.0
+promoter_300bp,109,0.1719,42.8,30,55,2.548,0.0
+intergenic,10,0.0158,12.1,6,19,0.824,0.626

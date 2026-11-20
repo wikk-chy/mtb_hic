@@ -1,0 +1,3 @@
+binding_definition,n_bound_feature_complete,n_pool_feature_complete,n_pairs,n_unmatched_bound,n_caliper_exceeded,match_distance_median,match_distance_max,caliper,features
+centre_433,422,426,422,0,79,0.576136461005158,7.925639476535762,1.0,"['weight_WT', 'ins_WT', 'expr_wt_mean', 'n_genes']"
+interval_454,442,406,406,36,107,0.5691438098032273,5.615371631072501,1.0,"['weight_WT', 'ins_WT', 'expr_wt_mean', 'n_genes']"

@@ -1,0 +1,29 @@
+{
+  "integrated_nodes": 3875,
+  "integrated_unique_edges": 25306,
+  "integrated_input_edges": 25307,
+  "protein_nodes": 2992,
+  "dna_bins": 883,
+  "ppi_input_edges": 8043,
+  "ppi_unique_edges": 8042,
+  "dna_protein_input_edges": 17223,
+  "dna_protein_unique_edges": 17223,
+  "dna_dna_loop_edges": 41,
+  "loop_anchor_bins": 75,
+  "cid_boundaries": 18,
+  "cid_boundary_loop_anchor_overlap": 3,
+  "boundary_anchor_nodes": [
+    "bin164",
+    "bin188",
+    "bin339"
+  ],
+  "loops_with_at_least_one_shared_anchor_protein": 41,
+  "shared_proteins_per_loop_min": 1,
+  "shared_proteins_per_loop_median": 5.0,
+  "shared_proteins_per_loop_max": 16,
+  "layout_seed": 42,
+  "note": "CID boundaries are highlighted nodes; only the 41 Chromosight loops are DNA-DNA edges."
+}
+Drawing Fig. 2a ...
+Drawing Fig. 2b (DNA-DNA only) ...
+Saved standalone Fig. 2a and Fig. 2b

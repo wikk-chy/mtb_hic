@@ -1,0 +1,9 @@
+item,n,reason
+WT bins with NaN balance weight,17,failed ICE convergence
+KO bins with NaN balance weight,30,failed ICE convergence
+hypoxia bins with NaN balance weight,24,failed ICE convergence
+latent bins with NaN balance weight,23,failed ICE convergence
+KO_hypoxia bins with NaN balance weight,21,failed ICE convergence
+genes in interaction model,279,EBG<->Rv identifier mapping could not be validated with independent KO counts (low/duplicated count vectors)
+bins without RNA summary,9,no annotated TSS inside bin; bin-level RNA summary undefined
+KO-hypoxia Hi-C replicates,1,"only 3 replicates (vs 4 in other conditions); design slightly unbalanced, Welch tests used"

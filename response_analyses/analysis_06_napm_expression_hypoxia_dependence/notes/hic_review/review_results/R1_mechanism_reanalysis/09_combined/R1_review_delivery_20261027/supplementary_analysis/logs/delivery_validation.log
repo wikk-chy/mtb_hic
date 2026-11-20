@@ -1,0 +1,248 @@
+Delivery directory: /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027
+========================================================================
+[PASS] required document exists: R1_major_concerns.md
+[PASS] document is non-trivial: R1_major_concerns.md
+[PASS] required document exists: R1_response_draft.md
+[PASS] document is non-trivial: R1_response_draft.md
+[PASS] required document exists: figure_legends.md
+[PASS] document is non-trivial: figure_legends.md
+[PASS] required document exists: figure_panel_guide_CN.md
+[PASS] document is non-trivial: figure_panel_guide_CN.md
+[PASS] required document exists: analysis_audit.md
+[PASS] document is non-trivial: analysis_audit.md
+[PASS] response draft contains '[CURRENT SOURCE]'
+[PASS] response draft contains '[TO BE INSERTED'
+[PASS] response draft contains '[TO BE REVISED'
+[PASS] response draft contains '[TO BE DELETED'
+[PASS] corrected PDF exists: Fig1
+[PASS] Fig1 is a single-page PDF
+[PASS] Fig1 panel labels include ABCDE; found ABCDE
+[PASS] corrected PDF exists: Fig2
+[PASS] Fig2 is a single-page PDF
+[PASS] Fig2 panel labels include ABCDEF; found ABCDEF
+[PASS] corrected PDF exists: Fig3
+[PASS] Fig3 is a single-page PDF
+[PASS] Fig3 panel labels include ABCD; found ABCD
+[PASS] corrected PDF exists: Fig4
+[PASS] Fig4 is a single-page PDF
+[PASS] Fig4 panel labels include ABCDEFGH; found ABCDEFGH
+[PASS] Fig3 PDF text contains '825 matched pairs'
+[PASS] Fig3 PDF text contains '+0.023'
+[PASS] Fig3 PDF text contains 'no spatial P reported'
+[PASS] Fig3 PDF text contains 'unresolved ≠ unchanged'
+[PASS] Fig3 PDF excludes stale text '817'
+[PASS] Fig3 PDF excludes stale text '122/269'
+[PASS] Fig3 PDF excludes stale text '119/269'
+[PASS] Fig3 PDF excludes stale text 'circular shift'
+[PASS] Fig4 PDF text contains 'pairwise interval'
+[PASS] Fig4 PDF text contains '315/883'
+[PASS] Fig4 PDF text contains '90% CI rule'
+[PASS] Fig4 PDF text contains 'descriptive only.'
+[PASS] required script exists: 01_independent_sample_and_response_audit.py
+[PASS] required script exists: 02_spatial_correlation_audit.py
+[PASS] required script exists: 03_interval_binding_sensitivity.py
+[PASS] required script exists: 04_nested_cv_complete_case.py
+[PASS] required script exists: 05_fig3c_matched_effects.py
+[PASS] required script exists: fig1_corrected.py
+[PASS] required script exists: fig2_corrected.py
+[PASS] required script exists: fig3_corrected.py
+[PASS] required script exists: fig4_corrected.py
+[PASS] required script exists: delivery_validation.py
+[PASS] Python syntax compiles: 01_independent_sample_and_response_audit.py
+[PASS] Python syntax compiles: 02_spatial_correlation_audit.py
+[PASS] Python syntax compiles: 03_interval_binding_sensitivity.py
+[PASS] Python syntax compiles: 04_nested_cv_complete_case.py
+[PASS] Python syntax compiles: 05_fig3c_matched_effects.py
+[PASS] Python syntax compiles: delivery_validation.py
+[PASS] Python syntax compiles: fig1_corrected.py
+[PASS] Python syntax compiles: fig2_corrected.py
+[PASS] Python syntax compiles: fig3_corrected.py
+[PASS] Python syntax compiles: fig4_corrected.py
+[PASS] Python syntax compiles: plain_guide_validation.py
+[PASS] Fig1D observed both-anchor loops = 17
+[PASS] Fig1D null mean = 10.897
+[PASS] Fig1D fold = 1.56
+[PASS] Fig1D circular-shift P = 0.0328
+[PASS] Fig1D exports 10,000 null counts
+[PASS] Fig1E groups = 16 bound and 23 other loops
+[PASS] Fig1E effect matches source
+[PASS] Fig1E CI lower matches source
+[PASS] Fig1E CI upper matches source
+[PASS] Fig1E permutation P matches source
+[PASS] Fig1C robustness has 16/18 intervals crossing zero
+[PASS] Fig1C both robustness exceptions are negative
+[PASS] interval binding has 442 feature-complete bins
+[PASS] interval binding has 406 matched pairs
+[PASS] interval binding has 36 unmatched bound bins
+[PASS] interval binding retains 107 caliper-exceeded pairs
+[PASS] Fig2C quadrant counts = 154/78/187/462
+[PASS] Fig2C quadrant counts sum to 881
+[PASS] Fig2D WT hypoxia response matches source
+[PASS] Fig2D KO hypoxia response matches source
+[PASS] Fig2D DID matches source
+[PASS] Fig2D DID CI lower matches source
+[PASS] Fig2D DID CI upper matches source
+[PASS] Fig2D exact permutation P = 1/2450
+[PASS] Fig2D uses 15 samples and 2,450 assignments
+[PASS] Fig2D sharp null is stated correctly
+[PASS] Fig2E cosine matches source
+[PASS] Fig2E Euclidean distance matches source
+[PASS] Fig2E cosine P matches source
+[PASS] Fig2E Euclidean P matches source
+[PASS] Fig2F has 406 matched pairs
+[PASS] Fig2F paired effect matches source
+[PASS] Fig2F circular-shift P matches source
+[PASS] Fig2F per-pair source contains 406 rows
+[PASS] Fig3B M0_baseline uses final complete-case CV
+[PASS] Fig3B M0_baseline uses 848 complete bins without imputation
+[PASS] Fig3B M1_plus_RNA uses final complete-case CV
+[PASS] Fig3B M1_plus_RNA uses 848 complete bins without imputation
+[PASS] Fig3B M2_plus_occupancy uses final complete-case CV
+[PASS] Fig3B M2_plus_occupancy uses 848 complete bins without imputation
+[PASS] Fig3B RNA increment matches source
+[PASS] Fig3B RNA increment interval matches source
+[PASS] Fig3B occupancy increment matches source
+[PASS] Fig3B occupancy increment interval matches source
+[PASS] Fig3C gene |RNA log2FC| has 825 finite pairs
+[PASS] Fig3C gene |RNA log2FC| effect matches recomputation
+[PASS] Fig3C gene |RNA log2FC| bootstrap interval matches recomputation
+[PASS] Fig3C gene |RNA log2FC| has no retained spatial P
+[PASS] Fig3C gene P(DEG) has 825 finite pairs
+[PASS] Fig3C gene P(DEG) effect matches recomputation
+[PASS] Fig3C gene P(DEG) bootstrap interval matches recomputation
+[PASS] Fig3C gene P(DEG) has no retained spatial P
+[PASS] Fig3C operon |RNA log2FC| has 148 finite pairs
+[PASS] Fig3C operon |RNA log2FC| effect matches recomputation
+[PASS] Fig3C operon |RNA log2FC| bootstrap interval matches recomputation
+[PASS] Fig3C operon |RNA log2FC| has no retained spatial P
+[PASS] Fig3C operon DEG fraction has 148 finite pairs
+[PASS] Fig3C operon DEG fraction effect matches recomputation
+[PASS] Fig3C operon DEG fraction bootstrap interval matches recomputation
+[PASS] Fig3C operon DEG fraction has no retained spatial P
+[PASS] Fig3C gene detail contains 825 pairs
+[PASS] Fig3C gene detail independently reproduces the |log2FC| effect
+[PASS] Fig3C operon detail contains 148 pairs
+[PASS] Fig3D six classification counts match the final rule
+[PASS] Fig3D structure+ unresolved composition = 119 + 3
+[PASS] Fig3D structure- unresolved composition = 295 + 6
+[PASS] Fig4A primary rho matches source
+[PASS] Fig4A 100-kb block CI matches source
+[PASS] Fig4A random circular-shift P matches source
+[PASS] Fig4A exhaustive 883-rotation P matches source
+[PASS] Fig4A source has 881 finite bins
+[PASS] Fig4B overlap counts = 35/164/90/594
+[PASS] Fig4B hypoxia-responsive denominator = 684
+[PASS] Fig4C source contains all 883 bins
+[PASS] Fig4C interaction classes = 79/236/455/113
+[PASS] Fig4C has 315 CI/effect-detected bins
+[PASS] Fig4C has 736 FDR-significant bins
+[PASS] Fig4C has 422 FDR-significant but not CI/effect-detected bins
+[PASS] Fig4C median uses 881 finite interaction values
+[PASS] Fig4C median |interaction| = 0.2003
+[PASS] figure legends contains '17/41'
+[PASS] figure legends contains '10.897'
+[PASS] figure legends contains '+0.05897'
+[PASS] figure legends contains '2,450'
+[PASS] figure legends contains '0.000408'
+[PASS] figure legends contains '154'
+[PASS] figure legends contains '78'
+[PASS] figure legends contains '187'
+[PASS] figure legends contains '462'
+[PASS] figure legends contains '5.95063'
+[PASS] figure legends contains '0.670497'
+[PASS] figure legends contains '0.670706'
+[PASS] figure legends contains '0.670880'
+[PASS] figure legends contains '+0.02295'
+[PASS] figure legends contains '825 finite matched pairs'
+[PASS] figure legends contains '0.52653'
+[PASS] figure legends contains '594/684'
+[PASS] figure legends contains '736'
+[PASS] figure legends contains '422'
+[PASS] figure legends contains '315'
+[PASS] Chinese panel guide contains '825 对基因'
+[PASS] Chinese panel guide contains '148 对操纵子'
+[PASS] Chinese panel guide contains '423 个 bins'
+[PASS] Chinese panel guide contains '122／301'
+[PASS] Chinese panel guide contains '两类比较都未达到变化规则'
+[PASS] Chinese panel guide contains '315 或 736'
+[PASS] Chinese panel guide contains 'Extended Data Fig. 3A fingerprint 热图'
+[PASS] Fig3D legend retains the ±0.25 structure-detected rule
+[PASS] Fig4B legend uses pairwise intervals without the ±0.25 rule
+[PASS] Fig4C legend retains Welch CI and effect-threshold rules
+[PASS] historical token '3.9e-33' is absent from R1_major_concerns.md
+[PASS] historical token '3.865589' is absent from R1_major_concerns.md
+[PASS] historical token '5.5e-64' is absent from R1_major_concerns.md
+[PASS] historical token '5.466368' is absent from R1_major_concerns.md
+[PASS] historical token '119/269' is absent from R1_major_concerns.md
+[PASS] historical token '17/18' is absent from R1_major_concerns.md
+[PASS] historical token '0.6712' is absent from R1_major_concerns.md
+[PASS] historical token '0.6713' is absent from R1_major_concerns.md
+[PASS] historical token '0.6711' is absent from R1_major_concerns.md
+[PASS] historical token '817 pairs' is absent from R1_major_concerns.md
+[PASS] historical token 'n = 817' is absent from R1_major_concerns.md
+[PASS] historical token '−0.02938' is absent from R1_major_concerns.md
+[PASS] historical token '-0.0293847' is absent from R1_major_concerns.md
+[PASS] historical token '−0.03636' is absent from R1_major_concerns.md
+[PASS] historical token '-0.0363636' is absent from R1_major_concerns.md
+[PASS] historical token 'p = 0.419' is absent from R1_major_concerns.md
+[PASS] historical token 'p = 0.117' is absent from R1_major_concerns.md
+[PASS] historical token '3.9e-33' is absent from R1_response_draft.md
+[PASS] historical token '3.865589' is absent from R1_response_draft.md
+[PASS] historical token '5.5e-64' is absent from R1_response_draft.md
+[PASS] historical token '5.466368' is absent from R1_response_draft.md
+[PASS] historical token '119/269' is absent from R1_response_draft.md
+[PASS] historical token '17/18' is absent from R1_response_draft.md
+[PASS] historical token '0.6712' is absent from R1_response_draft.md
+[PASS] historical token '0.6713' is absent from R1_response_draft.md
+[PASS] historical token '0.6711' is absent from R1_response_draft.md
+[PASS] historical token '817 pairs' is absent from R1_response_draft.md
+[PASS] historical token 'n = 817' is absent from R1_response_draft.md
+[PASS] historical token '−0.02938' is absent from R1_response_draft.md
+[PASS] historical token '-0.0293847' is absent from R1_response_draft.md
+[PASS] historical token '−0.03636' is absent from R1_response_draft.md
+[PASS] historical token '-0.0363636' is absent from R1_response_draft.md
+[PASS] historical token 'p = 0.419' is absent from R1_response_draft.md
+[PASS] historical token 'p = 0.117' is absent from R1_response_draft.md
+[PASS] historical token '3.9e-33' is absent from figure_legends.md
+[PASS] historical token '3.865589' is absent from figure_legends.md
+[PASS] historical token '5.5e-64' is absent from figure_legends.md
+[PASS] historical token '5.466368' is absent from figure_legends.md
+[PASS] historical token '119/269' is absent from figure_legends.md
+[PASS] historical token '17/18' is absent from figure_legends.md
+[PASS] historical token '0.6712' is absent from figure_legends.md
+[PASS] historical token '0.6713' is absent from figure_legends.md
+[PASS] historical token '0.6711' is absent from figure_legends.md
+[PASS] historical token '817 pairs' is absent from figure_legends.md
+[PASS] historical token 'n = 817' is absent from figure_legends.md
+[PASS] historical token '−0.02938' is absent from figure_legends.md
+[PASS] historical token '-0.0293847' is absent from figure_legends.md
+[PASS] historical token '−0.03636' is absent from figure_legends.md
+[PASS] historical token '-0.0363636' is absent from figure_legends.md
+[PASS] historical token 'p = 0.419' is absent from figure_legends.md
+[PASS] historical token 'p = 0.117' is absent from figure_legends.md
+[PASS] historical token '3.9e-33' is absent from figure_panel_guide_CN.md
+[PASS] historical token '3.865589' is absent from figure_panel_guide_CN.md
+[PASS] historical token '5.5e-64' is absent from figure_panel_guide_CN.md
+[PASS] historical token '5.466368' is absent from figure_panel_guide_CN.md
+[PASS] historical token '119/269' is absent from figure_panel_guide_CN.md
+[PASS] historical token '17/18' is absent from figure_panel_guide_CN.md
+[PASS] historical token '0.6712' is absent from figure_panel_guide_CN.md
+[PASS] historical token '0.6713' is absent from figure_panel_guide_CN.md
+[PASS] historical token '0.6711' is absent from figure_panel_guide_CN.md
+[PASS] historical token '817 pairs' is absent from figure_panel_guide_CN.md
+[PASS] historical token 'n = 817' is absent from figure_panel_guide_CN.md
+[PASS] historical token '−0.02938' is absent from figure_panel_guide_CN.md
+[PASS] historical token '-0.0293847' is absent from figure_panel_guide_CN.md
+[PASS] historical token '−0.03636' is absent from figure_panel_guide_CN.md
+[PASS] historical token '-0.0363636' is absent from figure_panel_guide_CN.md
+[PASS] historical token 'p = 0.419' is absent from figure_panel_guide_CN.md
+[PASS] historical token 'p = 0.117' is absent from figure_panel_guide_CN.md
+[PASS] analysis audit history contains '3.9e-33'
+[PASS] analysis audit history contains '5.5e-64'
+[PASS] analysis audit history contains '119/269'
+[PASS] analysis audit history contains '17/18'
+[PASS] analysis audit history contains 'n = 817'
+[PASS] analysis audit history contains '0.6712 / 0.6713 / 0.6711'
+========================================================================
+VALIDATION PASSED: 243 checks passed
+Five documents, four single-page corrected figures, scripts and critical source values are consistent.

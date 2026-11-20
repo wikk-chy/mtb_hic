@@ -1,0 +1,5 @@
+database,term,name,overlap,term_size,query_size,background_size,fold_enrichment,p_value,genes
+KEGG,mtu01200,Carbon metabolism,7,96,25,1122,3.2725000000000004,0.0035918056894727,"Rv0069c,Rv0070c,Rv1493,Rv1832,Rv2332,Rv2334,Rv3280"
+KEGG,mtu02010,ABC transporters,6,84,25,1122,3.205714285714286,0.008200990999434,"Rv1970,Rv1971,Rv2325c,Rv2686c,Rv2687c,Rv2688c"
+KEGG,mtu00630,Glyoxylate and dicarboxylate metabolism,4,39,25,1122,4.603076923076923,0.0093192766693884,"Rv0070c,Rv1493,Rv1832,Rv3280"
+KEGG,mtu00260,"Glycine, serine and threonine metabolism",3,25,25,1122,5.3856,0.0162684614637839,"Rv0069c,Rv0070c,Rv1832"

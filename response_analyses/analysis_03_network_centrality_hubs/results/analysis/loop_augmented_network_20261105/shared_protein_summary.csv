@@ -1,0 +1,6 @@
+metric,value
+loops_total,41.0
+loops_with_at_least_one_shared_protein,41.0
+minimum_shared_proteins_per_loop,1.0
+median_shared_proteins_per_loop,5.0
+maximum_shared_proteins_per_loop,16.0

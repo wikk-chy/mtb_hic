@@ -1,0 +1,11 @@
+Primary RNA model: eight-sample genotype x hypoxia factorial design
+Input: AKR_RNA_seq_merged.csv; 3814 KO-count-validated gene mappings
+Normalization: edgeR TMM
+Transformation and weights: limma voom
+Inference: limma contrasts.fit + eBayes (robust=FALSE)
+KO hypoxia response: (KO_hypoxia - KO)
+Interaction: (KO_hypoxia - KO) - (WT_hypoxia - WT)
+DEG: BH FDR < 0.05 and absolute log2FC >= 1
+R: R version 4.4.2 (2024-10-31)
+limma: 3.62.2
+edgeR: 4.4.2

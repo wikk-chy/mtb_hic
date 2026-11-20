@@ -1,0 +1,4 @@
+model,cv_R2,n_bins,n_predictors,imputation,baseline_covariates
+M0_baseline,0.6704972448218771,848,4,none; complete cases only,weight_WT + ins_WT + expr_wt_mean + n_genes
+M1_plus_RNA,0.6707063843928396,848,5,none; complete cases only,weight_WT + ins_WT + expr_wt_mean + n_genes
+M2_plus_occupancy,0.6708795896233134,848,6,none; complete cases only,weight_WT + ins_WT + expr_wt_mean + n_genes

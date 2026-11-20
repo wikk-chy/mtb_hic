@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "n_permutation": 10000,
+  "primary_tolerance_bins": 1,
+  "n_WT_called_loops": 41,
+  "n_KO_called_loops": 100,
+  "ko_rerun_exactly_matches_existing_output": true,
+  "chromosight_parameters": {
+    "pattern": "loops",
+    "pearson": 0.3,
+    "min_dist": 30000,
+    "max_dist": 1000000,
+    "resolution": 5000
+  },
+  "recovery_definition": "A WT loop is recovered when both anchors match an independent KO call within the stated per-anchor bin tolerance.",
+  "primary_binding_comparison": "Two NapM-occupied anchors versus zero or one occupied anchor.",
+  "interpretation_boundary": "Non-recovery is a binary caller outcome and must not be equated with physical loop disappearance. Continuous same-coordinate O/E remains primary.",
+  "shared_anchor_caveat": "Loops are genomic features and some share anchors; Fisher and loop-label permutation tests are descriptive sensitivity analyses, not independent biological replication."
+}

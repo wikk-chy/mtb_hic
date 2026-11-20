@@ -1,0 +1,6 @@
+model,locus,center,half,focal_bins,title,selection,evidence_class
+Hypoxia,H1_NapM_candidate,119,6,119,Rv0504c–Rv0507 region,Lowest interaction FDR among NapM-associated candidates with no detected local RNA response and valid pooled baseline insulation.,NapM-associated_candidate_no_detected_local_RNA_response
+Hypoxia,H2_transcription_associated,862,6,862,Rv3836–Rv3841 region,Strongest significant interaction among transcription-associated consistent patterns with valid pooled baseline insulation; unbound comparison locus.,Transcription-associated_consistent_pattern
+Latency,L1_oriC,0,7,0;880;881;882,oriC-proximal dnaA region,Highest latency candidate-region evidence score (LATR01).,"Same-direction structure/RNA patterns indicate partial molecular similarity, not a latency defect."
+Latency,L2_PE13_PPE18,267,6,267,PE13–PPE18 region,Second-highest latency candidate-region evidence score (LATR39).,Opposite insulation directions but same-direction RNA decreases: mixed pattern.
+Latency,L3_nrdZ_pncB2,133,7,132;133,nrdZ–pncB2 region,Third-highest latency candidate-region evidence score (LATR18).,Opposite insulation directions with gene-specific same/opposite RNA patterns: mixed pattern.

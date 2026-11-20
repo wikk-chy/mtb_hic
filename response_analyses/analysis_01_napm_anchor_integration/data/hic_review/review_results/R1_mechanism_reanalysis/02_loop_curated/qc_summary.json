@@ -1,0 +1,14 @@
+{
+  "n_loops": 41,
+  "distance_kb_min": 30.0,
+  "distance_kb_med": 105.0,
+  "distance_kb_max": 995.0,
+  "anchor1_bound": 24,
+  "anchor2_bound": 25,
+  "either_bound": 32,
+  "both_bound": 17,
+  "n_anchor_on_wtCID_boundary": 3,
+  "n_wtCID_boundaries": 18,
+  "score_med": 0.3333614825,
+  "qvalue_max": 7.24817e-05
+}

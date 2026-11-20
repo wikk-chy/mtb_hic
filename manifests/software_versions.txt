@@ -1,0 +1,23 @@
+Software recorded for the original Response Figure analyses
+============================================================
+Record date: 2026-10-30
+
+R: 4.4.2
+limma: 3.62.2
+edgeR: 4.4.2
+
+Python (original analysis environment): 3.9.12
+numpy: 1.26.4
+pandas: 2.2.2
+scipy: 1.13.1
+matplotlib: 3.8.0
+cooler: 0.10.4
+cooltools: 0.7.1
+OpenMM: 8.1.1
+Chromosight: 1.6.3
+
+Other dependencies and exact transitive versions are retained in original
+session records and scripts where available. coolpup.py and LorDG versions
+were not re-collected during package assembly; no version is inferred here.
+The curated package was integrity-checked, but all eleven workflows were not
+re-executed end to end during preparation.

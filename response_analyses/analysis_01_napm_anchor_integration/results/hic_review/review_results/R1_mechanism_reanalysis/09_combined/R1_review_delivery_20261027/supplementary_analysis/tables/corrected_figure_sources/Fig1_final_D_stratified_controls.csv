@@ -1,0 +1,6 @@
+control,observed,null_mean,fold,p_empirical,method
+unstratified (reference),17,10.897,1.5600624024960998,0.0327967203279672,circular-shift
+loop span (distance terciles),17,10.819,1.571309732877345,0.0294970502949705,tercile-stratified circular-shift
+anchor gene density (terciles),17,10.8603,1.5653342909496053,0.0263973602639736,tercile-stratified circular-shift
+anchor baseline expression (terciles),17,10.6367,1.5982400556563596,0.0216978302169783,tercile-stratified circular-shift
+flanking ChIP density ±1–2 bins (terciles),17,10.8405,1.5681933490152669,0.0324967503249675,tercile-stratified circular-shift

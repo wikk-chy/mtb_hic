@@ -1,0 +1,7 @@
+comparison,change_threshold,target_changing_n,target_weakening_n,reference_changing_n,reference_weakening_n,target_weakening_fraction,reference_weakening_fraction,fisher_odds_ratio,fisher_two_sided_p,table_reference_weakening_strengthening,table_target_weakening_strengthening
+double_vs_0_or_1,0.25,9,8,13,11,0.8888888888888888,0.8461538461538461,1.4545454545454546,1.0,"[11, 2]","[8, 1]"
+any_vs_none,0.25,19,17,3,2,0.8947368421052632,0.6666666666666666,4.25,0.3707792207792207,"[2, 1]","[17, 2]"
+double_vs_0_or_1,0.5,4,3,7,7,0.75,1.0,0.0,0.3636363636363636,"[7, 0]","[3, 1]"
+any_vs_none,0.5,9,8,2,2,0.8888888888888888,1.0,0.0,1.0,"[2, 0]","[8, 1]"
+double_vs_0_or_1,1.0,0,0,2,2,,1.0,,1.0,"[2, 0]","[0, 0]"
+any_vs_none,1.0,1,1,1,1,1.0,1.0,,1.0,"[1, 0]","[1, 0]"

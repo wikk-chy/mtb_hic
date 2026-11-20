@@ -1,0 +1,2 @@
+analysis,estimator,ci_lo,ci_hi,p,n_bins,n_permutations,ci_method,p_method
+primary_exhaustive_rotation_sensitivity,0.5265262776248668,0.4381324120246338,0.6092263594456491,0.001132502831257,881,883.0,paired circular moving-block bootstrap; 20 bins (100 kb),two-sided exhaustive enumeration of all 883 rotations including identity

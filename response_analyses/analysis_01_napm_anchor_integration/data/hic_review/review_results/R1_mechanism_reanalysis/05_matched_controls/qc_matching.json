@@ -1,0 +1,63 @@
+{
+  "bin": {
+    "level": "bin",
+    "feats": [
+      "weight_WT",
+      "ins_WT",
+      "expr_wt_mean",
+      "n_genes"
+    ],
+    "caliper": 1.0,
+    "n_bound": 422,
+    "n_matched": 422,
+    "n_caliper_exceeded": 79,
+    "match_dist_med": 0.576136461005158,
+    "match_dist_max": 7.925639476535762,
+    "balance": {
+      "weight_WT": {
+        "bound_mean": 0.006086594618465991,
+        "matched_mean": 0.006249822768966994,
+        "std_diff": -0.14091844214711427
+      },
+      "ins_WT": {
+        "bound_mean": -0.03645687443820902,
+        "matched_mean": -0.062496457410979714,
+        "std_diff": 0.05286195611183142
+      },
+      "expr_wt_mean": {
+        "bound_mean": 7.051426298077777,
+        "matched_mean": 6.774974295775139,
+        "std_diff": 0.22215587785495028
+      },
+      "n_genes": {
+        "bound_mean": 4.831753554502369,
+        "matched_mean": 4.6635071090047395,
+        "std_diff": 0.09585373728664083
+      }
+    }
+  },
+  "gene": {
+    "level": "gene",
+    "feats": [
+      "expr_wt_gene",
+      "gene_length"
+    ],
+    "caliper": 1.0,
+    "n_bound": 825,
+    "n_matched": 825,
+    "n_caliper_exceeded": 7,
+    "match_dist_med": 0.02343493785590383,
+    "balance": {
+      "expr_wt_gene": {
+        "bound_mean": 11.073828843217028,
+        "matched_mean": 11.05787128444391,
+        "std_diff": 0.007305798716319934
+      },
+      "gene_length": {
+        "bound_mean": 1136.8945454545456,
+        "matched_mean": 1117.9915151515152,
+        "std_diff": 0.023828859333387624
+      }
+    }
+  }
+}

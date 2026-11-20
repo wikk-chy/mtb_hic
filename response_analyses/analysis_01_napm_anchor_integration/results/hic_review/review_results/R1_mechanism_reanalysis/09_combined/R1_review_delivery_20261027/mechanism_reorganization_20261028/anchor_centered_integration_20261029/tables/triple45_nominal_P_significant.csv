@@ -1,0 +1,19 @@
+gene_set,database,term,name,overlap,term_size,query_size,background_size,fold_enrichment,p_value,genes,q_BH_all_tested_terms,n_terms_tested
+triple45_vs_RNA_tested,GO_BP,GO:0052170,symbiont-mediated suppression of host innate immune response,2,19,24,2186,9.587719298245613,0.0176315721522164,"Rv0410c,Rv3343c",1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0071770,DIM/DIP cell wall layer assembly,2,23,24,2186,7.920289855072464,0.0253994121148811,"Rv2952,Rv3800c",1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006633,fatty acid biosynthetic process,3,65,24,2186,4.203846153846154,0.03252359735651771,"Rv2381c,Rv2950c,Rv3800c",1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0006538,L-glutamate catabolic process,1,3,24,2186,30.36111111111111,0.03259133123822295,Rv0410c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0010126,mycothiol metabolic process,1,3,24,2186,30.36111111111111,0.03259133123822295,Rv1082,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0052027,symbiont-mediated perturbation of host signal transduction pathway,1,3,24,2186,30.36111111111111,0.03259133123822295,Rv0410c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0030682,symbiont-mediated perturbation of host defenses,1,4,24,2186,22.770833333333332,0.04322706557183844,Rv0410c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0034355,NAD+ biosynthetic process via the salvage pathway,1,4,24,2186,22.770833333333332,0.04322706557183844,Rv0573c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0042780,tRNA 3'-end processing,1,4,24,2186,22.770833333333332,0.04322706557183844,Rv3923c,1.0,376
+triple45_vs_RNA_tested,GO_BP,GO:0080120,CAAX-box protein maturation,1,4,24,2186,22.770833333333332,0.04322706557183844,Rv0658c,1.0,376
+triple45_vs_RNA_tested,GO_MF,GO:0016740,transferase activity,3,59,27,2525,4.75517890772128,0.023807277706048985,"Rv0704,Rv2381c,Rv3800c",1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0031177,phosphopantetheine binding,2,24,27,2525,7.79320987654321,0.02629882526298605,"Rv2381c,Rv3800c",1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0008948,oxaloacetate decarboxylase activity,1,3,27,2525,31.17283950617284,0.03174984795543083,Rv2332,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0009927,histidine phosphotransfer kinase activity,1,3,27,2525,31.17283950617284,0.03174984795543083,Rv0902c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0004322,ferroxidase activity,1,4,27,2525,23.379629629629626,0.04211572983695478,Rv0846c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0042781,3'-tRNA processing endoribonuclease activity,1,4,27,2525,23.379629629629626,0.04211572983695478,Rv3923c,1.0,372
+triple45_vs_RNA_tested,GO_MF,GO:0042802,identical protein binding,2,31,27,2525,6.033452807646356,0.04232669960742128,"Rv0410c,Rv0902c",1.0,372
+triple45_vs_RNA_tested,KEGG,mtu02020,Two-component system,3,61,13,1122,4.244640605296343,0.029602463440352875,"Rv0001,Rv0902c,Rv2332",1.0,123

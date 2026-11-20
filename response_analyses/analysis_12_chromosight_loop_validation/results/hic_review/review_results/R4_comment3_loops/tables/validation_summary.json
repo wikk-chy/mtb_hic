@@ -1,0 +1,84 @@
+{
+  "chromosight_params": {
+    "pattern": "loops",
+    "min_dist_kb": 30,
+    "max_dist_kb": 1000,
+    "pearson": 0.3,
+    "win_size": "auto",
+    "resolution_kb": 5,
+    "n_loops_WT": 41,
+    "n_loops_napMKO": 100
+  },
+  "APA": [
+    {
+      "condition": "Chromosight loops on WT",
+      "n": 35,
+      "center_pixel": 1.6148421063998333,
+      "center_5x5": 1.4039122355070413
+    },
+    {
+      "condition": "random pairs on WT",
+      "n": 35,
+      "center_pixel": 1.0877163029386945,
+      "center_5x5": 1.0817434388227458
+    },
+    {
+      "condition": "loops +100kb shift on WT",
+      "n": 35,
+      "center_pixel": 1.1037508215086347,
+      "center_5x5": 1.1059058657626637
+    },
+    {
+      "condition": "Chromosight loops on napM-KO",
+      "n": 35,
+      "center_pixel": 1.4189817995457386,
+      "center_5x5": 1.27619223201558
+    }
+  ],
+  "per_loop": {
+    "WT_median_OE": 1.407975994120057,
+    "KO_median_OE": 1.3004084264705569,
+    "wilcoxon_p": 0.019739565905183554,
+    "mannwhitney_vs_shift_p": 2.3025466121993204e-05
+  },
+  "FDR": [
+    {
+      "oe_threshold": 1.25,
+      "frac_shifted_null_above": 0.257,
+      "n_real_above": 24,
+      "frac_real_above": 0.706,
+      "empirical_FDR": 0.364
+    },
+    {
+      "oe_threshold": 1.5,
+      "frac_shifted_null_above": 0.171,
+      "n_real_above": 11,
+      "frac_real_above": 0.324,
+      "empirical_FDR": 0.53
+    },
+    {
+      "oe_threshold": 2.0,
+      "frac_shifted_null_above": 0.029,
+      "n_real_above": 6,
+      "frac_real_above": 0.176,
+      "empirical_FDR": 0.162
+    }
+  ],
+  "reproducibility": {
+    "per_replicate_APA_center_OE": [
+      1.671,
+      1.688,
+      1.68,
+      1.621
+    ],
+    "per_replicate_APA_center_OE_random": [
+      1.131,
+      1.032,
+      1.127,
+      1.014
+    ],
+    "merged_APA_center_OE": 1.615,
+    "paired_wilcoxon_loops_vs_random_p": 0.125,
+    "note": "per-replicate APA (aggregate of all loops within each replicate) is used instead of per-pixel detection, because each replicate has ~1/4 the depth of the merged matrix and per-pixel counts are dominated by sparse sampling"
+  }
+}

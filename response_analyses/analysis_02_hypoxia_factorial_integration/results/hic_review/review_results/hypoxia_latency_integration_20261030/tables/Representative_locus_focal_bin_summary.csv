@@ -1,0 +1,10 @@
+model,locus,bin,position_kb,is_focal,NapM_bound,WT_insulation,KO_insulation,WT_hypoxia_delta_insulation,KO_hypoxia_delta_insulation,interaction_delta_insulation,interaction_FDR,evidence_class,WT_latent_delta_insulation,baseline_delta_insulation,latent_insulation_class,baseline_insulation_class
+Hypoxia,H1_NapM_candidate,119,0.0,True,True,-0.1170842049936069,0.1587394263516457,0.2033282610862402,-0.196638942529508,-0.3994923592072249,3.436189232784844e-08,NapM-associated_candidate_no_detected_local_RNA_response,,,,
+Hypoxia,H2_transcription_associated,862,0.0,True,False,0.5787995916707843,0.0989102330684591,0.0645941864570942,0.311495211521666,0.2488242708201309,1.891215512384328e-07,Transcription-associated_consistent_pattern,,,,
+Latency,L1_oriC,880,-11.532,True,True,-0.8107051578613463,-0.3400153642271286,,,,,,-0.5342381783831678,0.4917950664449361,detected_decrease,detected_increase
+Latency,L1_oriC,881,-6.532,True,True,-0.7855171904039395,-0.2762734689699188,,,,,,2.3733146404795606,0.4778878855847998,detected_increase,detected_increase
+Latency,L1_oriC,882,-1.532,True,True,-0.8137581175393019,-0.2700746900485556,,,,,,1.2357016054333263,0.5559123638436843,detected_increase,detected_increase
+Latency,L1_oriC,0,0.0,True,True,0.6493870758893263,0.4692408105849375,,,,,,-0.0969645042107885,-0.382968313306085,supports_small_change,detected_decrease
+Latency,L2_PE13_PPE18,267,0.0,True,True,-1.312527991070765,-0.7511047061397059,,,,,,-0.4480651732536133,0.7688995940526747,detected_decrease,detected_increase
+Latency,L3_nrdZ_pncB2,132,-5.0,True,True,0.4597593692847496,0.0388963595377546,,,,,,0.2723884285258416,-0.2547163472991349,cannot_determine,cannot_determine
+Latency,L3_nrdZ_pncB2,133,0.0,True,True,-1.0584238420614005,-0.5957594910100387,,,,,,-0.4366833261310909,0.4976028974071344,detected_decrease,detected_increase

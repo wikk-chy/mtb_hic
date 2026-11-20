@@ -1,0 +1,7 @@
+lane,evidence,statement,reference
+oriC-dnaA,published,NapM binds DnaA and inhibits DnaA oriC binding and ATPase activity,[1]
+oriC-dnaA,current association,NapM ChIP at dnaA; RNA and insulation change after napM deletion; L00/L01 both-anchor occupancy,Response Fig.4A
+oriC-dnaA,untested hypothesis,NapM-DnaA/replication-initiation state contributes to oriC dynamics and hypoxia physiology,requires experimental test
+mbt-1,published,IdeR-Fe2+ repression and HupB promotion regulate mycobactin biosynthesis,[2]
+mbt-1,current association,NapM ChIP at mbtD only; mbtD/C/B/A RNA decreases; enrichment fails sensitivity FDR,Response Fig.4B
+mbt-1,untested hypothesis,Local NapM action and established iron regulation jointly shape mbt-1 output,requires experimental test

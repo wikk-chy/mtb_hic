@@ -1,0 +1,16 @@
+analysis_id,module_path,panels,title,code_files,data_files,result_files,note_files,methods
+Analysis 01,response_analyses/analysis_01_napm_anchor_integration,A-I,NapM occupancy does not predict uniform local changes but is enriched at chromatin-loop anchors,63,89,237,25,methods/Analysis_Methods.md
+Analysis 02,response_analyses/analysis_02_hypoxia_factorial_integration,A-G,NapM deletion produces distinct and partially overlapping RNA and insulation responses to hypoxia,23,6,68,0,methods/Analysis_Methods.md
+Analysis 03,response_analyses/analysis_03_network_centrality_hubs,A-B,NapM (Rv0047c) is one of several highly connected nodes in the integrated network,2,0,4,0,methods/Analysis_Methods.md
+Analysis 04,response_analyses/analysis_04_napm_ko_go_kegg_enrichment,A-D,GO and KEGG enrichment of differentially expressed genes in napM-KO versus WT cells,4,4,8,0,methods/Analysis_Methods.md
+Analysis 05,response_analyses/analysis_05_stress_spatial_polymer_evaluation,A-G,Spatially non-uniform stress remodelling and polymer-model evaluation,1,0,0,0,methods/Analysis_Methods.md
+Analysis 06,response_analyses/analysis_06_napm_expression_hypoxia_dependence,A-F,"NapM expression, co-regulated architectural proteins and genotype-dependent chromosome remodelling under stress",20,3,113,17,methods/Analysis_Methods.md
+Analysis 07,response_analyses/analysis_07_napm_binding_mechanism_ppi,A-I,"Genomic occupancy, transcriptional decoupling, structural associations and protein-interaction context of NapM",15,5,19,0,methods/Analysis_Methods.md
+Analysis 08,response_analyses/analysis_08_pilot_ter_fish_clumping,Overview/Insets,Pilot ter-probe FISH across four M. tuberculosis biological replicates illustrates pronounced cell clumping,1,0,0,0,methods/Analysis_Methods.md
+Analysis 09,response_analyses/analysis_09_latency_like_stress_crossvalidation,A-D,Mixed DNA-damage/ROS signatures and shared stress responses in acid/antibiotic-induced latency-like stress versus antibiotic-free hypoxia,6,1,8,0,methods/Analysis_Methods.md
+Analysis 10,response_analyses/analysis_10_circular_eigenvector_saddle,A-E,Controls and interpretation of chromosome-scale segregation in M. tuberculosis,15,30,16,1,methods/Analysis_Methods.md
+Analysis 11,response_analyses/analysis_11_cid_directionality_validation,A-G,Identification and validation of chromosomal interaction domains (CIDs) using all 18 DI-defined boundaries,5,0,6,1,methods/Analysis_Methods.md
+Analysis 12,response_analyses/analysis_12_chromosight_loop_validation,A-L,Validation of Chromosight-called loops in M. tuberculosis Hi-C,15,4,53,0,methods/Analysis_Methods.md
+Analysis 13,response_analyses/analysis_13_wt_ko_compaction_metrics,A-H,Quantitative comparison of wild-type and napM-KO chromosome organization,7,0,17,0,methods/Analysis_Methods.md
+Analysis 14,response_analyses/analysis_14_stress_oriter_experiments,A-E,Joint Hi-C signatures are consistent with ring-like chromosome refolding and ori-ter apposition under stress,3,0,3,0,methods/Analysis_Methods.md
+Analysis 15,response_analyses/analysis_15_openmm_polymer_models,A-H,Polymer modelling distinguishes candidate mechanisms of stress-induced chromosome reorganization,14,1,72,28,methods/Analysis_Methods.md

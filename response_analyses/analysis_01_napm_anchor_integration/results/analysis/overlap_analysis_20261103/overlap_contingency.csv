@@ -1,0 +1,5 @@
+structure_interaction,local_RNA_DEG,n_bins
+detected,yes,117
+detected,no,31
+not_detected,yes,225
+not_detected,no,55

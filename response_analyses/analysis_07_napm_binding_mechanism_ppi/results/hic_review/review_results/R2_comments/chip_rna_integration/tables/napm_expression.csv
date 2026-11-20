@@ -1,0 +1,6 @@
+condition,napM_CPM,genome_percentile,n_reps_in_merged_table
+WT,421.2,86.7,2
+napM-KO,0.1,0.5,2
+hypoxia,584.1,93.8,2
+latent,422.9,88.5,2
+KO-hypoxia,0.0,0.3,2

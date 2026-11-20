@@ -1,0 +1,8 @@
+gene_set,description,n_genes,n_bins,n_universe,n_direct,n_rna_up
+Baseline_structure_RNA,KO vs WT,269,144,4060,45,153
+Baseline_structure_RNA_direct,KO vs WT; direct NapM-bound background,45,36,825,45,23
+Baseline_structure_RNA_unbound,KO vs WT; locally unbound background,224,131,3235,0,130
+Baseline_double_anchor_RNA,KO vs WT; double-anchor-gene background,10,7,179,5,6
+Hypoxia_structure_RNA,Hypoxia vs WT,1143,494,4056,241,529
+Hypoxia_structure_RNA_direct,Hypoxia vs WT; direct NapM-bound background,241,169,823,241,81
+Interaction_structure_hypoxia_RNA,Structural genotype-by-hypoxia interaction plus hypoxia RNA,550,231,4056,111,274

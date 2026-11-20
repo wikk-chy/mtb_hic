@@ -1,0 +1,5 @@
+segment,start_bp,end_bp,wraps_origin,E1_sign,contains_ori,contains_ter
+1,476063,1681257,False,+,False,False
+2,1681257,3039942,False,-,False,True
+3,3039942,3732963,False,+,False,False
+4,3732963,476063,True,-,True,False

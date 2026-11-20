@@ -1,0 +1,16 @@
+sample,condition,genotype,oxygen,replicate,source_column,n_finite_bins,genome_mean_insulation
+WT_1,WT,WT,normoxia,1,ins_WT_rep1,881,-0.12204054216639526
+WT_2,WT,WT,normoxia,2,ins_WT_rep2,883,-0.135229660407296
+WT_3,WT,WT,normoxia,3,ins_WT_rep3,883,-0.13337071343562615
+WT_4,WT,WT,normoxia,4,ins_WT_rep4,883,-0.1280210088805763
+KO_1,KO,KO,normoxia,1,ins_KO_rep1,883,-0.04372319630229751
+KO_2,KO,KO,normoxia,2,ins_KO_rep2,883,-0.045265107959189775
+KO_3,KO,KO,normoxia,3,ins_KO_rep3,883,-0.04755682721920244
+KO_4,KO,KO,normoxia,4,ins_KO_rep4,883,-0.04104682833983754
+HYP_1,HYP,WT,hypoxia,1,ins_hypoxia_rep1,881,-0.09306778561964216
+HYP_2,HYP,WT,hypoxia,2,ins_hypoxia_rep2,881,-0.08823070313930283
+HYP_3,HYP,WT,hypoxia,3,ins_hypoxia_rep3,881,-0.08661166689081977
+HYP_4,HYP,WT,hypoxia,4,ins_hypoxia_rep4,881,-0.08684866802088959
+KO-HYP_1,KO-HYP,KO,hypoxia,1,ins_KO_hypoxia_rep1,881,-0.1129067845375284
+KO-HYP_2,KO-HYP,KO,hypoxia,2,ins_KO_hypoxia_rep2,881,-0.11139632752254001
+KO-HYP_3,KO-HYP,KO,hypoxia,3,ins_KO_hypoxia_rep3,881,-0.1099319293614887

@@ -1,0 +1,604 @@
+gene_set,database,term,name,overlap,term_size,query_size,background_size,gene_ratio,fold_enrichment,p_value,genes,q_BH_all_tested_terms
+changed_region_DEGs_down_genome_background,KEGG,mtu00260,"Glycine, serine and threonine metabolism",4,25,25,1122,0.16,7.1808000000000005,0.0017723086327420248,"Rv0069c,Rv0070c,Rv1612,Rv1613",0.11308488844332844
+changed_region_DEGs_down_genome_background,KEGG,mtu01230,Biosynthesis of amino acids,8,111,25,1122,0.32,3.2345945945945944,0.001838778673875259,"Rv0069c,Rv0070c,Rv1612,Rv1613,Rv2122c,Rv2220,Rv2294,Rv2334",0.11308488844332844
+changed_region_DEGs_down_genome_background,KEGG,mtu00270,Cysteine and methionine metabolism,4,35,25,1122,0.16,5.129142857142858,0.006303563464017844,"Rv0069c,Rv2294,Rv2334,Rv3248c",0.2584461020247316
+changed_region_DEGs_down_genome_background,KEGG,mtu00220,Arginine biosynthesis,3,23,25,1122,0.12,5.8539130434782605,0.012901743441035446,"Rv1848,Rv1850,Rv2220",0.39672861081183997
+changed_region_DEGs_down_genome_background,KEGG,mtu01200,Carbon metabolism,5,96,25,1122,0.2,2.3375000000000004,0.05538207361795048,"Rv0069c,Rv0070c,Rv1715,Rv2332,Rv2334",1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",2,19,25,1122,0.08,4.724210526315789,0.06466795327339173,"Rv1612,Rv1613",1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00670,One carbon pool by folate,2,19,25,1122,0.08,4.724210526315789,0.06466795327339173,"Rv0070c,Rv3248c",1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00910,Nitrogen metabolism,2,22,25,1122,0.08,4.08,0.0838916865497281,"Rv2220,Rv2329c",1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00361,Chlorocyclohexane and chlorobenzene degradation,1,4,25,1122,0.04,11.22,0.08630332564502256,Rv2054,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01320,Sulfur cycle,1,5,25,1122,0.04,8.975999999999999,0.10673482551879221,Rv2334,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00460,Cyanoamino acid metabolism,1,6,25,1122,0.04,7.48,0.12672733166206007,Rv0070c,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00930,Caprolactam degradation,1,6,25,1122,0.04,7.48,0.12672733166206007,Rv3252c,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01120,Microbial metabolism in diverse environments,8,233,25,1122,0.32,1.5409442060085836,0.12673465699565822,"Rv0070c,Rv1715,Rv1848,Rv1850,Rv2054,Rv2220,Rv2334,Rv3224",1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu04981,Folate transport and metabolism,1,7,25,1122,0.04,6.411428571428572,0.14628989143665544,Rv0070c,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01110,Biosynthesis of secondary metabolites,11,373,25,1122,0.44,1.323538873994638,0.17288464240655382,"Rv0069c,Rv0070c,Rv1612,Rv1613,Rv1886c,Rv2068c,Rv2122c,Rv2220,Rv2294,Rv2334,Rv3224",1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00907,"Pinene, camphor and geraniol degradation",1,9,25,1122,0.04,4.986666666666666,0.18416047212744804,Rv3224,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01501,beta-Lactam resistance,1,9,25,1122,0.04,4.986666666666666,0.18416047212744804,Rv2068c,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00630,Glyoxylate and dicarboxylate metabolism,2,39,25,1122,0.08,2.3015384615384615,0.21458299793748845,"Rv0070c,Rv2220",1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00450,Selenocompound metabolism,1,11,25,1122,0.04,4.08,0.22041543637679537,Rv2294,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00983,Drug metabolism - other enzymes,1,11,25,1122,0.04,4.08,0.22041543637679537,Rv2697c,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00572,Arabinogalactan biosynthesis - Mycobacterium,1,15,25,1122,0.04,2.992,0.28834060159949787,Rv1886c,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00230,Purine metabolism,2,51,25,1122,0.08,1.76,0.3157458092783657,"Rv1848,Rv1850",1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu03010,Ribosome,2,57,25,1122,0.08,1.5747368421052632,0.3659088745576434,"Rv0053,Rv2055c",1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00340,Histidine metabolism,1,21,25,1122,0.04,2.1371428571428575,0.3796831161692807,Rv2122c,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00360,Phenylalanine metabolism,1,21,25,1122,0.04,2.1371428571428575,0.3796831161692807,Rv1715,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00680,Methane metabolism,1,21,25,1122,0.04,2.1371428571428575,0.3796831161692807,Rv0070c,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00920,Sulfur metabolism,1,21,25,1122,0.04,2.1371428571428575,0.3796831161692807,Rv2334,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00310,Lysine degradation,1,22,25,1122,0.04,2.04,0.39376842234164033,Rv1718,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu02020,Two-component system,2,61,25,1122,0.08,1.4714754098360656,0.3987076465849139,"Rv2220,Rv2332",1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00362,Benzoate degradation,1,24,25,1122,0.04,1.87,0.421023518913509,Rv1715,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00970,Aminoacyl-tRNA biosynthesis,1,24,25,1122,0.04,1.87,0.421023518913509,Rv1689,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00240,Pyrimidine metabolism,1,27,25,1122,0.04,1.6622222222222223,0.459711929222607,Rv2697c,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00250,"Alanine, aspartate and glutamate metabolism",1,27,25,1122,0.04,1.6622222222222223,0.459711929222607,Rv2220,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00561,Glycerolipid metabolism,1,30,25,1122,0.04,1.496,0.49591182341451007,Rv1886c,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01100,Metabolic pathways,16,699,25,1122,0.64,1.0272961373390557,0.5190512244868809,"Rv0069c,Rv0070c,Rv1612,Rv1613,Rv1715,Rv1718,Rv1848,Rv1850,Rv1886c,Rv2054,Rv2122c,Rv2220,Rv2294,Rv2334,Rv2697c,Rv3248c",1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00071,Fatty acid degradation,1,33,25,1122,0.04,1.36,0.52977701276347,Rv3252c,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu05152,Tuberculosis,1,34,25,1122,0.04,1.32,0.5405718471812048,Rv1793,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00074,Mycolic acid biosynthesis,1,36,25,1122,0.04,1.2466666666666666,0.5614521904204988,Rv1886c,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00650,Butanoate metabolism,1,37,25,1122,0.04,1.212972972972973,0.5715476740664356,Rv1715,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01232,Nucleotide metabolism,1,37,25,1122,0.04,1.212972972972973,0.5715476740664356,Rv2697c,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00620,Pyruvate metabolism,1,43,25,1122,0.04,1.0437209302325583,0.6275935658230549,Rv2332,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01240,Biosynthesis of cofactors,1,131,25,1122,0.04,0.3425954198473282,0.9567060309914679,Rv0070c,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00010,Glycolysis / Gluconeogenesis,0,31,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00020,Citrate cycle (TCA cycle),0,29,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00030,Pentose phosphate pathway,0,19,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00040,Pentose and glucuronate interconversions,0,5,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00051,Fructose and mannose metabolism,0,15,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00052,Galactose metabolism,0,10,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00053,Ascorbate and aldarate metabolism,0,4,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00061,Fatty acid biosynthesis,0,13,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00073,"Cutin, suberine and wax biosynthesis",0,15,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00130,Ubiquinone and other terpenoid-quinone biosynthesis,0,9,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00190,Oxidative phosphorylation,0,49,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00261,Monobactam biosynthesis,0,7,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00280,"Valine, leucine and isoleucine degradation",0,43,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00290,"Valine, leucine and isoleucine biosynthesis",0,13,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00300,Lysine biosynthesis,0,13,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00330,Arginine and proline metabolism,0,18,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00350,Tyrosine metabolism,0,10,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00380,Tryptophan metabolism,0,24,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00401,Novobiocin biosynthesis,0,4,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00410,beta-Alanine metabolism,0,13,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00430,Taurine and hypotaurine metabolism,0,7,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00470,D-Amino acid metabolism,0,8,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00480,Glutathione metabolism,0,14,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00500,Starch and sucrose metabolism,0,23,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00520,Amino sugar and nucleotide sugar metabolism,0,23,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00521,Streptomycin biosynthesis,0,10,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00523,Polyketide sugar unit biosynthesis,0,6,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00525,Acarbose and validamycin biosynthesis,0,3,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00541,Biosynthesis of various nucleotide sugars,0,15,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00550,Peptidoglycan biosynthesis,0,19,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00562,Inositol phosphate metabolism,0,10,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00564,Glycerophospholipid metabolism,0,19,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00565,Ether lipid metabolism,0,5,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00571,Lipoarabinomannan (LAM) biosynthesis,0,13,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00592,alpha-Linolenic acid metabolism,0,3,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00621,Dioxin degradation,0,4,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00622,Xylene degradation,0,4,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00625,Chloroalkane and chloroalkene degradation,0,8,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00627,Aminobenzoate degradation,0,13,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00640,Propanoate metabolism,0,30,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00643,Styrene degradation,0,5,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00660,C5-Branched dibasic acid metabolism,0,9,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00710,Carbon fixation by Calvin cycle,0,11,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00720,Other carbon fixation pathways,0,36,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00730,Thiamine metabolism,0,11,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00740,Riboflavin metabolism,0,7,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00750,Vitamin B6 metabolism,0,5,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00760,Nicotinate and nicotinamide metabolism,0,20,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00770,Pantothenate and CoA biosynthesis,0,23,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00780,Biotin metabolism,0,9,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00785,Lipoic acid metabolism,0,12,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00790,Folate biosynthesis,0,27,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00860,Porphyrin metabolism,0,36,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00900,Terpenoid backbone biosynthesis,0,23,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00903,Limonene degradation,0,5,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu00984,Steroid degradation,0,41,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01040,Biosynthesis of unsaturated fatty acids,0,6,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01053,Biosynthesis of siderophore group nonribosomal peptides,0,10,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01210,2-Oxocarboxylic acid metabolism,0,35,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01212,Fatty acid metabolism,0,35,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01220,Degradation of aromatic compounds,0,10,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01250,Biosynthesis of nucleotide sugars,0,32,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01310,Nitrogen cycle,0,6,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01502,Vancomycin resistance,0,6,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu01503,Cationic antimicrobial peptide (CAMP) resistance,0,4,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu02010,ABC transporters,0,84,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu02024,Quorum sensing,0,24,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu03018,RNA degradation,0,12,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu03020,RNA polymerase,0,4,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu03030,DNA replication,0,15,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu03050,Proteasome,0,3,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu03060,Protein export,0,17,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu03070,Bacterial secretion system,0,14,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu03410,Base excision repair,0,15,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu03420,Nucleotide excision repair,0,10,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu03430,Mismatch repair,0,15,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu03440,Homologous recombination,0,22,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu04122,Sulfur relay system,0,22,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu04146,Peroxisome,0,11,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu04156,Integrated stress response (ISR) signaling pathway,0,4,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_down_genome_background,KEGG,mtu04980,Cobalamin transport and metabolism,0,5,25,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu01230,Biosynthesis of amino acids,22,111,76,1122,0.2894736842105263,2.926031294452347,9.00591229692703e-07,"Rv0066c,Rv0069c,Rv0070c,Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1605,Rv1606,Rv1612,Rv1613,Rv1652,Rv1653,Rv1654,Rv1655,Rv1656,Rv2029c,Rv2122c,Rv2220,Rv2294,Rv2334",0.00011077272125220247
+changed_region_DEGs_genome_background,KEGG,mtu00340,Histidine metabolism,8,21,76,1122,0.10526315789473684,5.62406015037594,3.057491943183929e-05,"Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1605,Rv1606,Rv2122c",0.001880357545058116
+changed_region_DEGs_genome_background,KEGG,mtu00220,Arginine biosynthesis,8,23,76,1122,0.10526315789473684,5.135011441647597,6.589026289401909e-05,"Rv1652,Rv1653,Rv1654,Rv1655,Rv1656,Rv1848,Rv1850,Rv2220",0.0027015007786547825
+changed_region_DEGs_genome_background,KEGG,mtu01110,Biosynthesis of secondary metabolites,38,373,76,1122,0.5,1.5040214477211795,0.0012974768778334883,"Rv0066c,Rv0069c,Rv0070c,Rv1553,Rv1554,Rv1555,Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1604,Rv1605,Rv1606,Rv1612,Rv1613,Rv1652,Rv1653,Rv1654,Rv1655,Rv1656,Rv1832,Rv1886c,Rv1908c,Rv2029c,Rv2068c,Rv2122c,Rv2220,Rv2243,Rv2244,Rv2245,Rv2246,Rv2247,Rv2294,Rv2334,Rv2727c,Rv3221c,Rv3224",0.03989741399337977
+changed_region_DEGs_genome_background,KEGG,mtu01200,Carbon metabolism,13,96,76,1122,0.17105263157894737,1.9991776315789476,0.009366516396361543,"Rv0066c,Rv0069c,Rv0070c,Rv1553,Rv1554,Rv1555,Rv1715,Rv1832,Rv2029c,Rv2247,Rv2332,Rv2334,Rv3221c",0.23041630335049396
+changed_region_DEGs_genome_background,KEGG,mtu02020,Two-component system,9,61,76,1122,0.11842105263157894,2.1781708369283863,0.017995711340833005,"Rv1553,Rv1554,Rv1555,Rv1622c,Rv1736c,Rv2220,Rv2234,Rv2332,Rv3245c",0.36891208248707663
+changed_region_DEGs_genome_background,KEGG,mtu00260,"Glycine, serine and threonine metabolism",5,25,76,1122,0.06578947368421052,2.952631578947368,0.02274251843742943,"Rv0069c,Rv0070c,Rv1612,Rv1613,Rv1832",0.3996185382576885
+changed_region_DEGs_genome_background,KEGG,mtu00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",4,19,76,1122,0.05263157894736842,3.10803324099723,0.034573149926926706,"Rv1600,Rv1603,Rv1612,Rv1613",0.5315621801264981
+changed_region_DEGs_genome_background,KEGG,mtu00061,Fatty acid biosynthesis,3,13,76,1122,0.039473684210526314,3.406882591093117,0.052199385397649865,"Rv2243,Rv2247,Rv3221c",0.6356869241593747
+changed_region_DEGs_genome_background,KEGG,mtu00910,Nitrogen metabolism,4,22,76,1122,0.05263157894736842,2.6842105263157894,0.05593469146895303,"Rv1736c,Rv1737c,Rv2220,Rv2329c",0.6356869241593747
+changed_region_DEGs_genome_background,KEGG,mtu01040,Biosynthesis of unsaturated fatty acids,2,6,76,1122,0.02631578947368421,4.921052631578948,0.056850050128074155,"Rv3229c,Rv3230c",0.6356869241593747
+changed_region_DEGs_genome_background,KEGG,mtu00620,Pyruvate metabolism,6,43,76,1122,0.07894736842105263,2.0599755201958385,0.0645837894608259,"Rv1553,Rv1554,Rv1555,Rv2247,Rv2332,Rv3221c",0.6619838419734654
+changed_region_DEGs_genome_background,KEGG,mtu01210,2-Oxocarboxylic acid metabolism,5,35,76,1122,0.06578947368421052,2.1090225563909772,0.08190683198050146,"Rv0066c,Rv1652,Rv1653,Rv1654,Rv1655",0.6938956336712567
+changed_region_DEGs_genome_background,KEGG,mtu01212,Fatty acid metabolism,5,35,76,1122,0.06578947368421052,2.1090225563909772,0.08190683198050146,"Rv2243,Rv2247,Rv3221c,Rv3229c,Rv3230c",0.6938956336712567
+changed_region_DEGs_genome_background,KEGG,mtu00074,Mycolic acid biosynthesis,5,36,76,1122,0.06578947368421052,2.0504385964912277,0.09026284665642365,"Rv1886c,Rv2243,Rv2245,Rv2246,Rv2247",0.6938956336712567
+changed_region_DEGs_genome_background,KEGG,mtu00720,Other carbon fixation pathways,5,36,76,1122,0.06578947368421052,2.0504385964912277,0.09026284665642365,"Rv0066c,Rv1553,Rv1554,Rv1555,Rv3221c",0.6938956336712567
+changed_region_DEGs_genome_background,KEGG,mtu01100,Metabolic pathways,53,699,76,1122,0.6973684210526315,1.1193810707025071,0.10217428240370557,"Rv0066c,Rv0069c,Rv0070c,Rv1553,Rv1554,Rv1555,Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1604,Rv1605,Rv1606,Rv1612,Rv1613,Rv1622c,Rv1625c,Rv1652,Rv1653,Rv1654,Rv1655,Rv1656,Rv1715,Rv1718,Rv1736c,Rv1812c,Rv1832,Rv1848,Rv1850,Rv1886c,Rv1908c,Rv2002,Rv2029c,Rv2054,Rv2122c,Rv2153c,Rv2158c,Rv2217,Rv2220,Rv2243,Rv2244,Rv2245,Rv2246,Rv2247,Rv2294,Rv2334,Rv2697c,Rv2727c,Rv3221c,Rv3229c,Rv3230c,Rv3248c",0.7274264358373634
+changed_region_DEGs_genome_background,KEGG,mtu02010,ABC transporters,9,84,76,1122,0.11842105263157894,1.5817669172932332,0.10645264914693124,"Rv1620c,Rv1621c,Rv1965,Rv1966,Rv1967,Rv1968,Rv1970,Rv1971,Rv2325c",0.7274264358373634
+changed_region_DEGs_genome_background,KEGG,mtu00020,Citrate cycle (TCA cycle),4,29,76,1122,0.05263157894736842,2.0362976406533573,0.1273169204055769,"Rv0066c,Rv1553,Rv1554,Rv1555",0.8143980412396823
+changed_region_DEGs_genome_background,KEGG,mtu00670,One carbon pool by folate,3,19,76,1122,0.039473684210526314,2.3310249307479225,0.13242244573002965,"Rv0070c,Rv1832,Rv3248c",0.8143980412396823
+changed_region_DEGs_genome_background,KEGG,mtu00360,Phenylalanine metabolism,3,21,76,1122,0.039473684210526314,2.1090225563909777,0.16527665199211267,"Rv1600,Rv1715,Rv1908c",0.937205239669474
+changed_region_DEGs_genome_background,KEGG,mtu00983,Drug metabolism - other enzymes,2,11,76,1122,0.02631578947368421,2.6842105263157894,0.1676302054693368,"Rv1908c,Rv2697c",0.937205239669474
+changed_region_DEGs_genome_background,KEGG,mtu03050,Proteasome,1,3,76,1122,0.013157894736842105,4.921052631578948,0.18991240564022216,Rv2109c,0.9877097927841328
+changed_region_DEGs_genome_background,KEGG,mtu00785,Lipoic acid metabolism,2,12,76,1122,0.02631578947368421,2.460526315789474,0.19272386200666008,"Rv1832,Rv2217",0.9877097927841328
+changed_region_DEGs_genome_background,KEGG,mtu00270,Cysteine and methionine metabolism,4,35,76,1122,0.05263157894736842,1.6872180451127818,0.2080594424350493,"Rv0069c,Rv2294,Rv2334,Rv3248c",1.0
+changed_region_DEGs_genome_background,KEGG,mtu00300,Lysine biosynthesis,2,13,76,1122,0.02631578947368421,2.2712550607287447,0.21827376684466185,"Rv1655,Rv2158c",1.0
+changed_region_DEGs_genome_background,KEGG,mtu00190,Oxidative phosphorylation,5,49,76,1122,0.06578947368421052,1.5064446831364124,0.23317060086931146,"Rv1553,Rv1554,Rv1555,Rv1622c,Rv1812c",1.0
+changed_region_DEGs_genome_background,KEGG,mtu00650,Butanoate metabolism,4,37,76,1122,0.05263157894736842,1.5960170697012803,0.23778222736939736,"Rv1553,Rv1554,Rv1555,Rv1715",1.0
+changed_region_DEGs_genome_background,KEGG,mtu00361,Chlorocyclohexane and chlorobenzene degradation,1,4,76,1122,0.013157894736842105,3.6907894736842106,0.2449317596807433,Rv2054,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00401,Novobiocin biosynthesis,1,4,76,1122,0.013157894736842105,3.6907894736842106,0.2449317596807433,Rv1600,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00630,Glyoxylate and dicarboxylate metabolism,4,39,76,1122,0.05263157894736842,1.5141700404858298,0.26846645890965665,"Rv0070c,Rv1832,Rv2220,Rv2247",1.0
+changed_region_DEGs_genome_background,KEGG,mtu01320,Sulfur cycle,1,5,76,1122,0.013157894736842105,2.952631578947368,0.2962601910441275,Rv2334,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00460,Cyanoamino acid metabolism,1,6,76,1122,0.013157894736842105,2.460526315789474,0.34414221922733823,Rv0070c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00930,Caprolactam degradation,1,6,76,1122,0.013157894736842105,2.460526315789474,0.34414221922733823,Rv3252c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu01310,Nitrogen cycle,1,6,76,1122,0.013157894736842105,2.460526315789474,0.34414221922733823,Rv1736c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu01502,Vancomycin resistance,1,6,76,1122,0.013157894736842105,2.460526315789474,0.34414221922733823,Rv2153c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00550,Peptidoglycan biosynthesis,2,19,76,1122,0.02631578947368421,1.554016620498615,0.37276769535768295,"Rv2153c,Rv2158c",1.0
+changed_region_DEGs_genome_background,KEGG,mtu04981,Folate transport and metabolism,1,7,76,1122,0.013157894736842105,2.1090225563909772,0.3888063691724299,Rv0070c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu01120,Microbial metabolism in diverse environments,17,233,76,1122,0.2236842105263158,1.077140275581658,0.4076466299814468,"Rv0066c,Rv0070c,Rv1553,Rv1554,Rv1555,Rv1655,Rv1715,Rv1736c,Rv1848,Rv1850,Rv2029c,Rv2054,Rv2220,Rv2247,Rv2334,Rv3221c,Rv3224",1.0
+changed_region_DEGs_genome_background,KEGG,mtu00680,Methane metabolism,2,21,76,1122,0.02631578947368421,1.406015037593985,0.42214471430220957,"Rv0070c,Rv2029c",1.0
+changed_region_DEGs_genome_background,KEGG,mtu00907,"Pinene, camphor and geraniol degradation",1,9,76,1122,0.013157894736842105,1.6403508771929822,0.4693212925085705,Rv3224,1.0
+changed_region_DEGs_genome_background,KEGG,mtu01501,beta-Lactam resistance,1,9,76,1122,0.013157894736842105,1.6403508771929822,0.4693212925085705,Rv2068c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00052,Galactose metabolism,1,10,76,1122,0.013157894736842105,1.476315789473684,0.5055581135052898,Rv2029c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00350,Tyrosine metabolism,1,10,76,1122,0.013157894736842105,1.476315789473684,0.5055581135052898,Rv1600,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00521,Streptomycin biosynthesis,1,10,76,1122,0.013157894736842105,1.476315789473684,0.5055581135052898,Rv1604,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00562,Inositol phosphate metabolism,1,10,76,1122,0.013157894736842105,1.476315789473684,0.5055581135052898,Rv1604,1.0
+changed_region_DEGs_genome_background,KEGG,mtu03420,Nucleotide excision repair,1,10,76,1122,0.013157894736842105,1.476315789473684,0.5055581135052898,Rv1638,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00450,Selenocompound metabolism,1,11,76,1122,0.013157894736842105,1.3421052631578947,0.5393509043088851,Rv2294,1.0
+changed_region_DEGs_genome_background,KEGG,mtu04146,Peroxisome,1,11,76,1122,0.013157894736842105,1.3421052631578947,0.5393509043088851,Rv0066c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00640,Propanoate metabolism,2,30,76,1122,0.02631578947368421,0.9842105263157894,0.6158488685946102,"Rv2247,Rv3221c",1.0
+changed_region_DEGs_genome_background,KEGG,mtu00480,Glutathione metabolism,1,14,76,1122,0.013157894736842105,1.0545112781954886,0.6276401479084684,Rv0066c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00051,Fructose and mannose metabolism,1,15,76,1122,0.013157894736842105,0.9842105263157894,0.6531810763912811,Rv2029c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00572,Arabinogalactan biosynthesis - Mycobacterium,1,15,76,1122,0.013157894736842105,0.9842105263157894,0.6531810763912811,Rv1886c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00230,Purine metabolism,3,51,76,1122,0.039473684210526314,0.8684210526315789,0.6865343615129857,"Rv1625c,Rv1848,Rv1850",1.0
+changed_region_DEGs_genome_background,KEGG,mtu00030,Pentose phosphate pathway,1,19,76,1122,0.013157894736842105,0.7770083102493075,0.7391606759011724,Rv2029c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00920,Sulfur metabolism,1,21,76,1122,0.013157894736842105,0.7030075187969925,0.7738827142921689,Rv2334,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00310,Lysine degradation,1,22,76,1122,0.013157894736842105,0.6710526315789473,0.789491173614417,Rv1718,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00362,Benzoate degradation,1,24,76,1122,0.013157894736842105,0.6151315789473685,0.8175871105154519,Rv1715,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00380,Tryptophan metabolism,1,24,76,1122,0.013157894736842105,0.6151315789473685,0.8175871105154519,Rv1908c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00970,Aminoacyl-tRNA biosynthesis,1,24,76,1122,0.013157894736842105,0.6151315789473685,0.8175871105154519,Rv1689,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00240,Pyrimidine metabolism,1,27,76,1122,0.013157894736842105,0.5467836257309941,0.8529338204438077,Rv2697c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00250,"Alanine, aspartate and glutamate metabolism",1,27,76,1122,0.013157894736842105,0.5467836257309941,0.8529338204438077,Rv2220,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00561,Glycerolipid metabolism,1,30,76,1122,0.013157894736842105,0.4921052631578947,0.8815038821233602,Rv1886c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00010,Glycolysis / Gluconeogenesis,1,31,76,1122,0.013157894736842105,0.47623089983022066,0.8897508646862033,Rv2029c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00071,Fatty acid degradation,1,33,76,1122,0.013157894736842105,0.4473684210526316,0.9045825204077458,Rv3252c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu05152,Tuberculosis,1,34,76,1122,0.013157894736842105,0.43421052631578944,0.9112415915271318,Rv1793,1.0
+changed_region_DEGs_genome_background,KEGG,mtu03010,Ribosome,2,57,76,1122,0.02631578947368421,0.5180055401662049,0.9113575143829106,"Rv0053,Rv2055c",1.0
+changed_region_DEGs_genome_background,KEGG,mtu01232,Nucleotide metabolism,1,37,76,1122,0.013157894736842105,0.3990042674253201,0.928587492369892,Rv2697c,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00280,"Valine, leucine and isoleucine degradation",1,43,76,1122,0.013157894736842105,0.3433292533659731,0.9538587856198457,Rv2247,1.0
+changed_region_DEGs_genome_background,KEGG,mtu01240,Biosynthesis of cofactors,2,131,76,1122,0.02631578947368421,0.22539172358376855,0.999334181199878,"Rv0070c,Rv2217",1.0
+changed_region_DEGs_genome_background,KEGG,mtu00040,Pentose and glucuronate interconversions,0,5,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00053,Ascorbate and aldarate metabolism,0,4,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00073,"Cutin, suberine and wax biosynthesis",0,15,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00130,Ubiquinone and other terpenoid-quinone biosynthesis,0,9,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00261,Monobactam biosynthesis,0,7,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00290,"Valine, leucine and isoleucine biosynthesis",0,13,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00330,Arginine and proline metabolism,0,18,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00410,beta-Alanine metabolism,0,13,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00430,Taurine and hypotaurine metabolism,0,7,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00470,D-Amino acid metabolism,0,8,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00500,Starch and sucrose metabolism,0,23,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00520,Amino sugar and nucleotide sugar metabolism,0,23,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00523,Polyketide sugar unit biosynthesis,0,6,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00525,Acarbose and validamycin biosynthesis,0,3,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00541,Biosynthesis of various nucleotide sugars,0,15,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00564,Glycerophospholipid metabolism,0,19,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00565,Ether lipid metabolism,0,5,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00571,Lipoarabinomannan (LAM) biosynthesis,0,13,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00592,alpha-Linolenic acid metabolism,0,3,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00621,Dioxin degradation,0,4,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00622,Xylene degradation,0,4,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00625,Chloroalkane and chloroalkene degradation,0,8,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00627,Aminobenzoate degradation,0,13,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00643,Styrene degradation,0,5,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00660,C5-Branched dibasic acid metabolism,0,9,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00710,Carbon fixation by Calvin cycle,0,11,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00730,Thiamine metabolism,0,11,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00740,Riboflavin metabolism,0,7,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00750,Vitamin B6 metabolism,0,5,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00760,Nicotinate and nicotinamide metabolism,0,20,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00770,Pantothenate and CoA biosynthesis,0,23,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00780,Biotin metabolism,0,9,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00790,Folate biosynthesis,0,27,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00860,Porphyrin metabolism,0,36,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00900,Terpenoid backbone biosynthesis,0,23,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00903,Limonene degradation,0,5,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu00984,Steroid degradation,0,41,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu01053,Biosynthesis of siderophore group nonribosomal peptides,0,10,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu01220,Degradation of aromatic compounds,0,10,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu01250,Biosynthesis of nucleotide sugars,0,32,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu01503,Cationic antimicrobial peptide (CAMP) resistance,0,4,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu02024,Quorum sensing,0,24,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu03018,RNA degradation,0,12,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu03020,RNA polymerase,0,4,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu03030,DNA replication,0,15,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu03060,Protein export,0,17,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu03070,Bacterial secretion system,0,14,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu03410,Base excision repair,0,15,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu03430,Mismatch repair,0,15,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu03440,Homologous recombination,0,22,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu04122,Sulfur relay system,0,22,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu04156,Integrated stress response (ISR) signaling pathway,0,4,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_genome_background,KEGG,mtu04980,Cobalamin transport and metabolism,0,5,76,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu01230,Biosynthesis of amino acids,22,98,76,912,0.2894736842105263,2.693877551020408,3.1853341269019064e-06,"Rv0066c,Rv0069c,Rv0070c,Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1605,Rv1606,Rv1612,Rv1613,Rv1652,Rv1653,Rv1654,Rv1655,Rv1656,Rv2029c,Rv2122c,Rv2220,Rv2294,Rv2334",0.00037268409284752304
+changed_region_DEGs_loop_background,KEGG,mtu00340,Histidine metabolism,8,18,76,912,0.10526315789473684,5.333333333333333,3.587659239481469e-05,"Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1605,Rv1606,Rv2122c",0.0020987806550966594
+changed_region_DEGs_loop_background,KEGG,mtu00220,Arginine biosynthesis,8,21,76,912,0.10526315789473684,4.571428571428571,0.0001355533988556706,"Rv1652,Rv1653,Rv1654,Rv1655,Rv1656,Rv1848,Rv1850,Rv2220",0.005286582555371154
+changed_region_DEGs_loop_background,KEGG,mtu01110,Biosynthesis of secondary metabolites,38,310,76,912,0.5,1.4709677419354839,0.0019305411384978736,"Rv0066c,Rv0069c,Rv0070c,Rv1553,Rv1554,Rv1555,Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1604,Rv1605,Rv1606,Rv1612,Rv1613,Rv1652,Rv1653,Rv1654,Rv1655,Rv1656,Rv1832,Rv1886c,Rv1908c,Rv2029c,Rv2068c,Rv2122c,Rv2220,Rv2243,Rv2244,Rv2245,Rv2246,Rv2247,Rv2294,Rv2334,Rv2727c,Rv3221c,Rv3224",0.056468328301062805
+changed_region_DEGs_loop_background,KEGG,mtu01200,Carbon metabolism,13,84,76,912,0.17105263157894737,1.8571428571428572,0.016365395277427818,"Rv0066c,Rv0069c,Rv0070c,Rv1553,Rv1554,Rv1555,Rv1715,Rv1832,Rv2029c,Rv2247,Rv2332,Rv2334,Rv3221c",0.38295024949181095
+changed_region_DEGs_loop_background,KEGG,mtu00260,"Glycine, serine and threonine metabolism",5,22,76,912,0.06578947368421052,2.727272727272727,0.030073205275179433,"Rv0069c,Rv0070c,Rv1612,Rv1613,Rv1832",0.5495226251380088
+changed_region_DEGs_loop_background,KEGG,mtu00620,Pyruvate metabolism,6,32,76,912,0.07894736842105263,2.25,0.04316981500891862,"Rv1553,Rv1554,Rv1555,Rv2247,Rv2332,Rv3221c",0.5495226251380088
+changed_region_DEGs_loop_background,KEGG,mtu02020,Two-component system,9,59,76,912,0.11842105263157894,1.830508474576271,0.04854578937837898,"Rv1553,Rv1554,Rv1555,Rv1622c,Rv1736c,Rv2220,Rv2234,Rv2332,Rv3245c",0.5495226251380088
+changed_region_DEGs_loop_background,KEGG,mtu00074,Mycolic acid biosynthesis,5,25,76,912,0.06578947368421052,2.4,0.04981837720934342,"Rv1886c,Rv2243,Rv2245,Rv2246,Rv2247",0.5495226251380088
+changed_region_DEGs_loop_background,KEGG,mtu01210,2-Oxocarboxylic acid metabolism,5,25,76,912,0.06578947368421052,2.4,0.04981837720934342,"Rv0066c,Rv1652,Rv1653,Rv1654,Rv1655",0.5495226251380088
+changed_region_DEGs_loop_background,KEGG,mtu00910,Nitrogen metabolism,4,18,76,912,0.05263157894736842,2.6666666666666665,0.05549648314019848,"Rv1736c,Rv1737c,Rv2220,Rv2329c",0.5495226251380088
+changed_region_DEGs_loop_background,KEGG,mtu00061,Fatty acid biosynthesis,3,11,76,912,0.039473684210526314,3.272727272727273,0.05636129488594962,"Rv2243,Rv2247,Rv3221c",0.5495226251380088
+changed_region_DEGs_loop_background,KEGG,mtu00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",4,19,76,912,0.05263157894736842,2.526315789473684,0.06597822890415574,"Rv1600,Rv1603,Rv1612,Rv1613",0.5801548534288433
+changed_region_DEGs_loop_background,KEGG,mtu02010,ABC transporters,9,63,76,912,0.11842105263157894,1.714285714285714,0.06942023887182741,"Rv1620c,Rv1621c,Rv1965,Rv1966,Rv1967,Rv1968,Rv1970,Rv1971,Rv2325c",0.5801548534288433
+changed_region_DEGs_loop_background,KEGG,mtu01040,Biosynthesis of unsaturated fatty acids,2,6,76,912,0.02631578947368421,4.0,0.08252539587162858,"Rv3229c,Rv3230c",0.627195241453299
+changed_region_DEGs_loop_background,KEGG,mtu01212,Fatty acid metabolism,5,29,76,912,0.06578947368421052,2.068965517241379,0.08577028942951097,"Rv2243,Rv2247,Rv3221c,Rv3229c,Rv3230c",0.627195241453299
+changed_region_DEGs_loop_background,KEGG,mtu00720,Other carbon fixation pathways,5,30,76,912,0.06578947368421052,2.0,0.09645543752773938,"Rv0066c,Rv1553,Rv1554,Rv1555,Rv3221c",0.6638403641615005
+changed_region_DEGs_loop_background,KEGG,mtu00020,Citrate cycle (TCA cycle),4,24,76,912,0.05263157894736842,2.0,0.1321223793700644,"Rv0066c,Rv1553,Rv1554,Rv1555",0.8587954659054187
+changed_region_DEGs_loop_background,KEGG,mtu01100,Metabolic pathways,53,582,76,912,0.6973684210526315,1.092783505154639,0.15930585768136207,"Rv0066c,Rv0069c,Rv0070c,Rv1553,Rv1554,Rv1555,Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1604,Rv1605,Rv1606,Rv1612,Rv1613,Rv1622c,Rv1625c,Rv1652,Rv1653,Rv1654,Rv1655,Rv1656,Rv1715,Rv1718,Rv1736c,Rv1812c,Rv1832,Rv1848,Rv1850,Rv1886c,Rv1908c,Rv2002,Rv2029c,Rv2054,Rv2122c,Rv2153c,Rv2158c,Rv2217,Rv2220,Rv2243,Rv2244,Rv2245,Rv2246,Rv2247,Rv2294,Rv2334,Rv2697c,Rv2727c,Rv3221c,Rv3229c,Rv3230c,Rv3248c",0.9504361863121691
+changed_region_DEGs_loop_background,KEGG,mtu00670,One carbon pool by folate,3,17,76,912,0.039473684210526314,2.1176470588235294,0.16246772415592634,"Rv0070c,Rv1832,Rv3248c",0.9504361863121691
+changed_region_DEGs_loop_background,KEGG,mtu03050,Proteasome,1,3,76,912,0.013157894736842105,4.0,0.22997611609027632,Rv2109c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00785,Lipoic acid metabolism,2,11,76,912,0.02631578947368421,2.1818181818181817,0.23161916855773296,"Rv1832,Rv2217",1.0
+changed_region_DEGs_loop_background,KEGG,mtu00983,Drug metabolism - other enzymes,2,11,76,912,0.02631578947368421,2.1818181818181817,0.23161916855773296,"Rv1908c,Rv2697c",1.0
+changed_region_DEGs_loop_background,KEGG,mtu00360,Phenylalanine metabolism,3,21,76,912,0.039473684210526314,1.7142857142857142,0.2517912001359949,"Rv1600,Rv1715,Rv1908c",1.0
+changed_region_DEGs_loop_background,KEGG,mtu00650,Butanoate metabolism,4,31,76,912,0.05263157894736842,1.5483870967741933,0.2542223574409357,"Rv1553,Rv1554,Rv1555,Rv1715",1.0
+changed_region_DEGs_loop_background,KEGG,mtu00270,Cysteine and methionine metabolism,4,32,76,912,0.05263157894736842,1.5,0.27343140125295345,"Rv0069c,Rv2294,Rv2334,Rv3248c",1.0
+changed_region_DEGs_loop_background,KEGG,mtu00361,Chlorocyclohexane and chlorobenzene degradation,1,4,76,912,0.013157894736842105,3.0,0.2943565508286031,Rv2054,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00401,Novobiocin biosynthesis,1,4,76,912,0.013157894736842105,3.0,0.2943565508286031,Rv1600,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00460,Cyanoamino acid metabolism,1,4,76,912,0.013157894736842105,3.0,0.2943565508286031,Rv0070c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu01310,Nitrogen cycle,1,4,76,912,0.013157894736842105,3.0,0.2943565508286031,Rv1736c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00300,Lysine biosynthesis,2,13,76,912,0.02631578947368421,1.8461538461538463,0.29600367594827104,"Rv1655,Rv2158c",1.0
+changed_region_DEGs_loop_background,KEGG,mtu00190,Oxidative phosphorylation,5,45,76,912,0.06578947368421052,1.3333333333333333,0.31840800339788256,"Rv1553,Rv1554,Rv1555,Rv1622c,Rv1812c",1.0
+changed_region_DEGs_loop_background,KEGG,mtu00680,Methane metabolism,2,14,76,912,0.02631578947368421,1.7142857142857142,0.32802731738223684,"Rv0070c,Rv2029c",1.0
+changed_region_DEGs_loop_background,KEGG,mtu00630,Glyoxylate and dicarboxylate metabolism,4,35,76,912,0.05263157894736842,1.3714285714285712,0.3323368272420051,"Rv0070c,Rv1832,Rv2220,Rv2247",1.0
+changed_region_DEGs_loop_background,KEGG,mtu01320,Sulfur cycle,1,5,76,912,0.013157894736842105,2.4,0.3534192183803941,Rv2334,1.0
+changed_region_DEGs_loop_background,KEGG,mtu01502,Vancomycin resistance,1,5,76,912,0.013157894736842105,2.4,0.3534192183803941,Rv2153c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00930,Caprolactam degradation,1,6,76,912,0.013157894736842105,2.0,0.40759798288214716,Rv3252c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00550,Peptidoglycan biosynthesis,2,18,76,912,0.02631578947368421,1.3333333333333333,0.45089254663786005,"Rv2153c,Rv2158c",1.0
+changed_region_DEGs_loop_background,KEGG,mtu00052,Galactose metabolism,1,7,76,912,0.013157894736842105,1.7142857142857142,0.45729175032249686,Rv2029c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00350,Tyrosine metabolism,1,7,76,912,0.013157894736842105,1.7142857142857142,0.45729175032249686,Rv1600,1.0
+changed_region_DEGs_loop_background,KEGG,mtu04981,Folate transport and metabolism,1,7,76,912,0.013157894736842105,1.7142857142857142,0.45729175032249686,Rv0070c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu01120,Microbial metabolism in diverse environments,17,199,76,912,0.2236842105263158,1.0251256281407035,0.5004900709356311,"Rv0066c,Rv0070c,Rv1553,Rv1554,Rv1555,Rv1655,Rv1715,Rv1736c,Rv1848,Rv1850,Rv2029c,Rv2054,Rv2220,Rv2247,Rv2334,Rv3221c,Rv3224",1.0
+changed_region_DEGs_loop_background,KEGG,mtu00521,Streptomycin biosynthesis,1,8,76,912,0.013157894736842105,1.5,0.502867249742928,Rv1604,1.0
+changed_region_DEGs_loop_background,KEGG,mtu01501,beta-Lactam resistance,1,8,76,912,0.013157894736842105,1.5,0.502867249742928,Rv2068c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00907,"Pinene, camphor and geraniol degradation",1,9,76,912,0.013157894736842105,1.3333333333333333,0.5446615960034783,Rv3224,1.0
+changed_region_DEGs_loop_background,KEGG,mtu03420,Nucleotide excision repair,1,9,76,912,0.013157894736842105,1.3333333333333333,0.5446615960034783,Rv1638,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00562,Inositol phosphate metabolism,1,10,76,912,0.013157894736842105,1.2,0.5829846510463746,Rv1604,1.0
+changed_region_DEGs_loop_background,KEGG,mtu04146,Peroxisome,1,10,76,912,0.013157894736842105,1.2,0.5829846510463746,Rv0066c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00450,Selenocompound metabolism,1,11,76,912,0.013157894736842105,1.0909090909090908,0.6181211992952391,Rv2294,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00480,Glutathione metabolism,1,11,76,912,0.013157894736842105,1.0909090909090908,0.6181211992952391,Rv0066c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00051,Fructose and mannose metabolism,1,12,76,912,0.013157894736842105,1.0,0.650332951629936,Rv2029c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00640,Propanoate metabolism,2,27,76,912,0.02631578947368421,0.8888888888888888,0.6746255573027186,"Rv2247,Rv3221c",1.0
+changed_region_DEGs_loop_background,KEGG,mtu03010,Ribosome,2,27,76,912,0.02631578947368421,0.8888888888888888,0.6746255573027186,"Rv0053,Rv2055c",1.0
+changed_region_DEGs_loop_background,KEGG,mtu00572,Arabinogalactan biosynthesis - Mycobacterium,1,13,76,912,0.013157894736842105,0.9230769230769231,0.6798603912700747,Rv1886c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00230,Purine metabolism,3,44,76,912,0.039473684210526314,0.8181818181818182,0.7282244256050266,"Rv1625c,Rv1848,Rv1850",1.0
+changed_region_DEGs_loop_background,KEGG,mtu00310,Lysine degradation,1,15,76,912,0.013157894736842105,0.8,0.7317281932369215,Rv1718,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00030,Pentose phosphate pathway,1,17,76,912,0.013157894736842105,0.7058823529411765,0.7752852442802399,Rv2029c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00380,Tryptophan metabolism,1,18,76,912,0.013157894736842105,0.6666666666666666,0.7943671676709682,Rv1908c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00920,Sulfur metabolism,1,18,76,912,0.013157894736842105,0.6666666666666666,0.7943671676709682,Rv2334,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00970,Aminoacyl-tRNA biosynthesis,1,20,76,912,0.013157894736842105,0.6,0.82786117272737,Rv1689,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00010,Glycolysis / Gluconeogenesis,1,21,76,912,0.013157894736842105,0.5714285714285714,0.8425277095801951,Rv2029c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00362,Benzoate degradation,1,21,76,912,0.013157894736842105,0.5714285714285714,0.8425277095801951,Rv1715,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00240,Pyrimidine metabolism,1,23,76,912,0.013157894736842105,0.5217391304347826,0.8682597609208151,Rv2697c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00250,"Alanine, aspartate and glutamate metabolism",1,23,76,912,0.013157894736842105,0.5217391304347826,0.8682597609208151,Rv2220,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00071,Fatty acid degradation,1,24,76,912,0.013157894736842105,0.5,0.8795221435642551,Rv3252c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00561,Glycerolipid metabolism,1,24,76,912,0.013157894736842105,0.5,0.8795221435642551,Rv1886c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu05152,Tuberculosis,1,26,76,912,0.013157894736842105,0.46153846153846156,0.899272621862407,Rv1793,1.0
+changed_region_DEGs_loop_background,KEGG,mtu01232,Nucleotide metabolism,1,32,76,912,0.013157894736842105,0.375,0.9412831926759131,Rv2697c,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00280,"Valine, leucine and isoleucine degradation",1,35,76,912,0.013157894736842105,0.3428571428571428,0.9552346141348761,Rv2247,1.0
+changed_region_DEGs_loop_background,KEGG,mtu01240,Biosynthesis of cofactors,2,96,76,912,0.02631578947368421,0.25,0.9984351883251973,"Rv0070c,Rv2217",1.0
+changed_region_DEGs_loop_background,KEGG,mtu00040,Pentose and glucuronate interconversions,0,4,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00073,"Cutin, suberine and wax biosynthesis",0,14,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00261,Monobactam biosynthesis,0,7,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00290,"Valine, leucine and isoleucine biosynthesis",0,5,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00330,Arginine and proline metabolism,0,15,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00410,beta-Alanine metabolism,0,10,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00430,Taurine and hypotaurine metabolism,0,4,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00470,D-Amino acid metabolism,0,7,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00500,Starch and sucrose metabolism,0,17,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00520,Amino sugar and nucleotide sugar metabolism,0,18,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00523,Polyketide sugar unit biosynthesis,0,4,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00541,Biosynthesis of various nucleotide sugars,0,9,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00564,Glycerophospholipid metabolism,0,14,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00565,Ether lipid metabolism,0,5,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00571,Lipoarabinomannan (LAM) biosynthesis,0,11,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00592,alpha-Linolenic acid metabolism,0,3,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00621,Dioxin degradation,0,4,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00622,Xylene degradation,0,4,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00625,Chloroalkane and chloroalkene degradation,0,4,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00627,Aminobenzoate degradation,0,13,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00643,Styrene degradation,0,5,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00660,C5-Branched dibasic acid metabolism,0,4,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00710,Carbon fixation by Calvin cycle,0,10,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00730,Thiamine metabolism,0,4,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00740,Riboflavin metabolism,0,6,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00750,Vitamin B6 metabolism,0,5,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00760,Nicotinate and nicotinamide metabolism,0,14,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00770,Pantothenate and CoA biosynthesis,0,15,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00780,Biotin metabolism,0,8,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00790,Folate biosynthesis,0,24,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00860,Porphyrin metabolism,0,29,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00900,Terpenoid backbone biosynthesis,0,22,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu00984,Steroid degradation,0,39,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu01053,Biosynthesis of siderophore group nonribosomal peptides,0,10,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu01220,Degradation of aromatic compounds,0,8,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu01250,Biosynthesis of nucleotide sugars,0,23,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu01503,Cationic antimicrobial peptide (CAMP) resistance,0,3,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu02024,Quorum sensing,0,22,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu03018,RNA degradation,0,9,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu03030,DNA replication,0,13,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu03060,Protein export,0,15,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu03070,Bacterial secretion system,0,12,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu03410,Base excision repair,0,11,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu03430,Mismatch repair,0,13,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu03440,Homologous recombination,0,17,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu04122,Sulfur relay system,0,19,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_loop_background,KEGG,mtu04980,Cobalamin transport and metabolism,0,5,76,912,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00340,Histidine metabolism,7,21,51,1122,0.13725490196078433,7.333333333333335,1.887126581407645e-05,"Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1605,Rv1606",0.0023211656951314034
+changed_region_DEGs_up_genome_background,KEGG,mtu01230,Biosynthesis of amino acids,14,111,51,1122,0.27450980392156865,2.774774774774775,0.00021403882488414493,"Rv0066c,Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1605,Rv1606,Rv1652,Rv1653,Rv1654,Rv1655,Rv1656,Rv2029c",0.013163387730374914
+changed_region_DEGs_up_genome_background,KEGG,mtu01110,Biosynthesis of secondary metabolites,27,373,51,1122,0.5294117647058824,1.5924932975871313,0.0023458750654528513,"Rv0066c,Rv1553,Rv1554,Rv1555,Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1604,Rv1605,Rv1606,Rv1652,Rv1653,Rv1654,Rv1655,Rv1656,Rv1832,Rv1908c,Rv2029c,Rv2243,Rv2244,Rv2245,Rv2246,Rv2247,Rv2727c,Rv3221c",0.08841937141423226
+changed_region_DEGs_up_genome_background,KEGG,mtu00220,Arginine biosynthesis,5,23,51,1122,0.09803921568627451,4.782608695652174,0.0028754267126579595,"Rv1652,Rv1653,Rv1654,Rv1655,Rv1656",0.08841937141423226
+changed_region_DEGs_up_genome_background,KEGG,mtu02010,ABC transporters,9,84,51,1122,0.17647058823529413,2.3571428571428577,0.010739358017888194,"Rv1620c,Rv1621c,Rv1965,Rv1966,Rv1967,Rv1968,Rv1970,Rv1971,Rv2325c",0.25058332575331166
+changed_region_DEGs_up_genome_background,KEGG,mtu02020,Two-component system,7,61,51,1122,0.13725490196078433,2.5245901639344264,0.017258303348289795,"Rv1553,Rv1554,Rv1555,Rv1622c,Rv1736c,Rv2234,Rv3245c",0.25058332575331166
+changed_region_DEGs_up_genome_background,KEGG,mtu01210,2-Oxocarboxylic acid metabolism,5,35,51,1122,0.09803921568627451,3.142857142857143,0.018313820282547213,"Rv0066c,Rv1652,Rv1653,Rv1654,Rv1655",0.25058332575331166
+changed_region_DEGs_up_genome_background,KEGG,mtu01212,Fatty acid metabolism,5,35,51,1122,0.09803921568627451,3.142857142857143,0.018313820282547213,"Rv2243,Rv2247,Rv3221c,Rv3229c,Rv3230c",0.25058332575331166
+changed_region_DEGs_up_genome_background,KEGG,mtu00061,Fatty acid biosynthesis,3,13,51,1122,0.058823529411764705,5.076923076923077,0.018335365299022806,"Rv2243,Rv2247,Rv3221c",0.25058332575331166
+changed_region_DEGs_up_genome_background,KEGG,mtu00720,Other carbon fixation pathways,5,36,51,1122,0.09803921568627451,3.0555555555555554,0.02054687397451899,"Rv0066c,Rv1553,Rv1554,Rv1555,Rv3221c",0.25272654988658355
+changed_region_DEGs_up_genome_background,KEGG,mtu01040,Biosynthesis of unsaturated fatty acids,2,6,51,1122,0.0392156862745098,7.333333333333334,0.027030600084223137,"Rv3229c,Rv3230c",0.3022512554872223
+changed_region_DEGs_up_genome_background,KEGG,mtu00020,Citrate cycle (TCA cycle),4,29,51,1122,0.0784313725490196,3.0344827586206895,0.03875762547072502,"Rv0066c,Rv1553,Rv1554,Rv1555",0.3901892831710389
+changed_region_DEGs_up_genome_background,KEGG,mtu00620,Pyruvate metabolism,5,43,51,1122,0.09803921568627451,2.558139534883721,0.04123951773352444,"Rv1553,Rv1554,Rv1555,Rv2247,Rv3221c",0.3901892831710389
+changed_region_DEGs_up_genome_background,KEGG,mtu01200,Carbon metabolism,8,96,51,1122,0.1568627450980392,1.8333333333333335,0.062305897247621936,"Rv0066c,Rv1553,Rv1554,Rv1555,Rv1832,Rv2029c,Rv2247,Rv3221c",0.5455267494518399
+changed_region_DEGs_up_genome_background,KEGG,mtu00190,Oxidative phosphorylation,5,49,51,1122,0.09803921568627451,2.2448979591836733,0.06652765237217559,"Rv1553,Rv1554,Rv1555,Rv1622c,Rv1812c",0.5455267494518399
+changed_region_DEGs_up_genome_background,KEGG,mtu00074,Mycolic acid biosynthesis,4,36,51,1122,0.0784313725490196,2.444444444444444,0.07613565737041245,"Rv2243,Rv2245,Rv2246,Rv2247",0.5720287158295183
+changed_region_DEGs_up_genome_background,KEGG,mtu01100,Metabolic pathways,37,699,51,1122,0.7254901960784313,1.1645207439198855,0.07906087942359195,"Rv0066c,Rv1553,Rv1554,Rv1555,Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1604,Rv1605,Rv1606,Rv1622c,Rv1625c,Rv1652,Rv1653,Rv1654,Rv1655,Rv1656,Rv1736c,Rv1812c,Rv1832,Rv1908c,Rv2002,Rv2029c,Rv2153c,Rv2158c,Rv2217,Rv2243,Rv2244,Rv2245,Rv2246,Rv2247,Rv2727c,Rv3221c,Rv3229c,Rv3230c",0.5720287158295183
+changed_region_DEGs_up_genome_background,KEGG,mtu00785,Lipoic acid metabolism,2,12,51,1122,0.0392156862745098,3.666666666666667,0.09995404213265477,"Rv1832,Rv2217",0.6830192879064743
+changed_region_DEGs_up_genome_background,KEGG,mtu00300,Lysine biosynthesis,2,13,51,1122,0.0392156862745098,3.3846153846153846,0.11479380155695147,"Rv1655,Rv2158c",0.7431388206055279
+changed_region_DEGs_up_genome_background,KEGG,mtu03050,Proteasome,1,3,51,1122,0.0196078431372549,7.333333333333334,0.13037010380342226,Rv2109c,0.801776138391047
+changed_region_DEGs_up_genome_background,KEGG,mtu00401,Novobiocin biosynthesis,1,4,51,1122,0.0196078431372549,5.5,0.17000471033248876,Rv1600,0.9957418748045771
+changed_region_DEGs_up_genome_background,KEGG,mtu00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",2,19,51,1122,0.0392156862745098,2.3157894736842106,0.21240917452701527,"Rv1600,Rv1603",1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00550,Peptidoglycan biosynthesis,2,19,51,1122,0.0392156862745098,2.3157894736842106,0.21240917452701527,"Rv2153c,Rv2158c",1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00650,Butanoate metabolism,3,37,51,1122,0.058823529411764705,1.783783783783784,0.23428637387623621,"Rv1553,Rv1554,Rv1555",1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu01310,Nitrogen cycle,1,6,51,1122,0.0196078431372549,3.666666666666667,0.24403397936573018,Rv1736c,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu01502,Vancomycin resistance,1,6,51,1122,0.0196078431372549,3.666666666666667,0.24403397936573018,Rv2153c,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00360,Phenylalanine metabolism,2,21,51,1122,0.0392156862745098,2.0952380952380953,0.2467279023100248,"Rv1600,Rv1908c",1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00910,Nitrogen metabolism,2,22,51,1122,0.0392156862745098,2.0,0.2639933823385902,"Rv1736c,Rv1737c",1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00052,Galactose metabolism,1,10,51,1122,0.0196078431372549,2.1999999999999997,0.373195833002646,Rv2029c,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00350,Tyrosine metabolism,1,10,51,1122,0.0196078431372549,2.1999999999999997,0.373195833002646,Rv1600,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00521,Streptomycin biosynthesis,1,10,51,1122,0.0196078431372549,2.1999999999999997,0.373195833002646,Rv1604,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00562,Inositol phosphate metabolism,1,10,51,1122,0.0196078431372549,2.1999999999999997,0.373195833002646,Rv1604,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu03420,Nucleotide excision repair,1,10,51,1122,0.0196078431372549,2.1999999999999997,0.373195833002646,Rv1638,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00640,Propanoate metabolism,2,30,51,1122,0.0392156862745098,1.4666666666666668,0.40001983418507175,"Rv2247,Rv3221c",1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00983,Drug metabolism - other enzymes,1,11,51,1122,0.0196078431372549,2.0,0.401943146417093,Rv1908c,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu04146,Peroxisome,1,11,51,1122,0.0196078431372549,2.0,0.401943146417093,Rv0066c,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00480,Glutathione metabolism,1,14,51,1122,0.0196078431372549,1.5714285714285714,0.4806485112976203,Rv0066c,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00051,Fructose and mannose metabolism,1,15,51,1122,0.0196078431372549,1.4666666666666668,0.5045536790989029,Rv2029c,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00630,Glyoxylate and dicarboxylate metabolism,2,39,51,1122,0.0392156862745098,1.1282051282051282,0.5383897678845364,"Rv1832,Rv2247",1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00030,Pentose phosphate pathway,1,19,51,1122,0.0196078431372549,1.1578947368421053,0.5898451339154043,Rv2029c,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00670,One carbon pool by folate,1,19,51,1122,0.0196078431372549,1.1578947368421053,0.5898451339154043,Rv1832,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00680,Methane metabolism,1,21,51,1122,0.0196078431372549,1.0476190476190477,0.6269137725390368,Rv2029c,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00380,Tryptophan metabolism,1,24,51,1122,0.0196078431372549,0.9166666666666667,0.6764379408215526,Rv1908c,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00260,"Glycine, serine and threonine metabolism",1,25,51,1122,0.0196078431372549,0.88,0.6914667796358522,Rv1832,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu01120,Microbial metabolism in diverse environments,9,233,51,1122,0.17647058823529413,0.849785407725322,0.7653798913733221,"Rv0066c,Rv1553,Rv1554,Rv1555,Rv1655,Rv1736c,Rv2029c,Rv2247,Rv3221c",1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00010,Glycolysis / Gluconeogenesis,1,31,51,1122,0.0196078431372549,0.7096774193548386,0.7682809498804036,Rv2029c,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00280,"Valine, leucine and isoleucine degradation",1,43,51,1122,0.0196078431372549,0.5116279069767442,0.8699330119000246,Rv2247,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00230,Purine metabolism,1,51,51,1122,0.0196078431372549,0.4313725490196078,0.9118182601814097,Rv1625c,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu01240,Biosynthesis of cofactors,1,131,51,1122,0.0196078431372549,0.16793893129770993,0.9984769373442549,Rv2217,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00040,Pentose and glucuronate interconversions,0,5,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00053,Ascorbate and aldarate metabolism,0,4,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00071,Fatty acid degradation,0,33,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00073,"Cutin, suberine and wax biosynthesis",0,15,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00130,Ubiquinone and other terpenoid-quinone biosynthesis,0,9,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00240,Pyrimidine metabolism,0,27,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00250,"Alanine, aspartate and glutamate metabolism",0,27,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00261,Monobactam biosynthesis,0,7,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00270,Cysteine and methionine metabolism,0,35,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00290,"Valine, leucine and isoleucine biosynthesis",0,13,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00310,Lysine degradation,0,22,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00330,Arginine and proline metabolism,0,18,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00361,Chlorocyclohexane and chlorobenzene degradation,0,4,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00362,Benzoate degradation,0,24,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00410,beta-Alanine metabolism,0,13,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00430,Taurine and hypotaurine metabolism,0,7,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00450,Selenocompound metabolism,0,11,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00460,Cyanoamino acid metabolism,0,6,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00470,D-Amino acid metabolism,0,8,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00500,Starch and sucrose metabolism,0,23,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00520,Amino sugar and nucleotide sugar metabolism,0,23,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00523,Polyketide sugar unit biosynthesis,0,6,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00525,Acarbose and validamycin biosynthesis,0,3,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00541,Biosynthesis of various nucleotide sugars,0,15,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00561,Glycerolipid metabolism,0,30,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00564,Glycerophospholipid metabolism,0,19,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00565,Ether lipid metabolism,0,5,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00571,Lipoarabinomannan (LAM) biosynthesis,0,13,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00572,Arabinogalactan biosynthesis - Mycobacterium,0,15,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00592,alpha-Linolenic acid metabolism,0,3,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00621,Dioxin degradation,0,4,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00622,Xylene degradation,0,4,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00625,Chloroalkane and chloroalkene degradation,0,8,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00627,Aminobenzoate degradation,0,13,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00643,Styrene degradation,0,5,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00660,C5-Branched dibasic acid metabolism,0,9,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00710,Carbon fixation by Calvin cycle,0,11,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00730,Thiamine metabolism,0,11,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00740,Riboflavin metabolism,0,7,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00750,Vitamin B6 metabolism,0,5,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00760,Nicotinate and nicotinamide metabolism,0,20,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00770,Pantothenate and CoA biosynthesis,0,23,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00780,Biotin metabolism,0,9,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00790,Folate biosynthesis,0,27,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00860,Porphyrin metabolism,0,36,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00900,Terpenoid backbone biosynthesis,0,23,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00903,Limonene degradation,0,5,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00907,"Pinene, camphor and geraniol degradation",0,9,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00920,Sulfur metabolism,0,21,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00930,Caprolactam degradation,0,6,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00970,Aminoacyl-tRNA biosynthesis,0,24,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu00984,Steroid degradation,0,41,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu01053,Biosynthesis of siderophore group nonribosomal peptides,0,10,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu01220,Degradation of aromatic compounds,0,10,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu01232,Nucleotide metabolism,0,37,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu01250,Biosynthesis of nucleotide sugars,0,32,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu01320,Sulfur cycle,0,5,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu01501,beta-Lactam resistance,0,9,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu01503,Cationic antimicrobial peptide (CAMP) resistance,0,4,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu02024,Quorum sensing,0,24,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu03010,Ribosome,0,57,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu03018,RNA degradation,0,12,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu03020,RNA polymerase,0,4,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu03030,DNA replication,0,15,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu03060,Protein export,0,17,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu03070,Bacterial secretion system,0,14,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu03410,Base excision repair,0,15,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu03430,Mismatch repair,0,15,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu03440,Homologous recombination,0,22,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu04122,Sulfur relay system,0,22,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu04156,Integrated stress response (ISR) signaling pathway,0,4,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu04980,Cobalamin transport and metabolism,0,5,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu04981,Folate transport and metabolism,0,7,51,1122,0.0,0.0,1.0,,1.0
+changed_region_DEGs_up_genome_background,KEGG,mtu05152,Tuberculosis,0,34,51,1122,0.0,0.0,1.0,,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00220,Arginine biosynthesis,14,21,290,912,0.04827586206896552,2.0965517241379312,0.0009547910724543997,"Rv1652,Rv1653,Rv1654,Rv1655,Rv1656,Rv1658,Rv1659,Rv1848,Rv1849,Rv1850,Rv1878,Rv2220,Rv2222c,Rv2323c",0.11171055547716476
+changed_region_all_genes_loop_background,KEGG,mtu00550,Peptidoglycan biosynthesis,11,18,290,912,0.03793103448275862,1.9218390804597703,0.009216070514525748,"Rv0016c,Rv0017c,Rv2136c,Rv2152c,Rv2153c,Rv2154c,Rv2155c,Rv2156c,Rv2157c,Rv2158c,Rv2163c",0.383026953352807
+changed_region_all_genes_loop_background,KEGG,mtu01230,Biosynthesis of amino acids,42,98,290,912,0.14482758620689656,1.347783251231527,0.009821203932123256,"Rv0066c,Rv0069c,Rv0070c,Rv0075,Rv1559,Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1605,Rv1606,Rv1609,Rv1611,Rv1612,Rv1613,Rv1617,Rv1652,Rv1653,Rv1654,Rv1655,Rv1656,Rv1658,Rv1659,Rv1878,Rv1885c,Rv2029c,Rv2121c,Rv2122c,Rv2124c,Rv2178c,Rv2192c,Rv2201,Rv2210c,Rv2220,Rv2222c,Rv2231c,Rv2294,Rv2334,Rv2335,Rv2726c,Rv3227",0.383026953352807
+changed_region_all_genes_loop_background,KEGG,mtu00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",11,19,290,912,0.03793103448275862,1.8206896551724139,0.01577503305462635,"Rv1600,Rv1603,Rv1609,Rv1611,Rv1612,Rv1613,Rv1885c,Rv2178c,Rv2192c,Rv2231c,Rv3227",0.42110902291539776
+changed_region_all_genes_loop_background,KEGG,mtu03060,Protein export,9,15,290,912,0.03103448275862069,1.886896551724138,0.0216709205166947,"Rv1539,Rv1821,Rv2093c,Rv2094c,Rv2184c,Rv2586c,Rv2587c,Rv2588c,Rv3240c",0.42110902291539776
+changed_region_all_genes_loop_background,KEGG,mtu00785,Lipoic acid metabolism,7,11,290,912,0.02413793103448276,2.0012539184952978,0.029076204174140793,"Rv1826,Rv1832,Rv2211c,Rv2215,Rv2217,Rv2218,Rv2241",0.42110902291539776
+changed_region_all_genes_loop_background,KEGG,mtu00340,Histidine metabolism,10,18,290,912,0.034482758620689655,1.7471264367816093,0.030157900910418377,"Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1605,Rv1606,Rv2121c,Rv2122c,Rv2231c",0.42110902291539776
+changed_region_all_genes_loop_background,KEGG,mtu03050,Proteasome,3,3,290,912,0.010344827586206896,3.1448275862068966,0.031925206920873916,"Rv2109c,Rv2110c,Rv2115c",0.42110902291539776
+changed_region_all_genes_loop_background,KEGG,mtu01100,Metabolic pathways,198,582,290,912,0.6827586206896552,1.0698897973693566,0.0323930017627229,"Rv0016c,Rv0021c,Rv0032,Rv0046c,Rv0062,Rv0066c,Rv0069c,Rv0070c,Rv0075,Rv1511,Rv1512,Rv1538c,Rv1551,Rv1552,Rv1553,Rv1554,Rv1555,Rv1559,Rv1562c,Rv1563c,Rv1564c,Rv1568,Rv1569,Rv1570,Rv1589,Rv1594,Rv1595,Rv1596,Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1604,Rv1605,Rv1606,Rv1609,Rv1611,Rv1612,Rv1613,Rv1617,Rv1622c,Rv1623c,Rv1625c,Rv1631,Rv1635c,Rv1652,Rv1653,Rv1654,Rv1655,Rv1656,Rv1658,Rv1659,Rv1692,Rv1695,Rv1699,Rv1703c,Rv1712,Rv1715,Rv1718,Rv1731,Rv1736c,Rv1745c,Rv1760,Rv1781c,Rv1812c,Rv1822,Rv1826,Rv1832,Rv1833c,Rv1837c,Rv1843c,Rv1844c,Rv1847,Rv1848,Rv1849,Rv1850,Rv1854c,Rv1862,Rv1867,Rv1869c,Rv1872c,Rv1878,Rv1885c,Rv1886c,Rv1905c,Rv1908c,Rv1915,Rv1916,Rv1940,Rv1981c,Rv2002,Rv2029c,Rv2043c,Rv2054,Rv2062c,Rv2064,Rv2065,Rv2066,Rv2070c,Rv2071c,Rv2072c,Rv2074,Rv2121c,Rv2122c,Rv2124c,Rv2131c,Rv2139,Rv2149c,Rv2152c,Rv2153c,Rv2155c,Rv2156c,Rv2157c,Rv2158c,Rv2163c,Rv2173,Rv2178c,Rv2182c,Rv2187,Rv2188c,Rv2192c,Rv2193,Rv2194,Rv2195,Rv2196,Rv2199c,Rv2200c,Rv2201,Rv2202c,Rv2205c,Rv2207,Rv2208,Rv2210c,Rv2211c,Rv2213,Rv2215,Rv2217,Rv2218,Rv2220,Rv2222c,Rv2225,Rv2228c,Rv2231c,Rv2236c,Rv2241,Rv2243,Rv2244,Rv2245,Rv2246,Rv2247,Rv2249c,Rv2251,Rv2252,Rv2285,Rv2291,Rv2294,Rv2296,Rv2323c,Rv2334,Rv2335,Rv2583c,Rv2584c,Rv2589,Rv2601,Rv2604c,Rv2606c,Rv2607,Rv2610c,Rv2611c,Rv2613c,Rv2697c,Rv2701c,Rv2702,Rv2713,Rv2724c,Rv2726c,Rv2727c,Rv3199c,Rv3214,Rv3215,Rv3221c,Rv3227,Rv3228,Rv3229c,Rv3230c,Rv3234c,Rv3238c,Rv3247c,Rv3248c,Rv3255c,Rv3257c,Rv3261,Rv3262,Rv3264c,Rv3265c,Rv3266c,Rv3267",0.42110902291539776
+changed_region_all_genes_loop_background,KEGG,mtu00350,Tyrosine metabolism,5,7,290,912,0.017241379310344827,2.2463054187192117,0.036446980430528866,"Rv1600,Rv1703c,Rv1731,Rv1862,Rv2231c",0.42642967103718776
+changed_region_all_genes_loop_background,KEGG,mtu00760,Nicotinate and nicotinamide metabolism,8,14,290,912,0.027586206896551724,1.7970443349753695,0.042884084552991655,"Rv1594,Rv1595,Rv1596,Rv1695,Rv1731,Rv2043c,Rv2713,Rv3199c",0.43352070209534993
+changed_region_all_genes_loop_background,KEGG,mtu00051,Fructose and mannose metabolism,7,12,290,912,0.02413793103448276,1.8344827586206898,0.05112162125591011,"Rv1511,Rv1512,Rv2029c,Rv3214,Rv3255c,Rv3257c,Rv3264c",0.43352070209534993
+changed_region_all_genes_loop_background,KEGG,mtu03070,Bacterial secretion system,7,12,290,912,0.02413793103448276,1.8344827586206898,0.05112162125591011,"Rv1821,Rv2093c,Rv2094c,Rv2586c,Rv2587c,Rv2588c,Rv3240c",0.43352070209534993
+changed_region_all_genes_loop_background,KEGG,mtu01240,Biosynthesis of cofactors,38,96,290,912,0.1310344827586207,1.2448275862068967,0.054726154060102616,"Rv0013,Rv0032,Rv0070c,Rv1568,Rv1569,Rv1570,Rv1589,Rv1594,Rv1595,Rv1596,Rv1631,Rv1695,Rv1699,Rv1847,Rv1940,Rv2043c,Rv2062c,Rv2064,Rv2065,Rv2066,Rv2070c,Rv2071c,Rv2072c,Rv2139,Rv2207,Rv2208,Rv2210c,Rv2217,Rv2218,Rv2225,Rv2228c,Rv2236c,Rv2604c,Rv2606c,Rv2607,Rv3255c,Rv3261,Rv3264c",0.43352070209534993
+changed_region_all_genes_loop_background,KEGG,mtu03440,Homologous recombination,9,17,290,912,0.03103448275862069,1.6649087221095336,0.055579577191711534,"Rv0003,Rv0054,Rv1547,Rv1629,Rv2191,Rv2592c,Rv2593c,Rv2594c,Rv2737c",0.43352070209534993
+changed_region_all_genes_loop_background,KEGG,mtu00780,Biotin metabolism,5,8,290,912,0.017241379310344827,1.9655172413793105,0.07223103716178209,"Rv0032,Rv1568,Rv1569,Rv1570,Rv1589",0.5281894592455315
+changed_region_all_genes_loop_background,KEGG,mtu01040,Biosynthesis of unsaturated fatty acids,4,6,290,912,0.013793103448275862,2.0965517241379312,0.08497530911452114,"Rv1618,Rv2605c,Rv3229c,Rv3230c",0.5388761837109809
+changed_region_all_genes_loop_background,KEGG,mtu00860,Porphyrin metabolism,13,29,290,912,0.04482758620689655,1.4097502972651603,0.09418109716914248,"Rv1876,Rv2062c,Rv2064,Rv2065,Rv2066,Rv2070c,Rv2071c,Rv2072c,Rv2074,Rv2207,Rv2208,Rv2228c,Rv2236c",0.5388761837109809
+changed_region_all_genes_loop_background,KEGG,mtu00361,Chlorocyclohexane and chlorobenzene degradation,3,4,290,912,0.010344827586206896,2.3586206896551727,0.09746144026999462,"Rv1833c,Rv2054,Rv2296",0.5388761837109809
+changed_region_all_genes_loop_background,KEGG,mtu00625,Chloroalkane and chloroalkene degradation,3,4,290,912,0.010344827586206896,2.3586206896551727,0.09746144026999462,"Rv1833c,Rv1862,Rv2296",0.5388761837109809
+changed_region_all_genes_loop_background,KEGG,mtu00571,Lipoarabinomannan (LAM) biosynthesis,6,11,290,912,0.020689655172413793,1.7153605015673983,0.0990160661131343,"Rv1635c,Rv2174,Rv2181,Rv2188c,Rv2610c,Rv2611c",0.5388761837109809
+changed_region_all_genes_loop_background,KEGG,mtu00620,Pyruvate metabolism,14,32,290,912,0.04827586206896552,1.3758620689655172,0.10132714565505622,"Rv1552,Rv1553,Rv1554,Rv1555,Rv1617,Rv1837c,Rv1862,Rv1867,Rv1872c,Rv2215,Rv2241,Rv2247,Rv2332,Rv3221c",0.5388761837109809
+changed_region_all_genes_loop_background,KEGG,mtu03420,Nucleotide excision repair,5,9,290,912,0.017241379310344827,1.7471264367816093,0.1212361944994939,"Rv1629,Rv1633,Rv1638,Rv3198c,Rv3201c",0.6054053174942459
+changed_region_all_genes_loop_background,KEGG,mtu00260,"Glycine, serine and threonine metabolism",10,22,290,912,0.034482758620689655,1.4294670846394986,0.12418570615266583,"Rv0069c,Rv0070c,Rv1559,Rv1612,Rv1613,Rv1826,Rv1832,Rv1905c,Rv2205c,Rv2211c",0.6054053174942459
+changed_region_all_genes_loop_background,KEGG,mtu00250,"Alanine, aspartate and glutamate metabolism",10,23,290,912,0.034482758620689655,1.3673163418290855,0.1603775065062144,"Rv1538c,Rv1595,Rv1658,Rv1659,Rv1731,Rv1878,Rv2201,Rv2220,Rv2222c,Rv2589",0.7505667304490834
+changed_region_all_genes_loop_background,KEGG,mtu04146,Peroxisome,5,10,290,912,0.017241379310344827,1.5724137931034483,0.18160533848894098,"Rv0066c,Rv1905c,Rv2187,Rv2251,Rv3199c",0.7818299945491376
+changed_region_all_genes_loop_background,KEGG,mtu00750,Vitamin B6 metabolism,3,5,290,912,0.010344827586206896,1.886896551724138,0.1871046140801355,"Rv2604c,Rv2606c,Rv2607",0.7818299945491376
+changed_region_all_genes_loop_background,KEGG,mtu01502,Vancomycin resistance,3,5,290,912,0.010344827586206896,1.886896551724138,0.1871046140801355,"Rv2153c,Rv2156c,Rv2157c",0.7818299945491376
+changed_region_all_genes_loop_background,KEGG,mtu03030,DNA replication,6,13,290,912,0.020689655172413793,1.4514588859416446,0.2031066596028348,"Rv0054,Rv0058,Rv1547,Rv1629,Rv2191,Rv2228c",0.8194303163286784
+changed_region_all_genes_loop_background,KEGG,mtu00521,Streptomycin biosynthesis,4,8,290,912,0.013793103448275862,1.5724137931034483,0.22712845755790617,"Rv0046c,Rv1604,Rv2701c,Rv3266c",0.857226759170162
+changed_region_all_genes_loop_background,KEGG,mtu01501,beta-Lactam resistance,4,8,290,912,0.013793103448275862,1.5724137931034483,0.22712845755790617,"Rv1845c,Rv1846c,Rv2068c,Rv2163c",0.857226759170162
+changed_region_all_genes_loop_background,KEGG,mtu00564,Glycerophospholipid metabolism,6,14,290,912,0.020689655172413793,1.347783251231527,0.2655772113710007,"Rv1551,Rv1822,Rv2182c,Rv2249c,Rv2252,Rv2289",0.9710166790752214
+changed_region_all_genes_loop_background,KEGG,mtu00630,Glyoxylate and dicarboxylate metabolism,13,35,290,912,0.04482758620689655,1.16807881773399,0.3008197869470694,"Rv0070c,Rv1826,Rv1832,Rv1837c,Rv1867,Rv1878,Rv1915,Rv1916,Rv2205c,Rv2211c,Rv2220,Rv2222c,Rv2247",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00541,Biosynthesis of various nucleotide sugars,4,9,290,912,0.013793103448275862,1.3977011494252873,0.3118422680046361,"Rv1511,Rv1512,Rv3264c,Rv3266c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu01110,Biosynthesis of secondary metabolites,102,310,290,912,0.35172413793103446,1.0347497219132369,0.32944781946937524,"Rv0046c,Rv0066c,Rv0069c,Rv0070c,Rv0075,Rv1538c,Rv1551,Rv1552,Rv1553,Rv1554,Rv1555,Rv1559,Rv1562c,Rv1563c,Rv1564c,Rv1599,Rv1600,Rv1601,Rv1602,Rv1603,Rv1604,Rv1605,Rv1606,Rv1609,Rv1611,Rv1612,Rv1613,Rv1617,Rv1652,Rv1653,Rv1654,Rv1655,Rv1656,Rv1658,Rv1659,Rv1692,Rv1745c,Rv1760,Rv1781c,Rv1826,Rv1832,Rv1837c,Rv1844c,Rv1847,Rv1862,Rv1867,Rv1878,Rv1885c,Rv1886c,Rv1905c,Rv1908c,Rv1915,Rv1916,Rv1940,Rv2029c,Rv2068c,Rv2074,Rv2121c,Rv2122c,Rv2124c,Rv2173,Rv2178c,Rv2182c,Rv2192c,Rv2201,Rv2205c,Rv2210c,Rv2211c,Rv2215,Rv2220,Rv2222c,Rv2225,Rv2231c,Rv2241,Rv2243,Rv2244,Rv2245,Rv2246,Rv2247,Rv2249c,Rv2252,Rv2285,Rv2289,Rv2294,Rv2323c,Rv2334,Rv2335,Rv2601,Rv2701c,Rv2702,Rv2726c,Rv2727c,Rv3214,Rv3215,Rv3221c,Rv3224,Rv3227,Rv3234c,Rv3255c,Rv3257c,Rv3264c,Rv3266c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00910,Nitrogen metabolism,7,18,290,912,0.02413793103448276,1.2229885057471266,0.3369112367377739,"Rv0021c,Rv1736c,Rv1737c,Rv1878,Rv2220,Rv2222c,Rv2329c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00010,Glycolysis / Gluconeogenesis,8,21,290,912,0.027586206896551724,1.1980295566502464,0.34008479120328344,"Rv1530,Rv1617,Rv1862,Rv2029c,Rv2215,Rv2241,Rv2702,Rv3214",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00561,Glycerolipid metabolism,9,24,290,912,0.03103448275862069,1.1793103448275863,0.3421162265800348,"Rv1551,Rv1692,Rv1760,Rv1886c,Rv2182c,Rv2205c,Rv2252,Rv2285,Rv3234c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu03010,Ribosome,10,27,290,912,0.034482758620689655,1.1647509578544062,0.3433501692825299,"Rv0053,Rv0055,Rv0056,Rv1630,Rv1642,Rv1643,Rv2055c,Rv2056c,Rv2057c,Rv2058c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00401,Novobiocin biosynthesis,2,4,290,912,0.006896551724137931,1.5724137931034483,0.38008644658807766,"Rv1600,Rv2231c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00460,Cyanoamino acid metabolism,2,4,290,912,0.006896551724137931,1.5724137931034483,0.38008644658807766,"Rv0070c,Rv1538c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00470,D-Amino acid metabolism,3,7,290,912,0.010344827586206896,1.347783251231527,0.39389954781017916,"Rv1905c,Rv2155c,Rv2726c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00562,Inositol phosphate metabolism,4,10,290,912,0.013793103448275862,1.2579310344827588,0.3986668876817663,"Rv0046c,Rv1604,Rv2612c,Rv2701c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu03430,Mismatch repair,5,13,290,912,0.017241379310344827,1.2095490716180373,0.4001628913206632,"Rv0054,Rv1547,Rv2191,Rv3198c,Rv3201c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00270,Cysteine and methionine metabolism,11,32,290,912,0.03793103448275862,1.0810344827586207,0.44162388518362383,"Rv0069c,Rv0075,Rv2124c,Rv2149c,Rv2210c,Rv2291,Rv2294,Rv2334,Rv2335,Rv2601,Rv3248c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00970,Aminoacyl-tRNA biosynthesis,7,20,290,912,0.02413793103448276,1.100689655172414,0.4615477477045055,"Rv0041,Rv1536,Rv1640c,Rv1649,Rv1650,Rv1689,Rv2614c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00670,One carbon pool by folate,6,17,290,912,0.020689655172413793,1.1099391480730223,0.4677989104513116,"Rv0070c,Rv1826,Rv1832,Rv2124c,Rv2211c,Rv3248c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00190,Oxidative phosphorylation,15,45,290,912,0.05172413793103448,1.0482758620689654,0.46788015842594155,"Rv1552,Rv1553,Rv1554,Rv1555,Rv1622c,Rv1623c,Rv1812c,Rv1854c,Rv2193,Rv2194,Rv2195,Rv2196,Rv2199c,Rv2200c,Rv3232c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00061,Fatty acid biosynthesis,4,11,290,912,0.013793103448275862,1.1435736677115989,0.4833738337082345,"Rv2187,Rv2243,Rv2247,Rv3221c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00480,Glutathione metabolism,4,11,290,912,0.013793103448275862,1.1435736677115989,0.4833738337082345,"Rv0066c,Rv1844c,Rv2213,Rv2601",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00290,"Valine, leucine and isoleucine biosynthesis",2,5,290,912,0.006896551724137931,1.2579310344827588,0.5087410015933727,"Rv1559,Rv2210c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu01200,Carbon metabolism,27,84,290,912,0.09310344827586207,1.0108374384236454,0.5157516871115437,"Rv0066c,Rv0069c,Rv0070c,Rv1552,Rv1553,Rv1554,Rv1555,Rv1559,Rv1617,Rv1715,Rv1826,Rv1832,Rv1837c,Rv1844c,Rv1867,Rv1915,Rv1916,Rv2029c,Rv2211c,Rv2215,Rv2241,Rv2247,Rv2332,Rv2334,Rv2335,Rv2702,Rv3221c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu01210,2-Oxocarboxylic acid metabolism,8,25,290,912,0.027586206896551724,1.006344827586207,0.5676726759385431,"Rv0066c,Rv1652,Rv1653,Rv1654,Rv1655,Rv2210c,Rv2215,Rv2241",1.0
+changed_region_all_genes_loop_background,KEGG,mtu02024,Quorum sensing,7,22,290,912,0.02413793103448276,1.0006269592476489,0.5802978951884727,"Rv1609,Rv1821,Rv2178c,Rv2187,Rv2585c,Rv2588c,Rv3240c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu01250,Biosynthesis of nucleotide sugars,7,23,290,912,0.02413793103448276,0.9571214392803599,0.6347066949737422,"Rv1511,Rv1512,Rv2702,Rv3255c,Rv3257c,Rv3264c,Rv3266c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00300,Lysine biosynthesis,4,13,290,912,0.013793103448275862,0.9676392572944298,0.6351911086375758,"Rv1655,Rv2157c,Rv2158c,Rv2726c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00500,Starch and sucrose metabolism,5,17,290,912,0.017241379310344827,0.9249492900608519,0.6733155209313402,"Rv0062,Rv1562c,Rv1563c,Rv1564c,Rv1781c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu01503,Cationic antimicrobial peptide (CAMP) resistance,1,3,290,912,0.0034482758620689655,1.0482758620689656,0.6832482180711426,Rv0009,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00020,Citrate cycle (TCA cycle),7,24,290,912,0.02413793103448276,0.9172413793103449,0.6848853392804373,"Rv0066c,Rv1552,Rv1553,Rv1554,Rv1555,Rv2215,Rv2241",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00071,Fatty acid degradation,7,24,290,912,0.02413793103448276,0.9172413793103449,0.6848853392804373,"Rv1530,Rv1862,Rv1867,Rv1869c,Rv2187,Rv2724c,Rv3252c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00680,Methane metabolism,4,14,290,912,0.013793103448275862,0.8985221674876848,0.6992944666866379,"Rv0070c,Rv2029c,Rv3261,Rv3262",1.0
+changed_region_all_genes_loop_background,KEGG,mtu04981,Folate transport and metabolism,2,7,290,912,0.006896551724137931,0.8985221674876848,0.7083325408899857,"Rv0070c,Rv2124c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00920,Sulfur metabolism,5,18,290,912,0.017241379310344827,0.8735632183908046,0.7271896646325938,"Rv2131c,Rv2291,Rv2334,Rv2335,Rv3238c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00450,Selenocompound metabolism,3,11,290,912,0.010344827586206896,0.8576802507836991,0.7329567996790787,"Rv0075,Rv2124c,Rv2294",1.0
+changed_region_all_genes_loop_background,KEGG,mtu01232,Nucleotide metabolism,9,32,290,912,0.03103448275862069,0.8844827586206897,0.7367498906952057,"Rv1699,Rv1712,Rv1843c,Rv1981c,Rv2149c,Rv2202c,Rv2584c,Rv2697c,Rv3247c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu02020,Two-component system,17,59,290,912,0.05862068965517241,0.9061367621274108,0.7402645517516492,"Rv0062,Rv1552,Rv1553,Rv1554,Rv1555,Rv1622c,Rv1623c,Rv1736c,Rv1867,Rv1878,Rv2027c,Rv2220,Rv2222c,Rv2234,Rv2332,Rv3245c,Rv3246c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu01212,Fatty acid metabolism,8,29,290,912,0.027586206896551724,0.8675386444708679,0.7531047400345199,"Rv1867,Rv2187,Rv2243,Rv2247,Rv2724c,Rv3221c,Rv3229c,Rv3230c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00310,Lysine degradation,4,15,290,912,0.013793103448275862,0.8386206896551724,0.7548965695176123,"Rv1718,Rv1731,Rv1867,Rv2589",1.0
+changed_region_all_genes_loop_background,KEGG,mtu01220,Degradation of aromatic compounds,2,8,290,912,0.006896551724137931,0.7862068965517242,0.7797893205327997,"Rv1862,Rv1869c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00523,Polyketide sugar unit biosynthesis,1,4,290,912,0.0034482758620689655,0.7862068965517242,0.7843021418988309,Rv3266c,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00730,Thiamine metabolism,1,4,290,912,0.0034482758620689655,0.7862068965517242,0.7843021418988309,Rv3228,1.0
+changed_region_all_genes_loop_background,KEGG,mtu01310,Nitrogen cycle,1,4,290,912,0.0034482758620689655,0.7862068965517242,0.7843021418988309,Rv1736c,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00240,Pyrimidine metabolism,6,23,290,912,0.020689655172413793,0.8203898050974513,0.7917799864830803,"Rv1699,Rv1712,Rv1981c,Rv2139,Rv2697c,Rv3247c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00650,Butanoate metabolism,8,31,290,912,0.027586206896551724,0.8115684093437152,0.8216300879787896,"Rv1552,Rv1553,Rv1554,Rv1555,Rv1715,Rv1731,Rv1867,Rv2589",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00572,Arabinogalactan biosynthesis - Mycobacterium,3,13,290,912,0.010344827586206896,0.7257294429708223,0.8359887354184359,"Rv1886c,Rv3265c,Rv3267",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00360,Phenylalanine metabolism,5,21,290,912,0.017241379310344827,0.748768472906404,0.8496817698312282,"Rv1600,Rv1715,Rv1869c,Rv1908c,Rv2231c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00565,Ether lipid metabolism,1,5,290,912,0.0034482758620689655,0.6289655172413794,0.8531924269751954,Rv2251,1.0
+changed_region_all_genes_loop_background,KEGG,mtu01320,Sulfur cycle,1,5,290,912,0.0034482758620689655,0.6289655172413794,0.8531924269751954,Rv2334,1.0
+changed_region_all_genes_loop_background,KEGG,mtu04980,Cobalamin transport and metabolism,1,5,290,912,0.0034482758620689655,0.6289655172413794,0.8531924269751954,Rv2124c,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00073,"Cutin, suberine and wax biosynthesis",3,14,290,912,0.010344827586206896,0.6738916256157635,0.8732689905271083,"Rv1760,Rv2285,Rv3234c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00520,Amino sugar and nucleotide sugar metabolism,4,18,290,912,0.013793103448275862,0.6988505747126437,0.8746842608496626,"Rv2702,Rv3255c,Rv3257c,Rv3264c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00230,Purine metabolism,11,44,290,912,0.03793103448275862,0.7862068965517242,0.8782526888116317,"Rv1625c,Rv1843c,Rv1848,Rv1849,Rv1850,Rv1981c,Rv2149c,Rv2202c,Rv2583c,Rv2584c,Rv2613c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00720,Other carbon fixation pathways,7,30,290,912,0.02413793103448276,0.7337931034482759,0.889820630604425,"Rv0066c,Rv1552,Rv1553,Rv1554,Rv1555,Rv1867,Rv3221c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu02010,ABC transporters,16,63,290,912,0.05517241379310345,0.7986863711001642,0.9000626635938018,"Rv1620c,Rv1621c,Rv1819c,Rv1857,Rv1858,Rv1859,Rv1964,Rv1965,Rv1966,Rv1967,Rv1968,Rv1969,Rv1970,Rv1971,Rv2038c,Rv2325c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00740,Riboflavin metabolism,1,6,290,912,0.0034482758620689655,0.5241379310344828,0.9001320037967977,Rv1940,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00930,Caprolactam degradation,1,6,290,912,0.0034482758620689655,0.5241379310344828,0.9001320037967977,Rv3252c,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00330,Arginine and proline metabolism,3,15,290,912,0.010344827586206896,0.6289655172413794,0.9028620957794823,"Rv1905c,Rv2323c,Rv2601",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00770,Pantothenate and CoA biosynthesis,3,15,290,912,0.010344827586206896,0.6289655172413794,0.9028620957794823,"Rv1631,Rv2210c,Rv2225",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00983,Drug metabolism - other enzymes,2,11,290,912,0.006896551724137931,0.5717868338557994,0.9103224722555815,"Rv1908c,Rv2697c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu03410,Base excision repair,2,11,290,912,0.006896551724137931,0.5717868338557994,0.9103224722555815,"Rv1629,Rv1688",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00052,Galactose metabolism,1,7,290,912,0.0034482758620689655,0.4492610837438424,0.9320985809479332,Rv2029c,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00074,Mycolic acid biosynthesis,5,25,290,912,0.017241379310344827,0.6289655172413794,0.9389905430259828,"Rv1886c,Rv2243,Rv2245,Rv2246,Rv2247",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00030,Pentose phosphate pathway,3,17,290,912,0.010344827586206896,0.5549695740365111,0.944120354152007,"Rv1844c,Rv2029c,Rv3214",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00640,Propanoate metabolism,5,27,290,912,0.017241379310344827,0.5823754789272031,0.9625625051777624,"Rv1915,Rv1916,Rv2247,Rv2589,Rv3221c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00907,"Pinene, camphor and geraniol degradation",1,9,290,912,0.0034482758620689655,0.34942528735632183,0.9686595427953711,Rv3224,1.0
+changed_region_all_genes_loop_background,KEGG,mtu03018,RNA degradation,1,9,290,912,0.0034482758620689655,0.34942528735632183,0.9686595427953711,Rv3232c,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00410,beta-Alanine metabolism,1,10,290,912,0.0034482758620689655,0.3144827586206897,0.9787245844225498,Rv2589,1.0
+changed_region_all_genes_loop_background,KEGG,mtu01053,Biosynthesis of siderophore group nonribosomal peptides,1,10,290,912,0.0034482758620689655,0.3144827586206897,0.9787245844225498,Rv3215,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00362,Benzoate degradation,3,21,290,912,0.010344827586206896,0.4492610837438424,0.9827236385922129,"Rv1715,Rv1867,Rv1869c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00900,Terpenoid backbone biosynthesis,3,22,290,912,0.010344827586206896,0.42884012539184957,0.9872663772476923,"Rv1745c,Rv1867,Rv2173",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00380,Tryptophan metabolism,2,18,290,912,0.006896551724137931,0.34942528735632183,0.990935470183197,"Rv1867,Rv1908c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu04122,Sulfur relay system,2,19,290,912,0.006896551724137931,0.3310344827586207,0.9935613822514504,"Rv2291,Rv3206c",1.0
+changed_region_all_genes_loop_background,KEGG,mtu01120,Microbial metabolism in diverse environments,48,199,290,912,0.16551724137931034,0.7585513775775429,0.9971283806561192,"Rv0066c,Rv0070c,Rv1552,Rv1553,Rv1554,Rv1555,Rv1617,Rv1655,Rv1715,Rv1731,Rv1736c,Rv1833c,Rv1837c,Rv1844c,Rv1848,Rv1849,Rv1850,Rv1862,Rv1867,Rv1869c,Rv1878,Rv1915,Rv1916,Rv1935c,Rv2029c,Rv2054,Rv2131c,Rv2205c,Rv2215,Rv2220,Rv2222c,Rv2241,Rv2247,Rv2291,Rv2296,Rv2334,Rv2335,Rv2589,Rv2607,Rv2702,Rv2726c,Rv2740,Rv3214,Rv3221c,Rv3224,Rv3238c,Rv3261,Rv3262",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00790,Folate biosynthesis,2,24,290,912,0.006896551724137931,0.2620689655172414,0.9988792151989359,"Rv0013,Rv1940",1.0
+changed_region_all_genes_loop_background,KEGG,mtu00280,"Valine, leucine and isoleucine degradation",4,35,290,912,0.013793103448275862,0.35940886699507385,0.9989589560165452,"Rv1867,Rv2210c,Rv2247,Rv2589",1.0
+changed_region_all_genes_loop_background,KEGG,mtu05152,Tuberculosis,1,26,290,912,0.0034482758620689655,0.12095490716180372,0.9999597446469922,Rv1793,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00984,Steroid degradation,1,39,290,912,0.0034482758620689655,0.08063660477453581,0.9999997773808343,Rv1935c,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00040,Pentose and glucuronate interconversions,0,4,290,912,0.0,0.0,1.0,,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00261,Monobactam biosynthesis,0,7,290,912,0.0,0.0,1.0,,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00430,Taurine and hypotaurine metabolism,0,4,290,912,0.0,0.0,1.0,,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00592,alpha-Linolenic acid metabolism,0,3,290,912,0.0,0.0,1.0,,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00621,Dioxin degradation,0,4,290,912,0.0,0.0,1.0,,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00622,Xylene degradation,0,4,290,912,0.0,0.0,1.0,,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00627,Aminobenzoate degradation,0,13,290,912,0.0,0.0,1.0,,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00643,Styrene degradation,0,5,290,912,0.0,0.0,1.0,,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00660,C5-Branched dibasic acid metabolism,0,4,290,912,0.0,0.0,1.0,,1.0
+changed_region_all_genes_loop_background,KEGG,mtu00710,Carbon fixation by Calvin cycle,0,10,290,912,0.0,0.0,1.0,,1.0

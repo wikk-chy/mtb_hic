@@ -1,0 +1,2 @@
+gene_set,database,term,name,overlap,term_size,query_size,background_size,fold_enrichment,p_value,genes,q_BH_all_tested_terms,role
+changed_anchor_up_vs_eligible_anchor_DEGs,KEGG,mtu02010,ABC transporters,6,8,11,51,3.477272727272727,0.0005869137664316421,"Rv1970,Rv1971,Rv2325c,Rv2686c,Rv2687c,Rv2688c",0.010564447795769557,primary_conditional

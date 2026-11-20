@@ -1,0 +1,5 @@
+analysis,estimator,ci_lo,ci_hi,p,n_bins,n_permutations,ci_method,p_method
+primary_pairwise_median_contrasts,0.5265262776248668,0.4381324120246338,0.6092263594456491,0.0010998900109989002,881,10000.0,paired circular moving-block bootstrap; 20 bins (100 kb),two-sided random circular shift; 10000 shifts; seed 42
+primary_exhaustive_rotation_sensitivity,0.5265262776248668,0.4381324120246338,0.6092263594456491,0.0011325028312570782,881,883.0,paired circular moving-block bootstrap; 20 bins (100 kb),two-sided exhaustive enumeration of all 883 rotations including identity
+mean_contrast_sensitivity,0.5277947418777644,0.4406953697202296,0.607971626103734,0.0010998900109989002,881,10000.0,paired circular moving-block bootstrap; 20 bins (100 kb),two-sided random circular shift; 10000 shifts; seed 42
+legacy_naive_bin_independence_reference_only,0.5265262776248668,,,5.4663687930820246e-64,881,,not used,ordinary Spearman asymptotic p; invalid under spatial autocorrelation

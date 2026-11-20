@@ -1,0 +1,5 @@
+tier,n_genes,n_deg,frac_deg,n_up,n_down,fisher_OR,fisher_p,n_deg_total_in_universe,universe_size
+direct_promoter,271,50,0.1845,28,22,0.884,0.4817882555472486,822,4060
+direct_promoter_or_body,825,154,0.1867,72,82,0.882,0.2249499953731522,822,4060
+operon_extended_only,104,13,0.125,4,9,0.556,0.04769986296975888,822,4060
+any_binding_associated,929,167,0.1798,76,91,0.828,0.050924603858999794,822,4060

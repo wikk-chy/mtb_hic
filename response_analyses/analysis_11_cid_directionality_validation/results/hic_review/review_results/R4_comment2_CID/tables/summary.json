@@ -1,0 +1,28 @@
+{
+  "pipeline": {
+    "bin_size": "5 kb (883 bins)",
+    "directional_window": "100 kb each side (20 bins) \u2014 window, NOT bin size",
+    "DI": "t-statistic of paired t-test, upstream vs downstream window (gaussian-filtered, log-transformed correlation matrix)",
+    "boundary_rule": "transition from DI <= -2.0 to DI >= +2.0; largest positive DI jump; min CID 100 kb"
+  },
+  "n_boundaries_recalled": 18,
+  "n_confirmed": 13,
+  "all_pass_transition": true,
+  "cid_size_kb": {
+    "median": 215.0,
+    "min": 105,
+    "max": 360
+  },
+  "original_27": {
+    "pass_transition": 7,
+    "rejected": 20,
+    "recovered": 6
+  },
+  "replicate_consistency": {
+    "wt_1": 0.722,
+    "wt_2": 0.722,
+    "wt_3": 0.722,
+    "wt_4": 0.722
+  },
+  "boundaries_ge3_of_4_reps": 13
+}

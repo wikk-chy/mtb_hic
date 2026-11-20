@@ -1,0 +1,37 @@
+{
+  "figures": 4,
+  "anchor_enrichment": {
+    "observed": 17,
+    "total": 41,
+    "null_mean": 10.897,
+    "fold": 1.56,
+    "p": 0.0328
+  },
+  "local_robustness_cross_zero": 16,
+  "loop_dose": {
+    "beta": -0.0566232269456558,
+    "ci": [
+      -0.1587444708184299,
+      0.0285972084300629
+    ],
+    "p": 0.2388761123887611
+  },
+  "independent_samples": 15,
+  "did": -0.1079894658235303,
+  "response_euclidean": 5.95063,
+  "response_cosine": -0.069628,
+  "spatial_rho": 0.5265262776248668,
+  "disjoint_rho_range": [
+    0.4782616348572243,
+    0.5641268250154255
+  ],
+  "enrichment_sensitivity": "No pathway has FDR < 0.10 in RNA+ conditional or gene-order spatial tests",
+  "key_loci": [
+    "oriC-dnaA",
+    "mbt-1"
+  ],
+  "OE_shared_scale": [
+    0.6553710460322971,
+    1.5258985346013798
+  ]
+}

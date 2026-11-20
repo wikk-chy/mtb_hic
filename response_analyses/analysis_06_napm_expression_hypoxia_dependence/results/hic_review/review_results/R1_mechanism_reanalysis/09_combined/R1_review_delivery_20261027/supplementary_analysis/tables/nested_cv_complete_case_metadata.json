@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "n_boot": 1000,
+  "n_blocks": 10,
+  "n_complete": 848,
+  "input": "/Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/03_structure_metrics/bin_level_v2.csv",
+  "complete_case_rule": "all model covariates, RNA and outcome finite; no imputation",
+  "models": [
+    "M0_baseline",
+    "M1_plus_RNA",
+    "M2_plus_occupancy"
+  ],
+  "M0_predictors": [
+    "weight_WT",
+    "ins_WT",
+    "expr_wt_mean",
+    "n_genes"
+  ]
+}

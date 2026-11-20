@@ -1,0 +1,6 @@
+metric,value
+bins_tested,881.0
+Spearman_rho_hypoxia_vs_latent_insulation,0.24966498827371214
+Pearson_r_hypoxia_vs_latent_insulation,0.22623630677783943
+same_direction_bins,507.0
+same_direction_percent,57.548240635641314

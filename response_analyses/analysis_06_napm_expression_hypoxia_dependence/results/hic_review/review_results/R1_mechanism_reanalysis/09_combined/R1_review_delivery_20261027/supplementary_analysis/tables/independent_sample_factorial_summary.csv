@@ -1,0 +1,6 @@
+test,effect,ci_lo,ci_hi,p,n_samples,method,null
+WT genome-mean hypoxia response,0.040975775304809836,,,,8,mean(HYP 4) - mean(WT 4),descriptive
+KO genome-mean hypoxia response,-0.06701369051872055,,,,7,mean(KO-HYP 3) - mean(KO 4),descriptive
+genotype contrast of genome-mean hypoxia responses,-0.10798946582353039,-0.11402510176988985,-0.10150013086226893,0.00040816326530612246,15,exact oxygen-label permutation within genotype; 2450 assignments; two-sided,sharp null: no oxygen-condition effect within either genotype
+genotype-label permutation sensitivity,-0.10798946582353039,-0.11402510176988985,-0.10150013086226893,0.00040816326530612246,15,exact genotype-label permutation within oxygen condition; 2450 assignments; two-sided,sharp null: no genotype effect within either oxygen condition
+legacy replicate-combination contrast (not inferential),-0.10841475636271378,,,,28,16 WT and 12 KO pairwise replicate combinations; shared samples,not a valid independent-sample null

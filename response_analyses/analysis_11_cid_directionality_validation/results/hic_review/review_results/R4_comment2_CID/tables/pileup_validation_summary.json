@@ -1,0 +1,20 @@
+{
+  "n_confirmed_boundaries": 13,
+  "P1_insulation_cross": {
+    "boundary_cross_arms_median": 0.9618409492404106,
+    "boundary_corners_median": 0.9888016663073984,
+    "boundary_depletion": 0.9727339485908529,
+    "random_cross_arms_median": 1.0009050846080274,
+    "random_corners_median": 0.9835571836267275,
+    "random_depletion": 1.0176379180286519
+  },
+  "P3_within_vs_cross": {
+    "within_median_OE": 1.0205364117835125,
+    "cross_median_OE": 0.9167955032433489,
+    "ratio": 1.1131559962643351,
+    "mannwhitney_p": 7.520245037454587e-186,
+    "permutation_null_mean": 1.0007695152464808,
+    "permutation_null_sd": 0.029245869554767163,
+    "empirical_p": 0.001998001998001998
+  }
+}

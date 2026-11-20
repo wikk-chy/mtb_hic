@@ -1,0 +1,17 @@
+            model    cv_R2  n_bins  n_predictors                imputation                         baseline_covariates
+      M0_baseline 0.670497     848             4 none; complete cases only weight_WT + ins_WT + expr_wt_mean + n_genes
+      M1_plus_RNA 0.670706     848             5 none; complete cases only weight_WT + ins_WT + expr_wt_mean + n_genes
+M2_plus_occupancy 0.670880     848             6 none; complete cases only weight_WT + ins_WT + expr_wt_mean + n_genes
+                     comparison      dR2     ci_lo    ci_hi  n_bins  n_bootstrap                              method
+      M1_plus_RNA - M0_baseline 0.000209 -0.000617 0.002931     848         1000 10-block CV; block bootstrap 95% CI
+M2_plus_occupancy - M1_plus_RNA 0.000173 -0.001270 0.002400     848         1000 10-block CV; block bootstrap 95% CI
+Legacy reconciliation:
+                          item                                        value
+                 legacy_n_bins                                          858
+         legacy_M0_M1_M2_CV_R2 0.671166957726;0.671325379289;0.671107638464
+           legacy_dR2_M1_vs_M0                                     0.000158
+           legacy_dR2_M2_vs_M1                                    -0.000218
+       legacy_missing_RNA_rule                                filled with 0
+legacy_missing_expression_rule                           filled with median
+    legacy_baseline_covariates            weight_WT + ins_WT + expr_wt_mean
+Wrote outputs to /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/supplementary_analysis/tables

@@ -1,278 +1,150 @@
-# Codes and Analysis for Mycobacterium tuberculosis Hi-C Study
+# *Mycobacterium tuberculosis* 3D Genome Architecture and Remodeling (`mtb_hic`)
+
+Data, analysis scripts, intermediate tables, and reproducibility workflows supporting the study:
+
+> **Establishment and Remodeling of the *Mycobacterium tuberculosis* 3D Genome Orchestrate Context-Dependent Transcriptional Program**
+
+---
 
 ## Overview
 
-This repository contains the code and data for investigating three-dimensional (3D) genome organization in *Mycobacterium tuberculosis* (Mtb). The analyses integrate Hi-C, RNA-seq, and ChIP-seq data to examine chromatin architecture remodeling under different physiological conditions (WT, Hypoxia, Latent, NapM-KO, NapM-KO-Hypoxia).
+This repository provides the processed primary genomic matrices, reference annotations, multi-omics interaction networks, intermediate statistical tables, and analysis/simulation code used to characterize 3D chromosome organization and stress-responsive remodeling in *Mycobacterium tuberculosis* (Mtb) across five genetic and physiological states:
+
+- **WT** (exponential-phase wild type; 4 biological Hi-C replicates)
+- ***napM*-KO** (*Rv0047c* deletion; 4 biological Hi-C replicates)
+- **WT-Hypoxia** (antibiotic-free sealed-tube hypoxia; 4 biological Hi-C replicates)
+- ***napM*-KO-Hypoxia** (3 biological Hi-C replicates)
+- **WT-Latent** (*in vitro* acid and sub-inhibitory antibiotic-induced latency-like stress model; 4 biological Hi-C replicates)
+
+Raw sequencing reads (Hi-C and RNA-seq FASTQ files) are deposited in the NCBI Sequence Read Archive (SRA) under accession **`PRJNA1452606`**. To keep this public repository lightweight and focused on computational reproducibility, manuscript/figure binary renders (`.pdf`, `.png`, `.jpg`, `.svg`, `.ai`) are intentionally excluded; all underlying primary data, intermediate tables, statistical summaries, and scripts are preserved with SHA-256 verification.
 
 ---
 
-## Table of Contents
+## Key Analytical Findings Covered in This Repository
 
-- [Dependencies](#dependencies)
-- [Repository Structure](#repository-structure)
-- [Analysis Workflows](#analysis-workflows)
-  - [Hi-C Contact Map Visualization](#hi-c-contact-map-visualization)
-  - [Directionality Index and CID Boundaries](#directionality-index-and-cid-boundaries)
-  - [3D Genome Models](#3d-genome-models)
-  - [Operon Interaction Network](#operon-interaction-network)
-  - [Structural Plasticity Quantification](#structural-plasticity-quantification)
-  - [Counterfactual Prediction](#counterfactual-prediction)
-  - [Homology Analysis](#homology-analysis)
-  - [A/B Compartment Analysis](#ab-compartment-analysis)
-- [Figures Reproduction](#figures-reproduction)
-
----
-
-## Dependencies
-
-### Python (≥3.7)
-- `cooler`, `cooltools`, `coolbox` - Hi-C analysis
-- `pandas`, `numpy` - Data processing
-- `matplotlib`, `seaborn` - Visualization
-- `scikit-learn` - Machine learning
-- `networkx` - Network analysis
-- `bioframe` - Genomics utilities
-
-### R (≥4.0)
-- `ggplot2`, `dplyr` - Data visualization and manipulation
-- `clusterProfiler` - Functional enrichment analysis
-
-### External Programs
-- [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) - Read alignment
-- [Juicer](https://github.com/aidenlab/juicer) - Hi-C pipeline
-- [BLAST+](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) - Homology search
+1. **Circular-chromosome *ori–ter* axial segregation (not eukaryotic A/B compartments):** Leading eigenvector (PC1) tracks the first circular Fourier mode (`|r| = 0.97` with `cos(2π·pos/L)`) rather than GC content (`r = −0.02`) or gene density (`r = −0.04`). Mean O/E saddle segregation strength (20 E1-quantile groups, outer-20% corners, leave-one-group-out jackknife *z* tests) declines progressively from `1.30 log2` in WT to `0.84` under hypoxia (`P = 5.9 × 10⁻⁴`) and `0.60` under latency-like stress (`P = 2.6 × 10⁻⁸`), with modest reduction in *napM*-KO (`1.06`, `P = 0.048`).
+2. **Chromosomal Interaction Domains (CIDs):** 18 genome-wide CID boundaries identified at 5-kb resolution (100-kb directional window, upstream DI ≤ −2 to downstream DI ≥ +2, minimum CID size 100 kb; within-CID/cross-boundary median contact ratio `1.102`, `P = 0.001` vs 1,000 size-matched random partitions; aggregate cross-arm/corner pileup O/E `0.974`, replicates `0.967–0.975`). Genes within the 19 CIDs show modest multi-sample expression coherence (`mean pairwise r = 0.302 vs 0.289`, two-sided empirical `P = 0.045`, 1,000 randomizations).
+3. **Chromosight Chromatin Loops:** 41 loops (30–995 kb, Pearson `r ≥ 0.3`, 5-kb resolution) validated by aggregate peak analysis (APA centre O/E `1.61` merged; `1.62–1.69` across 4 WT replicates vs `1.01–1.13` distance-matched random pairs), shifted-position controls (`n = 34` finite WT loops vs `n = 35` shifted positions, one-sided Mann–Whitney `P = 2.3 × 10⁻⁵`), and per-loop attenuation in *napM*-KO (median `1.41 → 1.30`, two-sided paired Wilcoxon signed-rank `n = 33`, `P = 0.020`).
+4. **Multilayer Protein–DNA–PPI Network & NapM (*Rv0047c*):** Integration of 2,992 proteins, 883 5-kb genomic bins, 8,043 bacterial two-hybrid (B2H) PPIs (Wang *et al.*, 2010), 17,223 protein–DNA interactions (Zeng *et al.*, 2012; Minch *et al.*, 2015), and 41 validated loops. NapM is one of several highly connected nodes (integrated degree rank #6 [441], betweenness rank #5, 17/41 double-anchor loops, 470 operons, 14 B2H PPI partners). *napM* deletion induces local decompaction with increased global mixing and weakened inter-arm juxtaposition (`<100 kb` contact fraction `0.377 → 0.242`, median contact distance `276 → 515 kb`, distance-normalized secondary-diagonal O/E `2.407 → 2.157`), alongside 822 DEGs (460 up, 362 down) and disrupted Cooperative Operon Hub (COH) co-expression (`r = 0.9967 → 0.6214`).
+5. **Stress-Induced Chromosome Remodeling & OpenMM Polymer Modeling:** Both hypoxia and latency-like stress elevate *ori–ter* O/E (`1.29×`, `1.33×`) and long-range (`>1 Mb`) contacts (`1.21×`, `1.25×`) while reducing arm–arm O/E (`0.73×`, `0.66×`) and flattening contact decay `P(s)`. Coarse-grained OpenMM bead–spring ring-polymer simulations evaluate competing folding scenarios (S1 global collapse, S2 *ori–ter* tethering, S3 ring/toroid refolding), providing directional support for S3-like refolding as a population-level working model. Genotype × hypoxia factorial RNA-seq (730 interaction DEGs) and independent-sample insulation analyses (WT `+0.041` vs KO `−0.067`, contrast `−0.108`, exact permutation `P = 4.08 × 10⁻⁴`) separate RNA-only, structure-only, and enriched joint-response loci (`108` vs `93.54` expected, two-sided empirical `P = 0.0193`).
 
 ---
 
 ## Repository Structure
 
-```
+```text
 .
-├── script/                      # Analysis scripts
-│   ├── hicdiff.ipynb            # Differential Hi-C visualization
-│   ├── moran's_shannon.ipynb    # Structural order metrics (Shannon entropy, Moran's I)
-│   ├── operon-select_entropymoran's.ipynb  # Operon hub identification
-│   ├── network_formation.ipynb  # Interaction network construction
-│   ├── napmkolatentpre_comparedrsmd.ipynb  # Counterfactual prediction
-│   ├── ABcompartment.ipynb      # A/B compartment analysis
-│   ├── chipandrna.ipynb         # ChIP-seq and RNA-seq integration
-│   ├── homologous.ipynb         # Homology analysis
-│   ├── hiccompared_randomcidsloops.ipynb  # CID/loop statistical comparison
-│   ├── four_zone_volcano.ipynb  # Volcano plot visualization
-│   ├── regression_demo.ipynb    # Regression analysis
-│   ├── Rv0047c_statistics.R     # Statistical analysis for NapM targets
-│   ├── go_and_kegg.R            # GO/KEGG enrichment analysis
-│   ├── avg.R                    # Average calculation utilities
-│   ├── random_pairs.R           # Random pair generation
-│   ├── venn.R                   # Venn diagram visualization
-│   └── bulk RNA.Rmd             # Bulk RNA-seq analysis
-├── 3d_model_pdbfile/            # 3D structure models (PDB format, 5 conditions)
-├── DI_Score_results/            # Directionality Index scores (5 conditions)
-├── hic_file/                    # Hi-C contact matrices (.hic format)
-├── cool_file/                   # Hi-C matrices in cooler format (.cool, .mcool)
-├── Interaction_network/         # Multi-layer network data
-│   ├── full_nodes.csv           # DNA and protein nodes
-│   └── full_edges.csv           # Interaction edges (DNA-DNA, DNA-Protein, Protein-Protein)
-├── operon_metadata/             # Operon annotations and bin coverage
-├── chip_seq_data/               # NapM (Rv0047c) ChIP-seq data
-│   └── Rv0047c.bedgraph         # ChIP-seq signal track
-├── cid_boundary/                # CID boundary coordinates (BED format, 5 conditions)
-├── loops/                       # Chromatin loop calls (BEDPE format)
-│   ├── wt-loops.bedpe
-│   └── napm_ko-loops.bedpe
-└── DEG/                         # Differential gene expression results
-    ├── KOvsWT_supo_DEG_limma.csv
-    ├── hypoxiaWTvsWT_supo_DEG_limma.csv
-    └── LatentvsWT_supo_DEG_limma.csv
+├── README.md                          # Project overview, workflows, and verification guide
+├── LICENSE                            # MIT License
+├── data/                              # Shared primary processed datasets & genome reference
+│   ├── reference/                     # genome.fa, genome.fa.fai, annotation.gtf
+│   ├── cool_file/                     # Merged 5-kb ICE-balanced matrices (.cool / .mcool, 5 conditions)
+│   ├── hic_file/                      # Juicer .hic contact maps (5 conditions)
+│   ├── rep_icedmatrix/                # 19 independent replicate 5-kb ICE-balanced contact matrices
+│   ├── DI_Score_results/              # Genome-wide directionality index (DI) scores (5 conditions)
+│   ├── cid_boundary/                  # CID boundary coordinates (BED, 5 conditions)
+│   ├── loops/                         # Chromosight & HiCCUPS loop calls + recalling summary
+│   ├── 3d_model_pdbfile/              # Population-averaged LorDG 3D chromosome models (PDB)
+│   ├── rnaseq/                        # Merged RNA-seq count matrix & limma DEG tables
+│   ├── chip_seq_data/                 # NapM (Rv0047c) ChIP-seq bedgraph, bigwig & published peak tables
+│   ├── Interaction_network/           # Multilayer network nodes & edges (PPI, PDI, DNA–DNA)
+│   └── operon_metadata/               # 749 annotated operons and 5-kb bin coverage
+├── scripts/
+│   ├── manuscript_notebooks/          # Original 17 Jupyter/R/Rmd analysis scripts
+│   └── manuscript_revision/           # Updated manuscript analysis scripts (18-boundary Fig. 1f & Fig. 2a–b)
+├── response_analyses/                 # 15 modular validation & revision analyses (code, data, tables, notes)
+│   ├── analysis_01_* .. analysis_15_* # Self-contained modules aligned with final submission analyses
+│   └── manuscript_updated_results/    # Updated intermediate CSVs/logs for manuscript Fig. 1f & Fig. 2a–b
+├── methods/
+│   ├── Analysis_Methods.md            # Detailed computational & statistical methods
+│   └── Revision_Update_Summary.md     # Complete 15-module index and methodological updates
+├── references/                        # Full Markdown and BibTeX references
+├── manifests/
+│   ├── analysis_lineage.csv           # Module-level lineage summary
+│   ├── file_manifest.csv              # Complete file inventory with source provenance, bytes, and SHA-256
+│   ├── software_versions.txt          # Recorded Python/R/CLI environment versions
+│   └── validation_report.json         # Latest automated integrity verification report
+└── tools/
+    ├── validate_manifest.py           # Verifies existence, byte size, SHA-256, exclusions, and coverage
+    └── run_original.py                # Replays any archived script in an isolated `.runtime/` sandbox
 ```
 
 ---
 
-## Analysis Workflows
+## Modular Validation & Revision Analyses (`response_analyses/`)
 
-### Hi-C Contact Map Visualization
-
-Visualize and compare Hi-C contact maps across conditions using differential analysis.
-
-**Script:** [`hicdiff.ipynb`](script/hicdiff.ipynb)
-
-```python
-from coolbox.api import *
-
-wt = DotHiC("wt.hic", style='triangular')
-ko = DotHiC("napm_ko.hic", style='triangular')
-
-frame = XAxis() + \
-    HiCDiff(wt, ko, normalize='expect', diff_method='diff', 
-            style='triangular', cmap='RdBu') + \
-    MinValue(-2) + MaxValue(2)
-
-frame.plot("Chromosome:1250000-1450000")
-```
+| Module | Directory | Scope | Archived Assets |
+|---|---|---|---|
+| **Analysis 01** | [`response_analyses/analysis_01_napm_anchor_integration/`](response_analyses/analysis_01_napm_anchor_integration/) | NapM occupancy does not predict uniform local changes but is enriched at chromatin-loop anchors | 63 code · 89 data · 237 tables |
+| **Analysis 02** | [`response_analyses/analysis_02_hypoxia_factorial_integration/`](response_analyses/analysis_02_hypoxia_factorial_integration/) | NapM deletion produces distinct and partially overlapping RNA and insulation responses to hypoxia | 23 code · 6 data · 68 tables |
+| **Analysis 03** | [`response_analyses/analysis_03_network_centrality_hubs/`](response_analyses/analysis_03_network_centrality_hubs/) | NapM (Rv0047c) is one of several highly connected nodes in the integrated network | 2 code · 0 data · 4 tables |
+| **Analysis 04** | [`response_analyses/analysis_04_napm_ko_go_kegg_enrichment/`](response_analyses/analysis_04_napm_ko_go_kegg_enrichment/) | GO and KEGG enrichment of differentially expressed genes in napM-KO versus WT cells | 4 code · 4 data · 8 tables |
+| **Analysis 05** | [`response_analyses/analysis_05_stress_spatial_polymer_evaluation/`](response_analyses/analysis_05_stress_spatial_polymer_evaluation/) | Spatially non-uniform stress remodelling and polymer-model evaluation | 1 code · 0 data · 0 tables |
+| **Analysis 06** | [`response_analyses/analysis_06_napm_expression_hypoxia_dependence/`](response_analyses/analysis_06_napm_expression_hypoxia_dependence/) | NapM expression, co-regulated architectural proteins and genotype-dependent chromosome remodelling under stress | 20 code · 3 data · 113 tables |
+| **Analysis 07** | [`response_analyses/analysis_07_napm_binding_mechanism_ppi/`](response_analyses/analysis_07_napm_binding_mechanism_ppi/) | Genomic occupancy, transcriptional decoupling, structural associations and protein-interaction context of NapM | 15 code · 5 data · 19 tables |
+| **Analysis 08** | [`response_analyses/analysis_08_pilot_ter_fish_clumping/`](response_analyses/analysis_08_pilot_ter_fish_clumping/) | Pilot ter-probe FISH across four M. tuberculosis biological replicates illustrates pronounced cell clumping | 1 code · 0 data · 0 tables |
+| **Analysis 09** | [`response_analyses/analysis_09_latency_like_stress_crossvalidation/`](response_analyses/analysis_09_latency_like_stress_crossvalidation/) | Mixed DNA-damage/ROS signatures and shared stress responses in acid/antibiotic-induced latency-like stress versus antibiotic-free hypoxia | 6 code · 1 data · 8 tables |
+| **Analysis 10** | [`response_analyses/analysis_10_circular_eigenvector_saddle/`](response_analyses/analysis_10_circular_eigenvector_saddle/) | Controls and interpretation of chromosome-scale segregation in M. tuberculosis | 15 code · 30 data · 16 tables |
+| **Analysis 11** | [`response_analyses/analysis_11_cid_directionality_validation/`](response_analyses/analysis_11_cid_directionality_validation/) | Identification and validation of chromosomal interaction domains (CIDs) using all 18 DI-defined boundaries | 5 code · 0 data · 6 tables |
+| **Analysis 12** | [`response_analyses/analysis_12_chromosight_loop_validation/`](response_analyses/analysis_12_chromosight_loop_validation/) | Validation of Chromosight-called loops in M. tuberculosis Hi-C | 15 code · 4 data · 53 tables |
+| **Analysis 13** | [`response_analyses/analysis_13_wt_ko_compaction_metrics/`](response_analyses/analysis_13_wt_ko_compaction_metrics/) | Quantitative comparison of wild-type and napM-KO chromosome organization | 7 code · 0 data · 17 tables |
+| **Analysis 14** | [`response_analyses/analysis_14_stress_oriter_experiments/`](response_analyses/analysis_14_stress_oriter_experiments/) | Joint Hi-C signatures are consistent with ring-like chromosome refolding and ori-ter apposition under stress | 3 code · 0 data · 3 tables |
+| **Analysis 15** | [`response_analyses/analysis_15_openmm_polymer_models/`](response_analyses/analysis_15_openmm_polymer_models/) | Polymer modelling distinguishes candidate mechanisms of stress-induced chromosome reorganization | 14 code · 1 data · 72 tables |
 
 ---
 
-### Directionality Index and CID Boundaries
+## Core Manuscript Workflows (`scripts/`)
 
-The Directionality Index (DI) quantifies the bias of chromatin interactions toward upstream or downstream regions. It is used to identify chromatin interaction domain (CID) boundaries.
-
-$$
-\text{DI}_i = \frac{(B - A)}{|B - A|} \cdot \left(\frac{(A - E)^2}{E} + \frac{(B - E)^2}{E}\right)
-$$
-
-Where A and B are upstream and downstream interaction counts, and E = (A + B)/2.
-
-**Data:** Pre-computed DI scores available in [`DI_Score_results/`](DI_Score_results/)
-
----
-
-### 3D Genome Models
-
-3D chromosome structures were modeled using [LorDG](https://github.com/TaoYang-dev/LorDG) (Low-rank Distance Geometry) with Hi-C contact frequencies as distance constraints.
-
-**Output:** PDB files in [`3d_model_pdbfile/`](3d_model_pdbfile/)  
-**Visualization:** Use PyMOL, Chimera, or other molecular visualization tools
+| Analysis | Script | Primary Inputs |
+|---|---|---|
+| Differential Hi-C contact maps | [`hicdiff.ipynb`](scripts/manuscript_notebooks/hicdiff.ipynb), [`matrix_plot.ipynb`](scripts/manuscript_notebooks/matrix_plot.ipynb) | `data/hic_file/`, `data/cool_file/` |
+| Circular eigenvector & saddle segregation | [`analysis_10_circular_eigenvector_saddle/`](response_analyses/analysis_10_circular_eigenvector_saddle/) | `data/cool_file/`, `data/rep_icedmatrix/` |
+| 18-boundary CID calling & Fig. 1f co-expression | [`recalculate_fig1f_cid_coexpression.py`](scripts/manuscript_revision/docx_latex_conversion/recalculate_fig1f_cid_coexpression.py), [`analysis_11_cid_directionality_validation/`](response_analyses/analysis_11_cid_directionality_validation/) | `data/DI_Score_results/`, `data/rnaseq/` |
+| Chromosight loop calling & APA validation | [`analysis_12_chromosight_loop_validation/`](response_analyses/analysis_12_chromosight_loop_validation/) | `data/cool_file/`, `data/rep_icedmatrix/`, `data/loops/` |
+| Multi-layer network & 18-boundary Fig. 2a–b | [`network_formation.ipynb`](scripts/manuscript_notebooks/network_formation.ipynb), [`redraw_fig2ab_networks_18_boundaries.py`](scripts/manuscript_revision/docx_latex_conversion/redraw_fig2ab_networks_18_boundaries.py) | `data/Interaction_network/`, `data/loops/` |
+| Operon hubs (COHs), Shannon entropy & Moran's *I* | [`operon-select_entropymoran's.ipynb`](scripts/manuscript_notebooks/operon-select_entropymoran's.ipynb), [`moran's_shannon.ipynb`](scripts/manuscript_notebooks/moran's_shannon.ipynb) | `data/operon_metadata/`, `data/DI_Score_results/` |
+| Exploratory SVD projection & Kabsch RMSD | [`napmkolatentpre_comparedrsmd.ipynb`](scripts/manuscript_notebooks/napmkolatentpre_comparedrsmd.ipynb) | `data/cool_file/`, `data/3d_model_pdbfile/` |
+| NapM (*Rv0047c*) cross-species homology | [`homologous.ipynb`](scripts/manuscript_notebooks/homologous.ipynb) | OrthoDB v11 group `2374094at2` (2,455 orthologs / 2,348 species) |
+| Bulk RNA-seq, GO/KEGG & ChIP–RNA integration | [`bulk RNA.Rmd`](scripts/manuscript_notebooks/bulk%20RNA.Rmd), [`go_and_kegg.R`](scripts/manuscript_notebooks/go_and_kegg.R), [`analysis_04_napm_ko_go_kegg_enrichment/`](response_analyses/analysis_04_napm_ko_go_kegg_enrichment/) | `data/rnaseq/`, `data/chip_seq_data/` |
+| OpenMM bead–spring ring-polymer simulations | [`analysis_15_openmm_polymer_models/`](response_analyses/analysis_15_openmm_polymer_models/) | `data/rep_icedmatrix/` |
 
 ---
 
-### Operon Interaction Network
+## Integrity Verification & Isolated Script Replay
 
-Construct multi-layer interaction networks integrating:
-- **DNA-DNA:** Hi-C loops
-- **DNA-Protein:** ChIP-seq binding
-- **Protein-Protein:** Known interactions
-
-**Scripts:**
-- [`network_formation.ipynb`](script/network_formation.ipynb) - Network construction and visualization
-- [`operon-select_entropymoran's.ipynb`](script/operon-select_entropymoran's.ipynb) - Hub identification
-
----
-
-### Structural Plasticity Quantification
-
-Quantify chromatin structural organization using Shannon entropy and Moran's I on DI score distributions.
-
-**Script:** [`moran's_shannon.ipynb`](script/moran's_shannon.ipynb)
-
-**Shannon Entropy** (lower = more organized):
-
-$$
-H = -\sum_i p_i \log_2(p_i)
-$$
-
-**Moran's I** (higher = more structured):
-
-$$
-I = \frac{n}{\sum_{i,j} w_{ij}} \frac{\sum_{i,j} w_{ij}(x_i - \bar{x})(x_j - \bar{x})}{\sum_i (x_i - \bar{x})^2}
-$$
-
-Where $w_{ij} = 1$ for adjacent bins, 0 otherwise.
-
----
-
-### Counterfactual Prediction
-
-Predict the NapM-KO latent Hi-C contact matrix using SVD-based counterfactual learning on observed conditions.
-
-**Script:** [`napmkolatentpre_comparedrsmd.ipynb`](script/napmkolatentpre_comparedrsmd.ipynb)
-
-**Method:**
-- Feature encoding: genotype (WT/KO) and environment (normal/hypoxia/latent)
-- SVD-based imputation with ridge regularization
-
----
-
-### Homology Analysis
-
-Analyze conservation of Rv0047c (NapM) across bacterial species.
-
-**Script:** [`homologous.ipynb`](script/homologous.ipynb)
+### 1. Validate Repository Integrity (SHA-256 & Provenance)
 
 ```bash
-blastp -query rv0047c.faa \
-       -db bacterial_proteins.fa \
-       -out rv0047c_homologs.txt \
-       -outfmt 6 \
-       -evalue 1e-5 \
-       -max_target_seqs 10000
+python3 tools/validate_manifest.py
 ```
 
-**Visualization:** Manhattan plot of -log10(p-value) colored by genus
+### 2. Replay an Archived Script in an Isolated Sandbox
 
----
+`tools/run_original.py` reconstructs the virtual project tree inside `.runtime/<target>/project` by symlinking `data/` and intermediate inputs without modifying any archived file:
 
-### A/B Compartment Analysis
-
-Identify A/B compartments using the first eigenvector of the Hi-C correlation matrix with GC bias correction.
-
-**Script:** [`ABcompartment.ipynb`](script/ABcompartment.ipynb)
-
-```python
-import cooltools
-import bioframe
-
-gc_track = bioframe.frac_gc(bins, genome)
-cis_eigs = cooltools.eigs_cis(clr, gc_track, n_eigs=3)
-eigenvector_track = cis_eigs[1][['chrom','start','end','E1']]
+```bash
+# Inspect path-adapted replay command (dry run)
+python3 tools/run_original.py 3 02_build_R2_fig3_network_hubs.py --dry-run
+python3 tools/run_original.py 6 05_build_R2_fig6_napm_dependence.py --dry-run
+python3 tools/run_original.py 9 08_build_R2_fig9_antibiotic_nrp.py --dry-run
+python3 tools/run_original.py manuscript recalculate_fig1f_cid_coexpression.py --dry-run
 ```
 
-**Statistical analysis:** Bootstrap 95% confidence intervals for compartment strength comparison.
+Remove `--dry-run` after installing the software dependencies listed in [`manifests/software_versions.txt`](manifests/software_versions.txt) (Python ≥ 3.9 with `cooler`, `cooltools`, `chromosight`, `numpy`, `pandas`, `scipy`, `matplotlib`, `seaborn`, `networkx`, `openmm`; R ≥ 4.3 with `limma`, `edgeR`, `clusterProfiler`).
 
 ---
 
-## Figures Reproduction
+## Data Availability & Citation
 
-Key analysis scripts for main figures:
+- **Raw sequencing data (Hi-C & RNA-seq):** NCBI SRA [`PRJNA1452606`](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1452606)
+- **Processed Hi-C matrices, intermediate tables & code:** `https://github.com/wikk-chy/mtb_hic`
 
-| Analysis | Script | Input Data |
-|----------|--------|------------|
-| Hi-C differential maps | [`hicdiff.ipynb`](script/hicdiff.ipynb) | `hic_file/*.hic` |
-| DI and structural metrics | [`moran's_shannon.ipynb`](script/moran's_shannon.ipynb) | `DI_Score_results/*.csv` |
-| Operon interaction network | [`network_formation.ipynb`](script/network_formation.ipynb) | `Interaction_network/*.csv` |
-| 3D structure comparison | [`napmkolatentpre_comparedrsmd.ipynb`](script/napmkolatentpre_comparedrsmd.ipynb) | `3d_model_pdbfile/*.pdb` |
-| NapM homology | [`homologous.ipynb`](script/homologous.ipynb) | BLASTP output |
-| A/B compartments | [`ABcompartment.ipynb`](script/ABcompartment.ipynb) | `.cool` files |
-| ChIP-RNA integration | [`chipandrna.ipynb`](script/chipandrna.ipynb) | BigWig/BedGraph |
-| GO/KEGG enrichment | [`go_and_kegg.R`](script/go_and_kegg.R) | Gene lists |
+If you use these datasets or scripts, please cite:
 
-**Statistical Analysis:** All significance tests use Benjamini-Hochberg FDR correction (α = 0.05). Bootstrap resampling (n=1000) for confidence intervals. See individual scripts for details.
-
----
-
-## Citation
-
-If you use this code or data, please cite:
-
-> Establishment and remodeling of the *Mycobacterium tuberculosis* 3D genome Orchestrate Context-Dependent Transcriptional Program. (Manuscript in preparation)
-
----
-
-## Contact
-
-For questions, please open an issue on GitHub: https://github.com/wikk-chy/mtb_hic/issues
+> Cai, H., Wei, P., Wang, Y., Xu, W., Chen, X., Chen, Y., Zou, Y., Xu, Y., Cao, X., Reheman, A., & Cao, G. Establishment and Remodeling of the *Mycobacterium tuberculosis* 3D Genome Orchestrate Context-Dependent Transcriptional Program.
 
 ---
 
 ## License
 
-MIT License
-
-Copyright (c) 2026 wikk-chy
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Released under the [MIT License](LICENSE).

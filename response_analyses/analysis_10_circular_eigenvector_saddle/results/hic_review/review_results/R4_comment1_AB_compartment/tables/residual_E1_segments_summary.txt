@@ -1,0 +1,22 @@
+Residual E1 (ori-ter axis removed) four-zone segmentation
+============================================================
+E1 explains 10.9% of residual-matrix correlation variance;
+|r(E1, 2nd harmonic cos(4*pi*pos/L) fit)| = 0.858.
+Zero-crossings (smoothed E1, bp): 476063, 1681257, 3039942, 3732963
+
+segment 1: 476063-1681257 bp (1205 kb), E1 sign = +
+segment 2: 1681257-3039942 bp (1359 kb), E1 sign = -; contains ter (~2.03 Mb)
+segment 3: 3039942-3732963 bp (693 kb), E1 sign = +
+segment 4: 3732963-476063 bp (1155 kb, wraps origin), E1 sign = -; contains ori (position 0)
+
+Interpretation: the four alternating zones correspond to a
+second-harmonic (two-full-wave) pattern around the circular
+chromosome. The ori-containing zone (E1 sign -) and the
+ter-containing zone (E1 sign -) lie half a genome apart
+and, as expected for a 2nd harmonic, share the same E1 sign;
+the two intervening zones of opposite sign cover the mid-arm
+regions of the left replichore (ori -> ter, ~0.48-1.68 Mb) and
+the right replichore (ter -> ori, ~3.04-3.73 Mb). This is an
+arm-level (macrodomain-like) organization layered on top of the
+primary ori-ter axis, not eukaryotic-style A/B compartments
+(E1 correlates with neither GC content nor gene density).

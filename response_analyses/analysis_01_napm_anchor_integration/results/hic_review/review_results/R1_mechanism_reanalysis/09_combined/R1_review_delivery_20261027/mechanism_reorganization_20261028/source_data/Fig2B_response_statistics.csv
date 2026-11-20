@@ -1,0 +1,8 @@
+statistic,observed,ci95_low,ci95_high,n_boot,n_perm,note
+cosine_similarity,-0.0696280991609931,-0.1878523608245361,0.041261016066786,10000.0,,"R_WT=mean(HYP)-mean(WT), R_KO=mean(KO-HYP)-mean(KO), 9-dim z-scored metric space (z over 15 test samples); latent excluded from C/D"
+angle_deg,93.99262675039806,87.63524660927581,100.827476889192,10000.0,,
+euclidean_dist,5.950629545272408,,,10000.0,,
+pearson_r,-0.0852008602189802,,,10000.0,,
+perm_p_cosine,0.3650634936506349,,,,10000.0,one-sided P(perm cos <= obs); labels shuffled within genotype blocks
+perm_p_angle,0.3650634936506349,,,,10000.0,one-sided P(perm angle >= obs)
+perm_p_euclidean,0.0007999200079992,,,,10000.0,one-sided P(perm dist >= obs)
