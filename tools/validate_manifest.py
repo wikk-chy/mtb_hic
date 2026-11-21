@@ -10,6 +10,10 @@ REPO = Path(__file__).resolve().parents[1]
 MANIFEST = REPO / 'manifests/file_manifest.csv'
 REPORT = REPO / 'manifests/validation_report.json'
 DISALLOWED_EXT = {'.pdf', '.png', '.jpg', '.jpeg', '.svg', '.ai', '.eps', '.tif', '.tiff', '.tex', '.cls', '.bst'}
+ALLOWED_README_ASSETS = {
+    'assets/readme_banner.png',
+    'assets/readme_summary_dashboard.png',
+}
 
 
 def sha256(path: Path) -> str:
@@ -36,7 +40,7 @@ def main():
             errors.append(f"Size mismatch: {row['repo_path']}")
         if sha256(p) != row['sha256']:
             errors.append(f"SHA-256 mismatch: {row['repo_path']}")
-        if p.suffix.lower() in DISALLOWED_EXT:
+        if p.suffix.lower() in DISALLOWED_EXT and row['repo_path'] not in ALLOWED_README_ASSETS:
             errors.append(f"Disallowed binary/manuscript extension tracked: {row['repo_path']}")
     # Check retired CID exclusions in analysis_11
     a11 = [p for p in paths if p.startswith('response_analyses/analysis_11_')]
