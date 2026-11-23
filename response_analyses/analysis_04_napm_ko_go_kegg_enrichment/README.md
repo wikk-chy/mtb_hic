@@ -1,7 +1,7 @@
 # Analysis 04 — GO and KEGG enrichment of differentially expressed genes in napM-KO versus WT cells
 
 - **Scope:** Response Fig. 4 (panels `A-D`)
-- **Archived files:** `code/` (4), `data/` (4), `results/` (8), `notes/` (0)
+- **Archived files:** `code/` (2), `data/` (4), `results/` (8), `notes/` (0)
 - **Shared primary data:** [`../../data/`](../../data/)
 - **Methods:** [`../../methods/Analysis_Methods.md`](../../methods/Analysis_Methods.md) & [`../../methods/Revision_Update_Summary.md`](../../methods/Revision_Update_Summary.md)
 

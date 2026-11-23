@@ -1,7 +1,7 @@
 # Analysis 09 — Mixed DNA-damage/ROS signatures and shared stress responses in acid/antibiotic-induced latency-like stress versus antibiotic-free hypoxia
 
 - **Scope:** Response Fig. 9 (panels `A-D`)
-- **Archived files:** `code/` (6), `data/` (1), `results/` (8), `notes/` (0)
+- **Archived files:** `code/` (4), `data/` (1), `results/` (8), `notes/` (0)
 - **Shared primary data:** [`../../data/`](../../data/)
 - **Methods:** [`../../methods/Analysis_Methods.md`](../../methods/Analysis_Methods.md) & [`../../methods/Revision_Update_Summary.md`](../../methods/Revision_Update_Summary.md)
 

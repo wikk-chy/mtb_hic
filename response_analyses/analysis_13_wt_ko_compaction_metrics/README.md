@@ -1,7 +1,7 @@
 # Analysis 13 — Quantitative comparison of wild-type and napM-KO chromosome organization
 
 - **Scope:** Response Fig. 13 (panels `A-H`)
-- **Archived files:** `code/` (7), `data/` (0), `results/` (17), `notes/` (0)
+- **Archived files:** `code/` (4), `data/` (0), `results/` (17), `notes/` (0)
 - **Shared primary data:** [`../../data/`](../../data/)
 - **Methods:** [`../../methods/Analysis_Methods.md`](../../methods/Analysis_Methods.md) & [`../../methods/Revision_Update_Summary.md`](../../methods/Revision_Update_Summary.md)
 

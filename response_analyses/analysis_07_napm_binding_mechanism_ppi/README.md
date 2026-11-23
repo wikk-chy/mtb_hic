@@ -1,7 +1,7 @@
 # Analysis 07 — Genomic occupancy, transcriptional decoupling, structural associations and protein-interaction context of NapM
 
 - **Scope:** Response Fig. 7 (panels `A-I`)
-- **Archived files:** `code/` (15), `data/` (5), `results/` (19), `notes/` (0)
+- **Archived files:** `code/` (12), `data/` (5), `results/` (19), `notes/` (0)
 - **Shared primary data:** [`../../data/`](../../data/)
 - **Methods:** [`../../methods/Analysis_Methods.md`](../../methods/Analysis_Methods.md) & [`../../methods/Revision_Update_Summary.md`](../../methods/Revision_Update_Summary.md)
 

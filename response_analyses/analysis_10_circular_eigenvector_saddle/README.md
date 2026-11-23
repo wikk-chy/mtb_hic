@@ -1,7 +1,7 @@
 # Analysis 10 — Controls and interpretation of chromosome-scale segregation in M. tuberculosis
 
 - **Scope:** Response Fig. 10 (panels `A-E`)
-- **Archived files:** `code/` (15), `data/` (30), `results/` (16), `notes/` (1)
+- **Archived files:** `code/` (6), `data/` (20), `results/` (8), `notes/` (1)
 - **Shared primary data:** [`../../data/`](../../data/)
 - **Methods:** [`../../methods/Analysis_Methods.md`](../../methods/Analysis_Methods.md) & [`../../methods/Revision_Update_Summary.md`](../../methods/Revision_Update_Summary.md)
 

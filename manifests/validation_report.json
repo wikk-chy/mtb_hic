@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "manifest_files": 1165,
-  "manifest_bytes": 542233685,
+  "manifest_files": 1021,
+  "manifest_bytes": 493192109,
   "analysis_modules": 15,
   "errors": [],
   "checks": [

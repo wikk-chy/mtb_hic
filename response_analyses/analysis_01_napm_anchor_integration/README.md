@@ -1,7 +1,7 @@
 # Analysis 01 — NapM occupancy does not predict uniform local changes but is enriched at chromatin-loop anchors
 
 - **Scope:** Response Fig. 1 (panels `A-I`)
-- **Archived files:** `code/` (63), `data/` (89), `results/` (237), `notes/` (25)
+- **Archived files:** `code/` (56), `data/` (89), `results/` (237), `notes/` (25)
 - **Shared primary data:** [`../../data/`](../../data/)
 - **Methods:** [`../../methods/Analysis_Methods.md`](../../methods/Analysis_Methods.md) & [`../../methods/Revision_Update_Summary.md`](../../methods/Revision_Update_Summary.md)
 
