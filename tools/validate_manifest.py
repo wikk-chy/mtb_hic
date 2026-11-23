@@ -12,7 +12,6 @@ REPORT = REPO / 'manifests/validation_report.json'
 DISALLOWED_EXT = {'.pdf', '.png', '.jpg', '.jpeg', '.svg', '.ai', '.eps', '.tif', '.tiff', '.tex', '.cls', '.bst'}
 ALLOWED_README_ASSETS = {
     'assets/readme_banner.png',
-    'assets/readme_summary_dashboard.png',
 }
 
 
