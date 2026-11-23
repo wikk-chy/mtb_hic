@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Replay an archived analysis script in an isolated, repository-local workspace.
 
-Reconstructs the original virtual directory tree under `.runtime/<target>/project`
+Reconstructs the virtual directory tree under `.runtime/<target>/project`
 by linking shared primary data (`data/`) and archived intermediate tables via
 `manifests/file_manifest.csv`, and adapts the original machine-specific project root
 in a temporary script copy without modifying archived files.
@@ -71,7 +71,7 @@ def main():
         source = REPO / r['repo_path']
         if target.exists() or target.is_symlink():
             target.unlink()
-        if r['module'] == mod_key and ('/code/' in r['repo_path'] or '/results/' in r['repo_path'] or '/notes/' in r['repo_path'] or r['repo_path'].startswith('scripts/')):
+        if r['module'] == mod_key and ('/code/' in r['repo_path'] or '/results/' in r['repo_path'] or r['repo_path'].startswith('scripts/')):
             shutil.copy2(source, target)
         else:
             target.symlink_to(source)
@@ -82,6 +82,8 @@ def main():
     if OLD_ROOT not in text:
         print('Note: script has no original absolute root; inspect relative paths before running.')
     configured.write_text(text.replace(OLD_ROOT, str(project)), encoding='utf-8')
+    for out_dir in (configured.parent / 'figures', configured.parent.parent / 'figures'):
+        out_dir.mkdir(parents=True, exist_ok=True)
 
     suffix = configured.suffix
     if suffix == '.R':
@@ -90,12 +92,13 @@ def main():
         cmd = ['bash', str(configured), *extra]
     else:
         cmd = [args.python, str(configured), *extra]
+
     print('Configured script:', configured)
     print('Isolated project root:', project)
     print('Command:', ' '.join(cmd))
-    if not args.dry_run:
-        return subprocess.run(cmd, cwd=configured.parent).returncode
-    return 0
+    if args.dry_run:
+        return 0
+    return subprocess.call(cmd, cwd=configured.parent)
 
 
 if __name__ == '__main__':

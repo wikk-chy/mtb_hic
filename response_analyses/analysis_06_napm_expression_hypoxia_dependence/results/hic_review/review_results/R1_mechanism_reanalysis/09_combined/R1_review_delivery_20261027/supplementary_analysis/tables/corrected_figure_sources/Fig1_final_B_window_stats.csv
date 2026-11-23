@@ -1,5 +1,0 @@
-metric,observed,null_mean,effect,null_lo95,null_hi95,p,p_type,n_bins,n_peaks,null_model,notes
-absdins,0.2367364257184546,0.2428752089969481,-0.0061387832784934,0.2366922751493748,0.2494440998850916,0.9742025797420258,one-sided (obs>=null),743,433,"circular-shift of peak-centre bins (10000, seed 42)",mean mean |Δ insulation| (KO − WT) in ±5 kb around peak centres
-signed_dins,0.0799439820478934,0.0840585247103901,-0.0041145426624967,0.0741250452758468,0.0937987706109009,0.8000199980002,two-sided,743,433,"circular-shift of peak-centre bins (10000, seed 42)",mean mean Δ insulation (KO − WT) in ±5 kb around peak centres
-signed_dlocalcont,-0.0021302794750549,0.0004990526490613,-0.0026293321241162,-0.0068201112318248,0.008179044464225,0.5923407659234077,two-sided,743,433,"circular-shift of peak-centre bins (10000, seed 42)",mean mean Δ local contact (KO − WT) in ±5 kb around peak centres
-abs_dlocalcont,0.1438994706259757,0.1422688182266083,0.0016306523993674,0.1375736120327124,0.1464601955987384,0.2453754624537546,one-sided (obs>=null),743,433,"circular-shift of peak-centre bins (10000, seed 42)",mean mean |Δ local contact| (KO − WT) in ±5 kb around peak centres

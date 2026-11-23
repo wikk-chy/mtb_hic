@@ -1,8 +1,0 @@
-Primary rho=0.526526278, naive p=5.466e-64, n=881
-Random circular-shift p=0.001099890; exhaustive-rotation p=0.001132503
- block_bins  block_kb  n_bootstrap    ci_lo    ci_hi  bootstrap_median  n_finite
-         10        50        10000 0.442488 0.604218          0.526696     10000
-         20       100        10000 0.438132 0.609226          0.526863     10000
-         40       200        10000 0.431345 0.618163          0.525434     10000
-Mean-contrast sensitivity rho=0.527794742, CI=[0.44069537 0.60797163], shift p=0.001099890
-Wrote outputs to /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R1_mechanism_reanalysis/09_combined/R1_review_delivery_20261027/supplementary_analysis/tables

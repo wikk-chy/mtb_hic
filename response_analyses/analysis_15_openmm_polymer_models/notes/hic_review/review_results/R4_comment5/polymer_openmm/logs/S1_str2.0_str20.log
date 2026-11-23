@@ -1,9 +1,0 @@
-S1_str2_str20_scale0.7_seed42: after rephasing z_ori=-15.9 z_ter=15.3 d_ot=31.2
-S1_str2_str20_scale0.7_seed42: 100/700 confs (1319s)
-S1_str2_str20_scale0.7_seed42: 200/700 confs (1859s)
-S1_str2_str20_scale0.7_seed42: 300/700 confs (2401s)
-S1_str2_str20_scale0.7_seed42: 400/700 confs (2941s)
-S1_str2_str20_scale0.7_seed42: 500/700 confs (3447s)
-S1_str2_str20_scale0.7_seed42: 600/700 confs (3895s)
-S1_str2_str20_scale0.7_seed42: 700/700 confs (4306s)
-S1_str2_str20_scale0.7_seed42: done in 4306s -> /Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R4_comment5/polymer_openmm/runs/S1_str2_str20_scale0.7_seed42.npz

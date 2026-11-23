@@ -1,8 +1,0 @@
-item,value
-legacy_n_bins,858
-legacy_M0_M1_M2_CV_R2,0.671166957726;0.671325379289;0.671107638464
-legacy_dR2_M1_vs_M0,0.0001584215625709
-legacy_dR2_M2_vs_M1,-0.0002177408241876
-legacy_missing_RNA_rule,filled with 0
-legacy_missing_expression_rule,filled with median
-legacy_baseline_covariates,weight_WT + ins_WT + expr_wt_mean

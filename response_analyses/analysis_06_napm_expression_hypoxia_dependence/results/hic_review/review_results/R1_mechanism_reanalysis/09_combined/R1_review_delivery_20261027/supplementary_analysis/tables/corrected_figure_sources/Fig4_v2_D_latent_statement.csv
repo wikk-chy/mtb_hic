@@ -1,2 +1,0 @@
-panel,kind,note,main_text,sub_text
-D,text_box,author-provided phenotype observation; no survival/CFU/growth quantitative data found in review_data/; panel kept as text box,Author observation: napM-KO fails to survive establishment of the latency model. No KO-latent Hi-C sample was available; architecture cannot be measured or inferred.,No CFU/survival quantification in the current data package. WT-latent data (not shown): descriptive only.

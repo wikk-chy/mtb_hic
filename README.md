@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🧬 *Mycobacterium tuberculosis* 3D Genome (`mtb_hic`)
+# 🧬 *Mycobacterium tuberculosis* 3D Genome (`Mtb3DGenome`)
 
 **Data, analysis scripts, and reproducibility workflows supporting the study:**
 
 > *Establishment and Remodeling of the Mycobacterium tuberculosis 3D Genome Orchestrate Context-Dependent Transcriptional Program*
 
-[![Organism](https://img.shields.io/badge/Organism-Mycobacterium%20tuberculosis-0F766E?style=flat-square)](https://github.com/wikk-chy/mtb_hic)
+[![Organism](https://img.shields.io/badge/Organism-Mycobacterium%20tuberculosis-0F766E?style=flat-square)](#overview)
 [![Multi-Omics](https://img.shields.io/badge/Multi--Omics-Hi--C%20%7C%20RNA--seq%20%7C%20ChIP--seq%20%7C%20Network-2563EB?style=flat-square)](data/)
 [![NCBI SRA](https://img.shields.io/badge/NCBI%20SRA-PRJNA1452606-0284C7?style=flat-square)](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1452606)
 [![Python](https://img.shields.io/badge/Python-%E2%89%A53.9-3776AB?style=flat-square&logo=python&logoColor=white)](manifests/software_versions.txt)
@@ -30,10 +30,10 @@
 <a id="overview"></a>
 ## 🧬 Overview
 
-This repository hosts the processed Hi-C contact matrices, reference annotations, multi-omics datasets, analysis scripts, and reproducibility utilities accompanying our study on three-dimensional genome architecture, chromatin remodeling, and transcriptional regulation in *Mycobacterium tuberculosis*.
+This repository provides the processed Hi-C contact matrices, reference annotations, multi-omics datasets, final analysis scripts, and reproducibility utilities supporting our study of three-dimensional genome architecture, chromatin remodeling, and transcriptional regulation in *Mycobacterium tuberculosis*.
 
 - **Raw sequencing data** are deposited in the NCBI Sequence Read Archive (SRA) under BioProject **[`PRJNA1452606`](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1452606)**.
-- **Lightweight archival design:** Raw sequencing files and publication figure renders are excluded; processed matrices, intermediate tables, and analysis scripts are preserved with automated SHA-256 integrity verification.
+- **Streamlined final-version archive:** Raw sequencing files and publication figure binaries are excluded; only the primary processed inputs, final-version analysis code, and verified result tables are retained with SHA-256 integrity checks.
 
 ---
 
@@ -48,9 +48,9 @@ flowchart LR
         NET["Reference Annotations &<br/>Interaction Networks"]
     end
 
-    subgraph Analysis["Computational Workflows"]
-        CORE["Core Analysis Scripts<br/>(scripts/)"]
-        EXT["Extended Analysis Modules<br/>(response_analyses/)"]
+    subgraph Analysis["Final Analysis Workflows"]
+        CORE["Core Scripts & Notebooks<br/>(scripts/)"]
+        MOD["Modular Analyses & Results<br/>(analyses/)"]
     end
 
     subgraph Repro["Verification & Replay"]
@@ -61,11 +61,11 @@ flowchart LR
     HIC --> CORE
     OMICS --> CORE
     NET --> CORE
-    HIC --> EXT
-    OMICS --> EXT
-    NET --> EXT
+    HIC --> MOD
+    OMICS --> MOD
+    NET --> MOD
     CORE --> MAN
-    EXT --> MAN
+    MOD --> MAN
     MAN --> TOOLS
 ```
 
@@ -93,8 +93,8 @@ flowchart LR
 │   ├── Interaction_network/  # Multi-layer interaction network files
 │   └── operon_metadata/      # Operon annotations
 ├── scripts/                  # Core analysis notebooks and scripts
-├── response_analyses/        # Modular extended analysis code and intermediate tables
-├── methods/                  # Computational method notes
+├── analyses/                 # Final modular computational workflows and result tables
+├── methods/                  # High-level computational methods overview
 ├── references/               # Reference bibliography
 ├── manifests/                # File inventory, software environment, and SHA-256 checksums
 └── tools/                    # Integrity verification and isolated script replay utilities
@@ -107,11 +107,11 @@ flowchart LR
 
 ### 1. Software Environment
 
-Analyses were run in standard Python (`≥ 3.9`) and R (`≥ 4.3`) bioinformatics environments. Recorded package versions are listed in [`manifests/software_versions.txt`](manifests/software_versions.txt).
+Analyses were executed in standard Python (`≥ 3.9`) and R (`≥ 4.3`) bioinformatics environments. Recorded package versions are listed in [`manifests/software_versions.txt`](manifests/software_versions.txt).
 
 ### 2. Verify Repository Integrity
 
-Check file existence, sizes, and SHA-256 checksums against [`manifests/file_manifest.csv`](manifests/file_manifest.csv):
+Validate file existence, sizes, and SHA-256 checksums against [`manifests/file_manifest.csv`](manifests/file_manifest.csv):
 
 ```bash
 python3 tools/validate_manifest.py
@@ -119,7 +119,7 @@ python3 tools/validate_manifest.py
 
 ### 3. Replay Archived Scripts in an Isolated Sandbox
 
-[`tools/run_original.py`](tools/run_original.py) sets up a temporary workspace under `.runtime/` without modifying archived files:
+[`tools/run_original.py`](tools/run_original.py) constructs a temporary workspace under `.runtime/` without modifying archived files:
 
 ```bash
 # View available options
@@ -135,7 +135,7 @@ python3 tools/run_original.py <module> <script> --dry-run
 ## 📚 Data Availability & Citation
 
 - **Raw sequencing data:** NCBI SRA **[`PRJNA1452606`](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1452606)**
-- **Code and processed data:** [github.com/wikk-chy/mtb_hic](https://github.com/wikk-chy/mtb_hic)
+- **Code and processed data:** [github.com/wikk-chy/Mtb3DGenome](https://github.com/wikk-chy/Mtb3DGenome)
 
 If you use the datasets or scripts in this repository, please cite:
 
@@ -145,10 +145,10 @@ If you use the datasets or scripts in this repository, please cite:
 <summary><b>📋 BibTeX Entry</b></summary>
 
 ```bibtex
-@article{cai_mtb_hic_3d_genome,
+@article{cai_mtb_3d_genome,
   title   = {Establishment and Remodeling of the \textit{Mycobacterium tuberculosis} 3D Genome Orchestrate Context-Dependent Transcriptional Program},
   author  = {Cai, H. and Wei, P. and Wang, Y. and Xu, W. and Chen, X. and Chen, Y. and Zou, Y. and Xu, Y. and Cao, X. and Reheman, A. and Cao, G.},
-  note    = {NCBI SRA: PRJNA1452606; Repository: https://github.com/wikk-chy/mtb_hic}
+  note    = {NCBI SRA: PRJNA1452606; Repository: https://github.com/wikk-chy/Mtb3DGenome}
 }
 ```
 

@@ -1,7 +1,0 @@
-category,n,note,composition
-struct+RNA+,144,Fisher OR/P use the RNA-determined 2x2 only; the third category combines RNA-undetermined and no-data bins and is not unchanged,
-struct+RNA-,3,Fisher OR/P use the RNA-determined 2x2 only; the third category combines RNA-undetermined and no-data bins and is not unchanged,
-struct-RNA+,308,Fisher OR/P use the RNA-determined 2x2 only; the third category combines RNA-undetermined and no-data bins and is not unchanged,
-struct-RNA-,5,Fisher OR/P use the RNA-determined 2x2 only; the third category combines RNA-undetermined and no-data bins and is not unchanged,
-struct+undet,122,Fisher OR/P use the RNA-determined 2x2 only; the third category combines RNA-undetermined and no-data bins and is not unchanged,119 cannot_determine + 3 no_data
-struct-undet,301,Fisher OR/P use the RNA-determined 2x2 only; the third category combines RNA-undetermined and no-data bins and is not unchanged,295 cannot_determine + 6 no_data

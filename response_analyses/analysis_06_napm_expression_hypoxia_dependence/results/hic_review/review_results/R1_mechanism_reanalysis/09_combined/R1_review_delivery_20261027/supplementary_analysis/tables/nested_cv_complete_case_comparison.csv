@@ -1,3 +1,0 @@
-comparison,dR2,ci_lo,ci_hi,n_bins,n_bootstrap,method
-M1_plus_RNA - M0_baseline,0.00020913957096246882,-0.0006174379721674839,0.002931003501848556,848,1000,10-block CV; block bootstrap 95% CI
-M2_plus_occupancy - M1_plus_RNA,0.0001732052304738163,-0.0012704692484820312,0.002399691199418227,848,1000,10-block CV; block bootstrap 95% CI

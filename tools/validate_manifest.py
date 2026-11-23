@@ -41,14 +41,14 @@ def main():
             errors.append(f"SHA-256 mismatch: {row['repo_path']}")
         if p.suffix.lower() in DISALLOWED_EXT and row['repo_path'] not in ALLOWED_README_ASSETS:
             errors.append(f"Disallowed binary/manuscript extension tracked: {row['repo_path']}")
-    # Check retired CID exclusions in analysis_11
-    a11 = [p for p in paths if p.startswith('response_analyses/analysis_11_')]
+    # Check retired CID exclusions in 11_cid_directionality_validation
+    cid_paths = [p for p in paths if p.startswith('analyses/11_cid_directionality_validation/')]
     forbidden = ('whole_cid', 'fig5_whole', 'rescaled_pileup', 'fig_CID_validation_merged',
-                 'fig1e_cid_coexpression', 'fig_combined_CID_validation')
-    for p in a11:
+                 'fig1e_cid_coexpression', 'fig_combined_CID_validation', 'cid_pileup_validation', 'combined_figure_v3')
+    for p in cid_paths:
         if any(tok in p for tok in forbidden):
-            errors.append(f'Superseded CID evidence retained in analysis_11: {p}')
-    # Check file size limit (< 50 MiB warning / < 100 MiB GitHub hard limit)
+            errors.append(f'Superseded CID file retained: {p}')
+    # Check file size limit (< 100 MiB GitHub hard limit)
     oversized = [p for p in paths if (REPO / p).is_file() and (REPO / p).stat().st_size > 100 * 1024**2]
     if oversized:
         errors.append('Files exceeding 100 MiB: ' + ', '.join(oversized))
@@ -73,7 +73,7 @@ def main():
         'errors': errors,
         'checks': [
             'file existence', 'file size', 'SHA-256', 'unique paths',
-            'no figure/manuscript binaries', 'analysis_11 CID exclusions',
+            'no figure/manuscript binaries', 'retired CID exclusions',
             '100 MiB per-file limit', 'complete manifest coverage',
         ],
     }

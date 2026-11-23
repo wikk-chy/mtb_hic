@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R4_comment5/polymer_openmm/code/02_simulate.py", line 303, in <module>
-    main()
-  File "/Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/review_results/R4_comment5/polymer_openmm/code/02_simulate.py", line 230, in main
-    integ.step(30_000)
-  File "/Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review/hic_review/.venv_cooltools/lib/python3.9/site-packages/openmm/openmm.py", line 11956, in step
-    return _openmm.LangevinMiddleIntegrator_step(self, steps)
-openmm.OpenMMException: Particle coordinate is NaN.  For more information, see https://github.com/openmm/openmm/wiki/Frequently-Asked-Questions#nan

@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "manifest_files": 1021,
-  "manifest_bytes": 493192109,
+  "manifest_files": 684,
+  "manifest_bytes": 363049205,
   "analysis_modules": 15,
   "errors": [],
   "checks": [
@@ -10,7 +10,7 @@
     "SHA-256",
     "unique paths",
     "no figure/manuscript binaries",
-    "analysis_11 CID exclusions",
+    "retired CID exclusions",
     "100 MiB per-file limit",
     "complete manifest coverage"
   ]

@@ -1,3 +1,0 @@
-panel,locus,center_bin,response_mode,NapM_bound,RNA_interaction,insulation_interaction,insulation_FDR,selection_rationale
-G,recR,832,Structure only,True,0.1498509788398661,-0.9081348285226004,1.1894397716820264e-05,Strong negative insulation interaction with stringent absence of a local RNA response.
-H,accA2/accD2/fadE13,217,Joint response,False,-1.3148531511368622,-0.8339788746245127,1.8467860093623882e-07,Concordant negative RNA and insulation interactions.

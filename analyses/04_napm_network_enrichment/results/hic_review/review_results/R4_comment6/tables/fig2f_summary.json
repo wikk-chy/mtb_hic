@@ -1,0 +1,25 @@
+{
+  "definitions": {
+    "cid_boundary": "bound of 13 confirmed CID boundary bins",
+    "loop": "loops with BOTH anchors bound (41 validated Chromosight loops)",
+    "operon": "operons with >=1 bound bin (749 annotated)",
+    "ppi": "degree in the author-built PPI network"
+  },
+  "napm": {
+    "Loop": 17.0,
+    "Operon": 470.0,
+    "PPI": 14.0
+  },
+  "average_dna_binding_proteins": {
+    "Loop": 1.0350877192982457,
+    "Operon": 102.7280701754386,
+    "PPI": 4.267543859649122
+  },
+  "napm_percentile_vs_dna_binding_proteins": {
+    "Loop": 99.12663755458514,
+    "Operon": 97.37991266375546,
+    "PPI": 93.88646288209607
+  },
+  "n_dna_binding_proteins": 229,
+  "note": "Old notebook values (21/10/7/14 vs 3.65/1.31/2.88/2.02) were hardcoded; metric definitions re-implemented and documented here."
+}
