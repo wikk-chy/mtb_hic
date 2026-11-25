@@ -16,7 +16,7 @@ This document summarizes the main computational workflows implemented in this re
 
 ## 3. Multi-Omics Integration & Interaction Networks
 
-- **Multi-layer interaction network:** Chromatin loops, protein–DNA binding associations, operon annotations, and protein–protein interactions (PPI) are integrated to quantify centrality and multi-layer enrichment across DNA-binding proteins (`analyses/04_napm_network_enrichment/`, `analyses/08_napm_binding_mechanism_ppi/`).
+- **Multi-layer interaction network:** Chromatin loops, protein–DNA binding associations, operon annotations, and protein–protein interactions (PPI) are integrated to quantify centrality, multi-layer enrichment across DNA-binding proteins, and downstream consistency across validated 3D features (`analyses/04_napm_network_enrichment/`, `analyses/08_napm_binding_mechanism_ppi/`, `analyses/16_validated_feature_reevaluation/`).
 - **Differential expression & factorial modeling:** Bulk RNA-seq counts are normalized and modeled with `edgeR`/`limma` for pairwise contrasts, genotype-by-stress factorial interaction tests, and GO/KEGG pathway enrichment (`analyses/02_hypoxia_factorial_integration/`, `analyses/05_napm_ko_go_kegg_enrichment/`, `analyses/09_stress_transcriptome_crossvalidation/`).
 - **Structure–function & multi-metric remodeling:** Local binding-to-architecture associations, independent-sample insulation trajectories, and multi-metric structural response fingerprints are evaluated using circular-shift nulls and exact permutation tests (`analyses/01_napm_anchor_integration/`, `analyses/06_stress_spatial_directionality/`, `analyses/07_napm_hypoxia_delta_remodeling/`, `analyses/13_wt_ko_compaction_metrics/`, `analyses/14_stress_oriter_signatures/`).
 

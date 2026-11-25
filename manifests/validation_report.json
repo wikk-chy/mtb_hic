@@ -1,8 +1,8 @@
 {
   "status": "PASS",
-  "manifest_files": 684,
-  "manifest_bytes": 363049205,
-  "analysis_modules": 15,
+  "manifest_files": 695,
+  "manifest_bytes": 363131090,
+  "analysis_modules": 16,
   "errors": [],
   "checks": [
     "file existence",

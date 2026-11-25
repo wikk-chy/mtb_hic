@@ -20,7 +20,7 @@ OLD_ROOT = '/Users/caihuaiyuan/Desktop/mtb_hic_analysis/mtb_hic_review'
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('module', help='Analysis module number (1-15) or "manuscript"')
+    ap.add_argument('module', help='Analysis module number (1-16) or "manuscript"')
     ap.add_argument('script', help='Script filename or unique path suffix')
     ap.add_argument('--dry-run', action='store_true')
     ap.add_argument('--python', default=sys.executable)
@@ -32,9 +32,9 @@ def main():
     else:
         try:
             mnum = int(args.module)
-            assert 1 <= mnum <= 15
+            assert 1 <= mnum <= 16
         except (ValueError, AssertionError):
-            sys.exit('module must be an integer 1..15 or "manuscript"')
+            sys.exit('module must be an integer 1..16 or "manuscript"')
         mod_key = f'Analysis {mnum:02d}'
         runtime_name = f'analysis_{mnum:02d}'
 

@@ -13,4 +13,5 @@ Analysis 11,analyses/11_cid_directionality_validation,Directionality index and c
 Analysis 12,analyses/12_chromosight_loop_validation,Chromosight chromatin-loop calling and aggregate peak analysis (APA) validation,2,4,5,methods/Methods_Overview.md
 Analysis 13,analyses/13_wt_ko_compaction_metrics,Replicate-level comparison of wild-type and napM-KO chromosome compaction,3,0,14,methods/Methods_Overview.md
 Analysis 14,analyses/14_stress_oriter_signatures,Stress-induced ori-ter apposition and inter-arm remodeling signatures,3,0,3,methods/Methods_Overview.md
-Analysis 15,analyses/15_openmm_polymer_models,Coarse-grained OpenMM ring-polymer simulations of chromosome reorganization,13,0,16,methods/Methods_Overview.md
+Analysis 15,analyses/15_openmm_polymer_models,Coarse-grained OpenMM ring-polymer simulations of chromosome reorganization,12,0,16,methods/Methods_Overview.md
+Analysis 16,analyses/16_validated_feature_reevaluation,"Downstream re-evaluation of segregation, transcriptional coordination, and loop-anchor networks",3,0,5,methods/Methods_Overview.md

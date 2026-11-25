@@ -150,12 +150,13 @@ def node_colors(target_graph, nodes):
             for node in nodes]
 
 
-def highlight_nodes(axis, positions, nodes, color, size, width):
+def highlight_nodes(axis, positions, nodes, color, size, width, zorder=5, face="none"):
     nodes = [node for node in nodes if node in positions]
     if nodes:
-        nx.draw_networkx_nodes(
-            graph, positions, nodelist=nodes, node_color="none",
+        coll = nx.draw_networkx_nodes(
+            graph, positions, nodelist=nodes, node_color=face,
             edgecolors=color, linewidths=width, node_size=size, ax=axis)
+        coll.set_zorder(zorder)
 
 
 def curved_edges(axis, positions, edges, color=LOOP_COLOR, rad=0.20, width=1.2):
@@ -171,25 +172,49 @@ def curved_edges(axis, positions, edges, color=LOOP_COLOR, rad=0.20, width=1.2):
 # ---------------- Fig. 2a: full integrated network ----------------
 print("Drawing Fig. 2a ...", flush=True)
 positions_a = nx.spring_layout(graph, k=0.5, iterations=50, seed=SEED)
-fig, axis = plt.subplots(figsize=(11, 11))
-all_nodes = list(graph.nodes)
-nx.draw_networkx_nodes(
-    graph, positions_a, nodelist=all_nodes, node_color=node_colors(graph, all_nodes),
-    node_size=30, alpha=0.70, ax=axis)
-non_loop_edges = [(u, v) for u, v, data in graph.edges(data=True)
-                  if data["interaction_type"] != "DNA-DNA"]
-nx.draw_networkx_edges(
-    graph, positions_a, edgelist=non_loop_edges, edge_color="lightgray",
-    width=0.4, alpha=0.42, ax=axis)
-curved_edges(axis, positions_a, dna_dna_edges)
-highlight_nodes(axis, positions_a, boundary_nodes, "black", 82, 1.5)
-highlight_nodes(axis, positions_a, loop_anchor_nodes, "#C0392B", 65, 1.1)
-axis.set_title("a  Integrated DNA–protein–PPI network", loc="left",
-               fontsize=14, fontweight="bold", pad=10)
-axis.axis("off")
-fig.savefig(OUT / "Fig2a_integrated_network_18_boundaries.pdf", bbox_inches="tight")
-fig.savefig(OUT / "Fig2a_integrated_network_18_boundaries.png", dpi=200, bbox_inches="tight")
-plt.close(fig)
+pure_boundary_nodes = [n for n in boundary_nodes if n not in set(loop_anchor_nodes)]
+dual_boundary_nodes = [n for n in boundary_nodes if n in set(loop_anchor_nodes)]
+pure_anchor_nodes = [n for n in loop_anchor_nodes if n not in set(boundary_nodes)]
+
+def render_fig2a(out_pdf=None, out_png=None, show_title=True, dpi=200):
+    fig, axis = plt.subplots(figsize=(11, 11))
+    all_nodes = list(graph.nodes)
+    non_loop_edges = [(u, v) for u, v, data in graph.edges(data=True)
+                      if data["interaction_type"] != "DNA-DNA"]
+    e_coll = nx.draw_networkx_edges(
+        graph, positions_a, edgelist=non_loop_edges, edge_color="lightgray",
+        width=0.4, alpha=0.42, ax=axis)
+    if e_coll is not None:
+        e_coll.set_zorder(1)
+    n_coll = nx.draw_networkx_nodes(
+        graph, positions_a, nodelist=all_nodes, node_color=node_colors(graph, all_nodes),
+        node_size=30, alpha=0.70, ax=axis)
+    n_coll.set_zorder(2)
+    curved_edges(axis, positions_a, dna_dna_edges)
+    # Loop anchors (zorder=4) and all 18 CID boundaries clearly on top (zorder=5-6)
+    highlight_nodes(axis, positions_a, pure_anchor_nodes, "#C0392B", 68, 1.15, zorder=4)
+    highlight_nodes(axis, positions_a, pure_boundary_nodes, "black", 108, 1.85, zorder=6, face=DNA_COLOR)
+    highlight_nodes(axis, positions_a, dual_boundary_nodes, "#C0392B", 62, 1.25, zorder=5, face=DNA_COLOR)
+    highlight_nodes(axis, positions_a, dual_boundary_nodes, "black", 132, 1.95, zorder=6, face="none")
+    if show_title:
+        axis.set_title("a  Integrated DNA–protein–PPI network", loc="left",
+                       fontsize=14, fontweight="bold", pad=10)
+    axis.axis("off")
+    if out_pdf is not None:
+        fig.savefig(out_pdf, bbox_inches="tight", pad_inches=0.02)
+    if out_png is not None:
+        fig.savefig(out_png, dpi=dpi, bbox_inches="tight", pad_inches=0.02)
+    plt.close(fig)
+
+render_fig2a(
+    out_pdf=OUT / "Fig2a_integrated_network_18_boundaries.pdf",
+    out_png=OUT / "Fig2a_integrated_network_18_boundaries.png",
+    show_title=True, dpi=200,
+)
+render_fig2a(
+    out_png=OUT / "Fig2a_integrated_network_18_boundaries_notitle.png",
+    show_title=False, dpi=260,
+)
 
 # ---------------- Fig. 2b: DNA-DNA network only ----------------
 print("Drawing Fig. 2b (DNA-DNA only) ...", flush=True)

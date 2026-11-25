@@ -69,7 +69,7 @@ def main():
         'status': 'PASS' if not errors else 'FAIL',
         'manifest_files': len(rows),
         'manifest_bytes': sum(int(r['bytes']) for r in rows),
-        'analysis_modules': 15,
+        'analysis_modules': 16,
         'errors': errors,
         'checks': [
             'file existence', 'file size', 'SHA-256', 'unique paths',

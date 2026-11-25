@@ -1,0 +1,6 @@
+metric,observed,null_mean,null_sd,z_score,empirical_p
+direct,41,39.0,1.43,1.4,0.1479
+indirect,5,2.13,1.42,2.02,0.0569
+rv_anchor,51,41.76,4.43,2.09,0.022
+rv_anchor_loop,34,31.1,2.72,1.07,0.1888
+rv_bridge,17,10.66,2.73,2.32,0.015

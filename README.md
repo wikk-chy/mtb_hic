@@ -139,7 +139,7 @@ python3 tools/run_original.py <module> <script> --dry-run
 
 If you use the datasets or scripts in this repository, please cite:
 
-> Cai, H., Wei, P., Wang, Y., Xu, W., Chen, X., Chen, Y., Zou, Y., Xu, Y., Cao, X., Reheman, A., & Cao, G. *Establishment and Remodeling of the Mycobacterium tuberculosis 3D Genome Orchestrate Context-Dependent Transcriptional Program.*
+> Cai, H., Wei, P., Wang, Y., Xu, W., Chen, X., Chen, Y., Zou, Y., Xu, Y., Cao, X., Dai, J., Reheman, A., & Cao, G. *Establishment and Remodeling of the Mycobacterium tuberculosis 3D Genome Orchestrate Context-Dependent Transcriptional Program.*
 
 <details>
 <summary><b>📋 BibTeX Entry</b></summary>
@@ -147,7 +147,7 @@ If you use the datasets or scripts in this repository, please cite:
 ```bibtex
 @article{cai_mtb_3d_genome,
   title   = {Establishment and Remodeling of the \textit{Mycobacterium tuberculosis} 3D Genome Orchestrate Context-Dependent Transcriptional Program},
-  author  = {Cai, H. and Wei, P. and Wang, Y. and Xu, W. and Chen, X. and Chen, Y. and Zou, Y. and Xu, Y. and Cao, X. and Reheman, A. and Cao, G.},
+  author  = {Cai, H. and Wei, P. and Wang, Y. and Xu, W. and Chen, X. and Chen, Y. and Zou, Y. and Xu, Y. and Cao, X. and Dai, J. and Reheman, A. and Cao, G.},
   note    = {NCBI SRA: PRJNA1452606; Repository: https://github.com/wikk-chy/Mtb3DGenome}
 }
 ```
